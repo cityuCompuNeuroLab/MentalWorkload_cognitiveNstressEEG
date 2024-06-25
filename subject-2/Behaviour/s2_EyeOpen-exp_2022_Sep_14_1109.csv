@@ -1,0 +1,3 @@
+﻿start_time_stamp,message_time,message_time_stamp,EyeOpen_message.started,EyeOpen_message.stopped,space_press.keys,space_press.rt,space_press.started,space_press.stopped,eyeopen_start,eyeopen_end,eyeopen_start.started,eyeopen_start.stopped,participant,replicate,date,expName,psychopyVersion,frameRate,
+1663125004955,0.00022162500044942135,1663125004956,15.405463208000583,None,space,5.811803249999684,15.405463208000583,None,,,,,jim,1,2022_Sep_14_1109,EyeOpen-exp,2021.2.3,59.909147657788395,
+,,,,,,,,,7.817014000000199,127.8218162080002,23.221761542000422,None,,,,,,,
