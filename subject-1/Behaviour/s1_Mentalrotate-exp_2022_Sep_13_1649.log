@@ -1,0 +1,3819 @@
+0.5513 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+2.1290 	WARNING 	psychopy.parallel has been imported on a Mac (which doesn't have a parallel port?)
+4.4762 	WARNING 	User requested fullscreen with size [1512  982], but screen is actually [1600, 900]. Using actual size
+5.6103 	EXP 	Created window1 = Window(allowGUI=True, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fc651912c88>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fc6520d2f98>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1600,  900]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+5.6105 	EXP 	window1: mouseVisible = True
+5.6105 	EXP 	window1: recordFrameIntervals = False
+5.7772 	EXP 	window1: recordFrameIntervals = True
+5.9147 	WARNING 	t of last frame was 20.73ms (=1/48)
+6.2434 	EXP 	window1: recordFrameIntervals = False
+6.7065 	EXP 	Created welcomemessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='welcomemessage', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.7087 	EXP 	Created sq_true = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-2.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='sq_true', opacity=1, ori=0.0, pos=array([-0.2, -0.4]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+6.7098 	EXP 	Created sq_false = Rect(__class__=<class 'psychopy.visual.rect.Rect'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-3.0, fillColor=array([1, 1, 1]), fillColorSpace='rgb', fillRGB=array([1, 1, 1]), interpolate=True, lineColor=array([1., 1., 1.]), lineColorSpace='rgb', lineRGB=array([1, 1, 1]), lineWidth=1.0, name='sq_false', opacity=1, ori=0.0, pos=array([ 0.2, -0.4]), size=array([0.1, 0.1]), units='height', vertices=ndarray(...), win=Window(...))
+6.7121 	EXP 	Created true_tri = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-4.0, fillColor=array([-1.        ,  0.00392157, -1.        ]), fillColorSpace='rgb', fillRGB=array([-1.        ,  0.00392157, -1.        ]), interpolate=True, lineColor=array([-1.        ,  0.00392157, -1.        ]), lineColorSpace='rgb', lineRGB=array([-1.        ,  0.00392157, -1.        ]), lineWidth=1.0, name='true_tri', opacity=1, ori=1.0, pos=array([-0.2, -0.4]), size=array([0.08, 0.08]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.7134 	EXP 	Created false_tri = ShapeStim(__class__=<class 'psychopy.visual.shape.ShapeStim'>, autoDraw=False, autoLog=True, closeShape=True, color=method-wrapper(...), colorSpace='rgb', contrast=None, depth=-5.0, fillColor=array([ 1, -1, -1]), fillColorSpace='rgb', fillRGB=array([ 1, -1, -1]), interpolate=True, lineColor=array([ 1., -1., -1.]), lineColorSpace='rgb', lineRGB=array([ 1, -1, -1]), lineWidth=1.0, name='false_tri', opacity=1, ori=90.0, pos=array([ 0.2, -0.4]), size=array([0.08, 0.08]), units='height', vertices=ndarray(...), win=Window(...), windingRule=None)
+6.7218 	EXP 	Created false_ms = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-6.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='false_ms', opacity=1, ori=0.0, pos=array([ 0.2, -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.7256 	EXP 	Created true_ms = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-7.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='true_ms', opacity=1, ori=0.0, pos=array([-0.2, -0.3]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+6.7281 	EXP 	Created instruction_ms = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-8.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='instruction_ms', opacity=1, ori=0.0, pos=array([ 0. , -0.2]), rgb=UNKNOWN, text='Instructions', units='height', win=Window(...), wrapWidth=1)
+6.7936 	EXP 	Created text_5 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_5', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Press “Space bar” to start session', units='height', win=Window(...), wrapWidth=1)
+6.8601 	EXP 	Created text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ready', units='height', win=Window(...), wrapWidth=1)
+6.8631 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Go!!!', units='height', win=Window(...), wrapWidth=1)
+6.8676 	EXP 	Created mentalimage = ImageStim(__class__=<class 'psychopy.visual.image.ImageStim'>, autoLog=True, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, image='sin', interpolate=True, mask=None, maskParams=None, name='mentalimage', opacity=1, ori=0.0, pos=array([0., 0.]), size=array([1., 1.]), texRes=128.0, units='pix', win=Window(...))
+6.9299 	EXP 	Created text_3 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_3', opacity=1, ori=0.0, pos=array([ 0.  , -0.45]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9310 	EXP 	Created blankscreen = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='blankscreen', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+6.9428 	EXP 	window1: mouseVisible = True
+6.9625 	EXP 	Created rating_effort = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), name='rating_effort', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+6.9709 	EXP 	Created effort = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='effort', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='Try your best for the tasks?', units='height', win=Window(...), wrapWidth=1)
+6.9756 	EXP 	window1: mouseVisible = True
+6.9887 	EXP 	Created rating_difficulty = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), name='rating_difficulty', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+6.9958 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How difficult do you think these tasks are?', units='height', win=Window(...), wrapWidth=1)
+7.0002 	EXP 	window1: mouseVisible = True
+7.0121 	EXP 	Created rating_attention = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), name='rating_attention', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+7.0190 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='My Attention is fully focused on the tasks.', units='height', win=Window(...), wrapWidth=1)
+7.0227 	EXP 	Created goodbye_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='goodbye_message', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for patacipating :)', units='height', win=Window(...), wrapWidth=1)
+7.0235 	EXP 	Created acc_message = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='acc_message', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+7.0839 	EXP 	window1: mouseVisible = False
+7.0929 	EXP 	rating_effort: autoLog = True
+7.0929 	EXP 	rating_effort: markerPos = None
+7.0929 	EXP 	rating_effort: rating = None
+7.0929 	EXP 	rating_effort: markerPos = None
+7.0929 	EXP 	rating_effort: contrast = 1.0
+7.0929 	EXP 	rating_effort: autoLog = True
+7.0929 	EXP 	rating_effort: styleTweaks = []
+7.0929 	EXP 	rating_effort: style = 'rating'
+7.0929 	EXP 	rating_effort: styleTweaks = []
+7.0929 	EXP 	rating_difficulty: autoLog = True
+7.0929 	EXP 	rating_difficulty: markerPos = None
+7.0929 	EXP 	rating_difficulty: rating = None
+7.0929 	EXP 	rating_difficulty: markerPos = None
+7.0929 	EXP 	rating_difficulty: contrast = 1.0
+7.0929 	EXP 	rating_difficulty: autoLog = True
+7.0929 	EXP 	rating_difficulty: styleTweaks = []
+7.0929 	EXP 	rating_difficulty: style = 'rating'
+7.0929 	EXP 	rating_difficulty: styleTweaks = []
+7.0929 	EXP 	rating_attention: autoLog = True
+7.0929 	EXP 	rating_attention: markerPos = None
+7.0929 	EXP 	rating_attention: rating = None
+7.0929 	EXP 	rating_attention: markerPos = None
+7.0929 	EXP 	rating_attention: contrast = 1.0
+7.0929 	EXP 	rating_attention: autoLog = True
+7.0929 	EXP 	rating_attention: styleTweaks = []
+7.0929 	EXP 	rating_attention: style = 'rating'
+7.0929 	EXP 	rating_attention: styleTweaks = []
+7.0929 	EXP 	true_tri: ori = -90.0
+7.0929 	EXP 	welcomemessage: autoDraw = True
+7.0929 	EXP 	sq_true: autoDraw = True
+7.0929 	EXP 	sq_false: autoDraw = True
+7.0929 	EXP 	true_tri: autoDraw = True
+7.0929 	EXP 	false_tri: autoDraw = True
+7.0929 	EXP 	false_ms: autoDraw = True
+7.0929 	EXP 	true_ms: autoDraw = True
+7.0929 	EXP 	instruction_ms: autoDraw = True
+10.8876 	EXP 	Imported diff_set_exp.xlsx as conditions, 15 conditions, 3 params
+10.8882 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+10.8884 	EXP 	New trial (rep=0, index=0): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+10.8912 	EXP 	welcomemessage: autoDraw = False
+10.8912 	EXP 	sq_true: autoDraw = False
+10.8912 	EXP 	sq_false: autoDraw = False
+10.8912 	EXP 	true_tri: autoDraw = False
+10.8912 	EXP 	false_tri: autoDraw = False
+10.8912 	EXP 	false_ms: autoDraw = False
+10.8912 	EXP 	true_ms: autoDraw = False
+10.8912 	EXP 	instruction_ms: autoDraw = False
+10.8912 	EXP 	text_5: autoDraw = True
+11.7945 	EXP 	text_5: autoDraw = False
+11.7945 	EXP 	text: autoDraw = True
+12.7781 	EXP 	text_2: autoDraw = True
+12.7952 	EXP 	text: autoDraw = False
+13.7798 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+13.7810 	EXP 	New trial (rep=0, index=0): None
+13.7838 	EXP 	window1: mouseVisible = False
+13.8195 	EXP 	text_2: autoDraw = False
+13.8195 	EXP 	text: autoDraw = False
+13.8195 	EXP 	text_2: autoDraw = False
+13.8195 	EXP 	mentalimage: size = array([1440.,  900.])
+13.8195 	EXP 	mentalimage: image = 'Mental_images/low/test/9_0.jpg'
+13.8195 	EXP 	mentalimage: autoDraw = True
+13.8195 	EXP 	text_3: autoDraw = True
+15.2301 	EXP 	text_3: autoDraw = False
+16.3276 	EXP 	mentalimage: autoDraw = False
+16.3276 	EXP 	text_3: autoDraw = False
+16.3276 	EXP 	blankscreen: text = '+'
+16.3276 	EXP 	blankscreen: autoDraw = True
+16.9130 	EXP 	New trial (rep=1, index=0): None
+16.9132 	EXP 	window1: mouseVisible = False
+16.9342 	EXP 	blankscreen: autoDraw = False
+16.9342 	EXP 	blankscreen: autoDraw = False
+16.9342 	EXP 	mentalimage: size = array([1440.,  900.])
+16.9342 	EXP 	mentalimage: image = 'Mental_images/low/test/3_0.jpg'
+16.9342 	EXP 	mentalimage: autoDraw = True
+16.9342 	EXP 	text_3: autoDraw = True
+18.1629 	EXP 	text_3: autoDraw = False
+19.4388 	EXP 	mentalimage: autoDraw = False
+19.4388 	EXP 	text_3: autoDraw = False
+19.4388 	EXP 	blankscreen: text = '+'
+19.4388 	EXP 	blankscreen: autoDraw = True
+19.8633 	EXP 	New trial (rep=2, index=0): None
+19.8637 	EXP 	window1: mouseVisible = False
+19.8874 	EXP 	blankscreen: autoDraw = False
+19.8874 	EXP 	blankscreen: autoDraw = False
+19.8874 	EXP 	mentalimage: size = array([1440.,  900.])
+19.8874 	EXP 	mentalimage: image = 'Mental_images/low/test/15_0_R.jpg'
+19.8874 	EXP 	mentalimage: autoDraw = True
+19.8874 	EXP 	text_3: autoDraw = True
+22.3598 	EXP 	text_3: autoDraw = False
+22.3959 	EXP 	mentalimage: autoDraw = False
+22.3959 	EXP 	text_3: autoDraw = False
+22.3959 	EXP 	blankscreen: text = '+'
+22.3959 	EXP 	blankscreen: autoDraw = True
+22.8623 	EXP 	New trial (rep=3, index=0): None
+22.8682 	EXP 	window1: mouseVisible = False
+22.8917 	EXP 	blankscreen: autoDraw = False
+22.8917 	EXP 	blankscreen: autoDraw = False
+22.8917 	EXP 	mentalimage: size = array([1440.,  900.])
+22.8917 	EXP 	mentalimage: image = 'Mental_images/low/test/23_0.jpg'
+22.8917 	EXP 	mentalimage: autoDraw = True
+22.8917 	EXP 	text_3: autoDraw = True
+23.9606 	EXP 	text_3: autoDraw = False
+25.3947 	EXP 	mentalimage: autoDraw = False
+25.3947 	EXP 	text_3: autoDraw = False
+25.3947 	EXP 	blankscreen: text = '+'
+25.3947 	EXP 	blankscreen: autoDraw = True
+25.8317 	EXP 	New trial (rep=4, index=0): None
+25.8320 	EXP 	window1: mouseVisible = False
+25.8527 	EXP 	blankscreen: autoDraw = False
+25.8527 	EXP 	blankscreen: autoDraw = False
+25.8527 	EXP 	mentalimage: size = array([1440.,  900.])
+25.8527 	EXP 	mentalimage: image = 'Mental_images/low/test/27_0.jpg'
+25.8527 	EXP 	mentalimage: autoDraw = True
+25.8527 	EXP 	text_3: autoDraw = True
+26.7441 	EXP 	text_3: autoDraw = False
+28.3606 	EXP 	mentalimage: autoDraw = False
+28.3606 	EXP 	text_3: autoDraw = False
+28.3606 	EXP 	blankscreen: text = '+'
+28.3606 	EXP 	blankscreen: autoDraw = True
+28.7971 	EXP 	New trial (rep=5, index=0): None
+28.7975 	EXP 	window1: mouseVisible = False
+28.8205 	EXP 	blankscreen: autoDraw = False
+28.8205 	EXP 	blankscreen: autoDraw = False
+28.8205 	EXP 	mentalimage: size = array([1440.,  900.])
+28.8205 	EXP 	mentalimage: image = 'Mental_images/low/test/20_0_R.jpg'
+28.8205 	EXP 	mentalimage: autoDraw = True
+28.8205 	EXP 	text_3: autoDraw = True
+30.4605 	EXP 	text_3: autoDraw = False
+31.3295 	EXP 	mentalimage: autoDraw = False
+31.3295 	EXP 	text_3: autoDraw = False
+31.3295 	EXP 	blankscreen: text = '+'
+31.3295 	EXP 	blankscreen: autoDraw = True
+31.8454 	EXP 	New trial (rep=6, index=0): None
+31.8456 	EXP 	window1: mouseVisible = False
+31.8697 	EXP 	blankscreen: autoDraw = False
+31.8697 	EXP 	blankscreen: autoDraw = False
+31.8697 	EXP 	mentalimage: size = array([1440.,  900.])
+31.8697 	EXP 	mentalimage: image = 'Mental_images/low/test/3_0_R.jpg'
+31.8697 	EXP 	mentalimage: autoDraw = True
+31.8697 	EXP 	text_3: autoDraw = True
+33.8771 	EXP 	text_3: autoDraw = False
+34.3604 	EXP 	mentalimage: autoDraw = False
+34.3604 	EXP 	text_3: autoDraw = False
+34.3604 	EXP 	blankscreen: text = '+'
+34.3604 	EXP 	blankscreen: autoDraw = True
+34.8975 	EXP 	New trial (rep=7, index=0): None
+34.8976 	EXP 	window1: mouseVisible = False
+34.9261 	EXP 	blankscreen: autoDraw = False
+34.9261 	EXP 	blankscreen: autoDraw = False
+34.9261 	EXP 	mentalimage: size = array([1440.,  900.])
+34.9261 	EXP 	mentalimage: image = 'Mental_images/low/test/6_0_R.jpg'
+34.9261 	EXP 	mentalimage: autoDraw = True
+34.9261 	EXP 	text_3: autoDraw = True
+36.9608 	EXP 	text_3: autoDraw = False
+37.4280 	EXP 	mentalimage: autoDraw = False
+37.4280 	EXP 	text_3: autoDraw = False
+37.4280 	EXP 	blankscreen: text = '+'
+37.4280 	EXP 	blankscreen: autoDraw = True
+37.9129 	EXP 	New trial (rep=8, index=0): None
+37.9132 	EXP 	window1: mouseVisible = False
+37.9440 	EXP 	blankscreen: autoDraw = False
+37.9440 	EXP 	blankscreen: autoDraw = False
+37.9440 	EXP 	mentalimage: size = array([1440.,  900.])
+37.9440 	EXP 	mentalimage: image = 'Mental_images/low/test/24_0_R.jpg'
+37.9440 	EXP 	mentalimage: autoDraw = True
+37.9440 	EXP 	text_3: autoDraw = True
+39.7607 	EXP 	text_3: autoDraw = False
+40.4389 	EXP 	mentalimage: autoDraw = False
+40.4389 	EXP 	text_3: autoDraw = False
+40.4389 	EXP 	blankscreen: text = '+'
+40.4389 	EXP 	blankscreen: autoDraw = True
+40.8959 	EXP 	New trial (rep=9, index=0): None
+40.8962 	EXP 	window1: mouseVisible = False
+40.9203 	EXP 	blankscreen: autoDraw = False
+40.9203 	EXP 	blankscreen: autoDraw = False
+40.9203 	EXP 	mentalimage: size = array([1440.,  900.])
+40.9203 	EXP 	mentalimage: image = 'Mental_images/low/test/7_0_R.jpg'
+40.9203 	EXP 	mentalimage: autoDraw = True
+40.9203 	EXP 	text_3: autoDraw = True
+43.0127 	EXP 	text_3: autoDraw = False
+43.4115 	EXP 	mentalimage: autoDraw = False
+43.4115 	EXP 	text_3: autoDraw = False
+43.4115 	EXP 	blankscreen: text = '+'
+43.4115 	EXP 	blankscreen: autoDraw = True
+43.9795 	EXP 	window1: mouseVisible = True
+43.9804 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+43.9809 	EXP 	New trial (rep=0, index=0): None
+43.9812 	EXP 	window1: mouseVisible = True
+43.9985 	EXP 	blankscreen: autoDraw = False
+43.9985 	EXP 	blankscreen: autoDraw = False
+43.9985 	EXP 	rating_effort: markerPos = None
+43.9985 	EXP 	rating_effort: markerPos = None
+43.9985 	EXP 	rating_effort: rating = None
+43.9985 	EXP 	effort: autoDraw = True
+44.5305 	EXP 	rating_effort: autoDraw = True
+47.8274 	DATA 	Mouse: Left button down, pos=(1030,451)
+47.8430 	EXP 	rating_effort: markerPos = 4.022222222222222
+47.8615 	EXP 	rating_effort: markerPos = 4.022222222222222
+47.8771 	EXP 	rating_effort: markerPos = 4.022222222222222
+47.8931 	EXP 	rating_effort: markerPos = 4.022222222222222
+47.9100 	EXP 	rating_effort: markerPos = 4.022222222222222
+47.9267 	EXP 	rating_effort: markerPos = 4.022222222222222
+47.9273 	DATA 	Mouse:  Left button up, pos=(1030,451)
+47.9354 	EXP 	rating_effort: markerPos = 4.0
+47.9354 	EXP 	rating_effort: rating = 4.0
+47.9448 	EXP 	New trial (rep=1, index=0): None
+47.9488 	EXP 	window1: mouseVisible = True
+47.9541 	EXP 	rating_effort: autoDraw = False
+47.9541 	EXP 	effort: autoDraw = False
+47.9541 	EXP 	rating_difficulty: markerPos = None
+47.9541 	EXP 	rating_difficulty: markerPos = None
+47.9541 	EXP 	rating_difficulty: rating = None
+47.9541 	EXP 	rating_difficulty: autoDraw = False
+47.9541 	EXP 	text_6: autoDraw = False
+47.9541 	EXP 	rating_attention: markerPos = None
+47.9541 	EXP 	rating_attention: markerPos = None
+47.9541 	EXP 	rating_attention: rating = None
+47.9541 	EXP 	rating_attention: autoDraw = False
+47.9541 	EXP 	text_7: autoDraw = False
+47.9541 	EXP 	rating_effort: markerPos = None
+47.9541 	EXP 	rating_effort: markerPos = None
+47.9541 	EXP 	rating_effort: rating = None
+47.9541 	EXP 	rating_effort: autoDraw = False
+47.9541 	EXP 	effort: autoDraw = False
+47.9541 	EXP 	rating_difficulty: markerPos = None
+47.9541 	EXP 	rating_difficulty: markerPos = None
+47.9541 	EXP 	rating_difficulty: rating = None
+47.9541 	EXP 	text_6: autoDraw = True
+48.4622 	EXP 	rating_difficulty: autoDraw = True
+49.5666 	DATA 	Mouse: Left button down, pos=(799,457)
+49.5932 	EXP 	rating_difficulty: markerPos = 2.9955555555555557
+49.6100 	EXP 	rating_difficulty: markerPos = 2.9955555555555557
+49.6267 	EXP 	rating_difficulty: markerPos = 2.9955555555555557
+49.6429 	EXP 	rating_difficulty: markerPos = 2.9955555555555557
+49.6488 	DATA 	Mouse:  Left button up, pos=(799,457)
+49.6616 	EXP 	rating_difficulty: markerPos = 2.9955555555555557
+49.6774 	EXP 	rating_difficulty: markerPos = 3.0
+49.6774 	EXP 	rating_difficulty: rating = 3.0
+49.6831 	EXP 	New trial (rep=2, index=0): None
+49.6910 	EXP 	window1: mouseVisible = True
+49.7101 	EXP 	rating_difficulty: autoDraw = False
+49.7101 	EXP 	text_6: autoDraw = False
+49.7101 	EXP 	rating_attention: markerPos = None
+49.7101 	EXP 	rating_attention: markerPos = None
+49.7101 	EXP 	rating_attention: rating = None
+49.7101 	EXP 	rating_attention: autoDraw = False
+49.7101 	EXP 	text_7: autoDraw = False
+49.7101 	EXP 	rating_effort: markerPos = None
+49.7101 	EXP 	rating_effort: markerPos = None
+49.7101 	EXP 	rating_effort: rating = None
+49.7101 	EXP 	rating_effort: autoDraw = False
+49.7101 	EXP 	effort: autoDraw = False
+49.7101 	EXP 	rating_difficulty: markerPos = None
+49.7101 	EXP 	rating_difficulty: markerPos = None
+49.7101 	EXP 	rating_difficulty: rating = None
+49.7101 	EXP 	rating_difficulty: autoDraw = False
+49.7101 	EXP 	text_6: autoDraw = False
+49.7101 	EXP 	rating_attention: markerPos = None
+49.7101 	EXP 	rating_attention: markerPos = None
+49.7101 	EXP 	rating_attention: rating = None
+49.7101 	EXP 	text_7: autoDraw = True
+50.1930 	EXP 	rating_attention: autoDraw = True
+50.6654 	DATA 	Mouse: Left button down, pos=(1009,450)
+50.6930 	EXP 	rating_attention: markerPos = 3.928888888888889
+50.7099 	EXP 	rating_attention: markerPos = 3.928888888888889
+50.7266 	EXP 	rating_attention: markerPos = 3.928888888888889
+50.7431 	EXP 	rating_attention: markerPos = 3.928888888888889
+50.7436 	DATA 	Mouse:  Left button up, pos=(1009,450)
+50.7621 	EXP 	rating_attention: markerPos = 4.0
+50.7621 	EXP 	rating_attention: rating = 4.0
+50.7637 	EXP 	New trial (rep=0, index=1): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+50.7774 	EXP 	rating_attention: autoDraw = False
+50.7774 	EXP 	text_7: autoDraw = False
+50.7774 	EXP 	text_5: autoDraw = True
+52.0985 	DATA 	Keypress: space
+52.1096 	EXP 	text_5: autoDraw = False
+52.1096 	EXP 	text: autoDraw = True
+53.0771 	EXP 	text_2: autoDraw = True
+53.1100 	EXP 	text: autoDraw = False
+54.0617 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+54.0619 	EXP 	New trial (rep=0, index=0): None
+54.0631 	EXP 	window1: mouseVisible = False
+54.0774 	EXP 	text_2: autoDraw = False
+54.0774 	EXP 	text: autoDraw = False
+54.0774 	EXP 	text_2: autoDraw = False
+54.0774 	EXP 	mentalimage: size = array([1440.,  900.])
+54.0774 	EXP 	mentalimage: image = 'Mental_images/low/test/24_0.jpg'
+54.0774 	EXP 	mentalimage: autoDraw = True
+54.0774 	EXP 	text_3: autoDraw = True
+55.5569 	DATA 	Keypress: left
+55.5775 	EXP 	text_3: autoDraw = False
+56.5777 	EXP 	mentalimage: autoDraw = False
+56.5777 	EXP 	text_3: autoDraw = False
+56.5777 	EXP 	blankscreen: text = '+'
+56.5777 	EXP 	blankscreen: autoDraw = True
+57.0791 	EXP 	New trial (rep=1, index=0): None
+57.0792 	EXP 	window1: mouseVisible = False
+57.0933 	EXP 	blankscreen: autoDraw = False
+57.0933 	EXP 	blankscreen: autoDraw = False
+57.0933 	EXP 	mentalimage: size = array([1440.,  900.])
+57.0933 	EXP 	mentalimage: image = 'Mental_images/low/test/23_0_R.jpg'
+57.0933 	EXP 	mentalimage: autoDraw = True
+57.0933 	EXP 	text_3: autoDraw = True
+59.3967 	DATA 	Keypress: right
+59.4269 	EXP 	text_3: autoDraw = False
+59.5934 	EXP 	mentalimage: autoDraw = False
+59.5934 	EXP 	mentalimage: autoDraw = False
+59.5934 	EXP 	text_3: autoDraw = False
+59.5934 	EXP 	blankscreen: text = '+'
+59.5934 	EXP 	blankscreen: autoDraw = True
+60.1116 	EXP 	New trial (rep=2, index=0): None
+60.1118 	EXP 	window1: mouseVisible = False
+60.1255 	EXP 	blankscreen: autoDraw = False
+60.1255 	EXP 	blankscreen: autoDraw = False
+60.1255 	EXP 	mentalimage: size = array([1440.,  900.])
+60.1255 	EXP 	mentalimage: image = 'Mental_images/low/test/1_0_R.jpg'
+60.1255 	EXP 	mentalimage: autoDraw = True
+60.1255 	EXP 	text_3: autoDraw = True
+62.4344 	DATA 	Keypress: right
+62.4457 	EXP 	text_3: autoDraw = False
+62.6265 	EXP 	mentalimage: autoDraw = False
+62.6265 	EXP 	mentalimage: autoDraw = False
+62.6265 	EXP 	text_3: autoDraw = False
+62.6265 	EXP 	blankscreen: text = '+'
+62.6265 	EXP 	blankscreen: autoDraw = True
+63.0436 	EXP 	New trial (rep=3, index=0): None
+63.0437 	EXP 	window1: mouseVisible = False
+63.0622 	EXP 	blankscreen: autoDraw = False
+63.0622 	EXP 	blankscreen: autoDraw = False
+63.0622 	EXP 	mentalimage: size = array([1440.,  900.])
+63.0622 	EXP 	mentalimage: image = 'Mental_images/low/test/26_0.jpg'
+63.0622 	EXP 	mentalimage: autoDraw = True
+63.0622 	EXP 	text_3: autoDraw = True
+64.2460 	DATA 	Keypress: left
+64.2772 	EXP 	text_3: autoDraw = False
+65.5785 	EXP 	mentalimage: autoDraw = False
+65.5785 	EXP 	text_3: autoDraw = False
+65.5785 	EXP 	blankscreen: text = '+'
+65.5785 	EXP 	blankscreen: autoDraw = True
+66.1283 	EXP 	New trial (rep=4, index=0): None
+66.1285 	EXP 	window1: mouseVisible = False
+66.1428 	EXP 	blankscreen: autoDraw = False
+66.1428 	EXP 	blankscreen: autoDraw = False
+66.1428 	EXP 	mentalimage: size = array([1440.,  900.])
+66.1428 	EXP 	mentalimage: image = 'Mental_images/low/test/19_0_R.jpg'
+66.1428 	EXP 	mentalimage: autoDraw = True
+66.1428 	EXP 	text_3: autoDraw = True
+67.4136 	DATA 	Keypress: right
+67.4431 	EXP 	text_3: autoDraw = False
+68.6434 	EXP 	mentalimage: autoDraw = False
+68.6434 	EXP 	mentalimage: autoDraw = False
+68.6434 	EXP 	text_3: autoDraw = False
+68.6434 	EXP 	blankscreen: text = '+'
+68.6434 	EXP 	blankscreen: autoDraw = True
+69.0776 	EXP 	New trial (rep=5, index=0): None
+69.0777 	EXP 	window1: mouseVisible = False
+69.0933 	EXP 	blankscreen: autoDraw = False
+69.0933 	EXP 	blankscreen: autoDraw = False
+69.0933 	EXP 	mentalimage: size = array([1440.,  900.])
+69.0933 	EXP 	mentalimage: image = 'Mental_images/low/test/21_0_R.jpg'
+69.0933 	EXP 	mentalimage: autoDraw = True
+69.0933 	EXP 	text_3: autoDraw = True
+71.1804 	DATA 	Keypress: left
+71.2098 	EXP 	text_3: autoDraw = False
+71.5946 	EXP 	mentalimage: autoDraw = False
+71.5946 	EXP 	text_3: autoDraw = False
+71.5946 	EXP 	blankscreen: text = '+'
+71.5946 	EXP 	blankscreen: autoDraw = True
+72.0271 	EXP 	New trial (rep=6, index=0): None
+72.0272 	EXP 	window1: mouseVisible = False
+72.0378 	EXP 	blankscreen: autoDraw = False
+72.0378 	EXP 	blankscreen: autoDraw = False
+72.0378 	EXP 	mentalimage: size = array([1440.,  900.])
+72.0378 	EXP 	mentalimage: image = 'Mental_images/low/test/30_0.jpg'
+72.0378 	EXP 	mentalimage: autoDraw = True
+72.0378 	EXP 	text_3: autoDraw = True
+72.9299 	DATA 	Keypress: left
+72.9622 	EXP 	text_3: autoDraw = False
+74.5432 	EXP 	mentalimage: autoDraw = False
+74.5432 	EXP 	mentalimage: autoDraw = False
+74.5432 	EXP 	text_3: autoDraw = False
+74.5432 	EXP 	blankscreen: text = '+'
+74.5432 	EXP 	blankscreen: autoDraw = True
+74.9436 	EXP 	New trial (rep=7, index=0): None
+74.9438 	EXP 	window1: mouseVisible = False
+74.9612 	EXP 	blankscreen: autoDraw = False
+74.9612 	EXP 	blankscreen: autoDraw = False
+74.9612 	EXP 	mentalimage: size = array([1440.,  900.])
+74.9612 	EXP 	mentalimage: image = 'Mental_images/low/test/16_0.jpg'
+74.9612 	EXP 	mentalimage: autoDraw = True
+74.9612 	EXP 	text_3: autoDraw = True
+76.6650 	DATA 	Keypress: left
+76.6932 	EXP 	text_3: autoDraw = False
+77.4778 	EXP 	mentalimage: autoDraw = False
+77.4778 	EXP 	text_3: autoDraw = False
+77.4778 	EXP 	blankscreen: text = '+'
+77.4778 	EXP 	blankscreen: autoDraw = True
+77.9104 	EXP 	New trial (rep=8, index=0): None
+77.9105 	EXP 	window1: mouseVisible = False
+77.9203 	EXP 	blankscreen: autoDraw = False
+77.9203 	EXP 	blankscreen: autoDraw = False
+77.9203 	EXP 	mentalimage: size = array([1440.,  900.])
+77.9203 	EXP 	mentalimage: image = 'Mental_images/low/test/25_0.jpg'
+77.9203 	EXP 	mentalimage: autoDraw = True
+77.9203 	EXP 	text_3: autoDraw = True
+79.3645 	DATA 	Keypress: left
+79.3931 	EXP 	text_3: autoDraw = False
+80.4275 	EXP 	mentalimage: autoDraw = False
+80.4275 	EXP 	text_3: autoDraw = False
+80.4275 	EXP 	blankscreen: text = '+'
+80.4275 	EXP 	blankscreen: autoDraw = True
+80.8123 	EXP 	New trial (rep=9, index=0): None
+80.8125 	EXP 	window1: mouseVisible = False
+80.8239 	EXP 	blankscreen: autoDraw = False
+80.8239 	EXP 	blankscreen: autoDraw = False
+80.8239 	EXP 	mentalimage: size = array([1440.,  900.])
+80.8239 	EXP 	mentalimage: image = 'Mental_images/low/test/15_0.jpg'
+80.8239 	EXP 	mentalimage: autoDraw = True
+80.8239 	EXP 	text_3: autoDraw = True
+81.7131 	DATA 	Keypress: left
+81.7431 	EXP 	text_3: autoDraw = False
+83.3269 	EXP 	mentalimage: autoDraw = False
+83.3269 	EXP 	mentalimage: autoDraw = False
+83.3269 	EXP 	text_3: autoDraw = False
+83.3269 	EXP 	blankscreen: text = '+'
+83.3269 	EXP 	blankscreen: autoDraw = True
+83.8436 	EXP 	window1: mouseVisible = True
+83.8439 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+83.8441 	EXP 	New trial (rep=0, index=0): None
+83.8517 	EXP 	window1: mouseVisible = True
+83.8611 	EXP 	blankscreen: autoDraw = False
+83.8611 	EXP 	blankscreen: autoDraw = False
+83.8611 	EXP 	rating_effort: markerPos = None
+83.8611 	EXP 	rating_effort: markerPos = None
+83.8611 	EXP 	rating_effort: rating = None
+83.8611 	EXP 	rating_effort: autoDraw = False
+83.8611 	EXP 	effort: autoDraw = False
+83.8611 	EXP 	rating_difficulty: markerPos = None
+83.8611 	EXP 	rating_difficulty: markerPos = None
+83.8611 	EXP 	rating_difficulty: rating = None
+83.8611 	EXP 	text_6: autoDraw = True
+84.3619 	EXP 	rating_difficulty: autoDraw = True
+86.4622 	DATA 	Mouse: Left button down, pos=(596,449)
+86.4776 	EXP 	rating_difficulty: markerPos = 2.0933333333333333
+86.4930 	EXP 	rating_difficulty: markerPos = 2.0933333333333333
+86.5097 	EXP 	rating_difficulty: markerPos = 2.0933333333333333
+86.5272 	EXP 	rating_difficulty: markerPos = 2.0933333333333333
+86.5336 	DATA 	Mouse:  Left button up, pos=(596,449)
+86.5358 	EXP 	rating_difficulty: markerPos = 2.0933333333333333
+86.5598 	EXP 	rating_difficulty: markerPos = 2.0
+86.5598 	EXP 	rating_difficulty: rating = 2.0
+86.5652 	EXP 	New trial (rep=1, index=0): None
+86.5735 	EXP 	window1: mouseVisible = True
+86.5787 	EXP 	rating_difficulty: autoDraw = False
+86.5787 	EXP 	text_6: autoDraw = False
+86.5787 	EXP 	rating_attention: markerPos = None
+86.5787 	EXP 	rating_attention: markerPos = None
+86.5787 	EXP 	rating_attention: rating = None
+86.5787 	EXP 	rating_attention: autoDraw = False
+86.5787 	EXP 	text_7: autoDraw = False
+86.5787 	EXP 	rating_effort: markerPos = None
+86.5787 	EXP 	rating_effort: markerPos = None
+86.5787 	EXP 	rating_effort: rating = None
+86.5787 	EXP 	rating_effort: autoDraw = False
+86.5787 	EXP 	effort: autoDraw = False
+86.5787 	EXP 	rating_difficulty: markerPos = None
+86.5787 	EXP 	rating_difficulty: markerPos = None
+86.5787 	EXP 	rating_difficulty: rating = None
+86.5787 	EXP 	rating_difficulty: autoDraw = False
+86.5787 	EXP 	text_6: autoDraw = False
+86.5787 	EXP 	rating_attention: markerPos = None
+86.5787 	EXP 	rating_attention: markerPos = None
+86.5787 	EXP 	rating_attention: rating = None
+86.5787 	EXP 	text_7: autoDraw = True
+87.0613 	EXP 	rating_attention: autoDraw = True
+87.9145 	DATA 	Mouse: Left button down, pos=(983,460)
+87.9432 	EXP 	rating_attention: markerPos = 3.8133333333333335
+87.9622 	EXP 	rating_attention: markerPos = 3.8133333333333335
+87.9775 	EXP 	rating_attention: markerPos = 3.8133333333333335
+87.9931 	EXP 	rating_attention: markerPos = 3.8133333333333335
+87.9994 	DATA 	Mouse:  Left button up, pos=(983,460)
+88.0098 	EXP 	rating_attention: markerPos = 3.8133333333333335
+88.0265 	EXP 	rating_attention: markerPos = 4.0
+88.0265 	EXP 	rating_attention: rating = 4.0
+88.0283 	EXP 	New trial (rep=2, index=0): None
+88.0284 	EXP 	window1: mouseVisible = True
+88.0431 	EXP 	rating_attention: autoDraw = False
+88.0431 	EXP 	text_7: autoDraw = False
+88.0431 	EXP 	rating_effort: markerPos = None
+88.0431 	EXP 	rating_effort: markerPos = None
+88.0431 	EXP 	rating_effort: rating = None
+88.0431 	EXP 	effort: autoDraw = True
+88.5231 	EXP 	rating_effort: autoDraw = True
+89.0438 	DATA 	Mouse: Left button down, pos=(986,458)
+89.0611 	EXP 	rating_effort: markerPos = 3.8266666666666667
+89.0773 	EXP 	rating_effort: markerPos = 3.8266666666666667
+89.0930 	EXP 	rating_effort: markerPos = 3.8266666666666667
+89.0990 	DATA 	Mouse:  Left button up, pos=(986,458)
+89.1100 	EXP 	rating_effort: markerPos = 3.8266666666666667
+89.1189 	EXP 	rating_effort: markerPos = 4.0
+89.1189 	EXP 	rating_effort: rating = 4.0
+89.1285 	EXP 	New trial (rep=0, index=2): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+89.1430 	EXP 	rating_effort: autoDraw = False
+89.1430 	EXP 	effort: autoDraw = False
+89.1430 	EXP 	rating_difficulty: markerPos = None
+89.1430 	EXP 	rating_difficulty: markerPos = None
+89.1430 	EXP 	rating_difficulty: rating = None
+89.1430 	EXP 	rating_difficulty: autoDraw = False
+89.1430 	EXP 	text_6: autoDraw = False
+89.1430 	EXP 	rating_attention: markerPos = None
+89.1430 	EXP 	rating_attention: markerPos = None
+89.1430 	EXP 	rating_attention: rating = None
+89.1430 	EXP 	rating_attention: autoDraw = False
+89.1430 	EXP 	text_7: autoDraw = False
+89.1430 	EXP 	text_5: autoDraw = True
+90.2799 	DATA 	Keypress: space
+90.2938 	EXP 	text_5: autoDraw = False
+90.2938 	EXP 	text: autoDraw = True
+91.2783 	EXP 	text_2: autoDraw = True
+91.2938 	EXP 	text: autoDraw = False
+92.2616 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+92.2618 	EXP 	New trial (rep=0, index=0): None
+92.2628 	EXP 	window1: mouseVisible = False
+92.2776 	EXP 	text_2: autoDraw = False
+92.2776 	EXP 	text: autoDraw = False
+92.2776 	EXP 	text_2: autoDraw = False
+92.2776 	EXP 	mentalimage: size = array([1440.,  900.])
+92.2776 	EXP 	mentalimage: image = 'Mental_images/low/test/8_0_R.jpg'
+92.2776 	EXP 	mentalimage: autoDraw = True
+92.2776 	EXP 	text_3: autoDraw = True
+93.7127 	DATA 	Keypress: right
+93.7431 	EXP 	text_3: autoDraw = False
+94.7779 	EXP 	mentalimage: autoDraw = False
+94.7779 	EXP 	mentalimage: autoDraw = False
+94.7779 	EXP 	text_3: autoDraw = False
+94.7779 	EXP 	blankscreen: text = '+'
+94.7779 	EXP 	blankscreen: autoDraw = True
+95.2779 	EXP 	New trial (rep=1, index=0): None
+95.2780 	EXP 	window1: mouseVisible = False
+95.2937 	EXP 	blankscreen: autoDraw = False
+95.2937 	EXP 	blankscreen: autoDraw = False
+95.2937 	EXP 	mentalimage: size = array([1440.,  900.])
+95.2937 	EXP 	mentalimage: image = 'Mental_images/low/test/12_0_R.jpg'
+95.2937 	EXP 	mentalimage: autoDraw = True
+95.2937 	EXP 	text_3: autoDraw = True
+96.5647 	DATA 	Keypress: right
+96.5932 	EXP 	text_3: autoDraw = False
+97.7936 	EXP 	mentalimage: autoDraw = False
+97.7936 	EXP 	mentalimage: autoDraw = False
+97.7936 	EXP 	text_3: autoDraw = False
+97.7936 	EXP 	blankscreen: text = '+'
+97.7936 	EXP 	blankscreen: autoDraw = True
+98.1784 	EXP 	New trial (rep=2, index=0): None
+98.1785 	EXP 	window1: mouseVisible = False
+98.1941 	EXP 	blankscreen: autoDraw = False
+98.1941 	EXP 	blankscreen: autoDraw = False
+98.1941 	EXP 	mentalimage: size = array([1440.,  900.])
+98.1941 	EXP 	mentalimage: image = 'Mental_images/low/test/14_0_R.jpg'
+98.1941 	EXP 	mentalimage: autoDraw = True
+98.1941 	EXP 	text_3: autoDraw = True
+99.8293 	DATA 	Keypress: right
+99.8617 	EXP 	text_3: autoDraw = False
+100.6940 	EXP 	mentalimage: autoDraw = False
+100.6940 	EXP 	mentalimage: autoDraw = False
+100.6940 	EXP 	text_3: autoDraw = False
+100.6940 	EXP 	blankscreen: text = '+'
+100.6940 	EXP 	blankscreen: autoDraw = True
+101.1617 	EXP 	New trial (rep=3, index=0): None
+101.1618 	EXP 	window1: mouseVisible = False
+101.1775 	EXP 	blankscreen: autoDraw = False
+101.1775 	EXP 	blankscreen: autoDraw = False
+101.1775 	EXP 	mentalimage: size = array([1440.,  900.])
+101.1775 	EXP 	mentalimage: image = 'Mental_images/low/test/11_0.jpg'
+101.1775 	EXP 	mentalimage: autoDraw = True
+101.1775 	EXP 	text_3: autoDraw = True
+102.2277 	DATA 	Keypress: left
+102.2431 	EXP 	text_3: autoDraw = False
+103.6780 	EXP 	mentalimage: autoDraw = False
+103.6780 	EXP 	text_3: autoDraw = False
+103.6780 	EXP 	blankscreen: text = '+'
+103.6780 	EXP 	blankscreen: autoDraw = True
+104.2122 	EXP 	New trial (rep=4, index=0): None
+104.2124 	EXP 	window1: mouseVisible = False
+104.2265 	EXP 	blankscreen: autoDraw = False
+104.2265 	EXP 	blankscreen: autoDraw = False
+104.2265 	EXP 	mentalimage: size = array([1440.,  900.])
+104.2265 	EXP 	mentalimage: image = 'Mental_images/low/test/5_0_R.jpg'
+104.2265 	EXP 	mentalimage: autoDraw = True
+104.2265 	EXP 	text_3: autoDraw = True
+106.7266 	EXP 	mentalimage: autoDraw = False
+106.7432 	EXP 	mentalimage: autoDraw = False
+106.7432 	EXP 	text_3: autoDraw = False
+106.7432 	EXP 	blankscreen: text = '+'
+106.7432 	EXP 	blankscreen: autoDraw = True
+106.7797 	DATA 	Keypress: left
+107.1603 	EXP 	New trial (rep=5, index=0): None
+107.1604 	EXP 	window1: mouseVisible = False
+107.1776 	EXP 	blankscreen: autoDraw = False
+107.1776 	EXP 	blankscreen: autoDraw = False
+107.1776 	EXP 	mentalimage: size = array([1440.,  900.])
+107.1776 	EXP 	mentalimage: image = 'Mental_images/low/test/8_0.jpg'
+107.1776 	EXP 	mentalimage: autoDraw = True
+107.1776 	EXP 	text_3: autoDraw = True
+108.5649 	DATA 	Keypress: left
+108.5931 	EXP 	text_3: autoDraw = False
+109.6777 	EXP 	mentalimage: autoDraw = False
+109.6777 	EXP 	text_3: autoDraw = False
+109.6777 	EXP 	blankscreen: text = '+'
+109.6777 	EXP 	blankscreen: autoDraw = True
+110.2638 	EXP 	New trial (rep=6, index=0): None
+110.2640 	EXP 	window1: mouseVisible = False
+110.2776 	EXP 	blankscreen: autoDraw = False
+110.2776 	EXP 	blankscreen: autoDraw = False
+110.2776 	EXP 	mentalimage: size = array([1440.,  900.])
+110.2776 	EXP 	mentalimage: image = 'Mental_images/low/test/10_0_R.jpg'
+110.2776 	EXP 	mentalimage: autoDraw = True
+110.2776 	EXP 	text_3: autoDraw = True
+111.9808 	DATA 	Keypress: right
+112.0098 	EXP 	text_3: autoDraw = False
+112.7781 	EXP 	mentalimage: autoDraw = False
+112.7781 	EXP 	mentalimage: autoDraw = False
+112.7781 	EXP 	text_3: autoDraw = False
+112.7781 	EXP 	blankscreen: text = '+'
+112.7781 	EXP 	blankscreen: autoDraw = True
+113.2790 	EXP 	New trial (rep=7, index=0): None
+113.2791 	EXP 	window1: mouseVisible = False
+113.2932 	EXP 	blankscreen: autoDraw = False
+113.2932 	EXP 	blankscreen: autoDraw = False
+113.2932 	EXP 	mentalimage: size = array([1440.,  900.])
+113.2932 	EXP 	mentalimage: image = 'Mental_images/low/test/19_0.jpg'
+113.2932 	EXP 	mentalimage: autoDraw = True
+113.2932 	EXP 	text_3: autoDraw = True
+114.5646 	DATA 	Keypress: left
+114.5934 	EXP 	text_3: autoDraw = False
+115.7939 	EXP 	mentalimage: autoDraw = False
+115.7939 	EXP 	mentalimage: autoDraw = False
+115.7939 	EXP 	text_3: autoDraw = False
+115.7939 	EXP 	blankscreen: text = '+'
+115.7939 	EXP 	blankscreen: autoDraw = True
+116.2794 	EXP 	New trial (rep=8, index=0): None
+116.2796 	EXP 	window1: mouseVisible = False
+116.2931 	EXP 	blankscreen: autoDraw = False
+116.2931 	EXP 	blankscreen: autoDraw = False
+116.2931 	EXP 	mentalimage: size = array([1440.,  900.])
+116.2931 	EXP 	mentalimage: image = 'Mental_images/low/test/29_0_R.jpg'
+116.2931 	EXP 	mentalimage: autoDraw = True
+116.2931 	EXP 	text_3: autoDraw = True
+118.6134 	DATA 	Keypress: right
+118.6432 	EXP 	text_3: autoDraw = False
+118.7933 	EXP 	mentalimage: autoDraw = False
+118.7933 	EXP 	mentalimage: autoDraw = False
+118.7933 	EXP 	text_3: autoDraw = False
+118.7933 	EXP 	blankscreen: text = '+'
+118.7933 	EXP 	blankscreen: autoDraw = True
+119.3285 	EXP 	New trial (rep=9, index=0): None
+119.3287 	EXP 	window1: mouseVisible = False
+119.3390 	EXP 	blankscreen: autoDraw = False
+119.3390 	EXP 	blankscreen: autoDraw = False
+119.3390 	EXP 	mentalimage: size = array([1440.,  900.])
+119.3390 	EXP 	mentalimage: image = 'Mental_images/low/test/28_0_R.jpg'
+119.3390 	EXP 	mentalimage: autoDraw = True
+119.3390 	EXP 	text_3: autoDraw = True
+121.3960 	DATA 	Keypress: right
+121.4267 	EXP 	text_3: autoDraw = False
+121.8436 	EXP 	mentalimage: autoDraw = False
+121.8436 	EXP 	mentalimage: autoDraw = False
+121.8436 	EXP 	text_3: autoDraw = False
+121.8436 	EXP 	blankscreen: text = '+'
+121.8436 	EXP 	blankscreen: autoDraw = True
+122.3618 	EXP 	window1: mouseVisible = True
+122.3622 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+122.3623 	EXP 	New trial (rep=0, index=0): None
+122.3624 	EXP 	window1: mouseVisible = True
+122.3773 	EXP 	blankscreen: autoDraw = False
+122.3773 	EXP 	blankscreen: autoDraw = False
+122.3773 	EXP 	rating_effort: markerPos = None
+122.3773 	EXP 	rating_effort: markerPos = None
+122.3773 	EXP 	rating_effort: rating = None
+122.3773 	EXP 	effort: autoDraw = True
+122.8679 	EXP 	rating_effort: autoDraw = True
+124.3435 	DATA 	Mouse: Left button down, pos=(998,448)
+124.3620 	EXP 	rating_effort: markerPos = 3.88
+124.3773 	EXP 	rating_effort: markerPos = 3.88
+124.3932 	EXP 	rating_effort: markerPos = 3.88
+124.4099 	EXP 	rating_effort: markerPos = 3.88
+124.4267 	EXP 	rating_effort: markerPos = 3.88
+124.4431 	EXP 	rating_effort: markerPos = 3.88
+124.4495 	DATA 	Mouse:  Left button up, pos=(998,449)
+124.4620 	EXP 	rating_effort: markerPos = 3.88
+124.4777 	EXP 	rating_effort: markerPos = 4.0
+124.4777 	EXP 	rating_effort: rating = 4.0
+124.4876 	EXP 	New trial (rep=1, index=0): None
+124.4916 	EXP 	window1: mouseVisible = True
+124.5100 	EXP 	rating_effort: autoDraw = False
+124.5100 	EXP 	effort: autoDraw = False
+124.5100 	EXP 	rating_difficulty: markerPos = None
+124.5100 	EXP 	rating_difficulty: markerPos = None
+124.5100 	EXP 	rating_difficulty: rating = None
+124.5100 	EXP 	rating_difficulty: autoDraw = False
+124.5100 	EXP 	text_6: autoDraw = False
+124.5100 	EXP 	rating_attention: markerPos = None
+124.5100 	EXP 	rating_attention: markerPos = None
+124.5100 	EXP 	rating_attention: rating = None
+124.5100 	EXP 	rating_attention: autoDraw = False
+124.5100 	EXP 	text_7: autoDraw = False
+124.5100 	EXP 	rating_effort: markerPos = None
+124.5100 	EXP 	rating_effort: markerPos = None
+124.5100 	EXP 	rating_effort: rating = None
+124.5100 	EXP 	rating_effort: autoDraw = False
+124.5100 	EXP 	effort: autoDraw = False
+124.5100 	EXP 	rating_difficulty: markerPos = None
+124.5100 	EXP 	rating_difficulty: markerPos = None
+124.5100 	EXP 	rating_difficulty: rating = None
+124.5100 	EXP 	text_6: autoDraw = True
+124.9773 	EXP 	rating_difficulty: autoDraw = True
+125.6626 	DATA 	Mouse: Left button down, pos=(785,448)
+125.6772 	EXP 	rating_difficulty: markerPos = 2.9333333333333336
+125.6936 	EXP 	rating_difficulty: markerPos = 2.9333333333333336
+125.7097 	EXP 	rating_difficulty: markerPos = 2.9333333333333336
+125.7266 	EXP 	rating_difficulty: markerPos = 2.9333333333333336
+125.7431 	EXP 	rating_difficulty: markerPos = 2.9333333333333336
+125.7437 	DATA 	Mouse:  Left button up, pos=(785,448)
+125.7611 	EXP 	rating_difficulty: markerPos = 3.0
+125.7611 	EXP 	rating_difficulty: rating = 3.0
+125.7665 	EXP 	New trial (rep=2, index=0): None
+125.7744 	EXP 	window1: mouseVisible = True
+125.7796 	EXP 	rating_difficulty: autoDraw = False
+125.7796 	EXP 	text_6: autoDraw = False
+125.7796 	EXP 	rating_attention: markerPos = None
+125.7796 	EXP 	rating_attention: markerPos = None
+125.7796 	EXP 	rating_attention: rating = None
+125.7796 	EXP 	rating_attention: autoDraw = False
+125.7796 	EXP 	text_7: autoDraw = False
+125.7796 	EXP 	rating_effort: markerPos = None
+125.7796 	EXP 	rating_effort: markerPos = None
+125.7796 	EXP 	rating_effort: rating = None
+125.7796 	EXP 	rating_effort: autoDraw = False
+125.7796 	EXP 	effort: autoDraw = False
+125.7796 	EXP 	rating_difficulty: markerPos = None
+125.7796 	EXP 	rating_difficulty: markerPos = None
+125.7796 	EXP 	rating_difficulty: rating = None
+125.7796 	EXP 	rating_difficulty: autoDraw = False
+125.7796 	EXP 	text_6: autoDraw = False
+125.7796 	EXP 	rating_attention: markerPos = None
+125.7796 	EXP 	rating_attention: markerPos = None
+125.7796 	EXP 	rating_attention: rating = None
+125.7796 	EXP 	text_7: autoDraw = True
+126.2772 	EXP 	rating_attention: autoDraw = True
+126.6817 	DATA 	Mouse: Left button down, pos=(1023,435)
+126.7098 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.7267 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.7431 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.7620 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.7773 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.7932 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.7990 	DATA 	Mouse:  Left button up, pos=(1023,435)
+126.8099 	EXP 	rating_attention: markerPos = 3.991111111111111
+126.8266 	EXP 	rating_attention: markerPos = 4.0
+126.8266 	EXP 	rating_attention: rating = 4.0
+126.8283 	EXP 	New trial (rep=0, index=3): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+126.8432 	EXP 	rating_attention: autoDraw = False
+126.8432 	EXP 	text_7: autoDraw = False
+126.8432 	EXP 	text_5: autoDraw = True
+127.6638 	DATA 	Keypress: space
+127.6774 	EXP 	text_5: autoDraw = False
+127.6774 	EXP 	text: autoDraw = True
+128.6616 	EXP 	text_2: autoDraw = True
+128.6800 	EXP 	text: autoDraw = False
+129.6623 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+129.6625 	EXP 	New trial (rep=0, index=0): None
+129.6638 	EXP 	window1: mouseVisible = False
+129.6770 	EXP 	text: autoDraw = False
+129.6770 	EXP 	text_2: autoDraw = False
+129.6770 	EXP 	mentalimage: size = array([1440.,  900.])
+129.6770 	EXP 	mentalimage: image = 'Mental_images/low/test/20_0.jpg'
+129.6770 	EXP 	mentalimage: autoDraw = True
+129.6770 	EXP 	text_3: autoDraw = True
+130.8460 	DATA 	Keypress: left
+130.8774 	EXP 	text_3: autoDraw = False
+132.1779 	EXP 	mentalimage: autoDraw = False
+132.1779 	EXP 	mentalimage: autoDraw = False
+132.1779 	EXP 	text_3: autoDraw = False
+132.1779 	EXP 	blankscreen: text = '+'
+132.1779 	EXP 	blankscreen: autoDraw = True
+132.5792 	EXP 	New trial (rep=1, index=0): None
+132.5794 	EXP 	window1: mouseVisible = False
+132.5932 	EXP 	blankscreen: autoDraw = False
+132.5932 	EXP 	blankscreen: autoDraw = False
+132.5932 	EXP 	mentalimage: size = array([1440.,  900.])
+132.5932 	EXP 	mentalimage: image = 'Mental_images/low/test/16_0_R.jpg'
+132.5932 	EXP 	mentalimage: autoDraw = True
+132.5932 	EXP 	text_3: autoDraw = True
+134.6804 	DATA 	Keypress: right
+134.7099 	EXP 	text_3: autoDraw = False
+135.0943 	EXP 	mentalimage: autoDraw = False
+135.0943 	EXP 	mentalimage: autoDraw = False
+135.0943 	EXP 	text_3: autoDraw = False
+135.0943 	EXP 	blankscreen: text = '+'
+135.0943 	EXP 	blankscreen: autoDraw = True
+135.5789 	EXP 	New trial (rep=2, index=0): None
+135.5791 	EXP 	window1: mouseVisible = False
+135.5932 	EXP 	blankscreen: autoDraw = False
+135.5932 	EXP 	blankscreen: autoDraw = False
+135.5932 	EXP 	mentalimage: size = array([1440.,  900.])
+135.5932 	EXP 	mentalimage: image = 'Mental_images/low/test/2_0.jpg'
+135.5932 	EXP 	mentalimage: autoDraw = True
+135.5932 	EXP 	text_3: autoDraw = True
+136.3295 	DATA 	Keypress: left
+136.3618 	EXP 	text_3: autoDraw = False
+138.0939 	EXP 	mentalimage: autoDraw = False
+138.0939 	EXP 	mentalimage: autoDraw = False
+138.0939 	EXP 	text_3: autoDraw = False
+138.0939 	EXP 	blankscreen: text = '+'
+138.0939 	EXP 	blankscreen: autoDraw = True
+138.6791 	EXP 	New trial (rep=3, index=0): None
+138.6793 	EXP 	window1: mouseVisible = False
+138.6932 	EXP 	blankscreen: autoDraw = False
+138.6932 	EXP 	blankscreen: autoDraw = False
+138.6932 	EXP 	mentalimage: size = array([1440.,  900.])
+138.6932 	EXP 	mentalimage: image = 'Mental_images/low/test/11_0_R.jpg'
+138.6932 	EXP 	mentalimage: autoDraw = True
+138.6932 	EXP 	text_3: autoDraw = True
+140.0130 	DATA 	Keypress: right
+140.0431 	EXP 	text_3: autoDraw = False
+141.1942 	EXP 	mentalimage: autoDraw = False
+141.1942 	EXP 	mentalimage: autoDraw = False
+141.1942 	EXP 	text_3: autoDraw = False
+141.1942 	EXP 	blankscreen: text = '+'
+141.1942 	EXP 	blankscreen: autoDraw = True
+141.7797 	EXP 	New trial (rep=4, index=0): None
+141.7799 	EXP 	window1: mouseVisible = False
+141.7930 	EXP 	blankscreen: autoDraw = False
+141.7930 	EXP 	blankscreen: autoDraw = False
+141.7930 	EXP 	mentalimage: size = array([1440.,  900.])
+141.7930 	EXP 	mentalimage: image = 'Mental_images/low/test/25_0_R.jpg'
+141.7930 	EXP 	mentalimage: autoDraw = True
+141.7930 	EXP 	text_3: autoDraw = True
+143.9972 	DATA 	Keypress: right
+144.0266 	EXP 	text_3: autoDraw = False
+144.2938 	EXP 	mentalimage: autoDraw = False
+144.2938 	EXP 	mentalimage: autoDraw = False
+144.2938 	EXP 	text_3: autoDraw = False
+144.2938 	EXP 	blankscreen: text = '+'
+144.2938 	EXP 	blankscreen: autoDraw = True
+144.8108 	EXP 	New trial (rep=5, index=0): None
+144.8110 	EXP 	window1: mouseVisible = False
+144.8216 	EXP 	blankscreen: autoDraw = False
+144.8216 	EXP 	blankscreen: autoDraw = False
+144.8216 	EXP 	mentalimage: size = array([1440.,  900.])
+144.8216 	EXP 	mentalimage: image = 'Mental_images/low/test/18_0.jpg'
+144.8216 	EXP 	mentalimage: autoDraw = True
+144.8216 	EXP 	text_3: autoDraw = True
+145.7459 	DATA 	Keypress: left
+145.7771 	EXP 	text_3: autoDraw = False
+147.3272 	EXP 	mentalimage: autoDraw = False
+147.3272 	EXP 	mentalimage: autoDraw = False
+147.3272 	EXP 	text_3: autoDraw = False
+147.3272 	EXP 	blankscreen: text = '+'
+147.3272 	EXP 	blankscreen: autoDraw = True
+147.9114 	EXP 	New trial (rep=6, index=0): None
+147.9115 	EXP 	window1: mouseVisible = False
+147.9247 	EXP 	blankscreen: autoDraw = False
+147.9247 	EXP 	blankscreen: autoDraw = False
+147.9247 	EXP 	mentalimage: size = array([1440.,  900.])
+147.9247 	EXP 	mentalimage: image = 'Mental_images/low/test/9_0_R.jpg'
+147.9247 	EXP 	mentalimage: autoDraw = True
+147.9247 	EXP 	text_3: autoDraw = True
+149.0298 	DATA 	Keypress: right
+149.0618 	EXP 	text_3: autoDraw = False
+150.4273 	EXP 	mentalimage: autoDraw = False
+150.4273 	EXP 	mentalimage: autoDraw = False
+150.4273 	EXP 	text_3: autoDraw = False
+150.4273 	EXP 	blankscreen: text = '+'
+150.4273 	EXP 	blankscreen: autoDraw = True
+150.9435 	EXP 	New trial (rep=7, index=0): None
+150.9435 	EXP 	window1: mouseVisible = False
+150.9617 	EXP 	blankscreen: autoDraw = False
+150.9617 	EXP 	blankscreen: autoDraw = False
+150.9617 	EXP 	mentalimage: size = array([1440.,  900.])
+150.9617 	EXP 	mentalimage: image = 'Mental_images/low/test/4_0_R.jpg'
+150.9617 	EXP 	mentalimage: autoDraw = True
+150.9617 	EXP 	text_3: autoDraw = True
+153.3651 	DATA 	Keypress: right
+153.3931 	EXP 	text_3: autoDraw = False
+153.4772 	EXP 	mentalimage: autoDraw = False
+153.4772 	EXP 	text_3: autoDraw = False
+153.4772 	EXP 	blankscreen: text = '+'
+153.4772 	EXP 	blankscreen: autoDraw = True
+153.9780 	EXP 	New trial (rep=8, index=0): None
+153.9781 	EXP 	window1: mouseVisible = False
+153.9930 	EXP 	blankscreen: autoDraw = False
+153.9930 	EXP 	blankscreen: autoDraw = False
+153.9930 	EXP 	mentalimage: size = array([1440.,  900.])
+153.9930 	EXP 	mentalimage: image = 'Mental_images/low/test/13_0.jpg'
+153.9930 	EXP 	mentalimage: autoDraw = True
+153.9930 	EXP 	text_3: autoDraw = True
+154.7462 	DATA 	Keypress: left
+154.7774 	EXP 	text_3: autoDraw = False
+156.4942 	EXP 	mentalimage: autoDraw = False
+156.4942 	EXP 	text_3: autoDraw = False
+156.4942 	EXP 	blankscreen: text = '+'
+156.4942 	EXP 	blankscreen: autoDraw = True
+156.9443 	EXP 	New trial (rep=9, index=0): None
+156.9445 	EXP 	window1: mouseVisible = False
+156.9535 	EXP 	blankscreen: autoDraw = False
+156.9535 	EXP 	blankscreen: autoDraw = False
+156.9535 	EXP 	mentalimage: size = array([1440.,  900.])
+156.9535 	EXP 	mentalimage: image = 'Mental_images/low/test/22_0_R.jpg'
+156.9535 	EXP 	mentalimage: autoDraw = True
+156.9535 	EXP 	text_3: autoDraw = True
+158.9299 	DATA 	Keypress: right
+158.9616 	EXP 	text_3: autoDraw = False
+159.4612 	EXP 	mentalimage: autoDraw = False
+159.4612 	EXP 	mentalimage: autoDraw = False
+159.4612 	EXP 	text_3: autoDraw = False
+159.4612 	EXP 	blankscreen: text = '+'
+159.4612 	EXP 	blankscreen: autoDraw = True
+159.9622 	EXP 	window1: mouseVisible = True
+159.9625 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+159.9627 	EXP 	New trial (rep=0, index=0): None
+159.9671 	EXP 	window1: mouseVisible = True
+159.9774 	EXP 	blankscreen: autoDraw = False
+159.9774 	EXP 	blankscreen: autoDraw = False
+159.9774 	EXP 	rating_effort: markerPos = None
+159.9774 	EXP 	rating_effort: markerPos = None
+159.9774 	EXP 	rating_effort: rating = None
+159.9774 	EXP 	rating_effort: autoDraw = False
+159.9774 	EXP 	effort: autoDraw = False
+159.9774 	EXP 	rating_difficulty: markerPos = None
+159.9774 	EXP 	rating_difficulty: markerPos = None
+159.9774 	EXP 	rating_difficulty: rating = None
+159.9774 	EXP 	text_6: autoDraw = True
+160.4819 	EXP 	rating_difficulty: autoDraw = True
+162.0829 	DATA 	Mouse: Left button down, pos=(819,440)
+162.1098 	EXP 	rating_difficulty: markerPos = 3.0844444444444443
+162.1265 	EXP 	rating_difficulty: markerPos = 3.0844444444444443
+162.1433 	EXP 	rating_difficulty: markerPos = 3.0844444444444443
+162.1597 	EXP 	rating_difficulty: markerPos = 3.0844444444444443
+162.1781 	EXP 	rating_difficulty: markerPos = 3.0844444444444443
+162.1841 	DATA 	Mouse:  Left button up, pos=(819,440)
+162.1941 	EXP 	rating_difficulty: markerPos = 3.0844444444444443
+162.2098 	EXP 	rating_difficulty: markerPos = 3.0
+162.2098 	EXP 	rating_difficulty: rating = 3.0
+162.2155 	EXP 	New trial (rep=1, index=0): None
+162.2156 	EXP 	window1: mouseVisible = True
+162.2203 	EXP 	rating_difficulty: autoDraw = False
+162.2203 	EXP 	text_6: autoDraw = False
+162.2203 	EXP 	rating_attention: markerPos = None
+162.2203 	EXP 	rating_attention: markerPos = None
+162.2203 	EXP 	rating_attention: rating = None
+162.2203 	EXP 	rating_attention: autoDraw = False
+162.2203 	EXP 	text_7: autoDraw = False
+162.2203 	EXP 	rating_effort: markerPos = None
+162.2203 	EXP 	rating_effort: markerPos = None
+162.2203 	EXP 	rating_effort: rating = None
+162.2203 	EXP 	effort: autoDraw = True
+162.7189 	EXP 	rating_effort: autoDraw = True
+163.2273 	DATA 	Mouse: Left button down, pos=(1003,442)
+163.2430 	EXP 	rating_effort: markerPos = 3.902222222222222
+163.2620 	EXP 	rating_effort: markerPos = 3.902222222222222
+163.2772 	EXP 	rating_effort: markerPos = 3.902222222222222
+163.2932 	EXP 	rating_effort: markerPos = 3.902222222222222
+163.3099 	EXP 	rating_effort: markerPos = 3.902222222222222
+163.3162 	DATA 	Mouse:  Left button up, pos=(1003,442)
+163.3266 	EXP 	rating_effort: markerPos = 3.902222222222222
+163.3433 	EXP 	rating_effort: markerPos = 4.0
+163.3433 	EXP 	rating_effort: rating = 4.0
+163.3530 	EXP 	New trial (rep=2, index=0): None
+163.3609 	EXP 	window1: mouseVisible = True
+163.3658 	EXP 	rating_effort: autoDraw = False
+163.3658 	EXP 	effort: autoDraw = False
+163.3658 	EXP 	rating_difficulty: markerPos = None
+163.3658 	EXP 	rating_difficulty: markerPos = None
+163.3658 	EXP 	rating_difficulty: rating = None
+163.3658 	EXP 	rating_difficulty: autoDraw = False
+163.3658 	EXP 	text_6: autoDraw = False
+163.3658 	EXP 	rating_attention: markerPos = None
+163.3658 	EXP 	rating_attention: markerPos = None
+163.3658 	EXP 	rating_attention: rating = None
+163.3658 	EXP 	rating_attention: autoDraw = False
+163.3658 	EXP 	text_7: autoDraw = False
+163.3658 	EXP 	rating_effort: markerPos = None
+163.3658 	EXP 	rating_effort: markerPos = None
+163.3658 	EXP 	rating_effort: rating = None
+163.3658 	EXP 	rating_effort: autoDraw = False
+163.3658 	EXP 	effort: autoDraw = False
+163.3658 	EXP 	rating_difficulty: markerPos = None
+163.3658 	EXP 	rating_difficulty: markerPos = None
+163.3658 	EXP 	rating_difficulty: rating = None
+163.3658 	EXP 	rating_difficulty: autoDraw = False
+163.3658 	EXP 	text_6: autoDraw = False
+163.3658 	EXP 	rating_attention: markerPos = None
+163.3658 	EXP 	rating_attention: markerPos = None
+163.3658 	EXP 	rating_attention: rating = None
+163.3658 	EXP 	text_7: autoDraw = True
+163.8616 	EXP 	rating_attention: autoDraw = True
+163.9978 	DATA 	Mouse: Left button down, pos=(1003,442)
+164.0267 	EXP 	rating_attention: markerPos = 3.902222222222222
+164.0430 	EXP 	rating_attention: markerPos = 3.902222222222222
+164.0605 	EXP 	rating_attention: markerPos = 3.902222222222222
+164.0775 	EXP 	rating_attention: markerPos = 3.902222222222222
+164.0836 	DATA 	Mouse:  Left button up, pos=(1003,442)
+164.0930 	EXP 	rating_attention: markerPos = 3.902222222222222
+164.1101 	EXP 	rating_attention: markerPos = 4.0
+164.1101 	EXP 	rating_attention: rating = 4.0
+164.1117 	EXP 	New trial (rep=0, index=4): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+164.1267 	EXP 	rating_attention: autoDraw = False
+164.1267 	EXP 	text_7: autoDraw = False
+164.1267 	EXP 	text_5: autoDraw = True
+165.0793 	DATA 	Keypress: space
+165.0937 	EXP 	text_5: autoDraw = False
+165.0937 	EXP 	text: autoDraw = True
+166.0619 	EXP 	text_2: autoDraw = True
+166.0939 	EXP 	text: autoDraw = False
+167.0627 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+167.0629 	EXP 	New trial (rep=0, index=0): None
+167.0638 	EXP 	window1: mouseVisible = False
+167.0772 	EXP 	text_2: autoDraw = False
+167.0772 	EXP 	text: autoDraw = False
+167.0772 	EXP 	text_2: autoDraw = False
+167.0772 	EXP 	mentalimage: size = array([1440.,  900.])
+167.0772 	EXP 	mentalimage: image = 'Mental_images/low/test/29_0.jpg'
+167.0772 	EXP 	mentalimage: autoDraw = True
+167.0772 	EXP 	text_3: autoDraw = True
+168.2968 	DATA 	Keypress: left
+168.3267 	EXP 	text_3: autoDraw = False
+169.5771 	EXP 	mentalimage: autoDraw = False
+169.5771 	EXP 	mentalimage: autoDraw = False
+169.5771 	EXP 	text_3: autoDraw = False
+169.5771 	EXP 	blankscreen: text = '+'
+169.5771 	EXP 	blankscreen: autoDraw = True
+170.1290 	EXP 	New trial (rep=1, index=0): None
+170.1292 	EXP 	window1: mouseVisible = False
+170.1444 	EXP 	blankscreen: autoDraw = False
+170.1444 	EXP 	blankscreen: autoDraw = False
+170.1444 	EXP 	mentalimage: size = array([1440.,  900.])
+170.1444 	EXP 	mentalimage: image = 'Mental_images/low/test/14_0.jpg'
+170.1444 	EXP 	mentalimage: autoDraw = True
+170.1444 	EXP 	text_3: autoDraw = True
+171.0965 	DATA 	Keypress: left
+171.1267 	EXP 	text_3: autoDraw = False
+172.6435 	EXP 	mentalimage: autoDraw = False
+172.6435 	EXP 	mentalimage: autoDraw = False
+172.6435 	EXP 	text_3: autoDraw = False
+172.6435 	EXP 	blankscreen: text = '+'
+172.6435 	EXP 	blankscreen: autoDraw = True
+173.0621 	EXP 	New trial (rep=2, index=0): None
+173.0622 	EXP 	window1: mouseVisible = False
+173.0774 	EXP 	blankscreen: autoDraw = False
+173.0774 	EXP 	blankscreen: autoDraw = False
+173.0774 	EXP 	mentalimage: size = array([1440.,  900.])
+173.0774 	EXP 	mentalimage: image = 'Mental_images/low/test/18_0_R.jpg'
+173.0774 	EXP 	mentalimage: autoDraw = True
+173.0774 	EXP 	text_3: autoDraw = True
+174.7130 	DATA 	Keypress: left
+174.7429 	EXP 	text_3: autoDraw = False
+175.5778 	EXP 	mentalimage: autoDraw = False
+175.5778 	EXP 	text_3: autoDraw = False
+175.5778 	EXP 	blankscreen: text = '+'
+175.5778 	EXP 	blankscreen: autoDraw = True
+176.1615 	EXP 	New trial (rep=3, index=0): None
+176.1616 	EXP 	window1: mouseVisible = False
+176.1775 	EXP 	blankscreen: autoDraw = False
+176.1775 	EXP 	blankscreen: autoDraw = False
+176.1775 	EXP 	mentalimage: size = array([1440.,  900.])
+176.1775 	EXP 	mentalimage: image = 'Mental_images/low/test/7_0.jpg'
+176.1775 	EXP 	mentalimage: autoDraw = True
+176.1775 	EXP 	text_3: autoDraw = True
+176.8643 	DATA 	Keypress: left
+176.8931 	EXP 	text_3: autoDraw = False
+178.6772 	EXP 	mentalimage: autoDraw = False
+178.6772 	EXP 	text_3: autoDraw = False
+178.6772 	EXP 	blankscreen: text = '+'
+178.6772 	EXP 	blankscreen: autoDraw = True
+179.2278 	EXP 	New trial (rep=4, index=0): None
+179.2280 	EXP 	window1: mouseVisible = False
+179.2420 	EXP 	blankscreen: autoDraw = False
+179.2420 	EXP 	blankscreen: autoDraw = False
+179.2420 	EXP 	mentalimage: size = array([1440.,  900.])
+179.2420 	EXP 	mentalimage: image = 'Mental_images/low/test/28_0.jpg'
+179.2420 	EXP 	mentalimage: autoDraw = True
+179.2420 	EXP 	text_3: autoDraw = True
+180.3132 	DATA 	Keypress: left
+180.3430 	EXP 	text_3: autoDraw = False
+181.7436 	EXP 	mentalimage: autoDraw = False
+181.7436 	EXP 	mentalimage: autoDraw = False
+181.7436 	EXP 	text_3: autoDraw = False
+181.7436 	EXP 	blankscreen: text = '+'
+181.7436 	EXP 	blankscreen: autoDraw = True
+182.2440 	EXP 	New trial (rep=5, index=0): None
+182.2440 	EXP 	window1: mouseVisible = False
+182.2558 	EXP 	blankscreen: autoDraw = False
+182.2558 	EXP 	blankscreen: autoDraw = False
+182.2558 	EXP 	mentalimage: size = array([1440.,  900.])
+182.2558 	EXP 	mentalimage: image = 'Mental_images/low/test/6_0.jpg'
+182.2558 	EXP 	mentalimage: autoDraw = True
+182.2558 	EXP 	text_3: autoDraw = True
+182.9641 	DATA 	Keypress: left
+182.9935 	EXP 	text_3: autoDraw = False
+184.7626 	EXP 	mentalimage: autoDraw = False
+184.7626 	EXP 	mentalimage: autoDraw = False
+184.7626 	EXP 	text_3: autoDraw = False
+184.7626 	EXP 	blankscreen: text = '+'
+184.7626 	EXP 	blankscreen: autoDraw = True
+185.2621 	EXP 	New trial (rep=6, index=0): None
+185.2622 	EXP 	window1: mouseVisible = False
+185.2773 	EXP 	blankscreen: autoDraw = False
+185.2773 	EXP 	blankscreen: autoDraw = False
+185.2773 	EXP 	mentalimage: size = array([1440.,  900.])
+185.2773 	EXP 	mentalimage: image = 'Mental_images/low/test/26_0_R.jpg'
+185.2773 	EXP 	mentalimage: autoDraw = True
+185.2773 	EXP 	text_3: autoDraw = True
+186.8965 	DATA 	Keypress: right
+186.9267 	EXP 	text_3: autoDraw = False
+187.7784 	EXP 	mentalimage: autoDraw = False
+187.7784 	EXP 	text_3: autoDraw = False
+187.7784 	EXP 	blankscreen: text = '+'
+187.7784 	EXP 	blankscreen: autoDraw = True
+188.3621 	EXP 	New trial (rep=7, index=0): None
+188.3623 	EXP 	window1: mouseVisible = False
+188.3778 	EXP 	blankscreen: autoDraw = False
+188.3778 	EXP 	blankscreen: autoDraw = False
+188.3778 	EXP 	mentalimage: size = array([1440.,  900.])
+188.3778 	EXP 	mentalimage: image = 'Mental_images/low/test/2_0_R.jpg'
+188.3778 	EXP 	mentalimage: autoDraw = True
+188.3778 	EXP 	text_3: autoDraw = True
+189.7648 	DATA 	Keypress: right
+189.7931 	EXP 	text_3: autoDraw = False
+190.8772 	EXP 	mentalimage: autoDraw = False
+190.8772 	EXP 	mentalimage: autoDraw = False
+190.8772 	EXP 	text_3: autoDraw = False
+190.8772 	EXP 	blankscreen: text = '+'
+190.8772 	EXP 	blankscreen: autoDraw = True
+191.4287 	EXP 	New trial (rep=8, index=0): None
+191.4289 	EXP 	window1: mouseVisible = False
+191.4446 	EXP 	blankscreen: autoDraw = False
+191.4446 	EXP 	blankscreen: autoDraw = False
+191.4446 	EXP 	mentalimage: size = array([1440.,  900.])
+191.4446 	EXP 	mentalimage: image = 'Mental_images/low/test/17_0_R.jpg'
+191.4446 	EXP 	mentalimage: autoDraw = True
+191.4446 	EXP 	text_3: autoDraw = True
+193.2805 	DATA 	Keypress: left
+193.3098 	EXP 	text_3: autoDraw = False
+193.9621 	EXP 	mentalimage: autoDraw = False
+193.9621 	EXP 	text_3: autoDraw = False
+193.9621 	EXP 	blankscreen: text = '+'
+193.9621 	EXP 	blankscreen: autoDraw = True
+194.4632 	EXP 	New trial (rep=9, index=0): None
+194.4633 	EXP 	window1: mouseVisible = False
+194.4772 	EXP 	blankscreen: autoDraw = False
+194.4772 	EXP 	blankscreen: autoDraw = False
+194.4772 	EXP 	mentalimage: size = array([1440.,  900.])
+194.4772 	EXP 	mentalimage: image = 'Mental_images/low/test/27_0_R.jpg'
+194.4772 	EXP 	mentalimage: autoDraw = True
+194.4772 	EXP 	text_3: autoDraw = True
+196.9298 	DATA 	Keypress: right
+196.9613 	EXP 	text_3: autoDraw = False
+196.9773 	EXP 	mentalimage: autoDraw = False
+196.9773 	EXP 	mentalimage: autoDraw = False
+196.9773 	EXP 	text_3: autoDraw = False
+196.9773 	EXP 	blankscreen: text = '+'
+196.9773 	EXP 	blankscreen: autoDraw = True
+197.4436 	EXP 	window1: mouseVisible = True
+197.4440 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+197.4442 	EXP 	New trial (rep=0, index=0): None
+197.4442 	EXP 	window1: mouseVisible = True
+197.4620 	EXP 	blankscreen: autoDraw = False
+197.4620 	EXP 	blankscreen: autoDraw = False
+197.4620 	EXP 	rating_effort: markerPos = None
+197.4620 	EXP 	rating_effort: markerPos = None
+197.4620 	EXP 	rating_effort: rating = None
+197.4620 	EXP 	effort: autoDraw = True
+197.9454 	EXP 	rating_effort: autoDraw = True
+198.8275 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.8319 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.8976 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.9277 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.9436 	DATA 	Mouse: wheel shift=(0,-1), pos=(1003,442)
+198.9619 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.9623 	DATA 	Mouse: Left button down, pos=(1003,442)
+198.9686 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.9773 	EXP 	rating_effort: markerPos = 3.902222222222222
+198.9834 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+198.9932 	EXP 	rating_effort: markerPos = 3.902222222222222
+198.9992 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,442)
+199.0097 	EXP 	rating_effort: markerPos = 3.902222222222222
+199.0160 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,443)
+199.0266 	EXP 	rating_effort: markerPos = 3.902222222222222
+199.0329 	DATA 	Mouse: wheel shift=(0,-1), pos=(1003,443)
+199.0439 	EXP 	rating_effort: markerPos = 3.902222222222222
+199.0499 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,443)
+199.0598 	EXP 	rating_effort: markerPos = 3.902222222222222
+199.0660 	DATA 	Mouse: wheel shift=(0,0), pos=(1003,444)
+199.0764 	EXP 	rating_effort: markerPos = 3.902222222222222
+199.0826 	DATA 	Mouse:  Left button up, pos=(1003,444)
+199.0830 	DATA 	Mouse: wheel shift=(0,0), pos=(1004,444)
+199.0942 	EXP 	rating_effort: markerPos = 3.902222222222222
+199.1116 	EXP 	rating_effort: markerPos = 4.0
+199.1116 	EXP 	rating_effort: rating = 4.0
+199.1215 	EXP 	New trial (rep=1, index=0): None
+199.1256 	EXP 	window1: mouseVisible = True
+199.1430 	EXP 	rating_effort: autoDraw = False
+199.1430 	EXP 	effort: autoDraw = False
+199.1430 	EXP 	rating_difficulty: markerPos = None
+199.1430 	EXP 	rating_difficulty: markerPos = None
+199.1430 	EXP 	rating_difficulty: rating = None
+199.1430 	EXP 	rating_difficulty: autoDraw = False
+199.1430 	EXP 	text_6: autoDraw = False
+199.1430 	EXP 	rating_attention: markerPos = None
+199.1430 	EXP 	rating_attention: markerPos = None
+199.1430 	EXP 	rating_attention: rating = None
+199.1430 	EXP 	rating_attention: autoDraw = False
+199.1430 	EXP 	text_7: autoDraw = False
+199.1430 	EXP 	rating_effort: markerPos = None
+199.1430 	EXP 	rating_effort: markerPos = None
+199.1430 	EXP 	rating_effort: rating = None
+199.1430 	EXP 	rating_effort: autoDraw = False
+199.1430 	EXP 	effort: autoDraw = False
+199.1430 	EXP 	rating_difficulty: markerPos = None
+199.1430 	EXP 	rating_difficulty: markerPos = None
+199.1430 	EXP 	rating_difficulty: rating = None
+199.1430 	EXP 	text_6: autoDraw = True
+199.6194 	EXP 	rating_difficulty: autoDraw = True
+200.6976 	DATA 	Mouse: Left button down, pos=(1004,444)
+200.7267 	EXP 	rating_difficulty: markerPos = 3.9066666666666667
+200.7430 	EXP 	rating_difficulty: markerPos = 3.9066666666666667
+200.7613 	EXP 	rating_difficulty: markerPos = 3.9066666666666667
+200.7673 	DATA 	Mouse:  Left button up, pos=(1004,444)
+200.7773 	EXP 	rating_difficulty: markerPos = 3.9066666666666667
+200.7931 	EXP 	rating_difficulty: markerPos = 4.0
+200.7931 	EXP 	rating_difficulty: rating = 4.0
+200.7989 	EXP 	New trial (rep=2, index=0): None
+200.8069 	EXP 	window1: mouseVisible = True
+200.8118 	EXP 	rating_difficulty: autoDraw = False
+200.8118 	EXP 	text_6: autoDraw = False
+200.8118 	EXP 	rating_attention: markerPos = None
+200.8118 	EXP 	rating_attention: markerPos = None
+200.8118 	EXP 	rating_attention: rating = None
+200.8118 	EXP 	rating_attention: autoDraw = False
+200.8118 	EXP 	text_7: autoDraw = False
+200.8118 	EXP 	rating_effort: markerPos = None
+200.8118 	EXP 	rating_effort: markerPos = None
+200.8118 	EXP 	rating_effort: rating = None
+200.8118 	EXP 	rating_effort: autoDraw = False
+200.8118 	EXP 	effort: autoDraw = False
+200.8118 	EXP 	rating_difficulty: markerPos = None
+200.8118 	EXP 	rating_difficulty: markerPos = None
+200.8118 	EXP 	rating_difficulty: rating = None
+200.8118 	EXP 	rating_difficulty: autoDraw = False
+200.8118 	EXP 	text_6: autoDraw = False
+200.8118 	EXP 	rating_attention: markerPos = None
+200.8118 	EXP 	rating_attention: markerPos = None
+200.8118 	EXP 	rating_attention: rating = None
+200.8118 	EXP 	text_7: autoDraw = True
+201.2938 	EXP 	rating_attention: autoDraw = True
+201.6272 	DATA 	Mouse: Left button down, pos=(1010,445)
+201.6430 	EXP 	rating_attention: markerPos = 3.9333333333333336
+201.6620 	EXP 	rating_attention: markerPos = 3.9333333333333336
+201.6772 	EXP 	rating_attention: markerPos = 3.9333333333333336
+201.6832 	DATA 	Mouse:  Left button up, pos=(1010,445)
+201.6933 	EXP 	rating_attention: markerPos = 3.9333333333333336
+201.7100 	EXP 	rating_attention: markerPos = 4.0
+201.7100 	EXP 	rating_attention: rating = 4.0
+201.7117 	EXP 	New trial (rep=0, index=5): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+201.7265 	EXP 	rating_attention: autoDraw = False
+201.7265 	EXP 	text_7: autoDraw = False
+201.7265 	EXP 	text_5: autoDraw = True
+202.6960 	DATA 	Keypress: space
+202.7100 	EXP 	text_5: autoDraw = False
+202.7100 	EXP 	text: autoDraw = True
+203.6784 	EXP 	text_2: autoDraw = True
+203.7106 	EXP 	text: autoDraw = False
+204.6621 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+204.6623 	EXP 	New trial (rep=0, index=0): None
+204.6635 	EXP 	window1: mouseVisible = False
+204.6773 	EXP 	text_2: autoDraw = False
+204.6773 	EXP 	text: autoDraw = False
+204.6773 	EXP 	text_2: autoDraw = False
+204.6773 	EXP 	mentalimage: size = array([1440.,  900.])
+204.6773 	EXP 	mentalimage: image = 'Mental_images/medium/test/8_50.jpg'
+204.6773 	EXP 	mentalimage: autoDraw = True
+204.6773 	EXP 	text_3: autoDraw = True
+205.7809 	DATA 	Keypress: right
+205.8100 	EXP 	text_3: autoDraw = False
+207.1782 	EXP 	mentalimage: autoDraw = False
+207.1782 	EXP 	mentalimage: autoDraw = False
+207.1782 	EXP 	text_3: autoDraw = False
+207.1782 	EXP 	blankscreen: text = '+'
+207.1782 	EXP 	blankscreen: autoDraw = True
+207.7272 	EXP 	New trial (rep=1, index=0): None
+207.7273 	EXP 	window1: mouseVisible = False
+207.7392 	EXP 	blankscreen: autoDraw = False
+207.7392 	EXP 	blankscreen: autoDraw = False
+207.7392 	EXP 	mentalimage: size = array([1440.,  900.])
+207.7392 	EXP 	mentalimage: image = 'Mental_images/medium/test/4_50_R.jpg'
+207.7392 	EXP 	mentalimage: autoDraw = True
+207.7392 	EXP 	text_3: autoDraw = True
+209.1964 	DATA 	Keypress: right
+209.2267 	EXP 	text_3: autoDraw = False
+210.2432 	EXP 	mentalimage: autoDraw = False
+210.2432 	EXP 	text_3: autoDraw = False
+210.2432 	EXP 	blankscreen: text = '+'
+210.2432 	EXP 	blankscreen: autoDraw = True
+210.7115 	EXP 	New trial (rep=2, index=0): None
+210.7117 	EXP 	window1: mouseVisible = False
+210.7234 	EXP 	blankscreen: autoDraw = False
+210.7234 	EXP 	blankscreen: autoDraw = False
+210.7234 	EXP 	mentalimage: size = array([1440.,  900.])
+210.7234 	EXP 	mentalimage: image = 'Mental_images/medium/test/28_50_R.jpg'
+210.7234 	EXP 	mentalimage: autoDraw = True
+210.7234 	EXP 	text_3: autoDraw = True
+212.9134 	DATA 	Keypress: left
+212.9430 	EXP 	text_3: autoDraw = False
+213.2277 	EXP 	mentalimage: autoDraw = False
+213.2277 	EXP 	mentalimage: autoDraw = False
+213.2277 	EXP 	text_3: autoDraw = False
+213.2277 	EXP 	blankscreen: text = '+'
+213.2277 	EXP 	blankscreen: autoDraw = True
+213.7956 	EXP 	New trial (rep=3, index=0): None
+213.7959 	EXP 	window1: mouseVisible = False
+213.8171 	EXP 	blankscreen: autoDraw = False
+213.8171 	EXP 	blankscreen: autoDraw = False
+213.8171 	EXP 	mentalimage: size = array([1440.,  900.])
+213.8171 	EXP 	mentalimage: image = 'Mental_images/medium/test/11_50.jpg'
+213.8171 	EXP 	mentalimage: autoDraw = True
+213.8171 	EXP 	text_3: autoDraw = True
+215.5296 	DATA 	Keypress: left
+215.5620 	EXP 	text_3: autoDraw = False
+216.3270 	EXP 	mentalimage: autoDraw = False
+216.3270 	EXP 	text_3: autoDraw = False
+216.3270 	EXP 	blankscreen: text = '+'
+216.3270 	EXP 	blankscreen: autoDraw = True
+216.8444 	EXP 	New trial (rep=4, index=0): None
+216.8445 	EXP 	window1: mouseVisible = False
+216.8621 	EXP 	blankscreen: autoDraw = False
+216.8621 	EXP 	blankscreen: autoDraw = False
+216.8621 	EXP 	mentalimage: size = array([1440.,  900.])
+216.8621 	EXP 	mentalimage: image = 'Mental_images/medium/test/30_50.jpg'
+216.8621 	EXP 	mentalimage: autoDraw = True
+216.8621 	EXP 	text_3: autoDraw = True
+219.2463 	DATA 	Keypress: right
+219.2771 	EXP 	text_3: autoDraw = False
+219.3778 	EXP 	mentalimage: autoDraw = False
+219.3778 	EXP 	text_3: autoDraw = False
+219.3778 	EXP 	blankscreen: text = '+'
+219.3778 	EXP 	blankscreen: autoDraw = True
+219.7951 	EXP 	New trial (rep=5, index=0): None
+219.7953 	EXP 	window1: mouseVisible = False
+219.8061 	EXP 	blankscreen: autoDraw = False
+219.8061 	EXP 	blankscreen: autoDraw = False
+219.8061 	EXP 	mentalimage: size = array([1440.,  900.])
+219.8061 	EXP 	mentalimage: image = 'Mental_images/medium/test/12_50.jpg'
+219.8061 	EXP 	mentalimage: autoDraw = True
+219.8061 	EXP 	text_3: autoDraw = True
+221.3646 	DATA 	Keypress: left
+221.3932 	EXP 	text_3: autoDraw = False
+222.3109 	EXP 	mentalimage: autoDraw = False
+222.3109 	EXP 	mentalimage: autoDraw = False
+222.3109 	EXP 	text_3: autoDraw = False
+222.3109 	EXP 	blankscreen: text = '+'
+222.3109 	EXP 	blankscreen: autoDraw = True
+222.8629 	EXP 	New trial (rep=6, index=0): None
+222.8630 	EXP 	window1: mouseVisible = False
+222.8774 	EXP 	blankscreen: autoDraw = False
+222.8774 	EXP 	blankscreen: autoDraw = False
+222.8774 	EXP 	mentalimage: size = array([1440.,  900.])
+222.8774 	EXP 	mentalimage: image = 'Mental_images/medium/test/29_50_R.jpg'
+222.8774 	EXP 	mentalimage: autoDraw = True
+222.8774 	EXP 	text_3: autoDraw = True
+224.3966 	DATA 	Keypress: left
+224.4267 	EXP 	text_3: autoDraw = False
+225.3777 	EXP 	mentalimage: autoDraw = False
+225.3777 	EXP 	mentalimage: autoDraw = False
+225.3777 	EXP 	text_3: autoDraw = False
+225.3777 	EXP 	blankscreen: text = '+'
+225.3777 	EXP 	blankscreen: autoDraw = True
+225.7959 	EXP 	New trial (rep=7, index=0): None
+225.7962 	EXP 	window1: mouseVisible = False
+225.8079 	EXP 	blankscreen: autoDraw = False
+225.8079 	EXP 	blankscreen: autoDraw = False
+225.8079 	EXP 	mentalimage: size = array([1440.,  900.])
+225.8079 	EXP 	mentalimage: image = 'Mental_images/medium/test/19_50_R.jpg'
+225.8079 	EXP 	mentalimage: autoDraw = True
+225.8079 	EXP 	text_3: autoDraw = True
+227.6466 	DATA 	Keypress: left
+227.6771 	EXP 	text_3: autoDraw = False
+228.3108 	EXP 	mentalimage: autoDraw = False
+228.3108 	EXP 	mentalimage: autoDraw = False
+228.3108 	EXP 	text_3: autoDraw = False
+228.3108 	EXP 	blankscreen: text = '+'
+228.3108 	EXP 	blankscreen: autoDraw = True
+228.8938 	EXP 	New trial (rep=8, index=0): None
+228.8939 	EXP 	window1: mouseVisible = False
+228.9045 	EXP 	blankscreen: autoDraw = False
+228.9045 	EXP 	blankscreen: autoDraw = False
+228.9045 	EXP 	mentalimage: size = array([1440.,  900.])
+228.9045 	EXP 	mentalimage: image = 'Mental_images/medium/test/5_50.jpg'
+228.9045 	EXP 	mentalimage: autoDraw = True
+228.9045 	EXP 	text_3: autoDraw = True
+231.0298 	DATA 	Keypress: left
+231.0614 	EXP 	text_3: autoDraw = False
+231.4107 	EXP 	mentalimage: autoDraw = False
+231.4107 	EXP 	text_3: autoDraw = False
+231.4107 	EXP 	blankscreen: text = '+'
+231.4107 	EXP 	blankscreen: autoDraw = True
+231.8942 	EXP 	New trial (rep=9, index=0): None
+231.8943 	EXP 	window1: mouseVisible = False
+231.9039 	EXP 	blankscreen: autoDraw = False
+231.9039 	EXP 	blankscreen: autoDraw = False
+231.9039 	EXP 	mentalimage: size = array([1440.,  900.])
+231.9039 	EXP 	mentalimage: image = 'Mental_images/medium/test/15_50.jpg'
+231.9039 	EXP 	mentalimage: autoDraw = True
+231.9039 	EXP 	text_3: autoDraw = True
+233.4806 	DATA 	Keypress: right
+233.5098 	EXP 	text_3: autoDraw = False
+234.4108 	EXP 	mentalimage: autoDraw = False
+234.4108 	EXP 	mentalimage: autoDraw = False
+234.4108 	EXP 	text_3: autoDraw = False
+234.4108 	EXP 	blankscreen: text = '+'
+234.4108 	EXP 	blankscreen: autoDraw = True
+234.9791 	EXP 	window1: mouseVisible = True
+234.9797 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+234.9801 	EXP 	New trial (rep=0, index=0): None
+234.9963 	EXP 	window1: mouseVisible = True
+235.0037 	EXP 	blankscreen: autoDraw = False
+235.0037 	EXP 	blankscreen: autoDraw = False
+235.0037 	EXP 	rating_effort: markerPos = None
+235.0037 	EXP 	rating_effort: markerPos = None
+235.0037 	EXP 	rating_effort: rating = None
+235.0037 	EXP 	rating_effort: autoDraw = False
+235.0037 	EXP 	effort: autoDraw = False
+235.0037 	EXP 	rating_difficulty: markerPos = None
+235.0037 	EXP 	rating_difficulty: markerPos = None
+235.0037 	EXP 	rating_difficulty: rating = None
+235.0037 	EXP 	rating_difficulty: autoDraw = False
+235.0037 	EXP 	text_6: autoDraw = False
+235.0037 	EXP 	rating_attention: markerPos = None
+235.0037 	EXP 	rating_attention: markerPos = None
+235.0037 	EXP 	rating_attention: rating = None
+235.0037 	EXP 	text_7: autoDraw = True
+235.5080 	EXP 	rating_attention: autoDraw = True
+236.3614 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.3655 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.3817 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.3978 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.4275 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.4316 	DATA 	Mouse: wheel shift=(-1,0), pos=(1010,445)
+236.4627 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.4631 	DATA 	Mouse: Left button down, pos=(1010,445)
+236.4633 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.4771 	EXP 	rating_attention: markerPos = 3.9333333333333336
+236.4828 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.4931 	EXP 	rating_attention: markerPos = 3.9333333333333336
+236.4985 	DATA 	Mouse: wheel shift=(0,-1), pos=(1010,445)
+236.5099 	EXP 	rating_attention: markerPos = 3.9333333333333336
+236.5268 	EXP 	rating_attention: markerPos = 3.9333333333333336
+236.5429 	EXP 	rating_attention: markerPos = 3.9333333333333336
+236.5614 	EXP 	rating_attention: markerPos = 3.9333333333333336
+236.5619 	DATA 	Mouse:  Left button up, pos=(1010,445)
+236.5620 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+236.5778 	EXP 	rating_attention: markerPos = 4.0
+236.5778 	EXP 	rating_attention: rating = 4.0
+236.5795 	EXP 	New trial (rep=1, index=0): None
+236.5835 	EXP 	window1: mouseVisible = True
+236.5929 	EXP 	rating_attention: autoDraw = False
+236.5929 	EXP 	text_7: autoDraw = False
+236.5929 	EXP 	rating_effort: markerPos = None
+236.5929 	EXP 	rating_effort: markerPos = None
+236.5929 	EXP 	rating_effort: rating = None
+236.5929 	EXP 	rating_effort: autoDraw = False
+236.5929 	EXP 	effort: autoDraw = False
+236.5929 	EXP 	rating_difficulty: markerPos = None
+236.5929 	EXP 	rating_difficulty: markerPos = None
+236.5929 	EXP 	rating_difficulty: rating = None
+236.5929 	EXP 	text_6: autoDraw = True
+237.0775 	EXP 	rating_difficulty: autoDraw = True
+237.3969 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+237.4438 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+237.4619 	DATA 	Mouse: wheel shift=(0,0), pos=(1010,445)
+237.4666 	DATA 	Mouse: wheel shift=(1,0), pos=(1010,445)
+237.4823 	DATA 	Mouse: wheel shift=(0,0), pos=(1005,445)
+237.4979 	DATA 	Mouse: wheel shift=(0,0), pos=(999,445)
+237.6320 	DATA 	Mouse: wheel shift=(0,0), pos=(883,435)
+237.6481 	DATA 	Mouse: wheel shift=(0,0), pos=(883,435)
+237.6769 	DATA 	Mouse: wheel shift=(0,0), pos=(883,435)
+237.6987 	DATA 	Mouse: wheel shift=(0,0), pos=(884,435)
+237.7158 	DATA 	Mouse: wheel shift=(0,0), pos=(884,435)
+237.7433 	DATA 	Mouse: wheel shift=(0,0), pos=(884,435)
+237.7622 	DATA 	Mouse: wheel shift=(0,0), pos=(884,434)
+237.7666 	DATA 	Mouse: wheel shift=(0,0), pos=(885,433)
+237.8481 	DATA 	Mouse: wheel shift=(0,0), pos=(884,432)
+237.8816 	DATA 	Mouse: wheel shift=(0,0), pos=(881,432)
+238.2324 	DATA 	Mouse: Left button down, pos=(860,441)
+238.2597 	EXP 	rating_difficulty: markerPos = 3.2666666666666666
+238.2774 	EXP 	rating_difficulty: markerPos = 3.2666666666666666
+238.2946 	EXP 	rating_difficulty: markerPos = 3.2666666666666666
+238.3098 	EXP 	rating_difficulty: markerPos = 3.2666666666666666
+238.3267 	EXP 	rating_difficulty: markerPos = 3.2666666666666666
+238.3327 	DATA 	Mouse:  Left button up, pos=(860,441)
+238.3430 	EXP 	rating_difficulty: markerPos = 3.2666666666666666
+238.3604 	EXP 	rating_difficulty: markerPos = 3.0
+238.3604 	EXP 	rating_difficulty: rating = 3.0
+238.3662 	EXP 	New trial (rep=2, index=0): None
+238.3663 	EXP 	window1: mouseVisible = True
+238.3781 	EXP 	rating_difficulty: autoDraw = False
+238.3781 	EXP 	text_6: autoDraw = False
+238.3781 	EXP 	rating_attention: markerPos = None
+238.3781 	EXP 	rating_attention: markerPos = None
+238.3781 	EXP 	rating_attention: rating = None
+238.3781 	EXP 	rating_attention: autoDraw = False
+238.3781 	EXP 	text_7: autoDraw = False
+238.3781 	EXP 	rating_effort: markerPos = None
+238.3781 	EXP 	rating_effort: markerPos = None
+238.3781 	EXP 	rating_effort: rating = None
+238.3781 	EXP 	effort: autoDraw = True
+238.8772 	EXP 	rating_effort: autoDraw = True
+239.3980 	DATA 	Mouse: Left button down, pos=(981,445)
+239.4265 	EXP 	rating_effort: markerPos = 3.8044444444444445
+239.4429 	EXP 	rating_effort: markerPos = 3.8044444444444445
+239.4613 	EXP 	rating_effort: markerPos = 3.8044444444444445
+239.4773 	EXP 	rating_effort: markerPos = 3.8044444444444445
+239.4929 	EXP 	rating_effort: markerPos = 3.8044444444444445
+239.4989 	DATA 	Mouse:  Left button up, pos=(981,445)
+239.5098 	EXP 	rating_effort: markerPos = 3.8044444444444445
+239.5266 	EXP 	rating_effort: markerPos = 4.0
+239.5266 	EXP 	rating_effort: rating = 4.0
+239.5366 	EXP 	New trial (rep=0, index=6): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+239.5395 	EXP 	rating_effort: autoDraw = False
+239.5395 	EXP 	effort: autoDraw = False
+239.5395 	EXP 	rating_difficulty: markerPos = None
+239.5395 	EXP 	rating_difficulty: markerPos = None
+239.5395 	EXP 	rating_difficulty: rating = None
+239.5395 	EXP 	rating_difficulty: autoDraw = False
+239.5395 	EXP 	text_6: autoDraw = False
+239.5395 	EXP 	rating_attention: markerPos = None
+239.5395 	EXP 	rating_attention: markerPos = None
+239.5395 	EXP 	rating_attention: rating = None
+239.5395 	EXP 	rating_attention: autoDraw = False
+239.5395 	EXP 	text_7: autoDraw = False
+239.5395 	EXP 	text_5: autoDraw = True
+240.4455 	DATA 	Keypress: space
+240.4617 	EXP 	text_5: autoDraw = False
+240.4617 	EXP 	text: autoDraw = True
+241.4267 	EXP 	text_2: autoDraw = True
+241.4773 	EXP 	text: autoDraw = False
+242.4119 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+242.4123 	EXP 	New trial (rep=0, index=0): None
+242.4138 	EXP 	window1: mouseVisible = False
+242.4283 	EXP 	text_2: autoDraw = False
+242.4283 	EXP 	text: autoDraw = False
+242.4283 	EXP 	text_2: autoDraw = False
+242.4283 	EXP 	mentalimage: size = array([1440.,  900.])
+242.4283 	EXP 	mentalimage: image = 'Mental_images/medium/test/30_50_R.jpg'
+242.4283 	EXP 	mentalimage: autoDraw = True
+242.4283 	EXP 	text_3: autoDraw = True
+243.7137 	DATA 	Keypress: left
+243.7430 	EXP 	text_3: autoDraw = False
+244.9273 	EXP 	mentalimage: autoDraw = False
+244.9273 	EXP 	mentalimage: autoDraw = False
+244.9273 	EXP 	text_3: autoDraw = False
+244.9273 	EXP 	blankscreen: text = '+'
+244.9273 	EXP 	blankscreen: autoDraw = True
+245.3286 	EXP 	New trial (rep=1, index=0): None
+245.3287 	EXP 	window1: mouseVisible = False
+245.3433 	EXP 	blankscreen: autoDraw = False
+245.3433 	EXP 	blankscreen: autoDraw = False
+245.3433 	EXP 	mentalimage: size = array([1440.,  900.])
+245.3433 	EXP 	mentalimage: image = 'Mental_images/medium/test/26_50_R.jpg'
+245.3433 	EXP 	mentalimage: autoDraw = True
+245.3433 	EXP 	text_3: autoDraw = True
+246.8296 	DATA 	Keypress: right
+246.8618 	EXP 	text_3: autoDraw = False
+247.8431 	EXP 	mentalimage: autoDraw = False
+247.8431 	EXP 	mentalimage: autoDraw = False
+247.8431 	EXP 	text_3: autoDraw = False
+247.8431 	EXP 	blankscreen: text = '+'
+247.8431 	EXP 	blankscreen: autoDraw = True
+248.3434 	EXP 	New trial (rep=2, index=0): None
+248.3435 	EXP 	window1: mouseVisible = False
+248.3622 	EXP 	blankscreen: autoDraw = False
+248.3622 	EXP 	blankscreen: autoDraw = False
+248.3622 	EXP 	mentalimage: size = array([1440.,  900.])
+248.3622 	EXP 	mentalimage: image = 'Mental_images/medium/test/12_50_R.jpg'
+248.3622 	EXP 	mentalimage: autoDraw = True
+248.3622 	EXP 	text_3: autoDraw = True
+250.1497 	DATA 	Keypress: left
+250.1763 	EXP 	text_3: autoDraw = False
+250.8777 	EXP 	mentalimage: autoDraw = False
+250.8777 	EXP 	text_3: autoDraw = False
+250.8777 	EXP 	blankscreen: text = '+'
+250.8777 	EXP 	blankscreen: autoDraw = True
+251.3118 	EXP 	New trial (rep=3, index=0): None
+251.3120 	EXP 	window1: mouseVisible = False
+251.3235 	EXP 	blankscreen: autoDraw = False
+251.3235 	EXP 	blankscreen: autoDraw = False
+251.3235 	EXP 	mentalimage: size = array([1440.,  900.])
+251.3235 	EXP 	mentalimage: image = 'Mental_images/medium/test/18_50_R.jpg'
+251.3235 	EXP 	mentalimage: autoDraw = True
+251.3235 	EXP 	text_3: autoDraw = True
+252.3644 	DATA 	Keypress: left
+252.3933 	EXP 	text_3: autoDraw = False
+253.8287 	EXP 	mentalimage: autoDraw = False
+253.8287 	EXP 	mentalimage: autoDraw = False
+253.8287 	EXP 	text_3: autoDraw = False
+253.8287 	EXP 	blankscreen: text = '+'
+253.8287 	EXP 	blankscreen: autoDraw = True
+254.3955 	EXP 	New trial (rep=4, index=0): None
+254.3957 	EXP 	window1: mouseVisible = False
+254.4067 	EXP 	blankscreen: autoDraw = False
+254.4067 	EXP 	blankscreen: autoDraw = False
+254.4067 	EXP 	mentalimage: size = array([1440.,  900.])
+254.4067 	EXP 	mentalimage: image = 'Mental_images/medium/test/9_50.jpg'
+254.4067 	EXP 	mentalimage: autoDraw = True
+254.4067 	EXP 	text_3: autoDraw = True
+256.5981 	DATA 	Keypress: left
+256.6265 	EXP 	text_3: autoDraw = False
+256.9100 	EXP 	mentalimage: autoDraw = False
+256.9100 	EXP 	mentalimage: autoDraw = False
+256.9100 	EXP 	text_3: autoDraw = False
+256.9100 	EXP 	blankscreen: text = '+'
+256.9100 	EXP 	blankscreen: autoDraw = True
+257.3794 	EXP 	New trial (rep=5, index=0): None
+257.3796 	EXP 	window1: mouseVisible = False
+257.3930 	EXP 	blankscreen: autoDraw = False
+257.3930 	EXP 	blankscreen: autoDraw = False
+257.3930 	EXP 	mentalimage: size = array([1440.,  900.])
+257.3930 	EXP 	mentalimage: image = 'Mental_images/medium/test/5_50_R.jpg'
+257.3930 	EXP 	mentalimage: autoDraw = True
+257.3930 	EXP 	text_3: autoDraw = True
+259.3801 	DATA 	Keypress: right
+259.4118 	EXP 	text_3: autoDraw = False
+259.8949 	EXP 	mentalimage: autoDraw = False
+259.8949 	EXP 	mentalimage: autoDraw = False
+259.8949 	EXP 	text_3: autoDraw = False
+259.8949 	EXP 	blankscreen: text = '+'
+259.8949 	EXP 	blankscreen: autoDraw = True
+260.4791 	EXP 	New trial (rep=6, index=0): None
+260.4794 	EXP 	window1: mouseVisible = False
+260.4945 	EXP 	blankscreen: autoDraw = False
+260.4945 	EXP 	blankscreen: autoDraw = False
+260.4945 	EXP 	mentalimage: size = array([1440.,  900.])
+260.4945 	EXP 	mentalimage: image = 'Mental_images/medium/test/29_50.jpg'
+260.4945 	EXP 	mentalimage: autoDraw = True
+260.4945 	EXP 	text_3: autoDraw = True
+262.4459 	DATA 	Keypress: left
+262.4775 	EXP 	text_3: autoDraw = False
+262.9955 	EXP 	mentalimage: autoDraw = False
+262.9955 	EXP 	mentalimage: autoDraw = False
+262.9955 	EXP 	text_3: autoDraw = False
+262.9955 	EXP 	blankscreen: text = '+'
+262.9955 	EXP 	blankscreen: autoDraw = True
+263.5281 	EXP 	New trial (rep=7, index=0): None
+263.5282 	EXP 	window1: mouseVisible = False
+263.5480 	EXP 	blankscreen: autoDraw = False
+263.5480 	EXP 	blankscreen: autoDraw = False
+263.5480 	EXP 	mentalimage: size = array([1440.,  900.])
+263.5480 	EXP 	mentalimage: image = 'Mental_images/medium/test/23_50_R.jpg'
+263.5480 	EXP 	mentalimage: autoDraw = True
+263.5480 	EXP 	text_3: autoDraw = True
+265.9135 	DATA 	Keypress: left
+265.9446 	EXP 	text_3: autoDraw = False
+266.0616 	EXP 	mentalimage: autoDraw = False
+266.0616 	EXP 	text_3: autoDraw = False
+266.0616 	EXP 	blankscreen: text = '+'
+266.0616 	EXP 	blankscreen: autoDraw = True
+266.5436 	EXP 	New trial (rep=8, index=0): None
+266.5437 	EXP 	window1: mouseVisible = False
+266.5617 	EXP 	blankscreen: autoDraw = False
+266.5617 	EXP 	blankscreen: autoDraw = False
+266.5617 	EXP 	mentalimage: size = array([1440.,  900.])
+266.5617 	EXP 	mentalimage: image = 'Mental_images/medium/test/24_50.jpg'
+266.5617 	EXP 	mentalimage: autoDraw = True
+266.5617 	EXP 	text_3: autoDraw = True
+268.4141 	DATA 	Keypress: left
+268.4447 	EXP 	text_3: autoDraw = False
+269.0614 	EXP 	mentalimage: autoDraw = False
+269.0614 	EXP 	text_3: autoDraw = False
+269.0614 	EXP 	blankscreen: text = '+'
+269.0614 	EXP 	blankscreen: autoDraw = True
+269.5964 	EXP 	New trial (rep=9, index=0): None
+269.5966 	EXP 	window1: mouseVisible = False
+269.6110 	EXP 	blankscreen: autoDraw = False
+269.6110 	EXP 	blankscreen: autoDraw = False
+269.6110 	EXP 	mentalimage: size = array([1440.,  900.])
+269.6110 	EXP 	mentalimage: image = 'Mental_images/medium/test/2_50.jpg'
+269.6110 	EXP 	mentalimage: autoDraw = True
+269.6110 	EXP 	text_3: autoDraw = True
+271.1463 	DATA 	Keypress: left
+271.1772 	EXP 	text_3: autoDraw = False
+272.1105 	EXP 	mentalimage: autoDraw = False
+272.1105 	EXP 	mentalimage: autoDraw = False
+272.1105 	EXP 	text_3: autoDraw = False
+272.1105 	EXP 	blankscreen: text = '+'
+272.1105 	EXP 	blankscreen: autoDraw = True
+272.6283 	EXP 	window1: mouseVisible = True
+272.6291 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+272.6297 	EXP 	New trial (rep=0, index=0): None
+272.6299 	EXP 	window1: mouseVisible = True
+272.6413 	EXP 	blankscreen: autoDraw = False
+272.6413 	EXP 	blankscreen: autoDraw = False
+272.6413 	EXP 	rating_effort: markerPos = None
+272.6413 	EXP 	rating_effort: markerPos = None
+272.6413 	EXP 	rating_effort: rating = None
+272.6413 	EXP 	effort: autoDraw = True
+273.1612 	EXP 	rating_effort: autoDraw = True
+275.4658 	DATA 	Mouse: Left button down, pos=(1051,454)
+275.4932 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.5098 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.5279 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.5481 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.5598 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.5763 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.5817 	DATA 	Mouse:  Left button up, pos=(1051,453)
+275.5940 	EXP 	rating_effort: markerPos = 4.115555555555556
+275.6107 	EXP 	rating_effort: markerPos = 4.0
+275.6107 	EXP 	rating_effort: rating = 4.0
+275.6202 	EXP 	New trial (rep=1, index=0): None
+275.6280 	EXP 	window1: mouseVisible = True
+275.6429 	EXP 	rating_effort: autoDraw = False
+275.6429 	EXP 	effort: autoDraw = False
+275.6429 	EXP 	rating_difficulty: markerPos = None
+275.6429 	EXP 	rating_difficulty: markerPos = None
+275.6429 	EXP 	rating_difficulty: rating = None
+275.6429 	EXP 	rating_difficulty: autoDraw = False
+275.6429 	EXP 	text_6: autoDraw = False
+275.6429 	EXP 	rating_attention: markerPos = None
+275.6429 	EXP 	rating_attention: markerPos = None
+275.6429 	EXP 	rating_attention: rating = None
+275.6429 	EXP 	rating_attention: autoDraw = False
+275.6429 	EXP 	text_7: autoDraw = False
+275.6429 	EXP 	rating_effort: markerPos = None
+275.6429 	EXP 	rating_effort: markerPos = None
+275.6429 	EXP 	rating_effort: rating = None
+275.6429 	EXP 	rating_effort: autoDraw = False
+275.6429 	EXP 	effort: autoDraw = False
+275.6429 	EXP 	rating_difficulty: markerPos = None
+275.6429 	EXP 	rating_difficulty: markerPos = None
+275.6429 	EXP 	rating_difficulty: rating = None
+275.6429 	EXP 	rating_difficulty: autoDraw = False
+275.6429 	EXP 	text_6: autoDraw = False
+275.6429 	EXP 	rating_attention: markerPos = None
+275.6429 	EXP 	rating_attention: markerPos = None
+275.6429 	EXP 	rating_attention: rating = None
+275.6429 	EXP 	text_7: autoDraw = True
+276.1277 	EXP 	rating_attention: autoDraw = True
+276.6621 	DATA 	Mouse: Left button down, pos=(1048,448)
+276.6774 	EXP 	rating_attention: markerPos = 4.102222222222222
+276.6931 	EXP 	rating_attention: markerPos = 4.102222222222222
+276.7098 	EXP 	rating_attention: markerPos = 4.102222222222222
+276.7267 	EXP 	rating_attention: markerPos = 4.102222222222222
+276.7431 	EXP 	rating_attention: markerPos = 4.102222222222222
+276.7437 	DATA 	Mouse:  Left button up, pos=(1048,448)
+276.7615 	EXP 	rating_attention: markerPos = 4.0
+276.7615 	EXP 	rating_attention: rating = 4.0
+276.7631 	EXP 	New trial (rep=2, index=0): None
+276.7669 	EXP 	window1: mouseVisible = True
+276.7774 	EXP 	rating_attention: autoDraw = False
+276.7774 	EXP 	text_7: autoDraw = False
+276.7774 	EXP 	rating_effort: markerPos = None
+276.7774 	EXP 	rating_effort: markerPos = None
+276.7774 	EXP 	rating_effort: rating = None
+276.7774 	EXP 	rating_effort: autoDraw = False
+276.7774 	EXP 	effort: autoDraw = False
+276.7774 	EXP 	rating_difficulty: markerPos = None
+276.7774 	EXP 	rating_difficulty: markerPos = None
+276.7774 	EXP 	rating_difficulty: rating = None
+276.7774 	EXP 	text_6: autoDraw = True
+277.2774 	EXP 	rating_difficulty: autoDraw = True
+278.8818 	DATA 	Mouse: Left button down, pos=(843,452)
+278.9107 	EXP 	rating_difficulty: markerPos = 3.1911111111111112
+278.9267 	EXP 	rating_difficulty: markerPos = 3.1911111111111112
+278.9431 	EXP 	rating_difficulty: markerPos = 3.1911111111111112
+278.9620 	EXP 	rating_difficulty: markerPos = 3.1911111111111112
+278.9686 	DATA 	Mouse:  Left button up, pos=(843,452)
+278.9772 	EXP 	rating_difficulty: markerPos = 3.1911111111111112
+278.9929 	EXP 	rating_difficulty: markerPos = 3.0
+278.9929 	EXP 	rating_difficulty: rating = 3.0
+278.9988 	EXP 	New trial (rep=0, index=7): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+279.0102 	EXP 	rating_difficulty: autoDraw = False
+279.0102 	EXP 	text_6: autoDraw = False
+279.0102 	EXP 	rating_attention: markerPos = None
+279.0102 	EXP 	rating_attention: markerPos = None
+279.0102 	EXP 	rating_attention: rating = None
+279.0102 	EXP 	rating_attention: autoDraw = False
+279.0102 	EXP 	text_7: autoDraw = False
+279.0102 	EXP 	text_5: autoDraw = True
+280.1157 	DATA 	Keypress: space
+280.1272 	EXP 	text_5: autoDraw = False
+280.1272 	EXP 	text: autoDraw = True
+281.1114 	EXP 	text_2: autoDraw = True
+281.1274 	EXP 	text: autoDraw = False
+282.1133 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+282.1138 	EXP 	New trial (rep=0, index=0): None
+282.1151 	EXP 	window1: mouseVisible = False
+282.1272 	EXP 	text_2: autoDraw = False
+282.1272 	EXP 	text: autoDraw = False
+282.1272 	EXP 	text_2: autoDraw = False
+282.1272 	EXP 	mentalimage: size = array([1440.,  900.])
+282.1272 	EXP 	mentalimage: image = 'Mental_images/medium/test/28_50.jpg'
+282.1272 	EXP 	mentalimage: autoDraw = True
+282.1272 	EXP 	text_3: autoDraw = True
+284.0131 	DATA 	Keypress: right
+284.0445 	EXP 	text_3: autoDraw = False
+284.6285 	EXP 	mentalimage: autoDraw = False
+284.6285 	EXP 	mentalimage: autoDraw = False
+284.6285 	EXP 	text_3: autoDraw = False
+284.6285 	EXP 	blankscreen: text = '+'
+284.6285 	EXP 	blankscreen: autoDraw = True
+285.1618 	EXP 	New trial (rep=1, index=0): None
+285.1619 	EXP 	window1: mouseVisible = False
+285.1775 	EXP 	blankscreen: autoDraw = False
+285.1775 	EXP 	blankscreen: autoDraw = False
+285.1775 	EXP 	mentalimage: size = array([1440.,  900.])
+285.1775 	EXP 	mentalimage: image = 'Mental_images/medium/test/19_50.jpg'
+285.1775 	EXP 	mentalimage: autoDraw = True
+285.1775 	EXP 	text_3: autoDraw = True
+287.3801 	DATA 	Keypress: left
+287.4274 	EXP 	text_3: autoDraw = False
+287.6946 	EXP 	mentalimage: autoDraw = False
+287.6946 	EXP 	text_3: autoDraw = False
+287.6946 	EXP 	blankscreen: text = '+'
+287.6946 	EXP 	blankscreen: autoDraw = True
+288.2625 	EXP 	New trial (rep=2, index=0): None
+288.2626 	EXP 	window1: mouseVisible = False
+288.2771 	EXP 	blankscreen: autoDraw = False
+288.2771 	EXP 	blankscreen: autoDraw = False
+288.2771 	EXP 	mentalimage: size = array([1440.,  900.])
+288.2771 	EXP 	mentalimage: image = 'Mental_images/medium/test/10_50_R.jpg'
+288.2771 	EXP 	mentalimage: autoDraw = True
+288.2771 	EXP 	text_3: autoDraw = True
+290.0796 	DATA 	Keypress: right
+290.1117 	EXP 	text_3: autoDraw = False
+290.7780 	EXP 	mentalimage: autoDraw = False
+290.7780 	EXP 	text_3: autoDraw = False
+290.7780 	EXP 	blankscreen: text = '+'
+290.7780 	EXP 	blankscreen: autoDraw = True
+291.3286 	EXP 	New trial (rep=3, index=0): None
+291.3289 	EXP 	window1: mouseVisible = False
+291.3396 	EXP 	blankscreen: autoDraw = False
+291.3396 	EXP 	blankscreen: autoDraw = False
+291.3396 	EXP 	mentalimage: size = array([1440.,  900.])
+291.3396 	EXP 	mentalimage: image = 'Mental_images/medium/test/20_50_R.jpg'
+291.3396 	EXP 	mentalimage: autoDraw = True
+291.3396 	EXP 	text_3: autoDraw = True
+292.9956 	DATA 	Keypress: right
+293.0099 	EXP 	text_3: autoDraw = False
+293.8431 	EXP 	mentalimage: autoDraw = False
+293.8431 	EXP 	mentalimage: autoDraw = False
+293.8431 	EXP 	text_3: autoDraw = False
+293.8431 	EXP 	blankscreen: text = '+'
+293.8431 	EXP 	blankscreen: autoDraw = True
+294.4115 	EXP 	New trial (rep=4, index=0): None
+294.4117 	EXP 	window1: mouseVisible = False
+294.4234 	EXP 	blankscreen: autoDraw = False
+294.4234 	EXP 	blankscreen: autoDraw = False
+294.4234 	EXP 	mentalimage: size = array([1440.,  900.])
+294.4234 	EXP 	mentalimage: image = 'Mental_images/medium/test/21_50.jpg'
+294.4234 	EXP 	mentalimage: autoDraw = True
+294.4234 	EXP 	text_3: autoDraw = True
+296.0799 	DATA 	Keypress: left
+296.1098 	EXP 	text_3: autoDraw = False
+296.9272 	EXP 	mentalimage: autoDraw = False
+296.9272 	EXP 	mentalimage: autoDraw = False
+296.9272 	EXP 	text_3: autoDraw = False
+296.9272 	EXP 	blankscreen: text = '+'
+296.9272 	EXP 	blankscreen: autoDraw = True
+297.3472 	EXP 	New trial (rep=5, index=0): None
+297.3474 	EXP 	window1: mouseVisible = False
+297.3772 	EXP 	blankscreen: autoDraw = False
+297.3772 	EXP 	blankscreen: autoDraw = False
+297.3772 	EXP 	mentalimage: size = array([1440.,  900.])
+297.3772 	EXP 	mentalimage: image = 'Mental_images/medium/test/13_50_R.jpg'
+297.3772 	EXP 	mentalimage: autoDraw = True
+297.3772 	EXP 	text_3: autoDraw = True
+298.9512 	DATA 	Keypress: left
+298.9763 	EXP 	text_3: autoDraw = False
+299.8781 	EXP 	mentalimage: autoDraw = False
+299.8781 	EXP 	text_3: autoDraw = False
+299.8781 	EXP 	blankscreen: text = '+'
+299.8781 	EXP 	blankscreen: autoDraw = True
+300.4464 	EXP 	New trial (rep=6, index=0): None
+300.4465 	EXP 	window1: mouseVisible = False
+300.4763 	EXP 	blankscreen: autoDraw = False
+300.4763 	EXP 	blankscreen: autoDraw = False
+300.4763 	EXP 	mentalimage: size = array([1440.,  900.])
+300.4763 	EXP 	mentalimage: image = 'Mental_images/medium/test/14_50.jpg'
+300.4763 	EXP 	mentalimage: autoDraw = True
+300.4763 	EXP 	text_3: autoDraw = True
+301.9461 	DATA 	Keypress: left
+301.9772 	EXP 	text_3: autoDraw = False
+302.9782 	EXP 	mentalimage: autoDraw = False
+302.9782 	EXP 	text_3: autoDraw = False
+302.9782 	EXP 	blankscreen: text = '+'
+302.9782 	EXP 	blankscreen: autoDraw = True
+303.3947 	EXP 	New trial (rep=7, index=0): None
+303.3948 	EXP 	window1: mouseVisible = False
+303.4116 	EXP 	blankscreen: autoDraw = False
+303.4116 	EXP 	blankscreen: autoDraw = False
+303.4116 	EXP 	mentalimage: size = array([1440.,  900.])
+303.4116 	EXP 	mentalimage: image = 'Mental_images/medium/test/7_50.jpg'
+303.4116 	EXP 	mentalimage: autoDraw = True
+303.4116 	EXP 	text_3: autoDraw = True
+305.4136 	DATA 	Keypress: left
+305.4474 	EXP 	text_3: autoDraw = False
+305.9120 	EXP 	mentalimage: autoDraw = False
+305.9120 	EXP 	text_3: autoDraw = False
+305.9120 	EXP 	blankscreen: text = '+'
+305.9120 	EXP 	blankscreen: autoDraw = True
+306.3120 	EXP 	New trial (rep=8, index=0): None
+306.3122 	EXP 	window1: mouseVisible = False
+306.3281 	EXP 	blankscreen: autoDraw = False
+306.3281 	EXP 	blankscreen: autoDraw = False
+306.3281 	EXP 	mentalimage: size = array([1440.,  900.])
+306.3281 	EXP 	mentalimage: image = 'Mental_images/medium/test/21_50_R.jpg'
+306.3281 	EXP 	mentalimage: autoDraw = True
+306.3281 	EXP 	text_3: autoDraw = True
+307.6807 	DATA 	Keypress: left
+307.7099 	EXP 	text_3: autoDraw = False
+308.8285 	EXP 	mentalimage: autoDraw = False
+308.8285 	EXP 	mentalimage: autoDraw = False
+308.8285 	EXP 	text_3: autoDraw = False
+308.8285 	EXP 	blankscreen: text = '+'
+308.8285 	EXP 	blankscreen: autoDraw = True
+309.2446 	EXP 	New trial (rep=9, index=0): None
+309.2448 	EXP 	window1: mouseVisible = False
+309.2615 	EXP 	blankscreen: autoDraw = False
+309.2615 	EXP 	blankscreen: autoDraw = False
+309.2615 	EXP 	mentalimage: size = array([1440.,  900.])
+309.2615 	EXP 	mentalimage: image = 'Mental_images/medium/test/3_50_R.jpg'
+309.2615 	EXP 	mentalimage: autoDraw = True
+309.2615 	EXP 	text_3: autoDraw = True
+310.8807 	DATA 	Keypress: right
+310.9102 	EXP 	text_3: autoDraw = False
+311.7783 	EXP 	mentalimage: autoDraw = False
+311.7783 	EXP 	text_3: autoDraw = False
+311.7783 	EXP 	blankscreen: text = '+'
+311.7783 	EXP 	blankscreen: autoDraw = True
+312.2950 	EXP 	window1: mouseVisible = True
+312.2957 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+312.2961 	EXP 	New trial (rep=0, index=0): None
+312.3027 	EXP 	window1: mouseVisible = True
+312.3110 	EXP 	blankscreen: autoDraw = False
+312.3110 	EXP 	blankscreen: autoDraw = False
+312.3110 	EXP 	rating_effort: markerPos = None
+312.3110 	EXP 	rating_effort: markerPos = None
+312.3110 	EXP 	rating_effort: rating = None
+312.3110 	EXP 	rating_effort: autoDraw = False
+312.3110 	EXP 	effort: autoDraw = False
+312.3110 	EXP 	rating_difficulty: markerPos = None
+312.3110 	EXP 	rating_difficulty: markerPos = None
+312.3110 	EXP 	rating_difficulty: rating = None
+312.3110 	EXP 	text_6: autoDraw = True
+312.8191 	EXP 	rating_difficulty: autoDraw = True
+314.3325 	DATA 	Mouse: Left button down, pos=(623,445)
+314.3607 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.3764 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.3940 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.4114 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.4301 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.4431 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.4491 	DATA 	Mouse:  Left button up, pos=(623,445)
+314.4610 	EXP 	rating_difficulty: markerPos = 2.2133333333333334
+314.4772 	EXP 	rating_difficulty: markerPos = 2.0
+314.4772 	EXP 	rating_difficulty: rating = 2.0
+314.4831 	EXP 	New trial (rep=1, index=0): None
+314.4910 	EXP 	window1: mouseVisible = True
+314.5098 	EXP 	rating_difficulty: autoDraw = False
+314.5098 	EXP 	text_6: autoDraw = False
+314.5098 	EXP 	rating_attention: markerPos = None
+314.5098 	EXP 	rating_attention: markerPos = None
+314.5098 	EXP 	rating_attention: rating = None
+314.5098 	EXP 	rating_attention: autoDraw = False
+314.5098 	EXP 	text_7: autoDraw = False
+314.5098 	EXP 	rating_effort: markerPos = None
+314.5098 	EXP 	rating_effort: markerPos = None
+314.5098 	EXP 	rating_effort: rating = None
+314.5098 	EXP 	rating_effort: autoDraw = False
+314.5098 	EXP 	effort: autoDraw = False
+314.5098 	EXP 	rating_difficulty: markerPos = None
+314.5098 	EXP 	rating_difficulty: markerPos = None
+314.5098 	EXP 	rating_difficulty: rating = None
+314.5098 	EXP 	rating_difficulty: autoDraw = False
+314.5098 	EXP 	text_6: autoDraw = False
+314.5098 	EXP 	rating_attention: markerPos = None
+314.5098 	EXP 	rating_attention: markerPos = None
+314.5098 	EXP 	rating_attention: rating = None
+314.5098 	EXP 	text_7: autoDraw = True
+314.9772 	EXP 	rating_attention: autoDraw = True
+315.5815 	DATA 	Mouse: Left button down, pos=(1003,446)
+315.6100 	EXP 	rating_attention: markerPos = 3.902222222222222
+315.6266 	EXP 	rating_attention: markerPos = 3.902222222222222
+315.6430 	EXP 	rating_attention: markerPos = 3.902222222222222
+315.6616 	EXP 	rating_attention: markerPos = 3.902222222222222
+315.6774 	EXP 	rating_attention: markerPos = 3.902222222222222
+315.6835 	DATA 	Mouse:  Left button up, pos=(1003,446)
+315.6933 	EXP 	rating_attention: markerPos = 3.902222222222222
+315.7099 	EXP 	rating_attention: markerPos = 4.0
+315.7099 	EXP 	rating_attention: rating = 4.0
+315.7115 	EXP 	New trial (rep=2, index=0): None
+315.7116 	EXP 	window1: mouseVisible = True
+315.7283 	EXP 	rating_attention: autoDraw = False
+315.7283 	EXP 	text_7: autoDraw = False
+315.7283 	EXP 	rating_effort: markerPos = None
+315.7283 	EXP 	rating_effort: markerPos = None
+315.7283 	EXP 	rating_effort: rating = None
+315.7283 	EXP 	effort: autoDraw = True
+316.2100 	EXP 	rating_effort: autoDraw = True
+316.3625 	DATA 	Mouse: Left button down, pos=(1003,446)
+316.3772 	EXP 	rating_effort: markerPos = 3.902222222222222
+316.3932 	EXP 	rating_effort: markerPos = 3.902222222222222
+316.4099 	EXP 	rating_effort: markerPos = 3.902222222222222
+316.4267 	EXP 	rating_effort: markerPos = 3.902222222222222
+316.4333 	DATA 	Mouse:  Left button up, pos=(1003,446)
+316.4430 	EXP 	rating_effort: markerPos = 3.902222222222222
+316.4622 	EXP 	rating_effort: markerPos = 4.0
+316.4622 	EXP 	rating_effort: rating = 4.0
+316.4722 	EXP 	New trial (rep=0, index=8): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+316.4776 	EXP 	rating_effort: autoDraw = False
+316.4776 	EXP 	effort: autoDraw = False
+316.4776 	EXP 	rating_difficulty: markerPos = None
+316.4776 	EXP 	rating_difficulty: markerPos = None
+316.4776 	EXP 	rating_difficulty: rating = None
+316.4776 	EXP 	rating_difficulty: autoDraw = False
+316.4776 	EXP 	text_6: autoDraw = False
+316.4776 	EXP 	rating_attention: markerPos = None
+316.4776 	EXP 	rating_attention: markerPos = None
+316.4776 	EXP 	rating_attention: rating = None
+316.4776 	EXP 	rating_attention: autoDraw = False
+316.4776 	EXP 	text_7: autoDraw = False
+316.4776 	EXP 	text_5: autoDraw = True
+317.5959 	DATA 	Keypress: space
+317.6103 	EXP 	text_5: autoDraw = False
+317.6103 	EXP 	text: autoDraw = True
+318.5786 	EXP 	text_2: autoDraw = True
+318.6110 	EXP 	text: autoDraw = False
+319.5787 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+319.5794 	EXP 	New trial (rep=0, index=0): None
+319.5808 	EXP 	window1: mouseVisible = False
+319.5943 	EXP 	text_2: autoDraw = False
+319.5943 	EXP 	text: autoDraw = False
+319.5943 	EXP 	text_2: autoDraw = False
+319.5943 	EXP 	mentalimage: size = array([1440.,  900.])
+319.5943 	EXP 	mentalimage: image = 'Mental_images/medium/test/24_50_R.jpg'
+319.5943 	EXP 	mentalimage: autoDraw = True
+319.5943 	EXP 	text_3: autoDraw = True
+320.5803 	DATA 	Keypress: left
+320.6104 	EXP 	text_3: autoDraw = False
+322.0953 	EXP 	mentalimage: autoDraw = False
+322.0953 	EXP 	mentalimage: autoDraw = False
+322.0953 	EXP 	text_3: autoDraw = False
+322.0953 	EXP 	blankscreen: text = '+'
+322.0953 	EXP 	blankscreen: autoDraw = True
+322.5114 	EXP 	New trial (rep=1, index=0): None
+322.5116 	EXP 	window1: mouseVisible = False
+322.5234 	EXP 	blankscreen: autoDraw = False
+322.5234 	EXP 	blankscreen: autoDraw = False
+322.5234 	EXP 	mentalimage: size = array([1440.,  900.])
+322.5234 	EXP 	mentalimage: image = 'Mental_images/medium/test/4_50.jpg'
+322.5234 	EXP 	mentalimage: autoDraw = True
+322.5234 	EXP 	text_3: autoDraw = True
+324.7971 	DATA 	Keypress: right
+324.8264 	EXP 	text_3: autoDraw = False
+325.0265 	EXP 	mentalimage: autoDraw = False
+325.0265 	EXP 	mentalimage: autoDraw = False
+325.0265 	EXP 	text_3: autoDraw = False
+325.0265 	EXP 	blankscreen: text = '+'
+325.0265 	EXP 	blankscreen: autoDraw = True
+325.4779 	EXP 	New trial (rep=2, index=0): None
+325.4779 	EXP 	window1: mouseVisible = False
+325.4933 	EXP 	blankscreen: autoDraw = False
+325.4933 	EXP 	blankscreen: autoDraw = False
+325.4933 	EXP 	mentalimage: size = array([1440.,  900.])
+325.4933 	EXP 	mentalimage: image = 'Mental_images/medium/test/25_50.jpg'
+325.4933 	EXP 	mentalimage: autoDraw = True
+325.4933 	EXP 	text_3: autoDraw = True
+327.6293 	DATA 	Keypress: right
+327.6614 	EXP 	text_3: autoDraw = False
+327.9938 	EXP 	mentalimage: autoDraw = False
+327.9938 	EXP 	mentalimage: autoDraw = False
+327.9938 	EXP 	text_3: autoDraw = False
+327.9938 	EXP 	blankscreen: text = '+'
+327.9938 	EXP 	blankscreen: autoDraw = True
+328.4949 	EXP 	New trial (rep=3, index=0): None
+328.4951 	EXP 	window1: mouseVisible = False
+328.5068 	EXP 	blankscreen: autoDraw = False
+328.5068 	EXP 	blankscreen: autoDraw = False
+328.5068 	EXP 	mentalimage: size = array([1440.,  900.])
+328.5068 	EXP 	mentalimage: image = 'Mental_images/medium/test/2_50_R.jpg'
+328.5068 	EXP 	mentalimage: autoDraw = True
+328.5068 	EXP 	text_3: autoDraw = True
+329.9629 	DATA 	Keypress: right
+329.9943 	EXP 	text_3: autoDraw = False
+331.0112 	EXP 	mentalimage: autoDraw = False
+331.0112 	EXP 	text_3: autoDraw = False
+331.0112 	EXP 	blankscreen: text = '+'
+331.0112 	EXP 	blankscreen: autoDraw = True
+331.5280 	EXP 	New trial (rep=4, index=0): None
+331.5281 	EXP 	window1: mouseVisible = False
+331.5382 	EXP 	blankscreen: autoDraw = False
+331.5382 	EXP 	blankscreen: autoDraw = False
+331.5382 	EXP 	mentalimage: size = array([1440.,  900.])
+331.5382 	EXP 	mentalimage: image = 'Mental_images/medium/test/22_50_R.jpg'
+331.5382 	EXP 	mentalimage: autoDraw = True
+331.5382 	EXP 	text_3: autoDraw = True
+333.7799 	DATA 	Keypress: left
+333.8116 	EXP 	text_3: autoDraw = False
+334.0431 	EXP 	mentalimage: autoDraw = False
+334.0431 	EXP 	mentalimage: autoDraw = False
+334.0431 	EXP 	text_3: autoDraw = False
+334.0431 	EXP 	blankscreen: text = '+'
+334.0431 	EXP 	blankscreen: autoDraw = True
+334.5623 	EXP 	New trial (rep=5, index=0): None
+334.5624 	EXP 	window1: mouseVisible = False
+334.5777 	EXP 	blankscreen: autoDraw = False
+334.5777 	EXP 	blankscreen: autoDraw = False
+334.5777 	EXP 	mentalimage: size = array([1440.,  900.])
+334.5777 	EXP 	mentalimage: image = 'Mental_images/medium/test/8_50_R.jpg'
+334.5777 	EXP 	mentalimage: autoDraw = True
+334.5777 	EXP 	text_3: autoDraw = True
+336.7642 	DATA 	Keypress: right
+336.7932 	EXP 	text_3: autoDraw = False
+337.0772 	EXP 	mentalimage: autoDraw = False
+337.0772 	EXP 	mentalimage: autoDraw = False
+337.0772 	EXP 	text_3: autoDraw = False
+337.0772 	EXP 	blankscreen: text = '+'
+337.0772 	EXP 	blankscreen: autoDraw = True
+337.6292 	EXP 	New trial (rep=6, index=0): None
+337.6296 	EXP 	window1: mouseVisible = False
+337.6497 	EXP 	blankscreen: autoDraw = False
+337.6497 	EXP 	blankscreen: autoDraw = False
+337.6497 	EXP 	mentalimage: size = array([1440.,  900.])
+337.6497 	EXP 	mentalimage: image = 'Mental_images/medium/test/26_50.jpg'
+337.6497 	EXP 	mentalimage: autoDraw = True
+337.6497 	EXP 	text_3: autoDraw = True
+339.8510 	DATA 	Keypress: left
+339.8764 	EXP 	text_3: autoDraw = False
+340.1613 	EXP 	mentalimage: autoDraw = False
+340.1613 	EXP 	text_3: autoDraw = False
+340.1613 	EXP 	blankscreen: text = '+'
+340.1613 	EXP 	blankscreen: autoDraw = True
+340.6467 	EXP 	New trial (rep=7, index=0): None
+340.6470 	EXP 	window1: mouseVisible = False
+340.6605 	EXP 	blankscreen: autoDraw = False
+340.6605 	EXP 	blankscreen: autoDraw = False
+340.6605 	EXP 	mentalimage: size = array([1440.,  900.])
+340.6605 	EXP 	mentalimage: image = 'Mental_images/medium/test/11_50_R.jpg'
+340.6605 	EXP 	mentalimage: autoDraw = True
+340.6605 	EXP 	text_3: autoDraw = True
+342.4804 	DATA 	Keypress: right
+342.5102 	EXP 	text_3: autoDraw = False
+343.1608 	EXP 	mentalimage: autoDraw = False
+343.1608 	EXP 	mentalimage: autoDraw = False
+343.1608 	EXP 	text_3: autoDraw = False
+343.1608 	EXP 	blankscreen: text = '+'
+343.1608 	EXP 	blankscreen: autoDraw = True
+343.6775 	EXP 	New trial (rep=8, index=0): None
+343.6776 	EXP 	window1: mouseVisible = False
+343.6933 	EXP 	blankscreen: autoDraw = False
+343.6933 	EXP 	blankscreen: autoDraw = False
+343.6933 	EXP 	mentalimage: size = array([1440.,  900.])
+343.6933 	EXP 	mentalimage: image = 'Mental_images/medium/test/17_50.jpg'
+343.6933 	EXP 	mentalimage: autoDraw = True
+343.6933 	EXP 	text_3: autoDraw = True
+345.7503 	DATA 	Keypress: left
+345.7764 	EXP 	text_3: autoDraw = False
+346.1949 	EXP 	mentalimage: autoDraw = False
+346.1949 	EXP 	text_3: autoDraw = False
+346.1949 	EXP 	blankscreen: text = '+'
+346.1949 	EXP 	blankscreen: autoDraw = True
+346.6955 	EXP 	New trial (rep=9, index=0): None
+346.6957 	EXP 	window1: mouseVisible = False
+346.7061 	EXP 	blankscreen: autoDraw = False
+346.7061 	EXP 	blankscreen: autoDraw = False
+346.7061 	EXP 	mentalimage: size = array([1440.,  900.])
+346.7061 	EXP 	mentalimage: image = 'Mental_images/medium/test/27_50_R.jpg'
+346.7061 	EXP 	mentalimage: autoDraw = True
+346.7061 	EXP 	text_3: autoDraw = True
+347.6457 	DATA 	Keypress: left
+347.6772 	EXP 	text_3: autoDraw = False
+349.2109 	EXP 	mentalimage: autoDraw = False
+349.2109 	EXP 	mentalimage: autoDraw = False
+349.2109 	EXP 	text_3: autoDraw = False
+349.2109 	EXP 	blankscreen: text = '+'
+349.2109 	EXP 	blankscreen: autoDraw = True
+349.6956 	EXP 	window1: mouseVisible = True
+349.6963 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+349.6967 	EXP 	New trial (rep=0, index=0): None
+349.6968 	EXP 	window1: mouseVisible = True
+349.7106 	EXP 	blankscreen: autoDraw = False
+349.7106 	EXP 	blankscreen: autoDraw = False
+349.7106 	EXP 	rating_effort: markerPos = None
+349.7106 	EXP 	rating_effort: markerPos = None
+349.7106 	EXP 	rating_effort: rating = None
+349.7106 	EXP 	effort: autoDraw = True
+350.2105 	EXP 	rating_effort: autoDraw = True
+350.9653 	DATA 	Mouse: Left button down, pos=(1003,446)
+350.9931 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0098 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0271 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0453 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0598 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0763 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0940 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.0998 	DATA 	Mouse:  Left button up, pos=(1003,446)
+351.1106 	EXP 	rating_effort: markerPos = 3.902222222222222
+351.1274 	EXP 	rating_effort: markerPos = 4.0
+351.1274 	EXP 	rating_effort: rating = 4.0
+351.1367 	EXP 	New trial (rep=1, index=0): None
+351.1411 	EXP 	window1: mouseVisible = True
+351.1477 	EXP 	rating_effort: autoDraw = False
+351.1477 	EXP 	effort: autoDraw = False
+351.1477 	EXP 	rating_difficulty: markerPos = None
+351.1477 	EXP 	rating_difficulty: markerPos = None
+351.1477 	EXP 	rating_difficulty: rating = None
+351.1477 	EXP 	rating_difficulty: autoDraw = False
+351.1477 	EXP 	text_6: autoDraw = False
+351.1477 	EXP 	rating_attention: markerPos = None
+351.1477 	EXP 	rating_attention: markerPos = None
+351.1477 	EXP 	rating_attention: rating = None
+351.1477 	EXP 	rating_attention: autoDraw = False
+351.1477 	EXP 	text_7: autoDraw = False
+351.1477 	EXP 	rating_effort: markerPos = None
+351.1477 	EXP 	rating_effort: markerPos = None
+351.1477 	EXP 	rating_effort: rating = None
+351.1477 	EXP 	rating_effort: autoDraw = False
+351.1477 	EXP 	effort: autoDraw = False
+351.1477 	EXP 	rating_difficulty: markerPos = None
+351.1477 	EXP 	rating_difficulty: markerPos = None
+351.1477 	EXP 	rating_difficulty: rating = None
+351.1477 	EXP 	text_6: autoDraw = True
+351.6444 	EXP 	rating_difficulty: autoDraw = True
+353.3144 	DATA 	Mouse: Left button down, pos=(867,451)
+353.3434 	EXP 	rating_difficulty: markerPos = 3.2977777777777777
+353.3597 	EXP 	rating_difficulty: markerPos = 3.2977777777777777
+353.3771 	EXP 	rating_difficulty: markerPos = 3.2977777777777777
+353.3940 	EXP 	rating_difficulty: markerPos = 3.2977777777777777
+353.4098 	EXP 	rating_difficulty: markerPos = 3.2933333333333334
+353.4159 	DATA 	Mouse:  Left button up, pos=(866,451)
+353.4267 	EXP 	rating_difficulty: markerPos = 3.2933333333333334
+353.4431 	EXP 	rating_difficulty: markerPos = 3.0
+353.4431 	EXP 	rating_difficulty: rating = 3.0
+353.4492 	EXP 	New trial (rep=2, index=0): None
+353.4574 	EXP 	window1: mouseVisible = True
+353.4625 	EXP 	rating_difficulty: autoDraw = False
+353.4625 	EXP 	text_6: autoDraw = False
+353.4625 	EXP 	rating_attention: markerPos = None
+353.4625 	EXP 	rating_attention: markerPos = None
+353.4625 	EXP 	rating_attention: rating = None
+353.4625 	EXP 	rating_attention: autoDraw = False
+353.4625 	EXP 	text_7: autoDraw = False
+353.4625 	EXP 	rating_effort: markerPos = None
+353.4625 	EXP 	rating_effort: markerPos = None
+353.4625 	EXP 	rating_effort: rating = None
+353.4625 	EXP 	rating_effort: autoDraw = False
+353.4625 	EXP 	effort: autoDraw = False
+353.4625 	EXP 	rating_difficulty: markerPos = None
+353.4625 	EXP 	rating_difficulty: markerPos = None
+353.4625 	EXP 	rating_difficulty: rating = None
+353.4625 	EXP 	rating_difficulty: autoDraw = False
+353.4625 	EXP 	text_6: autoDraw = False
+353.4625 	EXP 	rating_attention: markerPos = None
+353.4625 	EXP 	rating_attention: markerPos = None
+353.4625 	EXP 	rating_attention: rating = None
+353.4625 	EXP 	text_7: autoDraw = True
+353.9616 	EXP 	rating_attention: autoDraw = True
+354.2978 	DATA 	Mouse: Left button down, pos=(992,455)
+354.3276 	EXP 	rating_attention: markerPos = 3.8533333333333335
+354.3477 	EXP 	rating_attention: markerPos = 3.8533333333333335
+354.3603 	EXP 	rating_attention: markerPos = 3.8533333333333335
+354.3764 	EXP 	rating_attention: markerPos = 3.8533333333333335
+354.3944 	EXP 	rating_attention: markerPos = 3.8533333333333335
+354.4001 	DATA 	Mouse:  Left button up, pos=(992,455)
+354.4107 	EXP 	rating_attention: markerPos = 3.8533333333333335
+354.4265 	EXP 	rating_attention: markerPos = 4.0
+354.4265 	EXP 	rating_attention: rating = 4.0
+354.4282 	EXP 	New trial (rep=0, index=9): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+354.4430 	EXP 	rating_attention: autoDraw = False
+354.4430 	EXP 	text_7: autoDraw = False
+354.4430 	EXP 	text_5: autoDraw = True
+355.4106 	EXP 	text_5: autoDraw = False
+355.4106 	EXP 	text: autoDraw = True
+355.4148 	DATA 	Keypress: space
+356.3951 	EXP 	text_2: autoDraw = True
+356.4119 	EXP 	text: autoDraw = False
+357.3942 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+357.3944 	EXP 	New trial (rep=0, index=0): None
+357.3954 	EXP 	window1: mouseVisible = False
+357.4113 	EXP 	text_2: autoDraw = False
+357.4113 	EXP 	text: autoDraw = False
+357.4113 	EXP 	text_2: autoDraw = False
+357.4113 	EXP 	mentalimage: size = array([1440.,  900.])
+357.4113 	EXP 	mentalimage: image = 'Mental_images/medium/test/18_50.jpg'
+357.4113 	EXP 	mentalimage: autoDraw = True
+357.4113 	EXP 	text_3: autoDraw = True
+358.6620 	DATA 	Keypress: left
+358.6764 	EXP 	text_3: autoDraw = False
+359.9116 	EXP 	mentalimage: autoDraw = False
+359.9116 	EXP 	text_3: autoDraw = False
+359.9116 	EXP 	blankscreen: text = '+'
+359.9116 	EXP 	blankscreen: autoDraw = True
+360.4613 	EXP 	New trial (rep=1, index=0): None
+360.4614 	EXP 	window1: mouseVisible = False
+360.4766 	EXP 	blankscreen: autoDraw = False
+360.4766 	EXP 	blankscreen: autoDraw = False
+360.4766 	EXP 	mentalimage: size = array([1440.,  900.])
+360.4766 	EXP 	mentalimage: image = 'Mental_images/medium/test/3_50.jpg'
+360.4766 	EXP 	mentalimage: autoDraw = True
+360.4766 	EXP 	text_3: autoDraw = True
+361.9462 	DATA 	Keypress: left
+361.9773 	EXP 	text_3: autoDraw = False
+362.9781 	EXP 	mentalimage: autoDraw = False
+362.9781 	EXP 	mentalimage: autoDraw = False
+362.9781 	EXP 	text_3: autoDraw = False
+362.9781 	EXP 	blankscreen: text = '+'
+362.9781 	EXP 	blankscreen: autoDraw = True
+363.3962 	EXP 	New trial (rep=2, index=0): None
+363.3964 	EXP 	window1: mouseVisible = False
+363.4121 	EXP 	blankscreen: autoDraw = False
+363.4121 	EXP 	blankscreen: autoDraw = False
+363.4121 	EXP 	mentalimage: size = array([1440.,  900.])
+363.4121 	EXP 	mentalimage: image = 'Mental_images/medium/test/7_50_R.jpg'
+363.4121 	EXP 	mentalimage: autoDraw = True
+363.4121 	EXP 	text_3: autoDraw = True
+365.1142 	DATA 	Keypress: right
+365.1430 	EXP 	text_3: autoDraw = False
+365.9125 	EXP 	mentalimage: autoDraw = False
+365.9125 	EXP 	mentalimage: autoDraw = False
+365.9125 	EXP 	text_3: autoDraw = False
+365.9125 	EXP 	blankscreen: text = '+'
+365.9125 	EXP 	blankscreen: autoDraw = True
+366.3951 	EXP 	New trial (rep=3, index=0): None
+366.3952 	EXP 	window1: mouseVisible = False
+366.4087 	EXP 	blankscreen: autoDraw = False
+366.4087 	EXP 	blankscreen: autoDraw = False
+366.4087 	EXP 	mentalimage: size = array([1440.,  900.])
+366.4087 	EXP 	mentalimage: image = 'Mental_images/medium/test/23_50.jpg'
+366.4087 	EXP 	mentalimage: autoDraw = True
+366.4087 	EXP 	text_3: autoDraw = True
+368.5649 	DATA 	Keypress: left
+368.5932 	EXP 	text_3: autoDraw = False
+368.9114 	EXP 	mentalimage: autoDraw = False
+368.9114 	EXP 	text_3: autoDraw = False
+368.9114 	EXP 	blankscreen: text = '+'
+368.9114 	EXP 	blankscreen: autoDraw = True
+369.4608 	EXP 	New trial (rep=4, index=0): None
+369.4609 	EXP 	window1: mouseVisible = False
+369.4751 	EXP 	blankscreen: autoDraw = False
+369.4751 	EXP 	blankscreen: autoDraw = False
+369.4751 	EXP 	mentalimage: size = array([1440.,  900.])
+369.4751 	EXP 	mentalimage: image = 'Mental_images/medium/test/20_50.jpg'
+369.4751 	EXP 	mentalimage: autoDraw = True
+369.4751 	EXP 	text_3: autoDraw = True
+370.7463 	DATA 	Keypress: left
+370.7771 	EXP 	text_3: autoDraw = False
+371.9771 	EXP 	mentalimage: autoDraw = False
+371.9771 	EXP 	text_3: autoDraw = False
+371.9771 	EXP 	blankscreen: text = '+'
+371.9771 	EXP 	blankscreen: autoDraw = True
+372.3780 	EXP 	New trial (rep=5, index=0): None
+372.3781 	EXP 	window1: mouseVisible = False
+372.3928 	EXP 	blankscreen: autoDraw = False
+372.3928 	EXP 	blankscreen: autoDraw = False
+372.3928 	EXP 	mentalimage: size = array([1440.,  900.])
+372.3928 	EXP 	mentalimage: image = 'Mental_images/medium/test/27_50.jpg'
+372.3928 	EXP 	mentalimage: autoDraw = True
+372.3928 	EXP 	text_3: autoDraw = True
+373.2966 	DATA 	Keypress: left
+373.3280 	EXP 	text_3: autoDraw = False
+374.8943 	EXP 	mentalimage: autoDraw = False
+374.8943 	EXP 	text_3: autoDraw = False
+374.8943 	EXP 	blankscreen: text = '+'
+374.8943 	EXP 	blankscreen: autoDraw = True
+375.4119 	EXP 	New trial (rep=6, index=0): None
+375.4121 	EXP 	window1: mouseVisible = False
+375.4233 	EXP 	blankscreen: autoDraw = False
+375.4233 	EXP 	blankscreen: autoDraw = False
+375.4233 	EXP 	mentalimage: size = array([1440.,  900.])
+375.4233 	EXP 	mentalimage: image = 'Mental_images/medium/test/14_50_R.jpg'
+375.4233 	EXP 	mentalimage: autoDraw = True
+375.4233 	EXP 	text_3: autoDraw = True
+377.0801 	DATA 	Keypress: left
+377.1097 	EXP 	text_3: autoDraw = False
+377.9264 	EXP 	mentalimage: autoDraw = False
+377.9264 	EXP 	mentalimage: autoDraw = False
+377.9264 	EXP 	text_3: autoDraw = False
+377.9264 	EXP 	blankscreen: text = '+'
+377.9264 	EXP 	blankscreen: autoDraw = True
+378.5126 	EXP 	New trial (rep=7, index=0): None
+378.5128 	EXP 	window1: mouseVisible = False
+378.5269 	EXP 	blankscreen: autoDraw = False
+378.5269 	EXP 	blankscreen: autoDraw = False
+378.5269 	EXP 	mentalimage: size = array([1440.,  900.])
+378.5269 	EXP 	mentalimage: image = 'Mental_images/medium/test/16_50_R.jpg'
+378.5269 	EXP 	mentalimage: autoDraw = True
+378.5269 	EXP 	text_3: autoDraw = True
+380.1296 	DATA 	Keypress: left
+380.1615 	EXP 	text_3: autoDraw = False
+381.0286 	EXP 	mentalimage: autoDraw = False
+381.0286 	EXP 	mentalimage: autoDraw = False
+381.0286 	EXP 	text_3: autoDraw = False
+381.0286 	EXP 	blankscreen: text = '+'
+381.0286 	EXP 	blankscreen: autoDraw = True
+381.4946 	EXP 	New trial (rep=8, index=0): None
+381.4947 	EXP 	window1: mouseVisible = False
+381.5110 	EXP 	blankscreen: autoDraw = False
+381.5110 	EXP 	blankscreen: autoDraw = False
+381.5110 	EXP 	mentalimage: size = array([1440.,  900.])
+381.5110 	EXP 	mentalimage: image = 'Mental_images/medium/test/1_50.jpg'
+381.5110 	EXP 	mentalimage: autoDraw = True
+381.5110 	EXP 	text_3: autoDraw = True
+383.2973 	DATA 	Keypress: left
+383.3266 	EXP 	text_3: autoDraw = False
+384.0110 	EXP 	mentalimage: autoDraw = False
+384.0110 	EXP 	mentalimage: autoDraw = False
+384.0110 	EXP 	text_3: autoDraw = False
+384.0110 	EXP 	blankscreen: text = '+'
+384.0110 	EXP 	blankscreen: autoDraw = True
+384.5449 	EXP 	New trial (rep=9, index=0): None
+384.5451 	EXP 	window1: mouseVisible = False
+384.5622 	EXP 	blankscreen: autoDraw = False
+384.5622 	EXP 	blankscreen: autoDraw = False
+384.5622 	EXP 	mentalimage: size = array([1440.,  900.])
+384.5622 	EXP 	mentalimage: image = 'Mental_images/medium/test/15_50_R.jpg'
+384.5622 	EXP 	mentalimage: autoDraw = True
+384.5622 	EXP 	text_3: autoDraw = True
+385.3132 	DATA 	Keypress: left
+385.3442 	EXP 	text_3: autoDraw = False
+387.0606 	EXP 	mentalimage: autoDraw = False
+387.0606 	EXP 	text_3: autoDraw = False
+387.0606 	EXP 	blankscreen: text = '+'
+387.0606 	EXP 	blankscreen: autoDraw = True
+387.6105 	EXP 	window1: mouseVisible = True
+387.6111 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+387.6114 	EXP 	New trial (rep=0, index=0): None
+387.6215 	EXP 	window1: mouseVisible = True
+387.6265 	EXP 	blankscreen: autoDraw = False
+387.6265 	EXP 	blankscreen: autoDraw = False
+387.6265 	EXP 	rating_effort: markerPos = None
+387.6265 	EXP 	rating_effort: markerPos = None
+387.6265 	EXP 	rating_effort: rating = None
+387.6265 	EXP 	rating_effort: autoDraw = False
+387.6265 	EXP 	effort: autoDraw = False
+387.6265 	EXP 	rating_difficulty: markerPos = None
+387.6265 	EXP 	rating_difficulty: markerPos = None
+387.6265 	EXP 	rating_difficulty: rating = None
+387.6265 	EXP 	rating_difficulty: autoDraw = False
+387.6265 	EXP 	text_6: autoDraw = False
+387.6265 	EXP 	rating_attention: markerPos = None
+387.6265 	EXP 	rating_attention: markerPos = None
+387.6265 	EXP 	rating_attention: rating = None
+387.6265 	EXP 	text_7: autoDraw = True
+388.1430 	EXP 	rating_attention: autoDraw = True
+388.7819 	DATA 	Mouse: Left button down, pos=(992,455)
+388.8097 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.8274 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.8483 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.8605 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.8763 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.8948 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.9005 	DATA 	Mouse:  Left button up, pos=(992,455)
+388.9105 	EXP 	rating_attention: markerPos = 3.8533333333333335
+388.9265 	EXP 	rating_attention: markerPos = 4.0
+388.9265 	EXP 	rating_attention: rating = 4.0
+388.9282 	EXP 	New trial (rep=1, index=0): None
+388.9326 	EXP 	window1: mouseVisible = True
+388.9397 	EXP 	rating_attention: autoDraw = False
+388.9397 	EXP 	text_7: autoDraw = False
+388.9397 	EXP 	rating_effort: markerPos = None
+388.9397 	EXP 	rating_effort: markerPos = None
+388.9397 	EXP 	rating_effort: rating = None
+388.9397 	EXP 	rating_effort: autoDraw = False
+388.9397 	EXP 	effort: autoDraw = False
+388.9397 	EXP 	rating_difficulty: markerPos = None
+388.9397 	EXP 	rating_difficulty: markerPos = None
+388.9397 	EXP 	rating_difficulty: rating = None
+388.9397 	EXP 	text_6: autoDraw = True
+389.4266 	EXP 	rating_difficulty: autoDraw = True
+389.6616 	DATA 	Mouse: Left button down, pos=(992,455)
+389.6775 	EXP 	rating_difficulty: markerPos = 3.8533333333333335
+389.6931 	EXP 	rating_difficulty: markerPos = 3.8533333333333335
+389.7104 	EXP 	rating_difficulty: markerPos = 3.8533333333333335
+389.7277 	EXP 	rating_difficulty: markerPos = 3.8533333333333335
+389.7479 	EXP 	rating_difficulty: markerPos = 3.8533333333333335
+389.7485 	DATA 	Mouse:  Left button up, pos=(992,455)
+389.7602 	EXP 	rating_difficulty: markerPos = 4.0
+389.7602 	EXP 	rating_difficulty: rating = 4.0
+389.7659 	EXP 	New trial (rep=2, index=0): None
+389.7660 	EXP 	window1: mouseVisible = True
+389.7745 	EXP 	rating_difficulty: autoDraw = False
+389.7745 	EXP 	text_6: autoDraw = False
+389.7745 	EXP 	rating_attention: markerPos = None
+389.7745 	EXP 	rating_attention: markerPos = None
+389.7745 	EXP 	rating_attention: rating = None
+389.7745 	EXP 	rating_attention: autoDraw = False
+389.7745 	EXP 	text_7: autoDraw = False
+389.7745 	EXP 	rating_effort: markerPos = None
+389.7745 	EXP 	rating_effort: markerPos = None
+389.7745 	EXP 	rating_effort: rating = None
+389.7745 	EXP 	effort: autoDraw = True
+390.2772 	EXP 	rating_effort: autoDraw = True
+390.9165 	DATA 	Mouse: Left button down, pos=(992,455)
+390.9430 	EXP 	rating_effort: markerPos = 3.8533333333333335
+390.9619 	EXP 	rating_effort: markerPos = 3.8533333333333335
+390.9773 	EXP 	rating_effort: markerPos = 3.8533333333333335
+390.9931 	EXP 	rating_effort: markerPos = 3.8533333333333335
+390.9989 	DATA 	Mouse:  Left button up, pos=(992,455)
+391.0098 	EXP 	rating_effort: markerPos = 3.8533333333333335
+391.0282 	EXP 	rating_effort: markerPos = 4.0
+391.0282 	EXP 	rating_effort: rating = 4.0
+391.0376 	EXP 	New trial (rep=0, index=10): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+391.0446 	EXP 	rating_effort: autoDraw = False
+391.0446 	EXP 	effort: autoDraw = False
+391.0446 	EXP 	rating_difficulty: markerPos = None
+391.0446 	EXP 	rating_difficulty: markerPos = None
+391.0446 	EXP 	rating_difficulty: rating = None
+391.0446 	EXP 	rating_difficulty: autoDraw = False
+391.0446 	EXP 	text_6: autoDraw = False
+391.0446 	EXP 	rating_attention: markerPos = None
+391.0446 	EXP 	rating_attention: markerPos = None
+391.0446 	EXP 	rating_attention: rating = None
+391.0446 	EXP 	rating_attention: autoDraw = False
+391.0446 	EXP 	text_7: autoDraw = False
+391.0446 	EXP 	text_5: autoDraw = True
+392.3476 	DATA 	Keypress: space
+392.3618 	EXP 	text_5: autoDraw = False
+392.3618 	EXP 	text: autoDraw = True
+393.3273 	EXP 	text_2: autoDraw = True
+393.3781 	EXP 	text: autoDraw = False
+394.3119 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+394.3121 	EXP 	New trial (rep=0, index=0): None
+394.3162 	EXP 	window1: mouseVisible = False
+394.3431 	EXP 	text_2: autoDraw = False
+394.3431 	EXP 	text: autoDraw = False
+394.3431 	EXP 	text_2: autoDraw = False
+394.3431 	EXP 	mentalimage: size = array([1440.,  900.])
+394.3431 	EXP 	mentalimage: image = 'Mental_images/high/test/2_100.jpg'
+394.3431 	EXP 	mentalimage: autoDraw = True
+394.3431 	EXP 	text_3: autoDraw = True
+396.0803 	DATA 	Keypress: right
+396.1097 	EXP 	text_3: autoDraw = False
+396.8438 	EXP 	mentalimage: autoDraw = False
+396.8438 	EXP 	text_3: autoDraw = False
+396.8438 	EXP 	blankscreen: text = '+'
+396.8438 	EXP 	blankscreen: autoDraw = True
+397.3617 	EXP 	New trial (rep=1, index=0): None
+397.3619 	EXP 	window1: mouseVisible = False
+397.3750 	EXP 	blankscreen: autoDraw = False
+397.3750 	EXP 	blankscreen: autoDraw = False
+397.3750 	EXP 	mentalimage: size = array([1440.,  900.])
+397.3750 	EXP 	mentalimage: image = 'Mental_images/high/test/16_100_R.jpg'
+397.3750 	EXP 	mentalimage: autoDraw = True
+397.3750 	EXP 	text_3: autoDraw = True
+398.9130 	DATA 	Keypress: right
+398.9430 	EXP 	text_3: autoDraw = False
+399.8778 	EXP 	mentalimage: autoDraw = False
+399.8778 	EXP 	text_3: autoDraw = False
+399.8778 	EXP 	blankscreen: text = '+'
+399.8778 	EXP 	blankscreen: autoDraw = True
+400.3781 	EXP 	New trial (rep=2, index=0): None
+400.3782 	EXP 	window1: mouseVisible = False
+400.3934 	EXP 	blankscreen: autoDraw = False
+400.3934 	EXP 	blankscreen: autoDraw = False
+400.3934 	EXP 	mentalimage: size = array([1440.,  900.])
+400.3934 	EXP 	mentalimage: image = 'Mental_images/high/test/21_100.jpg'
+400.3934 	EXP 	mentalimage: autoDraw = True
+400.3934 	EXP 	text_3: autoDraw = True
+402.8146 	DATA 	Keypress: right
+402.8431 	EXP 	text_3: autoDraw = False
+402.8939 	EXP 	mentalimage: autoDraw = False
+402.8939 	EXP 	mentalimage: autoDraw = False
+402.8939 	EXP 	text_3: autoDraw = False
+402.8939 	EXP 	blankscreen: text = '+'
+402.8939 	EXP 	blankscreen: autoDraw = True
+403.3450 	EXP 	New trial (rep=3, index=0): None
+403.3452 	EXP 	window1: mouseVisible = False
+403.3576 	EXP 	blankscreen: autoDraw = False
+403.3576 	EXP 	blankscreen: autoDraw = False
+403.3576 	EXP 	mentalimage: size = array([1440.,  900.])
+403.3576 	EXP 	mentalimage: image = 'Mental_images/high/test/20_100.jpg'
+403.3576 	EXP 	mentalimage: autoDraw = True
+403.3576 	EXP 	text_3: autoDraw = True
+405.8610 	EXP 	mentalimage: autoDraw = False
+405.8632 	DATA 	Keypress: right
+405.8771 	EXP 	mentalimage: autoDraw = False
+405.8771 	EXP 	text_3: autoDraw = False
+405.8771 	EXP 	blankscreen: text = '+'
+405.8771 	EXP 	blankscreen: autoDraw = True
+406.3465 	EXP 	New trial (rep=4, index=0): None
+406.3468 	EXP 	window1: mouseVisible = False
+406.3606 	EXP 	blankscreen: autoDraw = False
+406.3606 	EXP 	blankscreen: autoDraw = False
+406.3606 	EXP 	mentalimage: size = array([1440.,  900.])
+406.3606 	EXP 	mentalimage: image = 'Mental_images/high/test/23_100_R.jpg'
+406.3606 	EXP 	mentalimage: autoDraw = True
+406.3606 	EXP 	text_3: autoDraw = True
+407.9130 	DATA 	Keypress: right
+407.9441 	EXP 	text_3: autoDraw = False
+408.8612 	EXP 	mentalimage: autoDraw = False
+408.8612 	EXP 	mentalimage: autoDraw = False
+408.8612 	EXP 	text_3: autoDraw = False
+408.8612 	EXP 	blankscreen: text = '+'
+408.8612 	EXP 	blankscreen: autoDraw = True
+409.3635 	EXP 	New trial (rep=5, index=0): None
+409.3637 	EXP 	window1: mouseVisible = False
+409.3807 	EXP 	blankscreen: autoDraw = False
+409.3807 	EXP 	blankscreen: autoDraw = False
+409.3807 	EXP 	mentalimage: size = array([1440.,  900.])
+409.3807 	EXP 	mentalimage: image = 'Mental_images/high/test/13_100.jpg'
+409.3807 	EXP 	mentalimage: autoDraw = True
+409.3807 	EXP 	text_3: autoDraw = True
+411.2977 	DATA 	Keypress: right
+411.3267 	EXP 	text_3: autoDraw = False
+411.8942 	EXP 	mentalimage: autoDraw = False
+411.8942 	EXP 	text_3: autoDraw = False
+411.8942 	EXP 	blankscreen: text = '+'
+411.8942 	EXP 	blankscreen: autoDraw = True
+412.3485 	EXP 	New trial (rep=6, index=0): None
+412.3486 	EXP 	window1: mouseVisible = False
+412.3599 	EXP 	blankscreen: autoDraw = False
+412.3599 	EXP 	blankscreen: autoDraw = False
+412.3599 	EXP 	mentalimage: size = array([1440.,  900.])
+412.3599 	EXP 	mentalimage: image = 'Mental_images/high/test/8_100.jpg'
+412.3599 	EXP 	mentalimage: autoDraw = True
+412.3599 	EXP 	text_3: autoDraw = True
+414.3477 	DATA 	Keypress: left
+414.3761 	EXP 	text_3: autoDraw = False
+414.8620 	EXP 	mentalimage: autoDraw = False
+414.8620 	EXP 	mentalimage: autoDraw = False
+414.8620 	EXP 	text_3: autoDraw = False
+414.8620 	EXP 	blankscreen: text = '+'
+414.8620 	EXP 	blankscreen: autoDraw = True
+415.3132 	EXP 	New trial (rep=7, index=0): None
+415.3135 	EXP 	window1: mouseVisible = False
+415.3266 	EXP 	blankscreen: autoDraw = False
+415.3266 	EXP 	blankscreen: autoDraw = False
+415.3266 	EXP 	mentalimage: size = array([1440.,  900.])
+415.3266 	EXP 	mentalimage: image = 'Mental_images/high/test/17_100.jpg'
+415.3266 	EXP 	mentalimage: autoDraw = True
+415.3266 	EXP 	text_3: autoDraw = True
+417.0642 	DATA 	Keypress: left
+417.0931 	EXP 	text_3: autoDraw = False
+417.8271 	EXP 	mentalimage: autoDraw = False
+417.8271 	EXP 	mentalimage: autoDraw = False
+417.8271 	EXP 	text_3: autoDraw = False
+417.8271 	EXP 	blankscreen: text = '+'
+417.8271 	EXP 	blankscreen: autoDraw = True
+418.3460 	EXP 	New trial (rep=8, index=0): None
+418.3462 	EXP 	window1: mouseVisible = False
+418.3600 	EXP 	blankscreen: autoDraw = False
+418.3600 	EXP 	blankscreen: autoDraw = False
+418.3600 	EXP 	mentalimage: size = array([1440.,  900.])
+418.3600 	EXP 	mentalimage: image = 'Mental_images/high/test/25_100_R.jpg'
+418.3600 	EXP 	mentalimage: autoDraw = True
+418.3600 	EXP 	text_3: autoDraw = True
+420.6642 	DATA 	Keypress: left
+420.6936 	EXP 	text_3: autoDraw = False
+420.8614 	EXP 	mentalimage: autoDraw = False
+420.8614 	EXP 	mentalimage: autoDraw = False
+420.8614 	EXP 	text_3: autoDraw = False
+420.8614 	EXP 	blankscreen: text = '+'
+420.8614 	EXP 	blankscreen: autoDraw = True
+421.2781 	EXP 	New trial (rep=9, index=0): None
+421.2782 	EXP 	window1: mouseVisible = False
+421.2933 	EXP 	blankscreen: autoDraw = False
+421.2933 	EXP 	blankscreen: autoDraw = False
+421.2933 	EXP 	mentalimage: size = array([1440.,  900.])
+421.2933 	EXP 	mentalimage: image = 'Mental_images/high/test/4_100_R.jpg'
+421.2933 	EXP 	mentalimage: autoDraw = True
+421.2933 	EXP 	text_3: autoDraw = True
+423.1974 	DATA 	Keypress: right
+423.2266 	EXP 	text_3: autoDraw = False
+423.7941 	EXP 	mentalimage: autoDraw = False
+423.7941 	EXP 	mentalimage: autoDraw = False
+423.7941 	EXP 	text_3: autoDraw = False
+423.7941 	EXP 	blankscreen: text = '+'
+423.7941 	EXP 	blankscreen: autoDraw = True
+424.3632 	EXP 	window1: mouseVisible = True
+424.3640 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+424.3644 	EXP 	New trial (rep=0, index=0): None
+424.3709 	EXP 	window1: mouseVisible = True
+424.3777 	EXP 	blankscreen: autoDraw = False
+424.3777 	EXP 	blankscreen: autoDraw = False
+424.3777 	EXP 	rating_effort: markerPos = None
+424.3777 	EXP 	rating_effort: markerPos = None
+424.3777 	EXP 	rating_effort: rating = None
+424.3777 	EXP 	rating_effort: autoDraw = False
+424.3777 	EXP 	effort: autoDraw = False
+424.3777 	EXP 	rating_difficulty: markerPos = None
+424.3777 	EXP 	rating_difficulty: markerPos = None
+424.3777 	EXP 	rating_difficulty: rating = None
+424.3777 	EXP 	text_6: autoDraw = True
+424.8965 	EXP 	rating_difficulty: autoDraw = True
+425.6624 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.6668 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.6817 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.6977 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.7290 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.7333 	DATA 	Mouse: wheel shift=(0,-1), pos=(992,455)
+425.7484 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.7646 	DATA 	Mouse: wheel shift=(0,0), pos=(992,455)
+425.7808 	DATA 	Mouse: wheel shift=(0,0), pos=(993,455)
+425.7976 	DATA 	Mouse: wheel shift=(0,0), pos=(995,455)
+425.8283 	DATA 	Mouse: wheel shift=(0,0), pos=(996,455)
+425.8327 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.8497 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.8641 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.8811 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.8989 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.8993 	DATA 	Mouse: Left button down, pos=(996,456)
+425.9169 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.9265 	EXP 	rating_difficulty: markerPos = 3.871111111111111
+425.9325 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.9429 	EXP 	rating_difficulty: markerPos = 3.871111111111111
+425.9616 	EXP 	rating_difficulty: markerPos = 3.871111111111111
+425.9620 	DATA 	Mouse: wheel shift=(0,-1), pos=(996,456)
+425.9775 	EXP 	rating_difficulty: markerPos = 3.871111111111111
+425.9833 	DATA 	Mouse: wheel shift=(0,0), pos=(996,456)
+425.9932 	EXP 	rating_difficulty: markerPos = 3.871111111111111
+425.9991 	DATA 	Mouse:  Left button up, pos=(996,456)
+426.0097 	EXP 	rating_difficulty: markerPos = 3.871111111111111
+426.0282 	EXP 	rating_difficulty: markerPos = 4.0
+426.0282 	EXP 	rating_difficulty: rating = 4.0
+426.0340 	EXP 	New trial (rep=1, index=0): None
+426.0421 	EXP 	window1: mouseVisible = True
+426.0473 	EXP 	rating_difficulty: autoDraw = False
+426.0473 	EXP 	text_6: autoDraw = False
+426.0473 	EXP 	rating_attention: markerPos = None
+426.0473 	EXP 	rating_attention: markerPos = None
+426.0473 	EXP 	rating_attention: rating = None
+426.0473 	EXP 	rating_attention: autoDraw = False
+426.0473 	EXP 	text_7: autoDraw = False
+426.0473 	EXP 	rating_effort: markerPos = None
+426.0473 	EXP 	rating_effort: markerPos = None
+426.0473 	EXP 	rating_effort: rating = None
+426.0473 	EXP 	rating_effort: autoDraw = False
+426.0473 	EXP 	effort: autoDraw = False
+426.0473 	EXP 	rating_difficulty: markerPos = None
+426.0473 	EXP 	rating_difficulty: markerPos = None
+426.0473 	EXP 	rating_difficulty: rating = None
+426.0473 	EXP 	rating_difficulty: autoDraw = False
+426.0473 	EXP 	text_6: autoDraw = False
+426.0473 	EXP 	rating_attention: markerPos = None
+426.0473 	EXP 	rating_attention: markerPos = None
+426.0473 	EXP 	rating_attention: rating = None
+426.0473 	EXP 	text_7: autoDraw = True
+426.5266 	EXP 	rating_attention: autoDraw = True
+426.7160 	DATA 	Mouse: Left button down, pos=(997,456)
+426.7431 	EXP 	rating_attention: markerPos = 3.8755555555555556
+426.7614 	EXP 	rating_attention: markerPos = 3.8755555555555556
+426.7773 	EXP 	rating_attention: markerPos = 3.8755555555555556
+426.7935 	EXP 	rating_attention: markerPos = 3.871111111111111
+426.8098 	EXP 	rating_attention: markerPos = 3.871111111111111
+426.8154 	DATA 	Mouse:  Left button up, pos=(996,456)
+426.8267 	EXP 	rating_attention: markerPos = 3.871111111111111
+426.8430 	EXP 	rating_attention: markerPos = 4.0
+426.8430 	EXP 	rating_attention: rating = 4.0
+426.8445 	EXP 	New trial (rep=2, index=0): None
+426.8446 	EXP 	window1: mouseVisible = True
+426.8620 	EXP 	rating_attention: autoDraw = False
+426.8620 	EXP 	text_7: autoDraw = False
+426.8620 	EXP 	rating_effort: markerPos = None
+426.8620 	EXP 	rating_effort: markerPos = None
+426.8620 	EXP 	rating_effort: rating = None
+426.8620 	EXP 	effort: autoDraw = True
+427.3431 	EXP 	rating_effort: autoDraw = True
+427.5007 	DATA 	Mouse: Left button down, pos=(996,457)
+427.5269 	EXP 	rating_effort: markerPos = 3.871111111111111
+427.5431 	EXP 	rating_effort: markerPos = 3.8666666666666667
+427.5613 	EXP 	rating_effort: markerPos = 3.8666666666666667
+427.5773 	EXP 	rating_effort: markerPos = 3.8666666666666667
+427.5831 	DATA 	Mouse:  Left button up, pos=(995,457)
+427.5931 	EXP 	rating_effort: markerPos = 3.8666666666666667
+427.6097 	EXP 	rating_effort: markerPos = 4.0
+427.6097 	EXP 	rating_effort: rating = 4.0
+427.6195 	EXP 	New trial (rep=0, index=11): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+427.6216 	EXP 	rating_effort: autoDraw = False
+427.6216 	EXP 	effort: autoDraw = False
+427.6216 	EXP 	rating_difficulty: markerPos = None
+427.6216 	EXP 	rating_difficulty: markerPos = None
+427.6216 	EXP 	rating_difficulty: rating = None
+427.6216 	EXP 	rating_difficulty: autoDraw = False
+427.6216 	EXP 	text_6: autoDraw = False
+427.6216 	EXP 	rating_attention: markerPos = None
+427.6216 	EXP 	rating_attention: markerPos = None
+427.6216 	EXP 	rating_attention: rating = None
+427.6216 	EXP 	rating_attention: autoDraw = False
+427.6216 	EXP 	text_7: autoDraw = False
+427.6216 	EXP 	text_5: autoDraw = True
+428.6778 	EXP 	text_5: autoDraw = False
+428.6778 	EXP 	text: autoDraw = True
+428.6829 	DATA 	Keypress: space
+429.6614 	EXP 	text_2: autoDraw = True
+429.6771 	EXP 	text: autoDraw = False
+430.6463 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+430.6468 	EXP 	New trial (rep=0, index=0): None
+430.6482 	EXP 	window1: mouseVisible = False
+430.6771 	EXP 	text_2: autoDraw = False
+430.6771 	EXP 	text: autoDraw = False
+430.6771 	EXP 	text_2: autoDraw = False
+430.6771 	EXP 	mentalimage: size = array([1440.,  900.])
+430.6771 	EXP 	mentalimage: image = 'Mental_images/high/test/11_100_R.jpg'
+430.6771 	EXP 	mentalimage: autoDraw = True
+430.6771 	EXP 	text_3: autoDraw = True
+432.0138 	DATA 	Keypress: right
+432.0434 	EXP 	text_3: autoDraw = False
+433.1782 	EXP 	mentalimage: autoDraw = False
+433.1782 	EXP 	text_3: autoDraw = False
+433.1782 	EXP 	blankscreen: text = '+'
+433.1782 	EXP 	blankscreen: autoDraw = True
+433.5956 	EXP 	New trial (rep=1, index=0): None
+433.5958 	EXP 	window1: mouseVisible = False
+433.6103 	EXP 	blankscreen: autoDraw = False
+433.6103 	EXP 	blankscreen: autoDraw = False
+433.6103 	EXP 	mentalimage: size = array([1440.,  900.])
+433.6103 	EXP 	mentalimage: image = 'Mental_images/high/test/12_100.jpg'
+433.6103 	EXP 	mentalimage: autoDraw = True
+433.6103 	EXP 	text_3: autoDraw = True
+435.8317 	DATA 	Keypress: left
+435.8603 	EXP 	text_3: autoDraw = False
+436.1111 	EXP 	mentalimage: autoDraw = False
+436.1111 	EXP 	mentalimage: autoDraw = False
+436.1111 	EXP 	text_3: autoDraw = False
+436.1111 	EXP 	blankscreen: text = '+'
+436.1111 	EXP 	blankscreen: autoDraw = True
+436.5122 	EXP 	New trial (rep=2, index=0): None
+436.5124 	EXP 	window1: mouseVisible = False
+436.5268 	EXP 	blankscreen: autoDraw = False
+436.5268 	EXP 	blankscreen: autoDraw = False
+436.5268 	EXP 	mentalimage: size = array([1440.,  900.])
+436.5268 	EXP 	mentalimage: image = 'Mental_images/high/test/19_100.jpg'
+436.5268 	EXP 	mentalimage: autoDraw = True
+436.5268 	EXP 	text_3: autoDraw = True
+438.3136 	DATA 	Keypress: left
+438.3431 	EXP 	text_3: autoDraw = False
+439.0284 	EXP 	mentalimage: autoDraw = False
+439.0284 	EXP 	mentalimage: autoDraw = False
+439.0284 	EXP 	text_3: autoDraw = False
+439.0284 	EXP 	blankscreen: text = '+'
+439.0284 	EXP 	blankscreen: autoDraw = True
+439.4937 	EXP 	New trial (rep=3, index=0): None
+439.4938 	EXP 	window1: mouseVisible = False
+439.5087 	EXP 	blankscreen: autoDraw = False
+439.5087 	EXP 	blankscreen: autoDraw = False
+439.5087 	EXP 	mentalimage: size = array([1440.,  900.])
+439.5087 	EXP 	mentalimage: image = 'Mental_images/high/test/19_100_R.jpg'
+439.5087 	EXP 	mentalimage: autoDraw = True
+439.5087 	EXP 	text_3: autoDraw = True
+441.3982 	DATA 	Keypress: left
+441.4265 	EXP 	text_3: autoDraw = False
+442.0118 	EXP 	mentalimage: autoDraw = False
+442.0118 	EXP 	text_3: autoDraw = False
+442.0118 	EXP 	blankscreen: text = '+'
+442.0118 	EXP 	blankscreen: autoDraw = True
+442.5287 	EXP 	New trial (rep=4, index=0): None
+442.5289 	EXP 	window1: mouseVisible = False
+442.5399 	EXP 	blankscreen: autoDraw = False
+442.5399 	EXP 	blankscreen: autoDraw = False
+442.5399 	EXP 	mentalimage: size = array([1440.,  900.])
+442.5399 	EXP 	mentalimage: image = 'Mental_images/high/test/16_100.jpg'
+442.5399 	EXP 	mentalimage: autoDraw = True
+442.5399 	EXP 	text_3: autoDraw = True
+444.1475 	DATA 	Keypress: right
+444.1762 	EXP 	text_3: autoDraw = False
+445.0448 	EXP 	mentalimage: autoDraw = False
+445.0448 	EXP 	mentalimage: autoDraw = False
+445.0448 	EXP 	text_3: autoDraw = False
+445.0448 	EXP 	blankscreen: text = '+'
+445.0448 	EXP 	blankscreen: autoDraw = True
+445.4953 	EXP 	New trial (rep=5, index=0): None
+445.4955 	EXP 	window1: mouseVisible = False
+445.5081 	EXP 	blankscreen: autoDraw = False
+445.5081 	EXP 	blankscreen: autoDraw = False
+445.5081 	EXP 	mentalimage: size = array([1440.,  900.])
+445.5081 	EXP 	mentalimage: image = 'Mental_images/high/test/29_100.jpg'
+445.5081 	EXP 	mentalimage: autoDraw = True
+445.5081 	EXP 	text_3: autoDraw = True
+447.6294 	DATA 	Keypress: left
+447.6613 	EXP 	text_3: autoDraw = False
+448.0109 	EXP 	mentalimage: autoDraw = False
+448.0109 	EXP 	mentalimage: autoDraw = False
+448.0109 	EXP 	text_3: autoDraw = False
+448.0109 	EXP 	blankscreen: text = '+'
+448.0109 	EXP 	blankscreen: autoDraw = True
+448.4126 	EXP 	New trial (rep=6, index=0): None
+448.4128 	EXP 	window1: mouseVisible = False
+448.4278 	EXP 	blankscreen: autoDraw = False
+448.4278 	EXP 	blankscreen: autoDraw = False
+448.4278 	EXP 	mentalimage: size = array([1440.,  900.])
+448.4278 	EXP 	mentalimage: image = 'Mental_images/high/test/2_100_R.jpg'
+448.4278 	EXP 	mentalimage: autoDraw = True
+448.4278 	EXP 	text_3: autoDraw = True
+450.7312 	DATA 	Keypress: left
+450.7604 	EXP 	text_3: autoDraw = False
+450.9440 	EXP 	mentalimage: autoDraw = False
+450.9440 	EXP 	text_3: autoDraw = False
+450.9440 	EXP 	blankscreen: text = '+'
+450.9440 	EXP 	blankscreen: autoDraw = True
+451.4121 	EXP 	New trial (rep=7, index=0): None
+451.4122 	EXP 	window1: mouseVisible = False
+451.4266 	EXP 	blankscreen: autoDraw = False
+451.4266 	EXP 	blankscreen: autoDraw = False
+451.4266 	EXP 	mentalimage: size = array([1440.,  900.])
+451.4266 	EXP 	mentalimage: image = 'Mental_images/high/test/28_100.jpg'
+451.4266 	EXP 	mentalimage: autoDraw = True
+451.4266 	EXP 	text_3: autoDraw = True
+453.4295 	DATA 	Keypress: right
+453.4608 	EXP 	text_3: autoDraw = False
+453.9284 	EXP 	mentalimage: autoDraw = False
+453.9284 	EXP 	mentalimage: autoDraw = False
+453.9284 	EXP 	text_3: autoDraw = False
+453.9284 	EXP 	blankscreen: text = '+'
+453.9284 	EXP 	blankscreen: autoDraw = True
+454.3620 	EXP 	New trial (rep=8, index=0): None
+454.3622 	EXP 	window1: mouseVisible = False
+454.3786 	EXP 	blankscreen: autoDraw = False
+454.3786 	EXP 	blankscreen: autoDraw = False
+454.3786 	EXP 	mentalimage: size = array([1440.,  900.])
+454.3786 	EXP 	mentalimage: image = 'Mental_images/high/test/14_100_R.jpg'
+454.3786 	EXP 	mentalimage: autoDraw = True
+454.3786 	EXP 	text_3: autoDraw = True
+455.7297 	DATA 	Keypress: right
+455.7611 	EXP 	text_3: autoDraw = False
+456.8777 	EXP 	mentalimage: autoDraw = False
+456.8777 	EXP 	mentalimage: autoDraw = False
+456.8777 	EXP 	text_3: autoDraw = False
+456.8777 	EXP 	blankscreen: text = '+'
+456.8777 	EXP 	blankscreen: autoDraw = True
+457.4117 	EXP 	New trial (rep=9, index=0): None
+457.4119 	EXP 	window1: mouseVisible = False
+457.4221 	EXP 	blankscreen: autoDraw = False
+457.4221 	EXP 	blankscreen: autoDraw = False
+457.4221 	EXP 	mentalimage: size = array([1440.,  900.])
+457.4221 	EXP 	mentalimage: image = 'Mental_images/high/test/7_100.jpg'
+457.4221 	EXP 	mentalimage: autoDraw = True
+457.4221 	EXP 	text_3: autoDraw = True
+459.9275 	EXP 	mentalimage: autoDraw = False
+459.9442 	EXP 	mentalimage: autoDraw = False
+459.9442 	EXP 	text_3: autoDraw = False
+459.9442 	EXP 	blankscreen: text = '+'
+459.9442 	EXP 	blankscreen: autoDraw = True
+460.0130 	DATA 	Keypress: left
+460.4446 	EXP 	window1: mouseVisible = True
+460.4454 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+460.4457 	EXP 	New trial (rep=0, index=0): None
+460.4608 	EXP 	window1: mouseVisible = True
+460.4669 	EXP 	blankscreen: autoDraw = False
+460.4669 	EXP 	blankscreen: autoDraw = False
+460.4669 	EXP 	rating_effort: markerPos = None
+460.4669 	EXP 	rating_effort: markerPos = None
+460.4669 	EXP 	rating_effort: rating = None
+460.4669 	EXP 	rating_effort: autoDraw = False
+460.4669 	EXP 	effort: autoDraw = False
+460.4669 	EXP 	rating_difficulty: markerPos = None
+460.4669 	EXP 	rating_difficulty: markerPos = None
+460.4669 	EXP 	rating_difficulty: rating = None
+460.4669 	EXP 	rating_difficulty: autoDraw = False
+460.4669 	EXP 	text_6: autoDraw = False
+460.4669 	EXP 	rating_attention: markerPos = None
+460.4669 	EXP 	rating_attention: markerPos = None
+460.4669 	EXP 	rating_attention: rating = None
+460.4669 	EXP 	text_7: autoDraw = True
+460.9810 	EXP 	rating_attention: autoDraw = True
+461.7984 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.8158 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.8435 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.8439 	DATA 	Mouse: Left button down, pos=(995,457)
+461.8607 	EXP 	rating_attention: markerPos = 3.8666666666666667
+461.8665 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.8777 	EXP 	rating_attention: markerPos = 3.8666666666666667
+461.8837 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.8932 	EXP 	rating_attention: markerPos = 3.8666666666666667
+461.8991 	DATA 	Mouse: wheel shift=(0,-1), pos=(995,457)
+461.9100 	EXP 	rating_attention: markerPos = 3.8666666666666667
+461.9163 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.9266 	EXP 	rating_attention: markerPos = 3.8666666666666667
+461.9326 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.9329 	DATA 	Mouse:  Left button up, pos=(995,457)
+461.9430 	EXP 	rating_attention: markerPos = 3.8666666666666667
+461.9500 	DATA 	Mouse: wheel shift=(0,0), pos=(995,457)
+461.9611 	EXP 	rating_attention: markerPos = 4.0
+461.9611 	EXP 	rating_attention: rating = 4.0
+461.9627 	EXP 	New trial (rep=1, index=0): None
+461.9665 	EXP 	window1: mouseVisible = True
+461.9774 	EXP 	rating_attention: autoDraw = False
+461.9774 	EXP 	text_7: autoDraw = False
+461.9774 	EXP 	rating_effort: markerPos = None
+461.9774 	EXP 	rating_effort: markerPos = None
+461.9774 	EXP 	rating_effort: rating = None
+461.9774 	EXP 	rating_effort: autoDraw = False
+461.9774 	EXP 	effort: autoDraw = False
+461.9774 	EXP 	rating_difficulty: markerPos = None
+461.9774 	EXP 	rating_difficulty: markerPos = None
+461.9774 	EXP 	rating_difficulty: rating = None
+461.9774 	EXP 	text_6: autoDraw = True
+462.4602 	EXP 	rating_difficulty: autoDraw = True
+462.7283 	DATA 	Mouse: Left button down, pos=(998,458)
+462.7440 	EXP 	rating_difficulty: markerPos = 3.88
+462.7602 	EXP 	rating_difficulty: markerPos = 3.88
+462.7764 	EXP 	rating_difficulty: markerPos = 3.88
+462.7939 	EXP 	rating_difficulty: markerPos = 3.88
+462.8106 	EXP 	rating_difficulty: markerPos = 3.88
+462.8162 	DATA 	Mouse:  Left button up, pos=(998,458)
+462.8267 	EXP 	rating_difficulty: markerPos = 3.88
+462.8429 	EXP 	rating_difficulty: markerPos = 4.0
+462.8429 	EXP 	rating_difficulty: rating = 4.0
+462.8484 	EXP 	New trial (rep=2, index=0): None
+462.8485 	EXP 	window1: mouseVisible = True
+462.8613 	EXP 	rating_difficulty: autoDraw = False
+462.8613 	EXP 	text_6: autoDraw = False
+462.8613 	EXP 	rating_attention: markerPos = None
+462.8613 	EXP 	rating_attention: markerPos = None
+462.8613 	EXP 	rating_attention: rating = None
+462.8613 	EXP 	rating_attention: autoDraw = False
+462.8613 	EXP 	text_7: autoDraw = False
+462.8613 	EXP 	rating_effort: markerPos = None
+462.8613 	EXP 	rating_effort: markerPos = None
+462.8613 	EXP 	rating_effort: rating = None
+462.8613 	EXP 	effort: autoDraw = True
+463.3397 	EXP 	rating_effort: autoDraw = True
+463.4977 	DATA 	Mouse: Left button down, pos=(998,458)
+463.5267 	EXP 	rating_effort: markerPos = 3.88
+463.5431 	EXP 	rating_effort: markerPos = 3.88
+463.5607 	EXP 	rating_effort: markerPos = 3.88
+463.5777 	EXP 	rating_effort: markerPos = 3.88
+463.5933 	EXP 	rating_effort: markerPos = 3.88
+463.5989 	DATA 	Mouse:  Left button up, pos=(998,458)
+463.6100 	EXP 	rating_effort: markerPos = 3.88
+463.6274 	EXP 	rating_effort: markerPos = 4.0
+463.6274 	EXP 	rating_effort: rating = 4.0
+463.6383 	EXP 	New trial (rep=0, index=12): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+463.6443 	EXP 	rating_effort: autoDraw = False
+463.6443 	EXP 	effort: autoDraw = False
+463.6443 	EXP 	rating_difficulty: markerPos = None
+463.6443 	EXP 	rating_difficulty: markerPos = None
+463.6443 	EXP 	rating_difficulty: rating = None
+463.6443 	EXP 	rating_difficulty: autoDraw = False
+463.6443 	EXP 	text_6: autoDraw = False
+463.6443 	EXP 	rating_attention: markerPos = None
+463.6443 	EXP 	rating_attention: markerPos = None
+463.6443 	EXP 	rating_attention: rating = None
+463.6443 	EXP 	rating_attention: autoDraw = False
+463.6443 	EXP 	text_7: autoDraw = False
+463.6443 	EXP 	text_5: autoDraw = True
+464.5639 	DATA 	Keypress: space
+464.5777 	EXP 	text_5: autoDraw = False
+464.5777 	EXP 	text: autoDraw = True
+465.5622 	EXP 	text_2: autoDraw = True
+465.5780 	EXP 	text: autoDraw = False
+466.5621 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+466.5623 	EXP 	New trial (rep=0, index=0): None
+466.5635 	EXP 	window1: mouseVisible = False
+466.5774 	EXP 	text_2: autoDraw = False
+466.5774 	EXP 	text: autoDraw = False
+466.5774 	EXP 	text_2: autoDraw = False
+466.5774 	EXP 	mentalimage: size = array([1440.,  900.])
+466.5774 	EXP 	mentalimage: image = 'Mental_images/high/test/8_100_R.jpg'
+466.5774 	EXP 	mentalimage: autoDraw = True
+466.5774 	EXP 	text_3: autoDraw = True
+468.2964 	DATA 	Keypress: right
+468.3265 	EXP 	text_3: autoDraw = False
+469.0780 	EXP 	mentalimage: autoDraw = False
+469.0780 	EXP 	mentalimage: autoDraw = False
+469.0780 	EXP 	text_3: autoDraw = False
+469.0780 	EXP 	blankscreen: text = '+'
+469.0780 	EXP 	blankscreen: autoDraw = True
+469.5792 	EXP 	New trial (rep=1, index=0): None
+469.5794 	EXP 	window1: mouseVisible = False
+469.5942 	EXP 	blankscreen: autoDraw = False
+469.5942 	EXP 	blankscreen: autoDraw = False
+469.5942 	EXP 	mentalimage: size = array([1440.,  900.])
+469.5942 	EXP 	mentalimage: image = 'Mental_images/high/test/22_100_R.jpg'
+469.5942 	EXP 	mentalimage: autoDraw = True
+469.5942 	EXP 	text_3: autoDraw = True
+471.9473 	DATA 	Keypress: right
+471.9763 	EXP 	text_3: autoDraw = False
+472.0933 	EXP 	mentalimage: autoDraw = False
+472.0933 	EXP 	mentalimage: autoDraw = False
+472.0933 	EXP 	text_3: autoDraw = False
+472.0933 	EXP 	blankscreen: text = '+'
+472.0933 	EXP 	blankscreen: autoDraw = True
+472.5114 	EXP 	New trial (rep=2, index=0): None
+472.5116 	EXP 	window1: mouseVisible = False
+472.5275 	EXP 	blankscreen: autoDraw = False
+472.5275 	EXP 	blankscreen: autoDraw = False
+472.5275 	EXP 	mentalimage: size = array([1440.,  900.])
+472.5275 	EXP 	mentalimage: image = 'Mental_images/high/test/18_100_R.jpg'
+472.5275 	EXP 	mentalimage: autoDraw = True
+472.5275 	EXP 	text_3: autoDraw = True
+474.6803 	DATA 	Keypress: right
+474.7108 	EXP 	text_3: autoDraw = False
+475.0451 	EXP 	mentalimage: autoDraw = False
+475.0451 	EXP 	text_3: autoDraw = False
+475.0451 	EXP 	blankscreen: text = '+'
+475.0451 	EXP 	blankscreen: autoDraw = True
+475.5117 	EXP 	New trial (rep=3, index=0): None
+475.5119 	EXP 	window1: mouseVisible = False
+475.5244 	EXP 	blankscreen: autoDraw = False
+475.5244 	EXP 	blankscreen: autoDraw = False
+475.5244 	EXP 	mentalimage: size = array([1440.,  900.])
+475.5244 	EXP 	mentalimage: image = 'Mental_images/high/test/3_100.jpg'
+475.5244 	EXP 	mentalimage: autoDraw = True
+475.5244 	EXP 	text_3: autoDraw = True
+477.5138 	DATA 	Keypress: right
+477.5431 	EXP 	text_3: autoDraw = False
+478.0273 	EXP 	mentalimage: autoDraw = False
+478.0273 	EXP 	mentalimage: autoDraw = False
+478.0273 	EXP 	text_3: autoDraw = False
+478.0273 	EXP 	blankscreen: text = '+'
+478.0273 	EXP 	blankscreen: autoDraw = True
+478.5127 	EXP 	New trial (rep=4, index=0): None
+478.5132 	EXP 	window1: mouseVisible = False
+478.5242 	EXP 	blankscreen: autoDraw = False
+478.5242 	EXP 	blankscreen: autoDraw = False
+478.5242 	EXP 	mentalimage: size = array([1440.,  900.])
+478.5242 	EXP 	mentalimage: image = 'Mental_images/high/test/30_100_R.jpg'
+478.5242 	EXP 	mentalimage: autoDraw = True
+478.5242 	EXP 	text_3: autoDraw = True
+480.5299 	DATA 	Keypress: left
+480.5610 	EXP 	text_3: autoDraw = False
+481.0264 	EXP 	mentalimage: autoDraw = False
+481.0264 	EXP 	mentalimage: autoDraw = False
+481.0264 	EXP 	text_3: autoDraw = False
+481.0264 	EXP 	blankscreen: text = '+'
+481.0264 	EXP 	blankscreen: autoDraw = True
+481.4284 	EXP 	New trial (rep=5, index=0): None
+481.4286 	EXP 	window1: mouseVisible = False
+481.4440 	EXP 	blankscreen: autoDraw = False
+481.4440 	EXP 	blankscreen: autoDraw = False
+481.4440 	EXP 	mentalimage: size = array([1440.,  900.])
+481.4440 	EXP 	mentalimage: image = 'Mental_images/high/test/25_100.jpg'
+481.4440 	EXP 	mentalimage: autoDraw = True
+481.4440 	EXP 	text_3: autoDraw = True
+483.6462 	DATA 	Keypress: left
+483.6773 	EXP 	text_3: autoDraw = False
+483.9445 	EXP 	mentalimage: autoDraw = False
+483.9445 	EXP 	mentalimage: autoDraw = False
+483.9445 	EXP 	text_3: autoDraw = False
+483.9445 	EXP 	blankscreen: text = '+'
+483.9445 	EXP 	blankscreen: autoDraw = True
+484.4286 	EXP 	New trial (rep=6, index=0): None
+484.4288 	EXP 	window1: mouseVisible = False
+484.4434 	EXP 	blankscreen: autoDraw = False
+484.4434 	EXP 	blankscreen: autoDraw = False
+484.4434 	EXP 	mentalimage: size = array([1440.,  900.])
+484.4434 	EXP 	mentalimage: image = 'Mental_images/high/test/14_100.jpg'
+484.4434 	EXP 	mentalimage: autoDraw = True
+484.4434 	EXP 	text_3: autoDraw = True
+486.5293 	DATA 	Keypress: left
+486.5614 	EXP 	text_3: autoDraw = False
+486.9436 	EXP 	mentalimage: autoDraw = False
+486.9436 	EXP 	mentalimage: autoDraw = False
+486.9436 	EXP 	text_3: autoDraw = False
+486.9436 	EXP 	blankscreen: text = '+'
+486.9436 	EXP 	blankscreen: autoDraw = True
+487.4952 	EXP 	New trial (rep=7, index=0): None
+487.4953 	EXP 	window1: mouseVisible = False
+487.5080 	EXP 	blankscreen: autoDraw = False
+487.5080 	EXP 	blankscreen: autoDraw = False
+487.5080 	EXP 	mentalimage: size = array([1440.,  900.])
+487.5080 	EXP 	mentalimage: image = 'Mental_images/high/test/24_100_R.jpg'
+487.5080 	EXP 	mentalimage: autoDraw = True
+487.5080 	EXP 	text_3: autoDraw = True
+489.8966 	DATA 	Keypress: right
+489.9265 	EXP 	text_3: autoDraw = False
+490.0099 	EXP 	mentalimage: autoDraw = False
+490.0099 	EXP 	mentalimage: autoDraw = False
+490.0099 	EXP 	text_3: autoDraw = False
+490.0099 	EXP 	blankscreen: text = '+'
+490.0099 	EXP 	blankscreen: autoDraw = True
+490.4105 	EXP 	New trial (rep=8, index=0): None
+490.4106 	EXP 	window1: mouseVisible = False
+490.4277 	EXP 	blankscreen: autoDraw = False
+490.4277 	EXP 	blankscreen: autoDraw = False
+490.4277 	EXP 	mentalimage: size = array([1440.,  900.])
+490.4277 	EXP 	mentalimage: image = 'Mental_images/high/test/22_100.jpg'
+490.4277 	EXP 	mentalimage: autoDraw = True
+490.4277 	EXP 	text_3: autoDraw = True
+492.3138 	DATA 	Keypress: left
+492.3444 	EXP 	text_3: autoDraw = False
+492.9292 	EXP 	mentalimage: autoDraw = False
+492.9292 	EXP 	text_3: autoDraw = False
+492.9292 	EXP 	blankscreen: text = '+'
+492.9292 	EXP 	blankscreen: autoDraw = True
+493.4616 	EXP 	New trial (rep=9, index=0): None
+493.4618 	EXP 	window1: mouseVisible = False
+493.4751 	EXP 	blankscreen: autoDraw = False
+493.4751 	EXP 	blankscreen: autoDraw = False
+493.4751 	EXP 	mentalimage: size = array([1440.,  900.])
+493.4751 	EXP 	mentalimage: image = 'Mental_images/high/test/17_100_R.jpg'
+493.4751 	EXP 	mentalimage: autoDraw = True
+493.4751 	EXP 	text_3: autoDraw = True
+495.8639 	DATA 	Keypress: right
+495.8931 	EXP 	text_3: autoDraw = False
+495.9763 	EXP 	mentalimage: autoDraw = False
+495.9763 	EXP 	mentalimage: autoDraw = False
+495.9763 	EXP 	text_3: autoDraw = False
+495.9763 	EXP 	blankscreen: text = '+'
+495.9763 	EXP 	blankscreen: autoDraw = True
+496.5284 	EXP 	window1: mouseVisible = True
+496.5287 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+496.5289 	EXP 	New trial (rep=0, index=0): None
+496.5360 	EXP 	window1: mouseVisible = True
+496.5442 	EXP 	blankscreen: autoDraw = False
+496.5442 	EXP 	blankscreen: autoDraw = False
+496.5442 	EXP 	rating_effort: markerPos = None
+496.5442 	EXP 	rating_effort: markerPos = None
+496.5442 	EXP 	rating_effort: rating = None
+496.5442 	EXP 	rating_effort: autoDraw = False
+496.5442 	EXP 	effort: autoDraw = False
+496.5442 	EXP 	rating_difficulty: markerPos = None
+496.5442 	EXP 	rating_difficulty: markerPos = None
+496.5442 	EXP 	rating_difficulty: rating = None
+496.5442 	EXP 	text_6: autoDraw = True
+497.0682 	EXP 	rating_difficulty: autoDraw = True
+498.4822 	DATA 	Mouse: Left button down, pos=(1007,459)
+498.5100 	EXP 	rating_difficulty: markerPos = 3.92
+498.5266 	EXP 	rating_difficulty: markerPos = 3.92
+498.5429 	EXP 	rating_difficulty: markerPos = 3.92
+498.5615 	EXP 	rating_difficulty: markerPos = 3.92
+498.5771 	EXP 	rating_difficulty: markerPos = 3.92
+498.5828 	DATA 	Mouse:  Left button up, pos=(1007,459)
+498.5931 	EXP 	rating_difficulty: markerPos = 3.92
+498.6100 	EXP 	rating_difficulty: markerPos = 4.0
+498.6100 	EXP 	rating_difficulty: rating = 4.0
+498.6161 	EXP 	New trial (rep=1, index=0): None
+498.6239 	EXP 	window1: mouseVisible = True
+498.6289 	EXP 	rating_difficulty: autoDraw = False
+498.6289 	EXP 	text_6: autoDraw = False
+498.6289 	EXP 	rating_attention: markerPos = None
+498.6289 	EXP 	rating_attention: markerPos = None
+498.6289 	EXP 	rating_attention: rating = None
+498.6289 	EXP 	rating_attention: autoDraw = False
+498.6289 	EXP 	text_7: autoDraw = False
+498.6289 	EXP 	rating_effort: markerPos = None
+498.6289 	EXP 	rating_effort: markerPos = None
+498.6289 	EXP 	rating_effort: rating = None
+498.6289 	EXP 	rating_effort: autoDraw = False
+498.6289 	EXP 	effort: autoDraw = False
+498.6289 	EXP 	rating_difficulty: markerPos = None
+498.6289 	EXP 	rating_difficulty: markerPos = None
+498.6289 	EXP 	rating_difficulty: rating = None
+498.6289 	EXP 	rating_difficulty: autoDraw = False
+498.6289 	EXP 	text_6: autoDraw = False
+498.6289 	EXP 	rating_attention: markerPos = None
+498.6289 	EXP 	rating_attention: markerPos = None
+498.6289 	EXP 	rating_attention: rating = None
+498.6289 	EXP 	text_7: autoDraw = True
+499.1097 	EXP 	rating_attention: autoDraw = True
+499.3981 	DATA 	Mouse: Left button down, pos=(1013,459)
+499.4266 	EXP 	rating_attention: markerPos = 3.9466666666666668
+499.4431 	EXP 	rating_attention: markerPos = 3.9466666666666668
+499.4609 	EXP 	rating_attention: markerPos = 3.9466666666666668
+499.4672 	DATA 	Mouse:  Left button up, pos=(1013,459)
+499.4771 	EXP 	rating_attention: markerPos = 3.9466666666666668
+499.4932 	EXP 	rating_attention: markerPos = 4.0
+499.4932 	EXP 	rating_attention: rating = 4.0
+499.4950 	EXP 	New trial (rep=2, index=0): None
+499.4951 	EXP 	window1: mouseVisible = True
+499.5100 	EXP 	rating_attention: autoDraw = False
+499.5100 	EXP 	text_7: autoDraw = False
+499.5100 	EXP 	rating_effort: markerPos = None
+499.5100 	EXP 	rating_effort: markerPos = None
+499.5100 	EXP 	rating_effort: rating = None
+499.5100 	EXP 	effort: autoDraw = True
+499.9928 	EXP 	rating_effort: autoDraw = True
+500.2988 	DATA 	Mouse: Left button down, pos=(1013,459)
+500.3267 	EXP 	rating_effort: markerPos = 3.9466666666666668
+500.3431 	EXP 	rating_effort: markerPos = 3.9466666666666668
+500.3610 	EXP 	rating_effort: markerPos = 3.9466666666666668
+500.3771 	EXP 	rating_effort: markerPos = 3.9466666666666668
+500.3835 	DATA 	Mouse:  Left button up, pos=(1012,459)
+500.3931 	EXP 	rating_effort: markerPos = 3.942222222222222
+500.4098 	EXP 	rating_effort: markerPos = 4.0
+500.4098 	EXP 	rating_effort: rating = 4.0
+500.4201 	EXP 	New trial (rep=0, index=13): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+500.4234 	EXP 	rating_effort: autoDraw = False
+500.4234 	EXP 	effort: autoDraw = False
+500.4234 	EXP 	rating_difficulty: markerPos = None
+500.4234 	EXP 	rating_difficulty: markerPos = None
+500.4234 	EXP 	rating_difficulty: rating = None
+500.4234 	EXP 	rating_difficulty: autoDraw = False
+500.4234 	EXP 	text_6: autoDraw = False
+500.4234 	EXP 	rating_attention: markerPos = None
+500.4234 	EXP 	rating_attention: markerPos = None
+500.4234 	EXP 	rating_attention: rating = None
+500.4234 	EXP 	rating_attention: autoDraw = False
+500.4234 	EXP 	text_7: autoDraw = False
+500.4234 	EXP 	text_5: autoDraw = True
+501.5997 	DATA 	Keypress: space
+501.6119 	EXP 	text_5: autoDraw = False
+501.6119 	EXP 	text: autoDraw = True
+502.5951 	EXP 	text_2: autoDraw = True
+502.6117 	EXP 	text: autoDraw = False
+503.5954 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+503.5958 	EXP 	New trial (rep=0, index=0): None
+503.5972 	EXP 	window1: mouseVisible = False
+503.6087 	EXP 	text_2: autoDraw = False
+503.6087 	EXP 	text: autoDraw = False
+503.6087 	EXP 	text_2: autoDraw = False
+503.6087 	EXP 	mentalimage: size = array([1440.,  900.])
+503.6087 	EXP 	mentalimage: image = 'Mental_images/high/test/13_100_R.jpg'
+503.6087 	EXP 	mentalimage: autoDraw = True
+503.6087 	EXP 	text_3: autoDraw = True
+504.8131 	DATA 	Keypress: right
+504.8445 	EXP 	text_3: autoDraw = False
+506.1120 	EXP 	mentalimage: autoDraw = False
+506.1120 	EXP 	mentalimage: autoDraw = False
+506.1120 	EXP 	text_3: autoDraw = False
+506.1120 	EXP 	blankscreen: text = '+'
+506.1120 	EXP 	blankscreen: autoDraw = True
+506.5618 	EXP 	New trial (rep=1, index=0): None
+506.5620 	EXP 	window1: mouseVisible = False
+506.5770 	EXP 	blankscreen: autoDraw = False
+506.5770 	EXP 	blankscreen: autoDraw = False
+506.5770 	EXP 	mentalimage: size = array([1440.,  900.])
+506.5770 	EXP 	mentalimage: image = 'Mental_images/high/test/11_100.jpg'
+506.5770 	EXP 	mentalimage: autoDraw = True
+506.5770 	EXP 	text_3: autoDraw = True
+508.3803 	DATA 	Keypress: right
+508.4097 	EXP 	text_3: autoDraw = False
+509.0772 	EXP 	mentalimage: autoDraw = False
+509.0772 	EXP 	mentalimage: autoDraw = False
+509.0772 	EXP 	text_3: autoDraw = False
+509.0772 	EXP 	blankscreen: text = '+'
+509.0772 	EXP 	blankscreen: autoDraw = True
+509.5948 	EXP 	New trial (rep=2, index=0): None
+509.5949 	EXP 	window1: mouseVisible = False
+509.6057 	EXP 	blankscreen: autoDraw = False
+509.6057 	EXP 	blankscreen: autoDraw = False
+509.6057 	EXP 	mentalimage: size = array([1440.,  900.])
+509.6057 	EXP 	mentalimage: image = 'Mental_images/high/test/10_100_R.jpg'
+509.6057 	EXP 	mentalimage: autoDraw = True
+509.6057 	EXP 	text_3: autoDraw = True
+511.2139 	DATA 	Keypress: right
+511.2430 	EXP 	text_3: autoDraw = False
+512.1111 	EXP 	mentalimage: autoDraw = False
+512.1111 	EXP 	mentalimage: autoDraw = False
+512.1111 	EXP 	text_3: autoDraw = False
+512.1111 	EXP 	blankscreen: text = '+'
+512.1111 	EXP 	blankscreen: autoDraw = True
+512.5625 	EXP 	New trial (rep=3, index=0): None
+512.5628 	EXP 	window1: mouseVisible = False
+512.5777 	EXP 	blankscreen: autoDraw = False
+512.5777 	EXP 	blankscreen: autoDraw = False
+512.5777 	EXP 	mentalimage: size = array([1440.,  900.])
+512.5777 	EXP 	mentalimage: image = 'Mental_images/high/test/21_100_R.jpg'
+512.5777 	EXP 	mentalimage: autoDraw = True
+512.5777 	EXP 	text_3: autoDraw = True
+514.4806 	DATA 	Keypress: right
+514.5100 	EXP 	text_3: autoDraw = False
+515.0781 	EXP 	mentalimage: autoDraw = False
+515.0781 	EXP 	mentalimage: autoDraw = False
+515.0781 	EXP 	text_3: autoDraw = False
+515.0781 	EXP 	blankscreen: text = '+'
+515.0781 	EXP 	blankscreen: autoDraw = True
+515.6270 	EXP 	New trial (rep=4, index=0): None
+515.6271 	EXP 	window1: mouseVisible = False
+515.6393 	EXP 	blankscreen: autoDraw = False
+515.6393 	EXP 	blankscreen: autoDraw = False
+515.6393 	EXP 	mentalimage: size = array([1440.,  900.])
+515.6393 	EXP 	mentalimage: image = 'Mental_images/high/test/27_100.jpg'
+515.6393 	EXP 	mentalimage: autoDraw = True
+515.6393 	EXP 	text_3: autoDraw = True
+517.3804 	DATA 	Keypress: right
+517.4097 	EXP 	text_3: autoDraw = False
+518.1453 	EXP 	mentalimage: autoDraw = False
+518.1453 	EXP 	text_3: autoDraw = False
+518.1453 	EXP 	blankscreen: text = '+'
+518.1453 	EXP 	blankscreen: autoDraw = True
+518.5951 	EXP 	New trial (rep=5, index=0): None
+518.5954 	EXP 	window1: mouseVisible = False
+518.6059 	EXP 	blankscreen: autoDraw = False
+518.6059 	EXP 	blankscreen: autoDraw = False
+518.6059 	EXP 	mentalimage: size = array([1440.,  900.])
+518.6059 	EXP 	mentalimage: image = 'Mental_images/high/test/4_100.jpg'
+518.6059 	EXP 	mentalimage: autoDraw = True
+518.6059 	EXP 	text_3: autoDraw = True
+519.5646 	DATA 	Keypress: right
+519.5933 	EXP 	text_3: autoDraw = False
+521.1117 	EXP 	mentalimage: autoDraw = False
+521.1117 	EXP 	text_3: autoDraw = False
+521.1117 	EXP 	blankscreen: text = '+'
+521.1117 	EXP 	blankscreen: autoDraw = True
+521.5628 	EXP 	New trial (rep=6, index=0): None
+521.5630 	EXP 	window1: mouseVisible = False
+521.5777 	EXP 	blankscreen: autoDraw = False
+521.5777 	EXP 	blankscreen: autoDraw = False
+521.5777 	EXP 	mentalimage: size = array([1440.,  900.])
+521.5777 	EXP 	mentalimage: image = 'Mental_images/high/test/15_100.jpg'
+521.5777 	EXP 	mentalimage: autoDraw = True
+521.5777 	EXP 	text_3: autoDraw = True
+522.3803 	DATA 	Keypress: right
+522.4099 	EXP 	text_3: autoDraw = False
+524.0788 	EXP 	mentalimage: autoDraw = False
+524.0788 	EXP 	mentalimage: autoDraw = False
+524.0788 	EXP 	text_3: autoDraw = False
+524.0788 	EXP 	blankscreen: text = '+'
+524.0788 	EXP 	blankscreen: autoDraw = True
+524.5441 	EXP 	New trial (rep=7, index=0): None
+524.5442 	EXP 	window1: mouseVisible = False
+524.5611 	EXP 	blankscreen: autoDraw = False
+524.5611 	EXP 	blankscreen: autoDraw = False
+524.5611 	EXP 	mentalimage: size = array([1440.,  900.])
+524.5611 	EXP 	mentalimage: image = 'Mental_images/high/test/27_100_R.jpg'
+524.5611 	EXP 	mentalimage: autoDraw = True
+524.5611 	EXP 	text_3: autoDraw = True
+526.2647 	DATA 	Keypress: right
+526.2932 	EXP 	text_3: autoDraw = False
+527.0622 	EXP 	mentalimage: autoDraw = False
+527.0622 	EXP 	mentalimage: autoDraw = False
+527.0622 	EXP 	text_3: autoDraw = False
+527.0622 	EXP 	blankscreen: text = '+'
+527.0622 	EXP 	blankscreen: autoDraw = True
+527.4788 	EXP 	New trial (rep=8, index=0): None
+527.4790 	EXP 	window1: mouseVisible = False
+527.4940 	EXP 	blankscreen: autoDraw = False
+527.4940 	EXP 	blankscreen: autoDraw = False
+527.4940 	EXP 	mentalimage: size = array([1440.,  900.])
+527.4940 	EXP 	mentalimage: image = 'Mental_images/high/test/5_100.jpg'
+527.4940 	EXP 	mentalimage: autoDraw = True
+527.4940 	EXP 	text_3: autoDraw = True
+529.3808 	DATA 	Keypress: right
+529.4100 	EXP 	text_3: autoDraw = False
+529.9939 	EXP 	mentalimage: autoDraw = False
+529.9939 	EXP 	mentalimage: autoDraw = False
+529.9939 	EXP 	text_3: autoDraw = False
+529.9939 	EXP 	blankscreen: text = '+'
+529.9939 	EXP 	blankscreen: autoDraw = True
+530.5620 	EXP 	New trial (rep=9, index=0): None
+530.5621 	EXP 	window1: mouseVisible = False
+530.5781 	EXP 	blankscreen: autoDraw = False
+530.5781 	EXP 	blankscreen: autoDraw = False
+530.5781 	EXP 	mentalimage: size = array([1440.,  900.])
+530.5781 	EXP 	mentalimage: image = 'Mental_images/high/test/9_100_R.jpg'
+530.5781 	EXP 	mentalimage: autoDraw = True
+530.5781 	EXP 	text_3: autoDraw = True
+531.9807 	DATA 	Keypress: left
+532.0097 	EXP 	text_3: autoDraw = False
+533.0952 	EXP 	mentalimage: autoDraw = False
+533.0952 	EXP 	text_3: autoDraw = False
+533.0952 	EXP 	blankscreen: text = '+'
+533.0952 	EXP 	blankscreen: autoDraw = True
+533.6794 	EXP 	window1: mouseVisible = True
+533.6798 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+533.6799 	EXP 	New trial (rep=0, index=0): None
+533.6879 	EXP 	window1: mouseVisible = True
+533.7106 	EXP 	blankscreen: autoDraw = False
+533.7106 	EXP 	blankscreen: autoDraw = False
+533.7106 	EXP 	rating_effort: markerPos = None
+533.7106 	EXP 	rating_effort: markerPos = None
+533.7106 	EXP 	rating_effort: rating = None
+533.7106 	EXP 	rating_effort: autoDraw = False
+533.7106 	EXP 	effort: autoDraw = False
+533.7106 	EXP 	rating_difficulty: markerPos = None
+533.7106 	EXP 	rating_difficulty: markerPos = None
+533.7106 	EXP 	rating_difficulty: rating = None
+533.7106 	EXP 	rating_difficulty: autoDraw = False
+533.7106 	EXP 	text_6: autoDraw = False
+533.7106 	EXP 	rating_attention: markerPos = None
+533.7106 	EXP 	rating_attention: markerPos = None
+533.7106 	EXP 	rating_attention: rating = None
+533.7106 	EXP 	text_7: autoDraw = True
+534.2039 	EXP 	rating_attention: autoDraw = True
+535.0622 	DATA 	Mouse: Left button down, pos=(1013,468)
+535.0776 	EXP 	rating_attention: markerPos = 3.9466666666666668
+535.0933 	EXP 	rating_attention: markerPos = 3.9466666666666668
+535.1100 	EXP 	rating_attention: markerPos = 3.9466666666666668
+535.1274 	EXP 	rating_attention: markerPos = 3.9466666666666668
+535.1442 	EXP 	rating_attention: markerPos = 3.9466666666666668
+535.1502 	DATA 	Mouse:  Left button up, pos=(1013,468)
+535.1600 	EXP 	rating_attention: markerPos = 3.9466666666666668
+535.1764 	EXP 	rating_attention: markerPos = 4.0
+535.1764 	EXP 	rating_attention: rating = 4.0
+535.1782 	EXP 	New trial (rep=1, index=0): None
+535.1825 	EXP 	window1: mouseVisible = True
+535.1940 	EXP 	rating_attention: autoDraw = False
+535.1940 	EXP 	text_7: autoDraw = False
+535.1940 	EXP 	rating_effort: markerPos = None
+535.1940 	EXP 	rating_effort: markerPos = None
+535.1940 	EXP 	rating_effort: rating = None
+535.1940 	EXP 	rating_effort: autoDraw = False
+535.1940 	EXP 	effort: autoDraw = False
+535.1940 	EXP 	rating_difficulty: markerPos = None
+535.1940 	EXP 	rating_difficulty: markerPos = None
+535.1940 	EXP 	rating_difficulty: rating = None
+535.1940 	EXP 	text_6: autoDraw = True
+535.6941 	EXP 	rating_difficulty: autoDraw = True
+536.3816 	DATA 	Mouse: Left button down, pos=(1215,470)
+536.4100 	EXP 	rating_difficulty: markerPos = 4.844444444444445
+536.4276 	EXP 	rating_difficulty: markerPos = 4.844444444444445
+536.4443 	EXP 	rating_difficulty: markerPos = 4.844444444444445
+536.4601 	EXP 	rating_difficulty: markerPos = 4.844444444444445
+536.4762 	EXP 	rating_difficulty: markerPos = 4.844444444444445
+536.4825 	DATA 	Mouse:  Left button up, pos=(1215,470)
+536.4941 	EXP 	rating_difficulty: markerPos = 4.844444444444445
+536.5110 	EXP 	rating_difficulty: markerPos = 5.0
+536.5110 	EXP 	rating_difficulty: rating = 5.0
+536.5168 	EXP 	New trial (rep=2, index=0): None
+536.5169 	EXP 	window1: mouseVisible = True
+536.5267 	EXP 	rating_difficulty: autoDraw = False
+536.5267 	EXP 	text_6: autoDraw = False
+536.5267 	EXP 	rating_attention: markerPos = None
+536.5267 	EXP 	rating_attention: markerPos = None
+536.5267 	EXP 	rating_attention: rating = None
+536.5267 	EXP 	rating_attention: autoDraw = False
+536.5267 	EXP 	text_7: autoDraw = False
+536.5267 	EXP 	rating_effort: markerPos = None
+536.5267 	EXP 	rating_effort: markerPos = None
+536.5267 	EXP 	rating_effort: rating = None
+536.5267 	EXP 	effort: autoDraw = True
+537.0263 	EXP 	rating_effort: autoDraw = True
+538.1817 	DATA 	Mouse: Left button down, pos=(994,460)
+538.2098 	EXP 	rating_effort: markerPos = 3.862222222222222
+538.2264 	EXP 	rating_effort: markerPos = 3.862222222222222
+538.2431 	EXP 	rating_effort: markerPos = 3.862222222222222
+538.2613 	EXP 	rating_effort: markerPos = 3.862222222222222
+538.2771 	EXP 	rating_effort: markerPos = 3.862222222222222
+538.2829 	DATA 	Mouse:  Left button up, pos=(994,460)
+538.2933 	EXP 	rating_effort: markerPos = 3.862222222222222
+538.3108 	EXP 	rating_effort: markerPos = 4.0
+538.3108 	EXP 	rating_effort: rating = 4.0
+538.3200 	EXP 	New trial (rep=0, index=14): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+538.3280 	EXP 	rating_effort: autoDraw = False
+538.3280 	EXP 	effort: autoDraw = False
+538.3280 	EXP 	rating_difficulty: markerPos = None
+538.3280 	EXP 	rating_difficulty: markerPos = None
+538.3280 	EXP 	rating_difficulty: rating = None
+538.3280 	EXP 	rating_difficulty: autoDraw = False
+538.3280 	EXP 	text_6: autoDraw = False
+538.3280 	EXP 	rating_attention: markerPos = None
+538.3280 	EXP 	rating_attention: markerPos = None
+538.3280 	EXP 	rating_attention: rating = None
+538.3280 	EXP 	rating_attention: autoDraw = False
+538.3280 	EXP 	text_7: autoDraw = False
+538.3280 	EXP 	text_5: autoDraw = True
+539.1153 	DATA 	Keypress: space
+539.1283 	EXP 	text_5: autoDraw = False
+539.1283 	EXP 	text: autoDraw = True
+540.1099 	EXP 	text_2: autoDraw = True
+540.1447 	EXP 	text: autoDraw = False
+541.0953 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+541.0958 	EXP 	New trial (rep=0, index=0): None
+541.0970 	EXP 	window1: mouseVisible = False
+541.1078 	EXP 	text_2: autoDraw = False
+541.1078 	EXP 	text: autoDraw = False
+541.1078 	EXP 	text_2: autoDraw = False
+541.1078 	EXP 	mentalimage: size = array([1440.,  900.])
+541.1078 	EXP 	mentalimage: image = 'Mental_images/high/test/28_100_R.jpg'
+541.1078 	EXP 	mentalimage: autoDraw = True
+541.1078 	EXP 	text_3: autoDraw = True
+542.3973 	DATA 	Keypress: right
+542.4265 	EXP 	text_3: autoDraw = False
+543.6104 	EXP 	mentalimage: autoDraw = False
+543.6104 	EXP 	mentalimage: autoDraw = False
+543.6104 	EXP 	text_3: autoDraw = False
+543.6104 	EXP 	blankscreen: text = '+'
+543.6104 	EXP 	blankscreen: autoDraw = True
+544.1608 	EXP 	New trial (rep=1, index=0): None
+544.1609 	EXP 	window1: mouseVisible = False
+544.1724 	EXP 	blankscreen: autoDraw = False
+544.1724 	EXP 	blankscreen: autoDraw = False
+544.1724 	EXP 	mentalimage: size = array([1440.,  900.])
+544.1724 	EXP 	mentalimage: image = 'Mental_images/high/test/10_100.jpg'
+544.1724 	EXP 	mentalimage: autoDraw = True
+544.1724 	EXP 	text_3: autoDraw = True
+545.5464 	DATA 	Keypress: right
+545.5773 	EXP 	text_3: autoDraw = False
+546.6774 	EXP 	mentalimage: autoDraw = False
+546.6774 	EXP 	text_3: autoDraw = False
+546.6774 	EXP 	blankscreen: text = '+'
+546.6774 	EXP 	blankscreen: autoDraw = True
+547.2636 	EXP 	New trial (rep=2, index=0): None
+547.2638 	EXP 	window1: mouseVisible = False
+547.2777 	EXP 	blankscreen: autoDraw = False
+547.2777 	EXP 	blankscreen: autoDraw = False
+547.2777 	EXP 	mentalimage: size = array([1440.,  900.])
+547.2777 	EXP 	mentalimage: image = 'Mental_images/high/test/26_100_R.jpg'
+547.2777 	EXP 	mentalimage: autoDraw = True
+547.2777 	EXP 	text_3: autoDraw = True
+549.7943 	EXP 	mentalimage: autoDraw = False
+549.7943 	EXP 	text_3: autoDraw = False
+549.7943 	EXP 	blankscreen: text = '+'
+549.7943 	EXP 	blankscreen: autoDraw = True
+550.0135 	DATA 	Keypress: right
+550.3296 	EXP 	New trial (rep=3, index=0): None
+550.3299 	EXP 	window1: mouseVisible = False
+550.3445 	EXP 	blankscreen: autoDraw = False
+550.3445 	EXP 	blankscreen: autoDraw = False
+550.3445 	EXP 	mentalimage: size = array([1440.,  900.])
+550.3445 	EXP 	mentalimage: image = 'Mental_images/high/test/1_100.jpg'
+550.3445 	EXP 	mentalimage: autoDraw = True
+550.3445 	EXP 	text_3: autoDraw = True
+551.9149 	DATA 	Keypress: right
+551.9431 	EXP 	text_3: autoDraw = False
+552.8436 	EXP 	mentalimage: autoDraw = False
+552.8436 	EXP 	mentalimage: autoDraw = False
+552.8436 	EXP 	text_3: autoDraw = False
+552.8436 	EXP 	blankscreen: text = '+'
+552.8436 	EXP 	blankscreen: autoDraw = True
+553.3787 	EXP 	New trial (rep=4, index=0): None
+553.3792 	EXP 	window1: mouseVisible = False
+553.3968 	EXP 	blankscreen: autoDraw = False
+553.3968 	EXP 	blankscreen: autoDraw = False
+553.3968 	EXP 	mentalimage: size = array([1440.,  900.])
+553.3968 	EXP 	mentalimage: image = 'Mental_images/high/test/6_100.jpg'
+553.3968 	EXP 	mentalimage: autoDraw = True
+553.3968 	EXP 	text_3: autoDraw = True
+554.9639 	DATA 	Keypress: left
+554.9939 	EXP 	text_3: autoDraw = False
+555.9110 	EXP 	mentalimage: autoDraw = False
+555.9110 	EXP 	text_3: autoDraw = False
+555.9110 	EXP 	blankscreen: text = '+'
+555.9110 	EXP 	blankscreen: autoDraw = True
+556.3447 	EXP 	New trial (rep=5, index=0): None
+556.3449 	EXP 	window1: mouseVisible = False
+556.3614 	EXP 	blankscreen: autoDraw = False
+556.3614 	EXP 	blankscreen: autoDraw = False
+556.3614 	EXP 	mentalimage: size = array([1440.,  900.])
+556.3614 	EXP 	mentalimage: image = 'Mental_images/high/test/5_100_R.jpg'
+556.3614 	EXP 	mentalimage: autoDraw = True
+556.3614 	EXP 	text_3: autoDraw = True
+558.3799 	DATA 	Keypress: right
+558.4100 	EXP 	text_3: autoDraw = False
+558.8784 	EXP 	mentalimage: autoDraw = False
+558.8784 	EXP 	text_3: autoDraw = False
+558.8784 	EXP 	blankscreen: text = '+'
+558.8784 	EXP 	blankscreen: autoDraw = True
+559.4104 	EXP 	New trial (rep=6, index=0): None
+559.4105 	EXP 	window1: mouseVisible = False
+559.4278 	EXP 	blankscreen: autoDraw = False
+559.4278 	EXP 	blankscreen: autoDraw = False
+559.4278 	EXP 	mentalimage: size = array([1440.,  900.])
+559.4278 	EXP 	mentalimage: image = 'Mental_images/high/test/12_100_R.jpg'
+559.4278 	EXP 	mentalimage: autoDraw = True
+559.4278 	EXP 	text_3: autoDraw = True
+561.3470 	DATA 	Keypress: left
+561.3764 	EXP 	text_3: autoDraw = False
+561.9275 	EXP 	mentalimage: autoDraw = False
+561.9275 	EXP 	text_3: autoDraw = False
+561.9275 	EXP 	blankscreen: text = '+'
+561.9275 	EXP 	blankscreen: autoDraw = True
+562.4287 	EXP 	New trial (rep=7, index=0): None
+562.4290 	EXP 	window1: mouseVisible = False
+562.4396 	EXP 	blankscreen: autoDraw = False
+562.4396 	EXP 	blankscreen: autoDraw = False
+562.4396 	EXP 	mentalimage: size = array([1440.,  900.])
+562.4396 	EXP 	mentalimage: image = 'Mental_images/high/test/6_100_R.jpg'
+562.4396 	EXP 	mentalimage: autoDraw = True
+562.4396 	EXP 	text_3: autoDraw = True
+564.1135 	DATA 	Keypress: left
+564.1431 	EXP 	text_3: autoDraw = False
+564.9437 	EXP 	mentalimage: autoDraw = False
+564.9437 	EXP 	mentalimage: autoDraw = False
+564.9437 	EXP 	text_3: autoDraw = False
+564.9437 	EXP 	blankscreen: text = '+'
+564.9437 	EXP 	blankscreen: autoDraw = True
+565.3611 	EXP 	New trial (rep=8, index=0): None
+565.3613 	EXP 	window1: mouseVisible = False
+565.3768 	EXP 	blankscreen: autoDraw = False
+565.3768 	EXP 	blankscreen: autoDraw = False
+565.3768 	EXP 	mentalimage: size = array([1440.,  900.])
+565.3768 	EXP 	mentalimage: image = 'Mental_images/high/test/15_100_R.jpg'
+565.3768 	EXP 	mentalimage: autoDraw = True
+565.3768 	EXP 	text_3: autoDraw = True
+567.3971 	DATA 	Keypress: right
+567.4266 	EXP 	text_3: autoDraw = False
+567.8773 	EXP 	mentalimage: autoDraw = False
+567.8773 	EXP 	mentalimage: autoDraw = False
+567.8773 	EXP 	text_3: autoDraw = False
+567.8773 	EXP 	blankscreen: text = '+'
+567.8773 	EXP 	blankscreen: autoDraw = True
+568.3614 	EXP 	New trial (rep=9, index=0): None
+568.3615 	EXP 	window1: mouseVisible = False
+568.3775 	EXP 	blankscreen: autoDraw = False
+568.3775 	EXP 	blankscreen: autoDraw = False
+568.3775 	EXP 	mentalimage: size = array([1440.,  900.])
+568.3775 	EXP 	mentalimage: image = 'Mental_images/high/test/18_100.jpg'
+568.3775 	EXP 	mentalimage: autoDraw = True
+568.3775 	EXP 	text_3: autoDraw = True
+570.6633 	DATA 	Keypress: right
+570.6940 	EXP 	text_3: autoDraw = False
+570.8769 	EXP 	mentalimage: autoDraw = False
+570.8769 	EXP 	mentalimage: autoDraw = False
+570.8769 	EXP 	text_3: autoDraw = False
+570.8769 	EXP 	blankscreen: text = '+'
+570.8769 	EXP 	blankscreen: autoDraw = True
+571.4287 	EXP 	window1: mouseVisible = True
+571.4296 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+571.4300 	EXP 	New trial (rep=0, index=0): None
+571.4349 	EXP 	window1: mouseVisible = True
+571.4411 	EXP 	blankscreen: autoDraw = False
+571.4411 	EXP 	blankscreen: autoDraw = False
+571.4411 	EXP 	rating_effort: markerPos = None
+571.4411 	EXP 	rating_effort: markerPos = None
+571.4411 	EXP 	rating_effort: rating = None
+571.4411 	EXP 	rating_effort: autoDraw = False
+571.4411 	EXP 	effort: autoDraw = False
+571.4411 	EXP 	rating_difficulty: markerPos = None
+571.4411 	EXP 	rating_difficulty: markerPos = None
+571.4411 	EXP 	rating_difficulty: rating = None
+571.4411 	EXP 	text_6: autoDraw = True
+571.9602 	EXP 	rating_difficulty: autoDraw = True
+574.0269 	DATA 	Mouse: Left button down, pos=(1228,443)
+574.0441 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.0604 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.0766 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.0932 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.1115 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.1273 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.1328 	DATA 	Mouse:  Left button up, pos=(1228,443)
+574.1444 	EXP 	rating_difficulty: markerPos = 4.902222222222222
+574.1598 	EXP 	rating_difficulty: markerPos = 5.0
+574.1598 	EXP 	rating_difficulty: rating = 5.0
+574.1653 	EXP 	New trial (rep=1, index=0): None
+574.1731 	EXP 	window1: mouseVisible = True
+574.1780 	EXP 	rating_difficulty: autoDraw = False
+574.1780 	EXP 	text_6: autoDraw = False
+574.1780 	EXP 	rating_attention: markerPos = None
+574.1780 	EXP 	rating_attention: markerPos = None
+574.1780 	EXP 	rating_attention: rating = None
+574.1780 	EXP 	rating_attention: autoDraw = False
+574.1780 	EXP 	text_7: autoDraw = False
+574.1780 	EXP 	rating_effort: markerPos = None
+574.1780 	EXP 	rating_effort: markerPos = None
+574.1780 	EXP 	rating_effort: rating = None
+574.1780 	EXP 	rating_effort: autoDraw = False
+574.1780 	EXP 	effort: autoDraw = False
+574.1780 	EXP 	rating_difficulty: markerPos = None
+574.1780 	EXP 	rating_difficulty: markerPos = None
+574.1780 	EXP 	rating_difficulty: rating = None
+574.1780 	EXP 	rating_difficulty: autoDraw = False
+574.1780 	EXP 	text_6: autoDraw = False
+574.1780 	EXP 	rating_attention: markerPos = None
+574.1780 	EXP 	rating_attention: markerPos = None
+574.1780 	EXP 	rating_attention: rating = None
+574.1780 	EXP 	text_7: autoDraw = True
+574.6760 	EXP 	rating_attention: autoDraw = True
+575.7617 	DATA 	Mouse: Left button down, pos=(1045,462)
+575.7773 	EXP 	rating_attention: markerPos = 4.088888888888889
+575.7931 	EXP 	rating_attention: markerPos = 4.088888888888889
+575.8098 	EXP 	rating_attention: markerPos = 4.088888888888889
+575.8266 	EXP 	rating_attention: markerPos = 4.088888888888889
+575.8430 	EXP 	rating_attention: markerPos = 4.088888888888889
+575.8496 	DATA 	Mouse:  Left button up, pos=(1045,466)
+575.8608 	EXP 	rating_attention: markerPos = 4.088888888888889
+575.8771 	EXP 	rating_attention: markerPos = 4.0
+575.8771 	EXP 	rating_attention: rating = 4.0
+575.8787 	EXP 	New trial (rep=2, index=0): None
+575.8789 	EXP 	window1: mouseVisible = True
+575.8931 	EXP 	rating_attention: autoDraw = False
+575.8931 	EXP 	text_7: autoDraw = False
+575.8931 	EXP 	rating_effort: markerPos = None
+575.8931 	EXP 	rating_effort: markerPos = None
+575.8931 	EXP 	rating_effort: rating = None
+575.8931 	EXP 	effort: autoDraw = True
+576.3760 	EXP 	rating_effort: autoDraw = True
+576.7654 	DATA 	Mouse: Left button down, pos=(1045,466)
+576.7931 	EXP 	rating_effort: markerPos = 4.088888888888889
+576.8097 	EXP 	rating_effort: markerPos = 4.088888888888889
+576.8263 	EXP 	rating_effort: markerPos = 4.088888888888889
+576.8430 	EXP 	rating_effort: markerPos = 4.088888888888889
+576.8615 	EXP 	rating_effort: markerPos = 4.088888888888889
+576.8621 	DATA 	Mouse:  Left button up, pos=(1045,466)
+576.8771 	EXP 	rating_effort: markerPos = 4.0
+576.8771 	EXP 	rating_effort: rating = 4.0
+576.9099 	EXP 	rating_effort: autoDraw = False
+576.9099 	EXP 	effort: autoDraw = False
+576.9099 	EXP 	rating_difficulty: markerPos = None
+576.9099 	EXP 	rating_difficulty: markerPos = None
+576.9099 	EXP 	rating_difficulty: rating = None
+576.9099 	EXP 	rating_difficulty: autoDraw = False
+576.9099 	EXP 	text_6: autoDraw = False
+576.9099 	EXP 	rating_attention: markerPos = None
+576.9099 	EXP 	rating_attention: markerPos = None
+576.9099 	EXP 	rating_attention: rating = None
+576.9099 	EXP 	rating_attention: autoDraw = False
+576.9099 	EXP 	text_7: autoDraw = False
+576.9099 	EXP 	acc_message: text = 'Easy tasks accuracy: 88.0%\nMedium tasks accuracy: 58.0%\nHard tasks accuracy: 52.0%\nPress any key to exit:)'
+576.9099 	EXP 	goodbye_message: autoDraw = True
+576.9099 	EXP 	acc_message: autoDraw = True
+579.6630 	DATA 	Keypress: space
+579.6772 	EXP 	goodbye_message: autoDraw = False
+579.6772 	EXP 	acc_message: autoDraw = False
+579.7441 	EXP 	window1: mouseVisible = True

@@ -1,0 +1,3748 @@
+0.6336 	WARNING 	We strongly recommend you activate the PTB sound engine in PsychoPy prefs as the preferred audio engine. Its timing is vastly superior. Your prefs are currently set to use ['sounddevice', 'PTB', 'pyo', 'pygame'] (in that order).
+2.3146 	WARNING 	psychopy.parallel has been imported on a Mac (which doesn't have a parallel port?)
+7.0238 	WARNING 	User requested fullscreen with size [1512  982], but screen is actually [1600, 900]. Using actual size
+7.5447 	EXP 	Created window1 = Window(allowGUI=False, allowStencil=False, autoLog=True, backendConf=UNKNOWN, bitsMode=UNKNOWN, blendMode='avg', bpc=(8, 8, 8), color=array([-1, -1, -1]), colorSpace='rgb', depthBits=8, fullscr=<method-wrapper '__getattribute__' of attributeSetter object at 0x7fa22e67bac8>, gamma=None, gammaErrorPolicy='raise', lms=UNKNOWN, monitor=<psychopy.monitors.calibTools.Monitor object at 0x7fa22dbd5fd0>, multiSample=False, name='window1', numSamples=2, pos=[0.0, 0.0], screen=1, size=array([1600,  900]), stencilBits=0, stereo=False, units='height', useFBO=True, useRetina=False, viewOri=0.0, viewPos=None, viewScale=None, waitBlanking=True, winType='pyglet')
+7.5449 	EXP 	window1: mouseVisible = True
+7.5449 	EXP 	window1: recordFrameIntervals = False
+7.7117 	EXP 	window1: recordFrameIntervals = True
+7.8946 	EXP 	window1: recordFrameIntervals = False
+8.3910 	EXP 	Created Welcomemessage = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Welcomemessage', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Welcome to the Arithmetic test\n', units='height', win=Window(...), wrapWidth=1)
+8.4569 	EXP 	Created text_9 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-3.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_9', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Please press “Space bar” to continue', units='height', win=Window(...), wrapWidth=1)
+8.4694 	EXP 	Created text_4 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.03, italic=False, languageStyle='LTR', name='text_4', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text=str(...), units='height', win=Window(...), wrapWidth=1)
+8.5367 	EXP 	Created ready_txt = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=0.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='ready_txt', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Ready', units='height', win=Window(...), wrapWidth=1)
+8.5404 	EXP 	Created Go_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='Go_text', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Go!!!', units='height', win=Window(...), wrapWidth=1)
+8.5413 	EXP 	Created present_mat = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='present_mat', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.5423 	EXP 	Created Timer_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([ 1., -1., -1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='Timer_text', opacity=1, ori=0.0, pos=array([ 0.  , -0.45]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6107 	EXP 	Created blankwindows = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.1, italic=False, languageStyle='LTR', name='blankwindows', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.6252 	EXP 	window1: mouseVisible = True
+8.6482 	EXP 	Created rating_effort = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), name='rating_effort', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.6578 	EXP 	Created text_2 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_2', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='Try your best for the tasks?', units='height', win=Window(...), wrapWidth=1)
+8.6624 	EXP 	window1: mouseVisible = True
+8.6774 	EXP 	Created rating_difficulty = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), name='rating_difficulty', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.6853 	EXP 	Created text_6 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_6', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='How difficult do you think these tasks are?', units='height', win=Window(...), wrapWidth=1)
+8.6898 	EXP 	window1: mouseVisible = True
+8.7032 	EXP 	Created rating_attention = Slider(__class__=<class 'psychopy.visual.slider.Slider'>, autoDraw=False, autoLog=True, borderColor=None, color=None, colorSpace='rgb', depth=-1, fillColor=None, flip=False, font='Open Sans', granularity=1.0, labelHeight=0.05, labelWrapWidth=None, labels=tuple(...), name='rating_attention', opacity=None, pos=(0, 0), readOnly=False, self=UNKNOWN, size=(1.0, 0.1), startValue=None, style=method-wrapper(...), styleTweaks=method-wrapper(...), ticks=array([1, 2, 3, 4, 5]), units='height', win=Window(...))
+8.7111 	EXP 	Created text_7 = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='text_7', opacity=1, ori=0.0, pos=array([0. , 0.2]), rgb=UNKNOWN, text='My Attention is fully focused on the tasks.', units='height', win=Window(...), wrapWidth=1)
+8.7152 	EXP 	Created goodbyetext = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-1.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='goodbyetext', opacity=1, ori=0.0, pos=array([0., 0.]), rgb=UNKNOWN, text='Thank you for patacipating :)', units='height', win=Window(...), wrapWidth=1)
+8.7161 	EXP 	Created acc_text = TextStim(__class__=<class 'psychopy.visual.text.TextStim'>, alignHoriz=method-wrapper(...), alignText='center', alignVert=method-wrapper(...), anchorHoriz='center', anchorVert='center', antialias=True, autoLog=True, bold=False, color=array([1., 1., 1.]), colorSpace='rgb', contrast=1.0, depth=-2.0, flipHoriz=False, flipVert=False, font='Open Sans', fontFiles=[], height=0.05, italic=False, languageStyle='LTR', name='acc_text', opacity=1, ori=0.0, pos=array([ 0.  , -0.15]), rgb=UNKNOWN, text='', units='height', win=Window(...), wrapWidth=1)
+8.7983 	EXP 	Imported math_queation.xlsx as conditions, 80 conditions, 3 params
+8.7991 	EXP 	Created sequence: sequential, trialTypes=80, nReps=1, seed=None
+8.7994 	EXP 	New trial (rep=0, index=0): {'low': '5 + 3 = 8', 'medium': '43 + 47 = 90', 'high': '(58 - 59) X 2 =  - 2'}
+8.7998 	EXP 	New trial (rep=0, index=1): {'low': '2 + 7 = 9', 'medium': '56 + 35 = 91', 'high': '(30 - 10) X 6 = 120'}
+8.8000 	EXP 	New trial (rep=0, index=2): {'low': '4 + 3 = 7', 'medium': '17 + 48 = 65', 'high': '(71 - 33) X 2 = 76'}
+8.8001 	EXP 	New trial (rep=0, index=3): {'low': '6 + 3 = 9', 'medium': '35 + 49 = 84', 'high': '(94 - 54) / 2 = 20'}
+8.8003 	EXP 	New trial (rep=0, index=4): {'low': '2 + 3 = 5', 'medium': '12 + 43 = 55', 'high': '(64 - 74) / 2 =  - 5'}
+8.8005 	EXP 	New trial (rep=0, index=5): {'low': '1 + 2 = 3', 'medium': '22 - 11 = 11', 'high': '(52 - 43) X 6 = 54'}
+8.8007 	EXP 	New trial (rep=0, index=6): {'low': '5 + 4 = 9', 'medium': '28 + 69 = 97', 'high': '(71 - 21) / 5 = 10'}
+8.8009 	EXP 	New trial (rep=0, index=7): {'low': '2 + 5 = 7', 'medium': '94 - 72 = 22', 'high': '(93 - 81) / 4 = 3'}
+8.8012 	EXP 	New trial (rep=0, index=8): {'low': '2 + 4 = 6', 'medium': '15 + 50 = 65', 'high': '(28 + 65) / 3 = 31'}
+8.8014 	EXP 	New trial (rep=0, index=9): {'low': '3 + 4 = 7', 'medium': '95 - 51 = 44', 'high': '(99 - 78) / 7 = 3'}
+8.8016 	EXP 	New trial (rep=0, index=10): {'low': '4 + 2 = 6', 'medium': '82 - 51 = 31', 'high': '(90 + 20) / 5 = 22'}
+8.8018 	EXP 	New trial (rep=0, index=11): {'low': '4 + 1 = 5', 'medium': '15 + 67 = 82', 'high': '(17 + 17) X 2= 68'}
+8.8020 	EXP 	New trial (rep=0, index=12): {'low': '7 + 2 = 9', 'medium': '24 + 63 = 87', 'high': '(84 + 54) / 3 = 46'}
+8.8023 	EXP 	New trial (rep=0, index=13): {'low': '3 + 6 = 9', 'medium': '39 + 22 = 61', 'high': '(91 - 82) / 3 = 3'}
+8.8025 	EXP 	New trial (rep=0, index=14): {'low': '8 + 0 = 8', 'medium': '99 - 26 = 73', 'high': '(94 - 36) / 2 = 29'}
+8.8026 	EXP 	New trial (rep=0, index=15): {'low': '3 + 5 = 8', 'medium': '12 + 36 = 48', 'high': '6 X 12 - 2 = 70'}
+8.8028 	EXP 	New trial (rep=0, index=16): {'low': '6 + 2 = 8', 'medium': '38 + 27 = 75', 'high': '20 X 3  -  19 = 41'}
+8.8030 	EXP 	New trial (rep=0, index=17): {'low': '1 + 4 = 5', 'medium': '40 + 49 = 89', 'high': '(8 X 5) / 20 = 2'}
+8.8032 	EXP 	New trial (rep=0, index=18): {'low': '1 + 5 = 6', 'medium': '85 - 30 = 55', 'high': '16 X 2 - 20 = 12'}
+8.8033 	EXP 	New trial (rep=0, index=19): {'low': '6 + 0 = 6', 'medium': '50 - 46 = 4', 'high': '25 X 2 + 23 = 73'}
+8.8035 	EXP 	New trial (rep=0, index=20): {'low': '3 + 1 = 4', 'medium': '57 + 26 = 83', 'high': '(34 - 13) / 3 = 7'}
+8.8037 	EXP 	New trial (rep=0, index=21): {'low': '4 + 5 = 9', 'medium': '78 - 13 = 65', 'high': '(15 X 3) - 9 = 36'}
+8.8038 	EXP 	New trial (rep=0, index=22): {'low': '4 + 4 = 8', 'medium': '76 - 66 = 10', 'high': '(32 - 15) X 3 = 51'}
+8.8040 	EXP 	New trial (rep=0, index=23): {'low': '1 + 0 = 1', 'medium': '33 - 23 = 10', 'high': '(24 X 3) - 20 = 52'}
+8.8042 	EXP 	New trial (rep=0, index=24): {'low': '1 + 3 = 4', 'medium': '12 + 59 = 71', 'high': '(19 + 56) / 5 = 15'}
+8.8044 	EXP 	New trial (rep=0, index=25): {'low': '8 + 1 = 9', 'medium': '89 - 56 = 33', 'high': '(96 - 26) / 7 = 10'}
+8.8046 	EXP 	New trial (rep=0, index=26): {'low': '1 + 7 = 8', 'medium': '61 + 24 = 85', 'high': '(58 - 50) X 8 = 64'}
+8.8048 	EXP 	New trial (rep=0, index=27): {'low': '0 + 7 = 7', 'medium': '87 - 22 = 65', 'high': '5 X (21 - 13) = 40'}
+8.8050 	EXP 	New trial (rep=0, index=28): {'low': '6 + 1 = 7', 'medium': '92 - 45 = 47', 'high': '(65 - 15) / 5 = 10'}
+8.8051 	EXP 	New trial (rep=0, index=29): {'low': '2 + 2 = 4', 'medium': '70 + 27 = 97', 'high': '(88 - 59) X 2 = 58'}
+8.8053 	EXP 	New trial (rep=0, index=30): {'low': '3 + 2 = 5', 'medium': '51 - 28 = 23', 'high': '(64 + 20) / 7= 12'}
+8.8055 	EXP 	New trial (rep=0, index=31): {'low': '9 + 0 = 9', 'medium': '53 + 22 = 75', 'high': '(83 - 43) /  20 = 2'}
+8.8058 	EXP 	New trial (rep=0, index=32): {'low': '1 + 8 = 9', 'medium': '66 - 25 = 41', 'high': '(59 + 40) / 11 = 9'}
+8.8060 	EXP 	New trial (rep=0, index=33): {'low': '1 + 6 = 7', 'medium': '35 + 39 = 74', 'high': '(63 - 51) / 6 = 2'}
+8.8062 	EXP 	New trial (rep=0, index=34): {'low': '0 + 6 = 6', 'medium': '84 - 12 = 72', 'high': '(93 + 37) / 5 = 26'}
+8.8064 	EXP 	New trial (rep=0, index=35): {'low': '5 + 2 = 7', 'medium': '63 + 20 = 83', 'high': '(85 - 77) / 2 = 4'}
+8.8066 	EXP 	New trial (rep=0, index=36): {'low': '0 + 5 = 5', 'medium': '50 + 14 = 64', 'high': '3 X (29 - 21) = 24'}
+8.8068 	EXP 	New trial (rep=0, index=37): {'low': '5 + 1 = 6', 'medium': '37 + 56 = 93', 'high': '(79 - 63) / 4 = 4'}
+8.8070 	EXP 	New trial (rep=0, index=38): {'low': '5 + 0 = 5', 'medium': '32 + 59 = 91', 'high': '(96 - 56) / 5 = 8'}
+8.8072 	EXP 	New trial (rep=0, index=39): {'low': '1 + 1 = 2', 'medium': '94 - 53 = 41', 'high': '(89 - 61) / 4 = 7'}
+8.8074 	EXP 	New trial (rep=0, index=40): {'low': '4 + 8 = 9', 'medium': '82 - 15 = 57', 'high': '(59 - 46) X 2 =  36'}
+8.8076 	EXP 	New trial (rep=0, index=41): {'low': '7 + 8 = 2', 'medium': '61 - 52 = 19', 'high': '(30 - 10) X 6 = 80'}
+8.8079 	EXP 	New trial (rep=0, index=42): {'low': '5 + 9 = 7', 'medium': '25 + 85 = 87', 'high': '(71 - 33) X 2 = 74'}
+8.8081 	EXP 	New trial (rep=0, index=43): {'low': '8 + 4 = 7', 'medium': '96 - 77 = 29', 'high': '(94 - 54) / 2 = 10'}
+8.8083 	EXP 	New trial (rep=0, index=44): {'low': '5 + 3 = 1', 'medium': '93 - 48 = 35', 'high': '(74 - 34) / 2 = 30'}
+8.8085 	EXP 	New trial (rep=0, index=45): {'low': '6 + 8 = 3', 'medium': '47 - 32 = 5', 'high': '6 X (52 - 43) = 45'}
+8.8088 	EXP 	New trial (rep=0, index=46): {'low': '7 + 1 = 9', 'medium': '98 - 53 = 35', 'high': '(71 - 21) X 5 = 50'}
+8.8092 	EXP 	New trial (rep=0, index=47): {'low': '9 + 9 = 7', 'medium': '64 + 61 = 127', 'high': '(93 - 81) / 4 = 13'}
+8.8094 	EXP 	New trial (rep=0, index=48): {'low': '5 + 8 = 4', 'medium': '96 - 58 = 28', 'high': '(29 + 15) X 2 = 98'}
+8.8096 	EXP 	New trial (rep=0, index=49): {'low': '8 + 8 = 4', 'medium': '95 - 61 = 44', 'high': '(99 - 78) / 7 = 15'}
+8.8098 	EXP 	New trial (rep=0, index=50): {'low': '4 + 9 = 5', 'medium': '78 + 39 = 97', 'high': '(10 + 21) X 5 = 95'}
+8.8100 	EXP 	New trial (rep=0, index=51): {'low': '7 + 2 = 6', 'medium': '75 - 68 = 17', 'high': '4 X (17 + 17) = 88'}
+8.8102 	EXP 	New trial (rep=0, index=52): {'low': '3 + 7 = 3', 'medium': '60 - 39 = 31', 'high': '(85 + 55) / 10 = 15'}
+8.8103 	EXP 	New trial (rep=0, index=53): {'low': '4 + 6 = 9', 'medium': '89 - 38 = 61', 'high': '(91 - 82) / 3 = 13'}
+8.8105 	EXP 	New trial (rep=0, index=54): {'low': '6 + 1 = 5', 'medium': '49 - 17 = 42', 'high': '(94 - 36) / 2 = 27'}
+8.8107 	EXP 	New trial (rep=0, index=55): {'low': '9 + 6 = 8', 'medium': '25 + 63 = 78', 'high': '6 X 12 - 2 = 60'}
+8.8109 	EXP 	New trial (rep=0, index=56): {'low': '3 + 3 = 9', 'medium': '29 + 72 = 91', 'high': '21 - 19 X 3 = 6'}
+8.8112 	EXP 	New trial (rep=0, index=57): {'low': '9 + 1 = 8', 'medium': '53 - 16 = 47', 'high': '(8 X 5) / 20 = 12'}
+8.8114 	EXP 	New trial (rep=0, index=58): {'low': '8 + 8 = 9', 'medium': '69 + 11 = 90', 'high': '16 X 2 - 20 = 22'}
+8.8117 	EXP 	New trial (rep=0, index=59): {'low': '7 + 6 = 5', 'medium': '67 + 25 = 82', 'high': '45 X 2 + 23 = 131'}
+8.8120 	EXP 	New trial (rep=0, index=60): {'low': '4 + 4 = 6', 'medium': '12 + 74 = 96', 'high': '(33 - 14) / 3 = 8'}
+8.8122 	EXP 	New trial (rep=0, index=61): {'low': '3 + 7 = 9', 'medium': '32 + 54 = 96', 'high': '(65 X 3) - 9 = 126'}
+8.8124 	EXP 	New trial (rep=0, index=62): {'low': '7 + 9 = 8', 'medium': '12 + 67 = 89', 'high': '(32 - 15) X 3 = 81'}
+8.8126 	EXP 	New trial (rep=0, index=63): {'low': '5 + 9 = 6', 'medium': '65 - 31 = 24', 'high': '(24 X 3) - 20 = 62'}
+8.8128 	EXP 	New trial (rep=0, index=64): {'low': '9 + 9 = 8', 'medium': '46 - 21 = 15', 'high': '(19 + 6) X 5 = 75'}
+8.8129 	EXP 	New trial (rep=0, index=65): {'low': '7 + 10 = 7', 'medium': '64 - 15 = 39', 'high': '(96 - 26) / 7 = 20'}
+8.8131 	EXP 	New trial (rep=0, index=66): {'low': '9 + 3 = 4', 'medium': '56 + 31 = 97', 'high': '(88 - 50) / 2 = 14'}
+8.8133 	EXP 	New trial (rep=0, index=67): {'low': '8 + 1 = 8', 'medium': '92 - 81 = 21', 'high': '(71 - 23) / 4 = 11'}
+8.8135 	EXP 	New trial (rep=0, index=68): {'low': '2 + 6 = 5', 'medium': '80 - 35 = 55', 'high': '(65 - 15) / 5 = 20'}
+8.8137 	EXP 	New trial (rep=0, index=69): {'low': '9 + 8 = 7', 'medium': '42 + 44 = 96', 'high': '(88 - 59) X 2 = 68'}
+8.8139 	EXP 	New trial (rep=0, index=70): {'low': '2 + 2 = 6', 'medium': '46 - 10 = 26', 'high': '7 X (50 - 21) = 201'}
+8.8141 	EXP 	New trial (rep=0, index=71): {'low': '9 + 6 = 5', 'medium': '55 + 29 = 74', 'high': '(83 - 43) /  20 = 4'}
+8.8143 	EXP 	New trial (rep=0, index=72): {'low': '2 + 4 = 7', 'medium': '89 - 46 = 53', 'high': '(59 + 40) / 11 = 19'}
+8.8145 	EXP 	New trial (rep=0, index=73): {'low': '6 + 6 = 9', 'medium': '45 - 11 = 24', 'high': '(63 - 51) / 3 = 6'}
+8.8147 	EXP 	New trial (rep=0, index=74): {'low': '5 + 6 = 4', 'medium': '61 - 43 = 28', 'high': '(93 + 37) / 5 = 24'}
+8.8150 	EXP 	New trial (rep=0, index=75): {'low': '3 + 4 = 8', 'medium': '36 + 47 = 93', 'high': '(85 - 67) / 2 = 19'}
+8.8155 	EXP 	New trial (rep=0, index=76): {'low': '3 + 1 = 5', 'medium': '56 - 22 = 24', 'high': '3 X (29 - 21) = 27'}
+8.8157 	EXP 	New trial (rep=0, index=77): {'low': '3 + 9 = 4', 'medium': '11 + 32 = 53', 'high': '(79 - 63) / 4 = 8'}
+8.8159 	EXP 	New trial (rep=0, index=78): {'low': '7 + 4 = 2', 'medium': '29 + 61 = 80', 'high': '(96 - 56) X 5 = 20'}
+8.8161 	EXP 	New trial (rep=0, index=79): {'low': '9 + 3 = 7', 'medium': '63 + 30 = 83', 'high': '(89 - 61) / 4 = 6'}
+8.8293 	EXP 	rating_effort: autoLog = True
+8.8293 	EXP 	rating_effort: markerPos = None
+8.8293 	EXP 	rating_effort: rating = None
+8.8293 	EXP 	rating_effort: markerPos = None
+8.8293 	EXP 	rating_effort: contrast = 1.0
+8.8293 	EXP 	rating_effort: autoLog = True
+8.8293 	EXP 	rating_effort: styleTweaks = []
+8.8293 	EXP 	rating_effort: style = 'rating'
+8.8293 	EXP 	rating_effort: styleTweaks = []
+8.8293 	EXP 	rating_difficulty: autoLog = True
+8.8293 	EXP 	rating_difficulty: markerPos = None
+8.8293 	EXP 	rating_difficulty: rating = None
+8.8293 	EXP 	rating_difficulty: markerPos = None
+8.8293 	EXP 	rating_difficulty: contrast = 1.0
+8.8293 	EXP 	rating_difficulty: autoLog = True
+8.8293 	EXP 	rating_difficulty: styleTweaks = []
+8.8293 	EXP 	rating_difficulty: style = 'rating'
+8.8293 	EXP 	rating_difficulty: styleTweaks = []
+8.8293 	EXP 	rating_attention: autoLog = True
+8.8293 	EXP 	rating_attention: markerPos = None
+8.8293 	EXP 	rating_attention: rating = None
+8.8293 	EXP 	rating_attention: markerPos = None
+8.8293 	EXP 	rating_attention: contrast = 1.0
+8.8293 	EXP 	rating_attention: autoLog = True
+8.8293 	EXP 	rating_attention: styleTweaks = []
+8.8293 	EXP 	rating_attention: style = 'rating'
+8.8293 	EXP 	rating_attention: styleTweaks = []
+8.8293 	EXP 	Welcomemessage: autoDraw = True
+9.8302 	EXP 	text_9: autoDraw = True
+9.8448 	EXP 	Welcomemessage: autoDraw = False
+10.9242 	EXP 	Imported diff_set_exp.xlsx as conditions, 15 conditions, 3 params
+10.9246 	EXP 	Created sequence: sequential, trialTypes=15, nReps=1, seed=None
+10.9249 	EXP 	New trial (rep=0, index=0): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+10.9465 	EXP 	Welcomemessage: autoDraw = False
+10.9465 	EXP 	text_9: autoDraw = False
+10.9465 	EXP 	text_4: autoDraw = True
+12.1818 	EXP 	window1: mouseVisible = False
+12.1967 	EXP 	text_4: autoDraw = False
+12.1967 	EXP 	ready_txt: autoDraw = True
+14.1783 	EXP 	Go_text: autoDraw = True
+14.2142 	EXP 	ready_txt: autoDraw = False
+15.1653 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+15.1660 	EXP 	New trial (rep=0, index=0): None
+15.1662 	EXP 	window1: mouseVisible = False
+15.1952 	EXP 	Go_text: autoDraw = False
+15.1952 	EXP 	ready_txt: autoDraw = False
+15.1952 	EXP 	Go_text: autoDraw = False
+15.1952 	EXP 	present_mat: text = '5 + 3 = 1'
+15.1952 	EXP 	present_mat: autoDraw = True
+15.1952 	EXP 	Timer_text: autoDraw = True
+17.1136 	EXP 	Timer_text: autoDraw = False
+17.6972 	EXP 	present_mat: autoDraw = False
+17.6972 	EXP 	Timer_text: autoDraw = False
+17.6972 	EXP 	blankwindows: text = '+'
+17.6972 	EXP 	blankwindows: autoDraw = True
+18.1294 	EXP 	New trial (rep=1, index=0): None
+18.1296 	EXP 	window1: mouseVisible = False
+18.1504 	EXP 	blankwindows: autoDraw = False
+18.1504 	EXP 	blankwindows: autoDraw = False
+18.1504 	EXP 	present_mat: text = '7 + 10 = 7'
+18.1504 	EXP 	present_mat: autoDraw = True
+18.1504 	EXP 	Timer_text: autoDraw = True
+19.5776 	EXP 	Timer_text: autoDraw = False
+20.6639 	EXP 	present_mat: autoDraw = False
+20.6639 	EXP 	Timer_text: autoDraw = False
+20.6639 	EXP 	blankwindows: text = '+'
+20.6639 	EXP 	blankwindows: autoDraw = True
+21.1481 	EXP 	New trial (rep=2, index=0): None
+21.1485 	EXP 	window1: mouseVisible = False
+21.1682 	EXP 	blankwindows: autoDraw = False
+21.1682 	EXP 	blankwindows: autoDraw = False
+21.1682 	EXP 	present_mat: text = '7 + 9 = 8'
+21.1682 	EXP 	present_mat: autoDraw = True
+21.1682 	EXP 	Timer_text: autoDraw = True
+22.0631 	EXP 	Timer_text: autoDraw = False
+23.6801 	EXP 	present_mat: autoDraw = False
+23.6801 	EXP 	Timer_text: autoDraw = False
+23.6801 	EXP 	blankwindows: text = '+'
+23.6801 	EXP 	blankwindows: autoDraw = True
+24.1149 	EXP 	New trial (rep=3, index=0): None
+24.1152 	EXP 	window1: mouseVisible = False
+24.1469 	EXP 	blankwindows: autoDraw = False
+24.1469 	EXP 	blankwindows: autoDraw = False
+24.1469 	EXP 	present_mat: text = '4 + 1 = 5'
+24.1469 	EXP 	present_mat: autoDraw = True
+24.1469 	EXP 	Timer_text: autoDraw = True
+25.0282 	EXP 	Timer_text: autoDraw = False
+26.6464 	EXP 	present_mat: autoDraw = False
+26.6464 	EXP 	Timer_text: autoDraw = False
+26.6464 	EXP 	blankwindows: text = '+'
+26.6464 	EXP 	blankwindows: autoDraw = True
+27.1291 	EXP 	New trial (rep=4, index=0): None
+27.1293 	EXP 	window1: mouseVisible = False
+27.1459 	EXP 	blankwindows: autoDraw = False
+27.1459 	EXP 	blankwindows: autoDraw = False
+27.1459 	EXP 	present_mat: text = '0 + 6 = 6'
+27.1459 	EXP 	present_mat: autoDraw = True
+27.1459 	EXP 	Timer_text: autoDraw = True
+28.1960 	EXP 	Timer_text: autoDraw = False
+29.6638 	EXP 	present_mat: autoDraw = False
+29.6638 	EXP 	Timer_text: autoDraw = False
+29.6638 	EXP 	blankwindows: text = '+'
+29.6638 	EXP 	blankwindows: autoDraw = True
+30.0975 	EXP 	New trial (rep=5, index=0): None
+30.0977 	EXP 	window1: mouseVisible = False
+30.1177 	EXP 	blankwindows: autoDraw = False
+30.1177 	EXP 	blankwindows: autoDraw = False
+30.1177 	EXP 	present_mat: text = '6 + 6 = 9'
+30.1177 	EXP 	present_mat: autoDraw = True
+30.1177 	EXP 	Timer_text: autoDraw = True
+31.0959 	EXP 	Timer_text: autoDraw = False
+32.6279 	EXP 	present_mat: autoDraw = False
+32.6279 	EXP 	Timer_text: autoDraw = False
+32.6279 	EXP 	blankwindows: text = '+'
+32.6279 	EXP 	blankwindows: autoDraw = True
+33.1146 	EXP 	New trial (rep=6, index=0): None
+33.1148 	EXP 	window1: mouseVisible = False
+33.1465 	EXP 	blankwindows: autoDraw = False
+33.1465 	EXP 	blankwindows: autoDraw = False
+33.1465 	EXP 	present_mat: text = '7 + 1 = 9'
+33.1465 	EXP 	present_mat: autoDraw = True
+33.1465 	EXP 	Timer_text: autoDraw = True
+34.4779 	EXP 	Timer_text: autoDraw = False
+35.6476 	EXP 	present_mat: autoDraw = False
+35.6476 	EXP 	Timer_text: autoDraw = False
+35.6476 	EXP 	blankwindows: text = '+'
+35.6476 	EXP 	blankwindows: autoDraw = True
+36.1294 	EXP 	New trial (rep=7, index=0): None
+36.1296 	EXP 	window1: mouseVisible = False
+36.1521 	EXP 	blankwindows: autoDraw = False
+36.1521 	EXP 	blankwindows: autoDraw = False
+36.1521 	EXP 	present_mat: text = '9 + 6 = 5'
+36.1521 	EXP 	present_mat: autoDraw = True
+36.1521 	EXP 	Timer_text: autoDraw = True
+37.1144 	EXP 	Timer_text: autoDraw = False
+38.6681 	EXP 	present_mat: autoDraw = False
+38.6681 	EXP 	Timer_text: autoDraw = False
+38.6681 	EXP 	blankwindows: text = '+'
+38.6681 	EXP 	blankwindows: autoDraw = True
+39.1145 	EXP 	New trial (rep=8, index=0): None
+39.1148 	EXP 	window1: mouseVisible = False
+39.1467 	EXP 	blankwindows: autoDraw = False
+39.1467 	EXP 	blankwindows: autoDraw = False
+39.1467 	EXP 	present_mat: text = '3 + 1 = 5'
+39.1467 	EXP 	present_mat: autoDraw = True
+39.1467 	EXP 	Timer_text: autoDraw = True
+40.0777 	EXP 	Timer_text: autoDraw = False
+41.6481 	EXP 	present_mat: autoDraw = False
+41.6481 	EXP 	Timer_text: autoDraw = False
+41.6481 	EXP 	blankwindows: text = '+'
+41.6481 	EXP 	blankwindows: autoDraw = True
+42.0976 	EXP 	New trial (rep=9, index=0): None
+42.0978 	EXP 	window1: mouseVisible = False
+42.1187 	EXP 	blankwindows: autoDraw = False
+42.1187 	EXP 	blankwindows: autoDraw = False
+42.1187 	EXP 	present_mat: text = '5 + 3 = 8'
+42.1187 	EXP 	present_mat: autoDraw = True
+42.1187 	EXP 	Timer_text: autoDraw = True
+43.1784 	EXP 	Timer_text: autoDraw = False
+44.6281 	EXP 	present_mat: autoDraw = False
+44.6281 	EXP 	Timer_text: autoDraw = False
+44.6281 	EXP 	blankwindows: text = '+'
+44.6281 	EXP 	blankwindows: autoDraw = True
+45.0653 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+45.0658 	EXP 	New trial (rep=0, index=0): None
+45.0661 	EXP 	window1: mouseVisible = True
+45.0960 	EXP 	blankwindows: autoDraw = False
+45.0960 	EXP 	blankwindows: autoDraw = False
+45.0960 	EXP 	rating_effort: markerPos = None
+45.0960 	EXP 	rating_effort: markerPos = None
+45.0960 	EXP 	rating_effort: rating = None
+45.0960 	EXP 	text_2: autoDraw = True
+45.5955 	EXP 	rating_effort: autoDraw = True
+47.6823 	DATA 	Mouse: Left button down, pos=(1016,463)
+47.7119 	EXP 	rating_effort: markerPos = 3.96
+47.7274 	EXP 	rating_effort: markerPos = 3.9555555555555557
+47.7457 	EXP 	rating_effort: markerPos = 3.9555555555555557
+47.7621 	EXP 	rating_effort: markerPos = 3.9555555555555557
+47.7678 	DATA 	Mouse:  Left button up, pos=(1015,464)
+47.7773 	EXP 	rating_effort: markerPos = 3.9555555555555557
+47.7949 	EXP 	rating_effort: markerPos = 4.0
+47.7949 	EXP 	rating_effort: rating = 4.0
+47.8044 	EXP 	New trial (rep=1, index=0): None
+47.8082 	EXP 	window1: mouseVisible = True
+47.8166 	EXP 	rating_effort: autoDraw = False
+47.8166 	EXP 	text_2: autoDraw = False
+47.8166 	EXP 	rating_difficulty: markerPos = None
+47.8166 	EXP 	rating_difficulty: markerPos = None
+47.8166 	EXP 	rating_difficulty: rating = None
+47.8166 	EXP 	rating_difficulty: autoDraw = False
+47.8166 	EXP 	text_6: autoDraw = False
+47.8166 	EXP 	rating_attention: markerPos = None
+47.8166 	EXP 	rating_attention: markerPos = None
+47.8166 	EXP 	rating_attention: rating = None
+47.8166 	EXP 	rating_attention: autoDraw = False
+47.8166 	EXP 	text_7: autoDraw = False
+47.8166 	EXP 	rating_effort: markerPos = None
+47.8166 	EXP 	rating_effort: markerPos = None
+47.8166 	EXP 	rating_effort: rating = None
+47.8166 	EXP 	rating_effort: autoDraw = False
+47.8166 	EXP 	text_2: autoDraw = False
+47.8166 	EXP 	rating_difficulty: markerPos = None
+47.8166 	EXP 	rating_difficulty: markerPos = None
+47.8166 	EXP 	rating_difficulty: rating = None
+47.8166 	EXP 	text_6: autoDraw = True
+48.3119 	EXP 	rating_difficulty: autoDraw = True
+49.2457 	DATA 	Mouse: Left button down, pos=(351,461)
+49.2632 	EXP 	rating_difficulty: markerPos = 1.0044444444444445
+49.2774 	EXP 	rating_difficulty: markerPos = 1.0044444444444445
+49.2947 	EXP 	rating_difficulty: markerPos = 1.0044444444444445
+49.3120 	EXP 	rating_difficulty: markerPos = 1.0044444444444445
+49.3277 	EXP 	rating_difficulty: markerPos = 1.0044444444444445
+49.3451 	EXP 	rating_difficulty: markerPos = 1.0044444444444445
+49.3457 	DATA 	Mouse:  Left button up, pos=(351,462)
+49.3622 	EXP 	rating_difficulty: markerPos = 1.0
+49.3622 	EXP 	rating_difficulty: rating = 1.0
+49.3681 	EXP 	New trial (rep=2, index=0): None
+49.3760 	EXP 	window1: mouseVisible = True
+49.3950 	EXP 	rating_difficulty: autoDraw = False
+49.3950 	EXP 	text_6: autoDraw = False
+49.3950 	EXP 	rating_attention: markerPos = None
+49.3950 	EXP 	rating_attention: markerPos = None
+49.3950 	EXP 	rating_attention: rating = None
+49.3950 	EXP 	rating_attention: autoDraw = False
+49.3950 	EXP 	text_7: autoDraw = False
+49.3950 	EXP 	rating_effort: markerPos = None
+49.3950 	EXP 	rating_effort: markerPos = None
+49.3950 	EXP 	rating_effort: rating = None
+49.3950 	EXP 	rating_effort: autoDraw = False
+49.3950 	EXP 	text_2: autoDraw = False
+49.3950 	EXP 	rating_difficulty: markerPos = None
+49.3950 	EXP 	rating_difficulty: markerPos = None
+49.3950 	EXP 	rating_difficulty: rating = None
+49.3950 	EXP 	rating_difficulty: autoDraw = False
+49.3950 	EXP 	text_6: autoDraw = False
+49.3950 	EXP 	rating_attention: markerPos = None
+49.3950 	EXP 	rating_attention: markerPos = None
+49.3950 	EXP 	rating_attention: rating = None
+49.3950 	EXP 	text_7: autoDraw = True
+49.8776 	EXP 	rating_attention: autoDraw = True
+50.0462 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.0464 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.0515 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.0668 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.0822 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.0993 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.1157 	DATA 	Mouse: wheel shift=(0,0), pos=(1065,435)
+50.3671 	DATA 	Mouse: wheel shift=(0,0), pos=(1055,433)
+50.3827 	DATA 	Mouse: wheel shift=(0,0), pos=(1055,433)
+50.4162 	DATA 	Mouse: wheel shift=(0,0), pos=(1052,433)
+50.4455 	DATA 	Mouse: wheel shift=(0,0), pos=(1050,433)
+50.4670 	DATA 	Mouse: wheel shift=(0,0), pos=(1049,433)
+50.4825 	DATA 	Mouse: wheel shift=(0,0), pos=(1049,433)
+50.4829 	DATA 	Mouse: Left button down, pos=(1049,433)
+50.5114 	EXP 	rating_attention: markerPos = 4.102222222222222
+50.5275 	EXP 	rating_attention: markerPos = 4.097777777777778
+50.5455 	EXP 	rating_attention: markerPos = 4.097777777777778
+50.5517 	DATA 	Mouse:  Left button up, pos=(1046,434)
+50.5616 	EXP 	rating_attention: markerPos = 4.093333333333334
+50.5780 	EXP 	rating_attention: markerPos = 4.0
+50.5780 	EXP 	rating_attention: rating = 4.0
+50.5796 	EXP 	New trial (rep=0, index=1): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+50.5812 	DATA 	Mouse: wheel shift=(0,0), pos=(1043,434)
+50.5947 	EXP 	rating_attention: autoDraw = False
+50.5947 	EXP 	text_7: autoDraw = False
+50.5947 	EXP 	text_4: autoDraw = True
+51.4135 	EXP 	window1: mouseVisible = False
+51.4181 	DATA 	Keypress: space
+51.4274 	EXP 	text_4: autoDraw = False
+51.4274 	EXP 	ready_txt: autoDraw = True
+53.4122 	EXP 	Go_text: autoDraw = True
+53.4275 	EXP 	ready_txt: autoDraw = False
+54.3959 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+54.3966 	EXP 	New trial (rep=0, index=0): None
+54.3967 	EXP 	window1: mouseVisible = False
+54.4117 	EXP 	Go_text: autoDraw = False
+54.4117 	EXP 	ready_txt: autoDraw = False
+54.4117 	EXP 	Go_text: autoDraw = False
+54.4117 	EXP 	present_mat: text = '1 + 7 = 8'
+54.4117 	EXP 	present_mat: autoDraw = True
+54.4117 	EXP 	Timer_text: autoDraw = True
+55.3777 	DATA 	Keypress: right
+55.4120 	EXP 	Timer_text: autoDraw = False
+56.9125 	EXP 	present_mat: autoDraw = False
+56.9125 	EXP 	present_mat: autoDraw = False
+56.9125 	EXP 	Timer_text: autoDraw = False
+56.9125 	EXP 	blankwindows: text = '+'
+56.9125 	EXP 	blankwindows: autoDraw = True
+57.3951 	EXP 	New trial (rep=1, index=0): None
+57.3952 	EXP 	window1: mouseVisible = False
+57.4116 	EXP 	blankwindows: autoDraw = False
+57.4116 	EXP 	blankwindows: autoDraw = False
+57.4116 	EXP 	present_mat: text = '3 + 1 = 4'
+57.4116 	EXP 	present_mat: autoDraw = True
+57.4116 	EXP 	Timer_text: autoDraw = True
+58.6315 	DATA 	Keypress: left
+58.6619 	EXP 	Timer_text: autoDraw = False
+59.9115 	EXP 	present_mat: autoDraw = False
+59.9115 	EXP 	present_mat: autoDraw = False
+59.9115 	EXP 	Timer_text: autoDraw = False
+59.9115 	EXP 	blankwindows: text = '+'
+59.9115 	EXP 	blankwindows: autoDraw = True
+60.3623 	EXP 	New trial (rep=2, index=0): None
+60.3624 	EXP 	window1: mouseVisible = False
+60.3776 	EXP 	blankwindows: autoDraw = False
+60.3776 	EXP 	blankwindows: autoDraw = False
+60.3776 	EXP 	present_mat: text = '1 + 0 = 1'
+60.3776 	EXP 	present_mat: autoDraw = True
+60.3776 	EXP 	Timer_text: autoDraw = True
+61.1534 	DATA 	Keypress: left
+61.1780 	EXP 	Timer_text: autoDraw = False
+62.8773 	EXP 	present_mat: autoDraw = False
+62.8773 	EXP 	present_mat: autoDraw = False
+62.8773 	EXP 	Timer_text: autoDraw = False
+62.8773 	EXP 	blankwindows: text = '+'
+62.8773 	EXP 	blankwindows: autoDraw = True
+63.3460 	EXP 	New trial (rep=3, index=0): None
+63.3461 	EXP 	window1: mouseVisible = False
+63.3620 	EXP 	blankwindows: autoDraw = False
+63.3620 	EXP 	blankwindows: autoDraw = False
+63.3620 	EXP 	present_mat: text = '6 + 0 = 6'
+63.3620 	EXP 	present_mat: autoDraw = True
+63.3620 	EXP 	Timer_text: autoDraw = True
+64.0497 	DATA 	Keypress: left
+64.0773 	EXP 	Timer_text: autoDraw = False
+65.8622 	EXP 	present_mat: autoDraw = False
+65.8622 	EXP 	present_mat: autoDraw = False
+65.8622 	EXP 	Timer_text: autoDraw = False
+65.8622 	EXP 	blankwindows: text = '+'
+65.8622 	EXP 	blankwindows: autoDraw = True
+66.2781 	EXP 	New trial (rep=4, index=0): None
+66.2782 	EXP 	window1: mouseVisible = False
+66.2949 	EXP 	blankwindows: autoDraw = False
+66.2949 	EXP 	blankwindows: autoDraw = False
+66.2949 	EXP 	present_mat: text = '7 + 4 = 2'
+66.2949 	EXP 	present_mat: autoDraw = True
+66.2949 	EXP 	Timer_text: autoDraw = True
+67.2522 	DATA 	Keypress: right
+67.2775 	EXP 	Timer_text: autoDraw = False
+68.7950 	EXP 	present_mat: autoDraw = False
+68.7950 	EXP 	present_mat: autoDraw = False
+68.7950 	EXP 	Timer_text: autoDraw = False
+68.7950 	EXP 	blankwindows: text = '+'
+68.7950 	EXP 	blankwindows: autoDraw = True
+69.2780 	EXP 	New trial (rep=5, index=0): None
+69.2781 	EXP 	window1: mouseVisible = False
+69.2950 	EXP 	blankwindows: autoDraw = False
+69.2950 	EXP 	blankwindows: autoDraw = False
+69.2950 	EXP 	present_mat: text = '9 + 9 = 8'
+69.2950 	EXP 	present_mat: autoDraw = True
+69.2950 	EXP 	Timer_text: autoDraw = True
+70.6315 	DATA 	Keypress: right
+70.6621 	EXP 	Timer_text: autoDraw = False
+71.8118 	EXP 	present_mat: autoDraw = False
+71.8118 	EXP 	Timer_text: autoDraw = False
+71.8118 	EXP 	blankwindows: text = '+'
+71.8118 	EXP 	blankwindows: autoDraw = True
+72.3464 	EXP 	New trial (rep=6, index=0): None
+72.3465 	EXP 	window1: mouseVisible = False
+72.3627 	EXP 	blankwindows: autoDraw = False
+72.3627 	EXP 	blankwindows: autoDraw = False
+72.3627 	EXP 	present_mat: text = '5 + 9 = 7'
+72.3627 	EXP 	present_mat: autoDraw = True
+72.3627 	EXP 	Timer_text: autoDraw = True
+73.2971 	DATA 	Keypress: right
+73.3115 	EXP 	Timer_text: autoDraw = False
+74.8780 	EXP 	present_mat: autoDraw = False
+74.8780 	EXP 	Timer_text: autoDraw = False
+74.8780 	EXP 	blankwindows: text = '+'
+74.8780 	EXP 	blankwindows: autoDraw = True
+75.3118 	EXP 	New trial (rep=7, index=0): None
+75.3118 	EXP 	window1: mouseVisible = False
+75.3273 	EXP 	blankwindows: autoDraw = False
+75.3273 	EXP 	blankwindows: autoDraw = False
+75.3273 	EXP 	present_mat: text = '2 + 4 = 6'
+75.3273 	EXP 	present_mat: autoDraw = True
+75.3273 	EXP 	Timer_text: autoDraw = True
+76.3989 	DATA 	Keypress: left
+76.4274 	EXP 	Timer_text: autoDraw = False
+77.8274 	EXP 	present_mat: autoDraw = False
+77.8274 	EXP 	Timer_text: autoDraw = False
+77.8274 	EXP 	blankwindows: text = '+'
+77.8274 	EXP 	blankwindows: autoDraw = True
+78.2781 	EXP 	New trial (rep=8, index=0): None
+78.2782 	EXP 	window1: mouseVisible = False
+78.2948 	EXP 	blankwindows: autoDraw = False
+78.2948 	EXP 	blankwindows: autoDraw = False
+78.2948 	EXP 	present_mat: text = '9 + 1 = 8'
+78.2948 	EXP 	present_mat: autoDraw = True
+78.2948 	EXP 	Timer_text: autoDraw = True
+79.2311 	DATA 	Keypress: right
+79.2617 	EXP 	Timer_text: autoDraw = False
+80.8117 	EXP 	present_mat: autoDraw = False
+80.8117 	EXP 	Timer_text: autoDraw = False
+80.8117 	EXP 	blankwindows: text = '+'
+80.8117 	EXP 	blankwindows: autoDraw = True
+81.2119 	EXP 	New trial (rep=9, index=0): None
+81.2120 	EXP 	window1: mouseVisible = False
+81.2276 	EXP 	blankwindows: autoDraw = False
+81.2276 	EXP 	blankwindows: autoDraw = False
+81.2276 	EXP 	present_mat: text = '4 + 4 = 6'
+81.2276 	EXP 	present_mat: autoDraw = True
+81.2276 	EXP 	Timer_text: autoDraw = True
+82.2313 	DATA 	Keypress: right
+82.2622 	EXP 	Timer_text: autoDraw = False
+83.7280 	EXP 	present_mat: autoDraw = False
+83.7280 	EXP 	present_mat: autoDraw = False
+83.7280 	EXP 	Timer_text: autoDraw = False
+83.7280 	EXP 	blankwindows: text = '+'
+83.7280 	EXP 	blankwindows: autoDraw = True
+84.1282 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+84.1284 	EXP 	New trial (rep=0, index=0): None
+84.1285 	EXP 	window1: mouseVisible = True
+84.1454 	EXP 	blankwindows: autoDraw = False
+84.1454 	EXP 	blankwindows: autoDraw = False
+84.1454 	EXP 	rating_effort: markerPos = None
+84.1454 	EXP 	rating_effort: markerPos = None
+84.1454 	EXP 	rating_effort: rating = None
+84.1454 	EXP 	text_2: autoDraw = True
+84.6276 	EXP 	rating_effort: autoDraw = True
+85.5160 	DATA 	Mouse: Left button down, pos=(1044,433)
+85.5454 	EXP 	rating_effort: markerPos = 4.084444444444444
+85.5625 	EXP 	rating_effort: markerPos = 4.084444444444444
+85.5773 	EXP 	rating_effort: markerPos = 4.084444444444444
+85.5837 	DATA 	Mouse:  Left button up, pos=(1044,433)
+85.5948 	EXP 	rating_effort: markerPos = 4.084444444444444
+85.6120 	EXP 	rating_effort: markerPos = 4.0
+85.6120 	EXP 	rating_effort: rating = 4.0
+85.6220 	EXP 	New trial (rep=1, index=0): None
+85.6261 	EXP 	window1: mouseVisible = True
+85.6457 	EXP 	rating_effort: autoDraw = False
+85.6457 	EXP 	text_2: autoDraw = False
+85.6457 	EXP 	rating_difficulty: markerPos = None
+85.6457 	EXP 	rating_difficulty: markerPos = None
+85.6457 	EXP 	rating_difficulty: rating = None
+85.6457 	EXP 	rating_difficulty: autoDraw = False
+85.6457 	EXP 	text_6: autoDraw = False
+85.6457 	EXP 	rating_attention: markerPos = None
+85.6457 	EXP 	rating_attention: markerPos = None
+85.6457 	EXP 	rating_attention: rating = None
+85.6457 	EXP 	rating_attention: autoDraw = False
+85.6457 	EXP 	text_7: autoDraw = False
+85.6457 	EXP 	rating_effort: markerPos = None
+85.6457 	EXP 	rating_effort: markerPos = None
+85.6457 	EXP 	rating_effort: rating = None
+85.6457 	EXP 	rating_effort: autoDraw = False
+85.6457 	EXP 	text_2: autoDraw = False
+85.6457 	EXP 	rating_difficulty: markerPos = None
+85.6457 	EXP 	rating_difficulty: markerPos = None
+85.6457 	EXP 	rating_difficulty: rating = None
+85.6457 	EXP 	text_6: autoDraw = True
+86.1276 	EXP 	rating_difficulty: autoDraw = True
+86.8457 	DATA 	Mouse: Left button down, pos=(356,464)
+86.8628 	EXP 	rating_difficulty: markerPos = 1.0266666666666666
+86.8773 	EXP 	rating_difficulty: markerPos = 1.0266666666666666
+86.8947 	EXP 	rating_difficulty: markerPos = 1.0266666666666666
+86.9122 	EXP 	rating_difficulty: markerPos = 1.0266666666666666
+86.9275 	EXP 	rating_difficulty: markerPos = 1.0266666666666666
+86.9334 	DATA 	Mouse:  Left button up, pos=(356,464)
+86.9453 	EXP 	rating_difficulty: markerPos = 1.0266666666666666
+86.9631 	EXP 	rating_difficulty: markerPos = 1.0
+86.9631 	EXP 	rating_difficulty: rating = 1.0
+86.9682 	EXP 	New trial (rep=2, index=0): None
+86.9763 	EXP 	window1: mouseVisible = True
+86.9946 	EXP 	rating_difficulty: autoDraw = False
+86.9946 	EXP 	text_6: autoDraw = False
+86.9946 	EXP 	rating_attention: markerPos = None
+86.9946 	EXP 	rating_attention: markerPos = None
+86.9946 	EXP 	rating_attention: rating = None
+86.9946 	EXP 	rating_attention: autoDraw = False
+86.9946 	EXP 	text_7: autoDraw = False
+86.9946 	EXP 	rating_effort: markerPos = None
+86.9946 	EXP 	rating_effort: markerPos = None
+86.9946 	EXP 	rating_effort: rating = None
+86.9946 	EXP 	rating_effort: autoDraw = False
+86.9946 	EXP 	text_2: autoDraw = False
+86.9946 	EXP 	rating_difficulty: markerPos = None
+86.9946 	EXP 	rating_difficulty: markerPos = None
+86.9946 	EXP 	rating_difficulty: rating = None
+86.9946 	EXP 	rating_difficulty: autoDraw = False
+86.9946 	EXP 	text_6: autoDraw = False
+86.9946 	EXP 	rating_attention: markerPos = None
+86.9946 	EXP 	rating_attention: markerPos = None
+86.9946 	EXP 	rating_attention: rating = None
+86.9946 	EXP 	text_7: autoDraw = True
+87.4773 	EXP 	rating_attention: autoDraw = True
+87.8160 	DATA 	Mouse: Left button down, pos=(1040,450)
+87.8481 	EXP 	rating_attention: markerPos = 4.066666666666666
+87.8616 	EXP 	rating_attention: markerPos = 4.066666666666666
+87.8773 	EXP 	rating_attention: markerPos = 4.066666666666666
+87.8948 	EXP 	rating_attention: markerPos = 4.066666666666666
+87.9006 	DATA 	Mouse:  Left button up, pos=(1040,450)
+87.9114 	EXP 	rating_attention: markerPos = 4.066666666666666
+87.9275 	EXP 	rating_attention: markerPos = 4.0
+87.9275 	EXP 	rating_attention: rating = 4.0
+87.9291 	EXP 	New trial (rep=0, index=2): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+87.9479 	EXP 	rating_attention: autoDraw = False
+87.9479 	EXP 	text_7: autoDraw = False
+87.9479 	EXP 	text_4: autoDraw = True
+88.7289 	EXP 	window1: mouseVisible = False
+88.7329 	DATA 	Keypress: space
+88.7453 	EXP 	text_4: autoDraw = False
+88.7453 	EXP 	ready_txt: autoDraw = True
+90.7275 	EXP 	Go_text: autoDraw = True
+90.7620 	EXP 	ready_txt: autoDraw = False
+91.7133 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+91.7136 	EXP 	New trial (rep=0, index=0): None
+91.7137 	EXP 	window1: mouseVisible = False
+91.7275 	EXP 	Go_text: autoDraw = False
+91.7275 	EXP 	ready_txt: autoDraw = False
+91.7275 	EXP 	Go_text: autoDraw = False
+91.7275 	EXP 	present_mat: text = '7 + 4 = 2'
+91.7275 	EXP 	present_mat: autoDraw = True
+91.7275 	EXP 	Timer_text: autoDraw = True
+92.6309 	DATA 	Keypress: right
+92.6622 	EXP 	Timer_text: autoDraw = False
+94.2279 	EXP 	present_mat: autoDraw = False
+94.2279 	EXP 	present_mat: autoDraw = False
+94.2279 	EXP 	Timer_text: autoDraw = False
+94.2279 	EXP 	blankwindows: text = '+'
+94.2279 	EXP 	blankwindows: autoDraw = True
+94.6457 	EXP 	New trial (rep=1, index=0): None
+94.6458 	EXP 	window1: mouseVisible = False
+94.6623 	EXP 	blankwindows: autoDraw = False
+94.6623 	EXP 	blankwindows: autoDraw = False
+94.6623 	EXP 	present_mat: text = '6 + 1 = 7'
+94.6623 	EXP 	present_mat: autoDraw = True
+94.6623 	EXP 	Timer_text: autoDraw = True
+96.0313 	DATA 	Keypress: left
+96.0620 	EXP 	Timer_text: autoDraw = False
+97.1624 	EXP 	present_mat: autoDraw = False
+97.1624 	EXP 	Timer_text: autoDraw = False
+97.1624 	EXP 	blankwindows: text = '+'
+97.1624 	EXP 	blankwindows: autoDraw = True
+97.5626 	EXP 	New trial (rep=2, index=0): None
+97.5627 	EXP 	window1: mouseVisible = False
+97.5777 	EXP 	blankwindows: autoDraw = False
+97.5777 	EXP 	blankwindows: autoDraw = False
+97.5777 	EXP 	present_mat: text = '6 + 8 = 3'
+97.5777 	EXP 	present_mat: autoDraw = True
+97.5777 	EXP 	Timer_text: autoDraw = True
+98.4161 	DATA 	Keypress: right
+98.4452 	EXP 	Timer_text: autoDraw = False
+100.0779 	EXP 	present_mat: autoDraw = False
+100.0779 	EXP 	present_mat: autoDraw = False
+100.0779 	EXP 	Timer_text: autoDraw = False
+100.0779 	EXP 	blankwindows: text = '+'
+100.0779 	EXP 	blankwindows: autoDraw = True
+100.5627 	EXP 	New trial (rep=3, index=0): None
+100.5628 	EXP 	window1: mouseVisible = False
+100.5779 	EXP 	blankwindows: autoDraw = False
+100.5779 	EXP 	blankwindows: autoDraw = False
+100.5779 	EXP 	present_mat: text = '9 + 9 = 8'
+100.5779 	EXP 	present_mat: autoDraw = True
+100.5779 	EXP 	Timer_text: autoDraw = True
+101.5154 	DATA 	Keypress: right
+101.5455 	EXP 	Timer_text: autoDraw = False
+103.0774 	EXP 	present_mat: autoDraw = False
+103.0774 	EXP 	present_mat: autoDraw = False
+103.0774 	EXP 	Timer_text: autoDraw = False
+103.0774 	EXP 	blankwindows: text = '+'
+103.0774 	EXP 	blankwindows: autoDraw = True
+103.5627 	EXP 	New trial (rep=4, index=0): None
+103.5628 	EXP 	window1: mouseVisible = False
+103.5773 	EXP 	blankwindows: autoDraw = False
+103.5773 	EXP 	blankwindows: autoDraw = False
+103.5773 	EXP 	present_mat: text = '4 + 8 = 9'
+103.5773 	EXP 	present_mat: autoDraw = True
+103.5773 	EXP 	Timer_text: autoDraw = True
+104.8312 	DATA 	Keypress: right
+104.8623 	EXP 	Timer_text: autoDraw = False
+106.0779 	EXP 	present_mat: autoDraw = False
+106.0779 	EXP 	present_mat: autoDraw = False
+106.0779 	EXP 	Timer_text: autoDraw = False
+106.0779 	EXP 	blankwindows: text = '+'
+106.0779 	EXP 	blankwindows: autoDraw = True
+106.5629 	EXP 	New trial (rep=5, index=0): None
+106.5630 	EXP 	window1: mouseVisible = False
+106.5775 	EXP 	blankwindows: autoDraw = False
+106.5775 	EXP 	blankwindows: autoDraw = False
+106.5775 	EXP 	present_mat: text = '2 + 2 = 4'
+106.5775 	EXP 	present_mat: autoDraw = True
+106.5775 	EXP 	Timer_text: autoDraw = True
+107.3992 	DATA 	Keypress: left
+107.4275 	EXP 	Timer_text: autoDraw = False
+109.0780 	EXP 	present_mat: autoDraw = False
+109.0780 	EXP 	present_mat: autoDraw = False
+109.0780 	EXP 	Timer_text: autoDraw = False
+109.0780 	EXP 	blankwindows: text = '+'
+109.0780 	EXP 	blankwindows: autoDraw = True
+109.5956 	EXP 	New trial (rep=6, index=0): None
+109.5957 	EXP 	window1: mouseVisible = False
+109.6117 	EXP 	blankwindows: autoDraw = False
+109.6117 	EXP 	blankwindows: autoDraw = False
+109.6117 	EXP 	present_mat: text = '5 + 0 = 5'
+109.6117 	EXP 	present_mat: autoDraw = True
+109.6117 	EXP 	Timer_text: autoDraw = True
+110.3153 	DATA 	Keypress: left
+110.3460 	EXP 	Timer_text: autoDraw = False
+112.1118 	EXP 	present_mat: autoDraw = False
+112.1118 	EXP 	present_mat: autoDraw = False
+112.1118 	EXP 	Timer_text: autoDraw = False
+112.1118 	EXP 	blankwindows: text = '+'
+112.1118 	EXP 	blankwindows: autoDraw = True
+112.5455 	EXP 	New trial (rep=7, index=0): None
+112.5456 	EXP 	window1: mouseVisible = False
+112.5628 	EXP 	blankwindows: autoDraw = False
+112.5628 	EXP 	blankwindows: autoDraw = False
+112.5628 	EXP 	present_mat: text = '5 + 9 = 6'
+112.5628 	EXP 	present_mat: autoDraw = True
+112.5628 	EXP 	Timer_text: autoDraw = True
+113.4316 	DATA 	Keypress: right
+113.4615 	EXP 	Timer_text: autoDraw = False
+115.0614 	EXP 	present_mat: autoDraw = False
+115.0614 	EXP 	Timer_text: autoDraw = False
+115.0614 	EXP 	blankwindows: text = '+'
+115.0614 	EXP 	blankwindows: autoDraw = True
+115.5457 	EXP 	New trial (rep=8, index=0): None
+115.5457 	EXP 	window1: mouseVisible = False
+115.5616 	EXP 	blankwindows: autoDraw = False
+115.5616 	EXP 	blankwindows: autoDraw = False
+115.5616 	EXP 	present_mat: text = '4 + 1 = 5'
+115.5616 	EXP 	present_mat: autoDraw = True
+115.5616 	EXP 	Timer_text: autoDraw = True
+116.4818 	DATA 	Keypress: left
+116.5107 	EXP 	Timer_text: autoDraw = False
+118.0613 	EXP 	present_mat: autoDraw = False
+118.0613 	EXP 	present_mat: autoDraw = False
+118.0613 	EXP 	Timer_text: autoDraw = False
+118.0613 	EXP 	blankwindows: text = '+'
+118.0613 	EXP 	blankwindows: autoDraw = True
+118.5111 	EXP 	New trial (rep=9, index=0): None
+118.5112 	EXP 	window1: mouseVisible = False
+118.5283 	EXP 	blankwindows: autoDraw = False
+118.5283 	EXP 	blankwindows: autoDraw = False
+118.5283 	EXP 	present_mat: text = '4 + 2 = 6'
+118.5283 	EXP 	present_mat: autoDraw = True
+118.5283 	EXP 	Timer_text: autoDraw = True
+119.2332 	DATA 	Keypress: left
+119.2610 	EXP 	Timer_text: autoDraw = False
+121.0453 	EXP 	present_mat: autoDraw = False
+121.0453 	EXP 	Timer_text: autoDraw = False
+121.0453 	EXP 	blankwindows: text = '+'
+121.0453 	EXP 	blankwindows: autoDraw = True
+121.5116 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+121.5118 	EXP 	New trial (rep=0, index=0): None
+121.5119 	EXP 	window1: mouseVisible = True
+121.5286 	EXP 	blankwindows: autoDraw = False
+121.5286 	EXP 	blankwindows: autoDraw = False
+121.5286 	EXP 	rating_effort: markerPos = None
+121.5286 	EXP 	rating_effort: markerPos = None
+121.5286 	EXP 	rating_effort: rating = None
+121.5286 	EXP 	text_2: autoDraw = True
+122.0112 	EXP 	rating_effort: autoDraw = True
+123.1293 	DATA 	Mouse: Left button down, pos=(1040,450)
+123.1452 	EXP 	rating_effort: markerPos = 4.066666666666666
+123.1610 	EXP 	rating_effort: markerPos = 4.066666666666666
+123.1783 	EXP 	rating_effort: markerPos = 4.066666666666666
+123.1951 	EXP 	rating_effort: markerPos = 4.066666666666666
+123.2111 	EXP 	rating_effort: markerPos = 4.066666666666666
+123.2175 	DATA 	Mouse:  Left button up, pos=(1040,450)
+123.2290 	EXP 	rating_effort: markerPos = 4.066666666666666
+123.2460 	EXP 	rating_effort: markerPos = 4.0
+123.2460 	EXP 	rating_effort: rating = 4.0
+123.2557 	EXP 	New trial (rep=1, index=0): None
+123.2599 	EXP 	window1: mouseVisible = True
+123.2787 	EXP 	rating_effort: autoDraw = False
+123.2787 	EXP 	text_2: autoDraw = False
+123.2787 	EXP 	rating_difficulty: markerPos = None
+123.2787 	EXP 	rating_difficulty: markerPos = None
+123.2787 	EXP 	rating_difficulty: rating = None
+123.2787 	EXP 	rating_difficulty: autoDraw = False
+123.2787 	EXP 	text_6: autoDraw = False
+123.2787 	EXP 	rating_attention: markerPos = None
+123.2787 	EXP 	rating_attention: markerPos = None
+123.2787 	EXP 	rating_attention: rating = None
+123.2787 	EXP 	rating_attention: autoDraw = False
+123.2787 	EXP 	text_7: autoDraw = False
+123.2787 	EXP 	rating_effort: markerPos = None
+123.2787 	EXP 	rating_effort: markerPos = None
+123.2787 	EXP 	rating_effort: rating = None
+123.2787 	EXP 	rating_effort: autoDraw = False
+123.2787 	EXP 	text_2: autoDraw = False
+123.2787 	EXP 	rating_difficulty: markerPos = None
+123.2787 	EXP 	rating_difficulty: markerPos = None
+123.2787 	EXP 	rating_difficulty: rating = None
+123.2787 	EXP 	text_6: autoDraw = True
+123.5966 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.6123 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.6299 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.6471 	DATA 	Mouse: wheel shift=(1,0), pos=(1040,450)
+123.6623 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.6796 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.6963 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.7120 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.7360 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.7451 	EXP 	rating_difficulty: autoDraw = True
+123.7492 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.7655 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.7827 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.8009 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.8331 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+123.8503 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,450)
+124.2288 	DATA 	Mouse: wheel shift=(0,0), pos=(1039,450)
+124.2332 	DATA 	Mouse: wheel shift=(0,0), pos=(1032,450)
+124.8653 	DATA 	Mouse: Left button down, pos=(329,456)
+124.8956 	EXP 	rating_difficulty: markerPos = 0.9066666666666667
+124.9105 	EXP 	rating_difficulty: markerPos = 0.9066666666666667
+124.9285 	EXP 	rating_difficulty: markerPos = 0.9066666666666667
+124.9458 	EXP 	rating_difficulty: markerPos = 0.9066666666666667
+124.9611 	EXP 	rating_difficulty: markerPos = 0.9066666666666667
+124.9670 	DATA 	Mouse:  Left button up, pos=(329,456)
+124.9783 	EXP 	rating_difficulty: markerPos = 0.9066666666666667
+124.9947 	EXP 	rating_difficulty: markerPos = 1.0
+124.9947 	EXP 	rating_difficulty: rating = 1.0
+125.0005 	EXP 	New trial (rep=2, index=0): None
+125.0085 	EXP 	window1: mouseVisible = True
+125.0286 	EXP 	rating_difficulty: autoDraw = False
+125.0286 	EXP 	text_6: autoDraw = False
+125.0286 	EXP 	rating_attention: markerPos = None
+125.0286 	EXP 	rating_attention: markerPos = None
+125.0286 	EXP 	rating_attention: rating = None
+125.0286 	EXP 	rating_attention: autoDraw = False
+125.0286 	EXP 	text_7: autoDraw = False
+125.0286 	EXP 	rating_effort: markerPos = None
+125.0286 	EXP 	rating_effort: markerPos = None
+125.0286 	EXP 	rating_effort: rating = None
+125.0286 	EXP 	rating_effort: autoDraw = False
+125.0286 	EXP 	text_2: autoDraw = False
+125.0286 	EXP 	rating_difficulty: markerPos = None
+125.0286 	EXP 	rating_difficulty: markerPos = None
+125.0286 	EXP 	rating_difficulty: rating = None
+125.0286 	EXP 	rating_difficulty: autoDraw = False
+125.0286 	EXP 	text_6: autoDraw = False
+125.0286 	EXP 	rating_attention: markerPos = None
+125.0286 	EXP 	rating_attention: markerPos = None
+125.0286 	EXP 	rating_attention: rating = None
+125.0286 	EXP 	text_7: autoDraw = True
+125.5106 	EXP 	rating_attention: autoDraw = True
+125.9656 	DATA 	Mouse: Left button down, pos=(1043,421)
+125.9948 	EXP 	rating_attention: markerPos = 4.08
+126.0106 	EXP 	rating_attention: markerPos = 4.08
+126.0282 	EXP 	rating_attention: markerPos = 4.075555555555556
+126.0482 	EXP 	rating_attention: markerPos = 4.075555555555556
+126.0490 	DATA 	Mouse:  Left button up, pos=(1041,424)
+126.0609 	EXP 	rating_attention: markerPos = 4.0
+126.0609 	EXP 	rating_attention: rating = 4.0
+126.0626 	EXP 	New trial (rep=0, index=3): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+126.0783 	EXP 	rating_attention: autoDraw = False
+126.0783 	EXP 	text_7: autoDraw = False
+126.0783 	EXP 	text_4: autoDraw = True
+126.7964 	EXP 	window1: mouseVisible = False
+126.7984 	DATA 	Keypress: space
+126.8110 	EXP 	text_4: autoDraw = False
+126.8110 	EXP 	ready_txt: autoDraw = True
+128.7953 	EXP 	Go_text: autoDraw = True
+128.8110 	EXP 	ready_txt: autoDraw = False
+129.7788 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+129.7790 	EXP 	New trial (rep=0, index=0): None
+129.7791 	EXP 	window1: mouseVisible = False
+129.7947 	EXP 	Go_text: autoDraw = False
+129.7947 	EXP 	ready_txt: autoDraw = False
+129.7947 	EXP 	Go_text: autoDraw = False
+129.7947 	EXP 	present_mat: text = '1 + 4 = 5'
+129.7947 	EXP 	present_mat: autoDraw = True
+129.7947 	EXP 	Timer_text: autoDraw = True
+130.7518 	DATA 	Keypress: left
+130.7781 	EXP 	Timer_text: autoDraw = False
+132.2953 	EXP 	present_mat: autoDraw = False
+132.2953 	EXP 	present_mat: autoDraw = False
+132.2953 	EXP 	Timer_text: autoDraw = False
+132.2953 	EXP 	blankwindows: text = '+'
+132.2953 	EXP 	blankwindows: autoDraw = True
+132.7294 	EXP 	New trial (rep=1, index=0): None
+132.7295 	EXP 	window1: mouseVisible = False
+132.7480 	EXP 	blankwindows: autoDraw = False
+132.7480 	EXP 	blankwindows: autoDraw = False
+132.7480 	EXP 	present_mat: text = '7 + 9 = 8'
+132.7480 	EXP 	present_mat: autoDraw = True
+132.7480 	EXP 	Timer_text: autoDraw = True
+133.5491 	DATA 	Keypress: right
+133.5784 	EXP 	Timer_text: autoDraw = False
+135.2613 	EXP 	present_mat: autoDraw = False
+135.2613 	EXP 	Timer_text: autoDraw = False
+135.2613 	EXP 	blankwindows: text = '+'
+135.2613 	EXP 	blankwindows: autoDraw = True
+135.6956 	EXP 	New trial (rep=2, index=0): None
+135.6957 	EXP 	window1: mouseVisible = False
+135.7108 	EXP 	blankwindows: autoDraw = False
+135.7108 	EXP 	blankwindows: autoDraw = False
+135.7108 	EXP 	present_mat: text = '5 + 8 = 4'
+135.7108 	EXP 	present_mat: autoDraw = True
+135.7108 	EXP 	Timer_text: autoDraw = True
+136.8325 	DATA 	Keypress: right
+136.8606 	EXP 	Timer_text: autoDraw = False
+138.2106 	EXP 	present_mat: autoDraw = False
+138.2106 	EXP 	present_mat: autoDraw = False
+138.2106 	EXP 	Timer_text: autoDraw = False
+138.2106 	EXP 	blankwindows: text = '+'
+138.2106 	EXP 	blankwindows: autoDraw = True
+138.6617 	EXP 	New trial (rep=3, index=0): None
+138.6618 	EXP 	window1: mouseVisible = False
+138.6782 	EXP 	blankwindows: autoDraw = False
+138.6782 	EXP 	blankwindows: autoDraw = False
+138.6782 	EXP 	present_mat: text = '8 + 1 = 9'
+138.6782 	EXP 	present_mat: autoDraw = True
+138.6782 	EXP 	Timer_text: autoDraw = True
+139.5821 	DATA 	Keypress: left
+139.6116 	EXP 	Timer_text: autoDraw = False
+141.1951 	EXP 	present_mat: autoDraw = False
+141.1951 	EXP 	Timer_text: autoDraw = False
+141.1951 	EXP 	blankwindows: text = '+'
+141.1951 	EXP 	blankwindows: autoDraw = True
+141.6287 	EXP 	New trial (rep=4, index=0): None
+141.6288 	EXP 	window1: mouseVisible = False
+141.6451 	EXP 	blankwindows: autoDraw = False
+141.6451 	EXP 	blankwindows: autoDraw = False
+141.6451 	EXP 	present_mat: text = '9 + 9 = 7'
+141.6451 	EXP 	present_mat: autoDraw = True
+141.6451 	EXP 	Timer_text: autoDraw = True
+142.4815 	DATA 	Keypress: right
+142.5107 	EXP 	Timer_text: autoDraw = False
+144.1450 	EXP 	present_mat: autoDraw = False
+144.1450 	EXP 	present_mat: autoDraw = False
+144.1450 	EXP 	Timer_text: autoDraw = False
+144.1450 	EXP 	blankwindows: text = '+'
+144.1450 	EXP 	blankwindows: autoDraw = True
+144.5454 	EXP 	New trial (rep=5, index=0): None
+144.5455 	EXP 	window1: mouseVisible = False
+144.5614 	EXP 	blankwindows: autoDraw = False
+144.5614 	EXP 	blankwindows: autoDraw = False
+144.5614 	EXP 	present_mat: text = '5 + 0 = 5'
+144.5614 	EXP 	present_mat: autoDraw = True
+144.5614 	EXP 	Timer_text: autoDraw = True
+145.5522 	DATA 	Keypress: left
+145.5784 	EXP 	Timer_text: autoDraw = False
+147.0613 	EXP 	present_mat: autoDraw = False
+147.0613 	EXP 	present_mat: autoDraw = False
+147.0613 	EXP 	Timer_text: autoDraw = False
+147.0613 	EXP 	blankwindows: text = '+'
+147.0613 	EXP 	blankwindows: autoDraw = True
+147.5459 	EXP 	New trial (rep=6, index=0): None
+147.5460 	EXP 	window1: mouseVisible = False
+147.5612 	EXP 	blankwindows: autoDraw = False
+147.5612 	EXP 	blankwindows: autoDraw = False
+147.5612 	EXP 	present_mat: text = '2 + 4 = 6'
+147.5612 	EXP 	present_mat: autoDraw = True
+147.5612 	EXP 	Timer_text: autoDraw = True
+148.5646 	DATA 	Keypress: left
+148.5953 	EXP 	Timer_text: autoDraw = False
+150.0611 	EXP 	present_mat: autoDraw = False
+150.0611 	EXP 	Timer_text: autoDraw = False
+150.0611 	EXP 	blankwindows: text = '+'
+150.0611 	EXP 	blankwindows: autoDraw = True
+150.5287 	EXP 	New trial (rep=7, index=0): None
+150.5288 	EXP 	window1: mouseVisible = False
+150.5481 	EXP 	blankwindows: autoDraw = False
+150.5481 	EXP 	blankwindows: autoDraw = False
+150.5481 	EXP 	present_mat: text = '7 + 8 = 2'
+150.5481 	EXP 	present_mat: autoDraw = True
+150.5481 	EXP 	Timer_text: autoDraw = True
+151.4327 	DATA 	Keypress: right
+151.4610 	EXP 	Timer_text: autoDraw = False
+153.0609 	EXP 	present_mat: autoDraw = False
+153.0609 	EXP 	Timer_text: autoDraw = False
+153.0609 	EXP 	blankwindows: text = '+'
+153.0609 	EXP 	blankwindows: autoDraw = True
+153.4611 	EXP 	New trial (rep=8, index=0): None
+153.4612 	EXP 	window1: mouseVisible = False
+153.4813 	EXP 	blankwindows: autoDraw = False
+153.4813 	EXP 	blankwindows: autoDraw = False
+153.4813 	EXP 	present_mat: text = '5 + 3 = 1'
+153.4813 	EXP 	present_mat: autoDraw = True
+153.4813 	EXP 	Timer_text: autoDraw = True
+154.5819 	DATA 	Keypress: right
+154.6109 	EXP 	Timer_text: autoDraw = False
+155.9953 	EXP 	present_mat: autoDraw = False
+155.9953 	EXP 	Timer_text: autoDraw = False
+155.9953 	EXP 	blankwindows: text = '+'
+155.9953 	EXP 	blankwindows: autoDraw = True
+156.4458 	EXP 	New trial (rep=9, index=0): None
+156.4459 	EXP 	window1: mouseVisible = False
+156.4611 	EXP 	blankwindows: autoDraw = False
+156.4611 	EXP 	blankwindows: autoDraw = False
+156.4611 	EXP 	present_mat: text = '3 + 1 = 5'
+156.4611 	EXP 	present_mat: autoDraw = True
+156.4611 	EXP 	Timer_text: autoDraw = True
+157.6305 	DATA 	Keypress: right
+157.6625 	EXP 	Timer_text: autoDraw = False
+158.9616 	EXP 	present_mat: autoDraw = False
+158.9616 	EXP 	Timer_text: autoDraw = False
+158.9616 	EXP 	blankwindows: text = '+'
+158.9616 	EXP 	blankwindows: autoDraw = True
+159.3785 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+159.3787 	EXP 	New trial (rep=0, index=0): None
+159.3789 	EXP 	window1: mouseVisible = True
+159.3963 	EXP 	blankwindows: autoDraw = False
+159.3963 	EXP 	blankwindows: autoDraw = False
+159.3963 	EXP 	rating_effort: markerPos = None
+159.3963 	EXP 	rating_effort: markerPos = None
+159.3963 	EXP 	rating_effort: rating = None
+159.3963 	EXP 	text_2: autoDraw = True
+159.8782 	EXP 	rating_effort: autoDraw = True
+160.8458 	DATA 	Mouse: wheel shift=(0,0), pos=(1041,424)
+160.8460 	DATA 	Mouse: wheel shift=(0,0), pos=(1041,424)
+160.8507 	DATA 	Mouse: wheel shift=(0,-1), pos=(1041,424)
+160.8676 	DATA 	Mouse: wheel shift=(0,0), pos=(1041,424)
+160.8956 	DATA 	Mouse: wheel shift=(1,0), pos=(1041,424)
+160.8998 	DATA 	Mouse: wheel shift=(0,0), pos=(1041,424)
+160.9158 	DATA 	Mouse: wheel shift=(0,0), pos=(1041,424)
+160.9317 	DATA 	Mouse: wheel shift=(0,0), pos=(1041,424)
+160.9321 	DATA 	Mouse: Left button down, pos=(1041,424)
+160.9513 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,425)
+160.9628 	EXP 	rating_effort: markerPos = 4.071111111111112
+160.9686 	DATA 	Mouse: wheel shift=(0,0), pos=(1040,425)
+160.9776 	EXP 	rating_effort: markerPos = 4.066666666666666
+160.9835 	DATA 	Mouse: wheel shift=(0,0), pos=(1038,426)
+160.9962 	EXP 	rating_effort: markerPos = 4.057777777777778
+161.0134 	EXP 	rating_effort: markerPos = 4.04
+161.0194 	DATA 	Mouse: wheel shift=(0,0), pos=(1029,429)
+161.0198 	DATA 	Mouse:  Left button up, pos=(1029,429)
+161.0274 	EXP 	rating_effort: markerPos = 4.017777777777778
+161.0446 	EXP 	rating_effort: markerPos = 4.0
+161.0446 	EXP 	rating_effort: rating = 4.0
+161.0541 	EXP 	New trial (rep=1, index=0): None
+161.0581 	EXP 	window1: mouseVisible = True
+161.0630 	EXP 	rating_effort: autoDraw = False
+161.0630 	EXP 	text_2: autoDraw = False
+161.0630 	EXP 	rating_difficulty: markerPos = None
+161.0630 	EXP 	rating_difficulty: markerPos = None
+161.0630 	EXP 	rating_difficulty: rating = None
+161.0630 	EXP 	rating_difficulty: autoDraw = False
+161.0630 	EXP 	text_6: autoDraw = False
+161.0630 	EXP 	rating_attention: markerPos = None
+161.0630 	EXP 	rating_attention: markerPos = None
+161.0630 	EXP 	rating_attention: rating = None
+161.0630 	EXP 	rating_attention: autoDraw = False
+161.0630 	EXP 	text_7: autoDraw = False
+161.0630 	EXP 	rating_effort: markerPos = None
+161.0630 	EXP 	rating_effort: markerPos = None
+161.0630 	EXP 	rating_effort: rating = None
+161.0630 	EXP 	rating_effort: autoDraw = False
+161.0630 	EXP 	text_2: autoDraw = False
+161.0630 	EXP 	rating_difficulty: markerPos = None
+161.0630 	EXP 	rating_difficulty: markerPos = None
+161.0630 	EXP 	rating_difficulty: rating = None
+161.0630 	EXP 	text_6: autoDraw = True
+161.5449 	EXP 	rating_difficulty: autoDraw = True
+162.0959 	DATA 	Mouse: Left button down, pos=(371,432)
+162.1114 	EXP 	rating_difficulty: markerPos = 1.0933333333333333
+162.1273 	EXP 	rating_difficulty: markerPos = 1.0888888888888888
+162.1447 	EXP 	rating_difficulty: markerPos = 1.0888888888888888
+162.1501 	DATA 	Mouse:  Left button up, pos=(370,432)
+162.1622 	EXP 	rating_difficulty: markerPos = 1.0888888888888888
+162.1787 	EXP 	rating_difficulty: markerPos = 1.0
+162.1787 	EXP 	rating_difficulty: rating = 1.0
+162.1845 	EXP 	New trial (rep=2, index=0): None
+162.1926 	EXP 	window1: mouseVisible = True
+162.1979 	EXP 	rating_difficulty: autoDraw = False
+162.1979 	EXP 	text_6: autoDraw = False
+162.1979 	EXP 	rating_attention: markerPos = None
+162.1979 	EXP 	rating_attention: markerPos = None
+162.1979 	EXP 	rating_attention: rating = None
+162.1979 	EXP 	rating_attention: autoDraw = False
+162.1979 	EXP 	text_7: autoDraw = False
+162.1979 	EXP 	rating_effort: markerPos = None
+162.1979 	EXP 	rating_effort: markerPos = None
+162.1979 	EXP 	rating_effort: rating = None
+162.1979 	EXP 	rating_effort: autoDraw = False
+162.1979 	EXP 	text_2: autoDraw = False
+162.1979 	EXP 	rating_difficulty: markerPos = None
+162.1979 	EXP 	rating_difficulty: markerPos = None
+162.1979 	EXP 	rating_difficulty: rating = None
+162.1979 	EXP 	rating_difficulty: autoDraw = False
+162.1979 	EXP 	text_6: autoDraw = False
+162.1979 	EXP 	rating_attention: markerPos = None
+162.1979 	EXP 	rating_attention: markerPos = None
+162.1979 	EXP 	rating_attention: rating = None
+162.1979 	EXP 	text_7: autoDraw = True
+162.6952 	EXP 	rating_attention: autoDraw = True
+163.1496 	DATA 	Mouse: Left button down, pos=(1038,434)
+163.1781 	EXP 	rating_attention: markerPos = 4.057777777777778
+163.1955 	EXP 	rating_attention: markerPos = 4.057777777777778
+163.2115 	EXP 	rating_attention: markerPos = 4.057777777777778
+163.2275 	EXP 	rating_attention: markerPos = 4.057777777777778
+163.2450 	EXP 	rating_attention: markerPos = 4.057777777777778
+163.2509 	DATA 	Mouse:  Left button up, pos=(1038,434)
+163.2621 	EXP 	rating_attention: markerPos = 4.057777777777778
+163.2807 	EXP 	rating_attention: markerPos = 4.0
+163.2807 	EXP 	rating_attention: rating = 4.0
+163.2823 	EXP 	New trial (rep=0, index=4): {'difficulty_level': 'low', 'num_session': 1, 'num_rand': 10}
+163.2950 	EXP 	rating_attention: autoDraw = False
+163.2950 	EXP 	text_7: autoDraw = False
+163.2950 	EXP 	text_4: autoDraw = True
+164.0820 	EXP 	window1: mouseVisible = False
+164.0842 	DATA 	Keypress: space
+164.0950 	EXP 	text_4: autoDraw = False
+164.0950 	EXP 	ready_txt: autoDraw = True
+166.0784 	EXP 	Go_text: autoDraw = True
+166.0956 	EXP 	ready_txt: autoDraw = False
+167.0627 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+167.0629 	EXP 	New trial (rep=0, index=0): None
+167.0630 	EXP 	window1: mouseVisible = False
+167.0778 	EXP 	Go_text: autoDraw = False
+167.0778 	EXP 	ready_txt: autoDraw = False
+167.0778 	EXP 	Go_text: autoDraw = False
+167.0778 	EXP 	present_mat: text = '2 + 2 = 6'
+167.0778 	EXP 	present_mat: autoDraw = True
+167.0778 	EXP 	Timer_text: autoDraw = True
+168.0479 	DATA 	Keypress: right
+168.0779 	EXP 	Timer_text: autoDraw = False
+169.5777 	EXP 	present_mat: autoDraw = False
+169.5777 	EXP 	present_mat: autoDraw = False
+169.5777 	EXP 	Timer_text: autoDraw = False
+169.5777 	EXP 	blankwindows: text = '+'
+169.5777 	EXP 	blankwindows: autoDraw = True
+170.0452 	EXP 	New trial (rep=1, index=0): None
+170.0453 	EXP 	window1: mouseVisible = False
+170.0621 	EXP 	blankwindows: autoDraw = False
+170.0621 	EXP 	blankwindows: autoDraw = False
+170.0621 	EXP 	present_mat: text = '3 + 5 = 8'
+170.0621 	EXP 	present_mat: autoDraw = True
+170.0621 	EXP 	Timer_text: autoDraw = True
+171.0152 	DATA 	Keypress: left
+171.0448 	EXP 	Timer_text: autoDraw = False
+172.5780 	EXP 	present_mat: autoDraw = False
+172.5780 	EXP 	Timer_text: autoDraw = False
+172.5780 	EXP 	blankwindows: text = '+'
+172.5780 	EXP 	blankwindows: autoDraw = True
+173.0782 	EXP 	New trial (rep=2, index=0): None
+173.0783 	EXP 	window1: mouseVisible = False
+173.0956 	EXP 	blankwindows: autoDraw = False
+173.0956 	EXP 	blankwindows: autoDraw = False
+173.0956 	EXP 	present_mat: text = '8 + 8 = 9'
+173.0956 	EXP 	present_mat: autoDraw = True
+173.0956 	EXP 	Timer_text: autoDraw = True
+173.9153 	DATA 	Keypress: right
+173.9449 	EXP 	Timer_text: autoDraw = False
+175.6117 	EXP 	present_mat: autoDraw = False
+175.6117 	EXP 	Timer_text: autoDraw = False
+175.6117 	EXP 	blankwindows: text = '+'
+175.6117 	EXP 	blankwindows: autoDraw = True
+176.0117 	EXP 	New trial (rep=3, index=0): None
+176.0118 	EXP 	window1: mouseVisible = False
+176.0275 	EXP 	blankwindows: autoDraw = False
+176.0275 	EXP 	blankwindows: autoDraw = False
+176.0275 	EXP 	present_mat: text = '0 + 5 = 5'
+176.0275 	EXP 	present_mat: autoDraw = True
+176.0275 	EXP 	Timer_text: autoDraw = True
+177.2993 	DATA 	Keypress: left
+177.3275 	EXP 	Timer_text: autoDraw = False
+178.5274 	EXP 	present_mat: autoDraw = False
+178.5274 	EXP 	present_mat: autoDraw = False
+178.5274 	EXP 	Timer_text: autoDraw = False
+178.5274 	EXP 	blankwindows: text = '+'
+178.5274 	EXP 	blankwindows: autoDraw = True
+178.9628 	EXP 	New trial (rep=4, index=0): None
+178.9629 	EXP 	window1: mouseVisible = False
+178.9787 	EXP 	blankwindows: autoDraw = False
+178.9787 	EXP 	blankwindows: autoDraw = False
+178.9787 	EXP 	present_mat: text = '4 + 4 = 8'
+178.9787 	EXP 	present_mat: autoDraw = True
+178.9787 	EXP 	Timer_text: autoDraw = True
+180.2815 	DATA 	Keypress: left
+180.3112 	EXP 	Timer_text: autoDraw = False
+181.4777 	EXP 	present_mat: autoDraw = False
+181.4777 	EXP 	present_mat: autoDraw = False
+181.4777 	EXP 	Timer_text: autoDraw = False
+181.4777 	EXP 	blankwindows: text = '+'
+181.4777 	EXP 	blankwindows: autoDraw = True
+181.9121 	EXP 	New trial (rep=5, index=0): None
+181.9122 	EXP 	window1: mouseVisible = False
+181.9276 	EXP 	blankwindows: autoDraw = False
+181.9276 	EXP 	blankwindows: autoDraw = False
+181.9276 	EXP 	present_mat: text = '5 + 9 = 6'
+181.9276 	EXP 	present_mat: autoDraw = True
+181.9276 	EXP 	Timer_text: autoDraw = True
+182.7659 	DATA 	Keypress: right
+182.7954 	EXP 	Timer_text: autoDraw = False
+184.4275 	EXP 	present_mat: autoDraw = False
+184.4275 	EXP 	present_mat: autoDraw = False
+184.4275 	EXP 	Timer_text: autoDraw = False
+184.4275 	EXP 	blankwindows: text = '+'
+184.4275 	EXP 	blankwindows: autoDraw = True
+184.8279 	EXP 	New trial (rep=6, index=0): None
+184.8280 	EXP 	window1: mouseVisible = False
+184.8452 	EXP 	blankwindows: autoDraw = False
+184.8452 	EXP 	blankwindows: autoDraw = False
+184.8452 	EXP 	present_mat: text = '1 + 8 = 9'
+184.8452 	EXP 	present_mat: autoDraw = True
+184.8452 	EXP 	Timer_text: autoDraw = True
+185.7666 	DATA 	Keypress: left
+185.7950 	EXP 	Timer_text: autoDraw = False
+187.3617 	EXP 	present_mat: autoDraw = False
+187.3617 	EXP 	Timer_text: autoDraw = False
+187.3617 	EXP 	blankwindows: text = '+'
+187.3617 	EXP 	blankwindows: autoDraw = True
+187.8622 	EXP 	New trial (rep=7, index=0): None
+187.8623 	EXP 	window1: mouseVisible = False
+187.8786 	EXP 	blankwindows: autoDraw = False
+187.8786 	EXP 	blankwindows: autoDraw = False
+187.8786 	EXP 	present_mat: text = '4 + 6 = 9'
+187.8786 	EXP 	present_mat: autoDraw = True
+187.8786 	EXP 	Timer_text: autoDraw = True
+189.1836 	DATA 	Keypress: right
+189.2113 	EXP 	Timer_text: autoDraw = False
+190.3808 	EXP 	present_mat: autoDraw = False
+190.3808 	EXP 	present_mat: autoDraw = False
+190.3808 	EXP 	Timer_text: autoDraw = False
+190.3808 	EXP 	blankwindows: text = '+'
+190.3808 	EXP 	blankwindows: autoDraw = True
+190.7784 	EXP 	New trial (rep=8, index=0): None
+190.7785 	EXP 	window1: mouseVisible = False
+190.7955 	EXP 	blankwindows: autoDraw = False
+190.7955 	EXP 	blankwindows: autoDraw = False
+190.7955 	EXP 	present_mat: text = '6 + 1 = 7'
+190.7955 	EXP 	present_mat: autoDraw = True
+190.7955 	EXP 	Timer_text: autoDraw = True
+192.4495 	DATA 	Keypress: left
+192.4775 	EXP 	Timer_text: autoDraw = False
+193.3117 	EXP 	present_mat: autoDraw = False
+193.3117 	EXP 	Timer_text: autoDraw = False
+193.3117 	EXP 	blankwindows: text = '+'
+193.3117 	EXP 	blankwindows: autoDraw = True
+193.8121 	EXP 	New trial (rep=9, index=0): None
+193.8122 	EXP 	window1: mouseVisible = False
+193.8275 	EXP 	blankwindows: autoDraw = False
+193.8275 	EXP 	blankwindows: autoDraw = False
+193.8275 	EXP 	present_mat: text = '5 + 9 = 7'
+193.8275 	EXP 	present_mat: autoDraw = True
+193.8275 	EXP 	Timer_text: autoDraw = True
+194.9817 	DATA 	Keypress: right
+195.0113 	EXP 	Timer_text: autoDraw = False
+196.3276 	EXP 	present_mat: autoDraw = False
+196.3276 	EXP 	present_mat: autoDraw = False
+196.3276 	EXP 	Timer_text: autoDraw = False
+196.3276 	EXP 	blankwindows: text = '+'
+196.3276 	EXP 	blankwindows: autoDraw = True
+196.7460 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+196.7462 	EXP 	New trial (rep=0, index=0): None
+196.7569 	EXP 	window1: mouseVisible = True
+196.7623 	EXP 	blankwindows: autoDraw = False
+196.7623 	EXP 	blankwindows: autoDraw = False
+196.7623 	EXP 	rating_effort: markerPos = None
+196.7623 	EXP 	rating_effort: markerPos = None
+196.7623 	EXP 	rating_effort: rating = None
+196.7623 	EXP 	rating_effort: autoDraw = False
+196.7623 	EXP 	text_2: autoDraw = False
+196.7623 	EXP 	rating_difficulty: markerPos = None
+196.7623 	EXP 	rating_difficulty: markerPos = None
+196.7623 	EXP 	rating_difficulty: rating = None
+196.7623 	EXP 	rating_difficulty: autoDraw = False
+196.7623 	EXP 	text_6: autoDraw = False
+196.7623 	EXP 	rating_attention: markerPos = None
+196.7623 	EXP 	rating_attention: markerPos = None
+196.7623 	EXP 	rating_attention: rating = None
+196.7623 	EXP 	text_7: autoDraw = True
+197.2628 	EXP 	rating_attention: autoDraw = True
+198.1322 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.1493 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.1495 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.1822 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.1988 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.2157 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.2318 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.2501 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.2663 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.2961 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.3000 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.3159 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.3313 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.3499 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.3676 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.3681 	DATA 	Mouse: Left button down, pos=(1037,434)
+198.3949 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.3954 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.4008 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.4113 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.4172 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.4271 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.4325 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.4451 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.4511 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.4628 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.4785 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.4845 	DATA 	Mouse:  Left button up, pos=(1037,434)
+198.4846 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.4848 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.4952 	EXP 	rating_attention: markerPos = 4.053333333333333
+198.5116 	EXP 	rating_attention: markerPos = 4.0
+198.5116 	EXP 	rating_attention: rating = 4.0
+198.5132 	EXP 	New trial (rep=1, index=0): None
+198.5173 	EXP 	window1: mouseVisible = True
+198.5214 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.5275 	EXP 	rating_attention: autoDraw = False
+198.5275 	EXP 	text_7: autoDraw = False
+198.5275 	EXP 	rating_effort: markerPos = None
+198.5275 	EXP 	rating_effort: markerPos = None
+198.5275 	EXP 	rating_effort: rating = None
+198.5275 	EXP 	rating_effort: autoDraw = False
+198.5275 	EXP 	text_2: autoDraw = False
+198.5275 	EXP 	rating_difficulty: markerPos = None
+198.5275 	EXP 	rating_difficulty: markerPos = None
+198.5275 	EXP 	rating_difficulty: rating = None
+198.5275 	EXP 	text_6: autoDraw = True
+198.5460 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.5635 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.5788 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.5967 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.6130 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.6289 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.6468 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.6631 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.6789 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.6970 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.7129 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.7290 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.7460 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.7630 	DATA 	Mouse: wheel shift=(0,-1), pos=(1037,434)
+198.7793 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.7962 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.8133 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.8289 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.8470 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.8633 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.8792 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.8972 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.9288 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.9465 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+198.9632 	DATA 	Mouse: wheel shift=(0,0), pos=(1037,434)
+199.0272 	EXP 	rating_difficulty: autoDraw = True
+200.2672 	DATA 	Mouse: Left button down, pos=(382,474)
+200.2945 	EXP 	rating_difficulty: markerPos = 1.1377777777777778
+200.3115 	EXP 	rating_difficulty: markerPos = 1.1377777777777778
+200.3291 	EXP 	rating_difficulty: markerPos = 1.1377777777777778
+200.3347 	DATA 	Mouse:  Left button up, pos=(381,475)
+200.3444 	EXP 	rating_difficulty: markerPos = 1.1377777777777778
+200.3623 	EXP 	rating_difficulty: markerPos = 1.0
+200.3623 	EXP 	rating_difficulty: rating = 1.0
+200.3681 	EXP 	New trial (rep=2, index=0): None
+200.3682 	EXP 	window1: mouseVisible = True
+200.3791 	EXP 	rating_difficulty: autoDraw = False
+200.3791 	EXP 	text_6: autoDraw = False
+200.3791 	EXP 	rating_attention: markerPos = None
+200.3791 	EXP 	rating_attention: markerPos = None
+200.3791 	EXP 	rating_attention: rating = None
+200.3791 	EXP 	rating_attention: autoDraw = False
+200.3791 	EXP 	text_7: autoDraw = False
+200.3791 	EXP 	rating_effort: markerPos = None
+200.3791 	EXP 	rating_effort: markerPos = None
+200.3791 	EXP 	rating_effort: rating = None
+200.3791 	EXP 	text_2: autoDraw = True
+200.8784 	EXP 	rating_effort: autoDraw = True
+201.0835 	DATA 	Mouse: wheel shift=(0,0), pos=(834,455)
+201.3991 	DATA 	Mouse: wheel shift=(0,0), pos=(980,463)
+201.4164 	DATA 	Mouse: wheel shift=(0,0), pos=(980,463)
+201.4328 	DATA 	Mouse: wheel shift=(0,0), pos=(980,463)
+201.4620 	DATA 	Mouse: wheel shift=(0,0), pos=(980,463)
+201.4662 	DATA 	Mouse: wheel shift=(0,0), pos=(980,463)
+201.4840 	DATA 	Mouse: wheel shift=(0,0), pos=(980,463)
+201.4992 	DATA 	Mouse: wheel shift=(0,0), pos=(982,462)
+201.7623 	DATA 	Mouse: wheel shift=(0,0), pos=(1001,460)
+201.7665 	DATA 	Mouse: wheel shift=(0,0), pos=(1001,460)
+201.7669 	DATA 	Mouse: Left button down, pos=(1001,460)
+201.7946 	EXP 	rating_effort: markerPos = 3.8933333333333335
+201.8114 	EXP 	rating_effort: markerPos = 3.8933333333333335
+201.8287 	EXP 	rating_effort: markerPos = 3.8933333333333335
+201.8346 	DATA 	Mouse:  Left button up, pos=(1001,460)
+201.8347 	DATA 	Mouse: wheel shift=(0,0), pos=(1001,460)
+201.8443 	EXP 	rating_effort: markerPos = 3.8933333333333335
+201.8618 	EXP 	rating_effort: markerPos = 4.0
+201.8618 	EXP 	rating_effort: rating = 4.0
+201.8717 	EXP 	New trial (rep=0, index=5): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+201.8797 	EXP 	rating_effort: autoDraw = False
+201.8797 	EXP 	text_2: autoDraw = False
+201.8797 	EXP 	rating_difficulty: markerPos = None
+201.8797 	EXP 	rating_difficulty: markerPos = None
+201.8797 	EXP 	rating_difficulty: rating = None
+201.8797 	EXP 	rating_difficulty: autoDraw = False
+201.8797 	EXP 	text_6: autoDraw = False
+201.8797 	EXP 	rating_attention: markerPos = None
+201.8797 	EXP 	rating_attention: markerPos = None
+201.8797 	EXP 	rating_attention: rating = None
+201.8797 	EXP 	rating_attention: autoDraw = False
+201.8797 	EXP 	text_7: autoDraw = False
+201.8797 	EXP 	text_4: autoDraw = True
+202.7304 	EXP 	window1: mouseVisible = False
+202.7333 	DATA 	Keypress: space
+202.7441 	EXP 	text_4: autoDraw = False
+202.7441 	EXP 	ready_txt: autoDraw = True
+204.7284 	EXP 	Go_text: autoDraw = True
+204.7440 	EXP 	ready_txt: autoDraw = False
+205.7122 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+205.7124 	EXP 	New trial (rep=0, index=0): None
+205.7125 	EXP 	window1: mouseVisible = False
+205.7286 	EXP 	Go_text: autoDraw = False
+205.7286 	EXP 	ready_txt: autoDraw = False
+205.7286 	EXP 	Go_text: autoDraw = False
+205.7286 	EXP 	present_mat: text = '42 + 44 = 96'
+205.7286 	EXP 	present_mat: autoDraw = True
+205.7286 	EXP 	Timer_text: autoDraw = True
+207.4822 	DATA 	Keypress: right
+207.5114 	EXP 	Timer_text: autoDraw = False
+208.2286 	EXP 	present_mat: autoDraw = False
+208.2286 	EXP 	present_mat: autoDraw = False
+208.2286 	EXP 	Timer_text: autoDraw = False
+208.2286 	EXP 	blankwindows: text = '+'
+208.2286 	EXP 	blankwindows: autoDraw = True
+208.7116 	EXP 	New trial (rep=1, index=0): None
+208.7117 	EXP 	window1: mouseVisible = False
+208.7285 	EXP 	blankwindows: autoDraw = False
+208.7285 	EXP 	blankwindows: autoDraw = False
+208.7285 	EXP 	present_mat: text = '12 + 67 = 89'
+208.7285 	EXP 	present_mat: autoDraw = True
+208.7285 	EXP 	Timer_text: autoDraw = True
+210.7479 	DATA 	Keypress: right
+210.7789 	EXP 	Timer_text: autoDraw = False
+211.2285 	EXP 	present_mat: autoDraw = False
+211.2285 	EXP 	Timer_text: autoDraw = False
+211.2285 	EXP 	blankwindows: text = '+'
+211.2285 	EXP 	blankwindows: autoDraw = True
+211.6951 	EXP 	New trial (rep=2, index=0): None
+211.6952 	EXP 	window1: mouseVisible = False
+211.7114 	EXP 	blankwindows: autoDraw = False
+211.7114 	EXP 	blankwindows: autoDraw = False
+211.7114 	EXP 	present_mat: text = '95 - 61 = 44'
+211.7114 	EXP 	present_mat: autoDraw = True
+211.7114 	EXP 	Timer_text: autoDraw = True
+213.6650 	DATA 	Keypress: right
+213.6940 	EXP 	Timer_text: autoDraw = False
+214.2114 	EXP 	present_mat: autoDraw = False
+214.2114 	EXP 	present_mat: autoDraw = False
+214.2114 	EXP 	Timer_text: autoDraw = False
+214.2114 	EXP 	blankwindows: text = '+'
+214.2114 	EXP 	blankwindows: autoDraw = True
+214.6624 	EXP 	New trial (rep=3, index=0): None
+214.6625 	EXP 	window1: mouseVisible = False
+214.6797 	EXP 	blankwindows: autoDraw = False
+214.6797 	EXP 	blankwindows: autoDraw = False
+214.6797 	EXP 	present_mat: text = '39 + 22 = 61'
+214.6797 	EXP 	present_mat: autoDraw = True
+214.6797 	EXP 	Timer_text: autoDraw = True
+216.1154 	DATA 	Keypress: left
+216.1445 	EXP 	Timer_text: autoDraw = False
+217.1948 	EXP 	present_mat: autoDraw = False
+217.1948 	EXP 	Timer_text: autoDraw = False
+217.1948 	EXP 	blankwindows: text = '+'
+217.1948 	EXP 	blankwindows: autoDraw = True
+217.6445 	EXP 	New trial (rep=4, index=0): None
+217.6446 	EXP 	window1: mouseVisible = False
+217.6620 	EXP 	blankwindows: autoDraw = False
+217.6620 	EXP 	blankwindows: autoDraw = False
+217.6620 	EXP 	present_mat: text = '53 + 22 = 75'
+217.6620 	EXP 	present_mat: autoDraw = True
+217.6620 	EXP 	Timer_text: autoDraw = True
+219.2979 	DATA 	Keypress: left
+219.3281 	EXP 	Timer_text: autoDraw = False
+220.1785 	EXP 	present_mat: autoDraw = False
+220.1785 	EXP 	Timer_text: autoDraw = False
+220.1785 	EXP 	blankwindows: text = '+'
+220.1785 	EXP 	blankwindows: autoDraw = True
+220.6790 	EXP 	New trial (rep=5, index=0): None
+220.6791 	EXP 	window1: mouseVisible = False
+220.6943 	EXP 	blankwindows: autoDraw = False
+220.6943 	EXP 	blankwindows: autoDraw = False
+220.6943 	EXP 	present_mat: text = '25 + 85 = 87'
+220.6943 	EXP 	present_mat: autoDraw = True
+220.6943 	EXP 	Timer_text: autoDraw = True
+223.1941 	EXP 	present_mat: autoDraw = False
+223.2116 	EXP 	present_mat: autoDraw = False
+223.2116 	EXP 	Timer_text: autoDraw = False
+223.2116 	EXP 	blankwindows: text = '+'
+223.2116 	EXP 	blankwindows: autoDraw = True
+223.2804 	DATA 	Keypress: right
+223.6789 	EXP 	New trial (rep=6, index=0): None
+223.6789 	EXP 	window1: mouseVisible = False
+223.6945 	EXP 	blankwindows: autoDraw = False
+223.6945 	EXP 	blankwindows: autoDraw = False
+223.6945 	EXP 	present_mat: text = '70 + 27 = 97'
+223.6945 	EXP 	present_mat: autoDraw = True
+223.6945 	EXP 	Timer_text: autoDraw = True
+224.8159 	DATA 	Keypress: left
+224.8441 	EXP 	Timer_text: autoDraw = False
+226.1943 	EXP 	present_mat: autoDraw = False
+226.1943 	EXP 	Timer_text: autoDraw = False
+226.1943 	EXP 	blankwindows: text = '+'
+226.1943 	EXP 	blankwindows: autoDraw = True
+226.6123 	EXP 	New trial (rep=7, index=0): None
+226.6134 	EXP 	window1: mouseVisible = False
+226.6283 	EXP 	blankwindows: autoDraw = False
+226.6283 	EXP 	blankwindows: autoDraw = False
+226.6283 	EXP 	present_mat: text = '63 + 20 = 83'
+226.6283 	EXP 	present_mat: autoDraw = True
+226.6283 	EXP 	Timer_text: autoDraw = True
+228.1814 	DATA 	Keypress: left
+228.1955 	EXP 	Timer_text: autoDraw = False
+229.1451 	EXP 	present_mat: autoDraw = False
+229.1451 	EXP 	Timer_text: autoDraw = False
+229.1451 	EXP 	blankwindows: text = '+'
+229.1451 	EXP 	blankwindows: autoDraw = True
+229.6113 	EXP 	New trial (rep=8, index=0): None
+229.6114 	EXP 	window1: mouseVisible = False
+229.6284 	EXP 	blankwindows: autoDraw = False
+229.6284 	EXP 	blankwindows: autoDraw = False
+229.6284 	EXP 	present_mat: text = '50 + 14 = 64'
+229.6284 	EXP 	present_mat: autoDraw = True
+229.6284 	EXP 	Timer_text: autoDraw = True
+230.5803 	DATA 	Keypress: left
+230.5961 	EXP 	Timer_text: autoDraw = False
+232.1284 	EXP 	present_mat: autoDraw = False
+232.1284 	EXP 	Timer_text: autoDraw = False
+232.1284 	EXP 	blankwindows: text = '+'
+232.1284 	EXP 	blankwindows: autoDraw = True
+232.5126 	EXP 	New trial (rep=9, index=0): None
+232.5127 	EXP 	window1: mouseVisible = False
+232.5281 	EXP 	blankwindows: autoDraw = False
+232.5281 	EXP 	blankwindows: autoDraw = False
+232.5281 	EXP 	present_mat: text = '35 + 39 = 74'
+232.5281 	EXP 	present_mat: autoDraw = True
+232.5281 	EXP 	Timer_text: autoDraw = True
+234.1487 	DATA 	Keypress: left
+234.1782 	EXP 	Timer_text: autoDraw = False
+235.0281 	EXP 	present_mat: autoDraw = False
+235.0281 	EXP 	present_mat: autoDraw = False
+235.0281 	EXP 	Timer_text: autoDraw = False
+235.0281 	EXP 	blankwindows: text = '+'
+235.0281 	EXP 	blankwindows: autoDraw = True
+235.4287 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+235.4289 	EXP 	New trial (rep=0, index=0): None
+235.4290 	EXP 	window1: mouseVisible = True
+235.4449 	EXP 	blankwindows: autoDraw = False
+235.4449 	EXP 	blankwindows: autoDraw = False
+235.4449 	EXP 	rating_effort: markerPos = None
+235.4449 	EXP 	rating_effort: markerPos = None
+235.4449 	EXP 	rating_effort: rating = None
+235.4449 	EXP 	text_2: autoDraw = True
+235.9418 	EXP 	rating_effort: autoDraw = True
+238.1663 	DATA 	Mouse: Left button down, pos=(1027,499)
+238.1952 	EXP 	rating_effort: markerPos = 4.0088888888888885
+238.2114 	EXP 	rating_effort: markerPos = 4.0088888888888885
+238.2280 	EXP 	rating_effort: markerPos = 4.0088888888888885
+238.2445 	EXP 	rating_effort: markerPos = 4.0088888888888885
+238.2501 	DATA 	Mouse:  Left button up, pos=(1027,499)
+238.2611 	EXP 	rating_effort: markerPos = 4.0088888888888885
+238.2786 	EXP 	rating_effort: markerPos = 4.0
+238.2786 	EXP 	rating_effort: rating = 4.0
+238.2883 	EXP 	New trial (rep=1, index=0): None
+238.2922 	EXP 	window1: mouseVisible = True
+238.2970 	EXP 	rating_effort: autoDraw = False
+238.2970 	EXP 	text_2: autoDraw = False
+238.2970 	EXP 	rating_difficulty: markerPos = None
+238.2970 	EXP 	rating_difficulty: markerPos = None
+238.2970 	EXP 	rating_difficulty: rating = None
+238.2970 	EXP 	rating_difficulty: autoDraw = False
+238.2970 	EXP 	text_6: autoDraw = False
+238.2970 	EXP 	rating_attention: markerPos = None
+238.2970 	EXP 	rating_attention: markerPos = None
+238.2970 	EXP 	rating_attention: rating = None
+238.2970 	EXP 	rating_attention: autoDraw = False
+238.2970 	EXP 	text_7: autoDraw = False
+238.2970 	EXP 	rating_effort: markerPos = None
+238.2970 	EXP 	rating_effort: markerPos = None
+238.2970 	EXP 	rating_effort: rating = None
+238.2970 	EXP 	rating_effort: autoDraw = False
+238.2970 	EXP 	text_2: autoDraw = False
+238.2970 	EXP 	rating_difficulty: markerPos = None
+238.2970 	EXP 	rating_difficulty: markerPos = None
+238.2970 	EXP 	rating_difficulty: rating = None
+238.2970 	EXP 	text_6: autoDraw = True
+238.7816 	EXP 	rating_difficulty: autoDraw = True
+239.7663 	DATA 	Mouse: Left button down, pos=(579,439)
+239.7984 	EXP 	rating_difficulty: markerPos = 2.017777777777778
+239.8118 	EXP 	rating_difficulty: markerPos = 2.017777777777778
+239.8285 	EXP 	rating_difficulty: markerPos = 2.017777777777778
+239.8447 	EXP 	rating_difficulty: markerPos = 2.017777777777778
+239.8616 	EXP 	rating_difficulty: markerPos = 2.017777777777778
+239.8677 	DATA 	Mouse:  Left button up, pos=(579,439)
+239.8789 	EXP 	rating_difficulty: markerPos = 2.017777777777778
+239.8986 	EXP 	rating_difficulty: markerPos = 2.0
+239.8986 	EXP 	rating_difficulty: rating = 2.0
+239.9042 	EXP 	New trial (rep=2, index=0): None
+239.9120 	EXP 	window1: mouseVisible = True
+239.9169 	EXP 	rating_difficulty: autoDraw = False
+239.9169 	EXP 	text_6: autoDraw = False
+239.9169 	EXP 	rating_attention: markerPos = None
+239.9169 	EXP 	rating_attention: markerPos = None
+239.9169 	EXP 	rating_attention: rating = None
+239.9169 	EXP 	rating_attention: autoDraw = False
+239.9169 	EXP 	text_7: autoDraw = False
+239.9169 	EXP 	rating_effort: markerPos = None
+239.9169 	EXP 	rating_effort: markerPos = None
+239.9169 	EXP 	rating_effort: rating = None
+239.9169 	EXP 	rating_effort: autoDraw = False
+239.9169 	EXP 	text_2: autoDraw = False
+239.9169 	EXP 	rating_difficulty: markerPos = None
+239.9169 	EXP 	rating_difficulty: markerPos = None
+239.9169 	EXP 	rating_difficulty: rating = None
+239.9169 	EXP 	rating_difficulty: autoDraw = False
+239.9169 	EXP 	text_6: autoDraw = False
+239.9169 	EXP 	rating_attention: markerPos = None
+239.9169 	EXP 	rating_attention: markerPos = None
+239.9169 	EXP 	rating_attention: rating = None
+239.9169 	EXP 	text_7: autoDraw = True
+240.4282 	EXP 	rating_attention: autoDraw = True
+241.3161 	DATA 	Mouse: Left button down, pos=(1009,469)
+241.3448 	EXP 	rating_attention: markerPos = 3.928888888888889
+241.3624 	EXP 	rating_attention: markerPos = 3.928888888888889
+241.3786 	EXP 	rating_attention: markerPos = 3.928888888888889
+241.3848 	DATA 	Mouse:  Left button up, pos=(1009,469)
+241.3960 	EXP 	rating_attention: markerPos = 3.928888888888889
+241.4113 	EXP 	rating_attention: markerPos = 4.0
+241.4113 	EXP 	rating_attention: rating = 4.0
+241.4131 	EXP 	New trial (rep=0, index=6): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+241.4278 	EXP 	rating_attention: autoDraw = False
+241.4278 	EXP 	text_7: autoDraw = False
+241.4278 	EXP 	text_4: autoDraw = True
+242.8631 	EXP 	window1: mouseVisible = False
+242.8656 	DATA 	Keypress: space
+242.8808 	EXP 	text_4: autoDraw = False
+242.8808 	EXP 	ready_txt: autoDraw = True
+244.8619 	EXP 	Go_text: autoDraw = True
+244.8952 	EXP 	ready_txt: autoDraw = False
+245.8458 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+245.8461 	EXP 	New trial (rep=0, index=0): None
+245.8462 	EXP 	window1: mouseVisible = False
+245.8619 	EXP 	Go_text: autoDraw = False
+245.8619 	EXP 	ready_txt: autoDraw = False
+245.8619 	EXP 	Go_text: autoDraw = False
+245.8619 	EXP 	present_mat: text = '12 + 67 = 89'
+245.8619 	EXP 	present_mat: autoDraw = True
+245.8619 	EXP 	Timer_text: autoDraw = True
+247.2818 	DATA 	Keypress: right
+247.3120 	EXP 	Timer_text: autoDraw = False
+248.3617 	EXP 	present_mat: autoDraw = False
+248.3617 	EXP 	present_mat: autoDraw = False
+248.3617 	EXP 	Timer_text: autoDraw = False
+248.3617 	EXP 	blankwindows: text = '+'
+248.3617 	EXP 	blankwindows: autoDraw = True
+248.8289 	EXP 	New trial (rep=1, index=0): None
+248.8290 	EXP 	window1: mouseVisible = False
+248.8450 	EXP 	blankwindows: autoDraw = False
+248.8450 	EXP 	blankwindows: autoDraw = False
+248.8450 	EXP 	present_mat: text = '56 + 35 = 91'
+248.8450 	EXP 	present_mat: autoDraw = True
+248.8450 	EXP 	Timer_text: autoDraw = True
+250.5652 	DATA 	Keypress: left
+250.5952 	EXP 	Timer_text: autoDraw = False
+251.3451 	EXP 	present_mat: autoDraw = False
+251.3451 	EXP 	present_mat: autoDraw = False
+251.3451 	EXP 	Timer_text: autoDraw = False
+251.3451 	EXP 	blankwindows: text = '+'
+251.3451 	EXP 	blankwindows: autoDraw = True
+251.7960 	EXP 	New trial (rep=2, index=0): None
+251.7961 	EXP 	window1: mouseVisible = False
+251.8122 	EXP 	blankwindows: autoDraw = False
+251.8122 	EXP 	blankwindows: autoDraw = False
+251.8122 	EXP 	present_mat: text = '51 - 28 = 23'
+251.8122 	EXP 	present_mat: autoDraw = True
+251.8122 	EXP 	Timer_text: autoDraw = True
+253.6156 	DATA 	Keypress: left
+253.6448 	EXP 	Timer_text: autoDraw = False
+254.3114 	EXP 	present_mat: autoDraw = False
+254.3114 	EXP 	present_mat: autoDraw = False
+254.3114 	EXP 	Timer_text: autoDraw = False
+254.3114 	EXP 	blankwindows: text = '+'
+254.3114 	EXP 	blankwindows: autoDraw = True
+254.7790 	EXP 	New trial (rep=3, index=0): None
+254.7791 	EXP 	window1: mouseVisible = False
+254.7952 	EXP 	blankwindows: autoDraw = False
+254.7952 	EXP 	blankwindows: autoDraw = False
+254.7952 	EXP 	present_mat: text = '65 - 31 = 24'
+254.7952 	EXP 	present_mat: autoDraw = True
+254.7952 	EXP 	Timer_text: autoDraw = True
+256.7487 	DATA 	Keypress: right
+256.7783 	EXP 	Timer_text: autoDraw = False
+257.2955 	EXP 	present_mat: autoDraw = False
+257.2955 	EXP 	present_mat: autoDraw = False
+257.2955 	EXP 	Timer_text: autoDraw = False
+257.2955 	EXP 	blankwindows: text = '+'
+257.2955 	EXP 	blankwindows: autoDraw = True
+257.7787 	EXP 	New trial (rep=4, index=0): None
+257.7788 	EXP 	window1: mouseVisible = False
+257.7952 	EXP 	blankwindows: autoDraw = False
+257.7952 	EXP 	blankwindows: autoDraw = False
+257.7952 	EXP 	present_mat: text = '89 - 46 = 53'
+257.7952 	EXP 	present_mat: autoDraw = True
+257.7952 	EXP 	Timer_text: autoDraw = True
+259.9316 	DATA 	Keypress: right
+259.9617 	EXP 	Timer_text: autoDraw = False
+260.2957 	EXP 	present_mat: autoDraw = False
+260.2957 	EXP 	present_mat: autoDraw = False
+260.2957 	EXP 	Timer_text: autoDraw = False
+260.2957 	EXP 	blankwindows: text = '+'
+260.2957 	EXP 	blankwindows: autoDraw = True
+260.7288 	EXP 	New trial (rep=5, index=0): None
+260.7289 	EXP 	window1: mouseVisible = False
+260.7450 	EXP 	blankwindows: autoDraw = False
+260.7450 	EXP 	blankwindows: autoDraw = False
+260.7450 	EXP 	present_mat: text = '89 - 56 = 33'
+260.7450 	EXP 	present_mat: autoDraw = True
+260.7450 	EXP 	Timer_text: autoDraw = True
+262.5486 	DATA 	Keypress: left
+262.5784 	EXP 	Timer_text: autoDraw = False
+263.2448 	EXP 	present_mat: autoDraw = False
+263.2448 	EXP 	present_mat: autoDraw = False
+263.2448 	EXP 	Timer_text: autoDraw = False
+263.2448 	EXP 	blankwindows: text = '+'
+263.2448 	EXP 	blankwindows: autoDraw = True
+263.7121 	EXP 	New trial (rep=6, index=0): None
+263.7121 	EXP 	window1: mouseVisible = False
+263.7279 	EXP 	blankwindows: autoDraw = False
+263.7279 	EXP 	blankwindows: autoDraw = False
+263.7279 	EXP 	present_mat: text = '82 - 51 = 31'
+263.7279 	EXP 	present_mat: autoDraw = True
+263.7279 	EXP 	Timer_text: autoDraw = True
+265.1320 	DATA 	Keypress: left
+265.1627 	EXP 	Timer_text: autoDraw = False
+266.2284 	EXP 	present_mat: autoDraw = False
+266.2284 	EXP 	present_mat: autoDraw = False
+266.2284 	EXP 	Timer_text: autoDraw = False
+266.2284 	EXP 	blankwindows: text = '+'
+266.2284 	EXP 	blankwindows: autoDraw = True
+266.6787 	EXP 	New trial (rep=7, index=0): None
+266.6787 	EXP 	window1: mouseVisible = False
+266.6960 	EXP 	blankwindows: autoDraw = False
+266.6960 	EXP 	blankwindows: autoDraw = False
+266.6960 	EXP 	present_mat: text = '47 - 32 = 5'
+266.6960 	EXP 	present_mat: autoDraw = True
+266.6960 	EXP 	Timer_text: autoDraw = True
+268.3661 	DATA 	Keypress: right
+268.3965 	EXP 	Timer_text: autoDraw = False
+269.1954 	EXP 	present_mat: autoDraw = False
+269.1954 	EXP 	Timer_text: autoDraw = False
+269.1954 	EXP 	blankwindows: text = '+'
+269.1954 	EXP 	blankwindows: autoDraw = True
+269.6956 	EXP 	New trial (rep=8, index=0): None
+269.6957 	EXP 	window1: mouseVisible = False
+269.7120 	EXP 	blankwindows: autoDraw = False
+269.7120 	EXP 	blankwindows: autoDraw = False
+269.7120 	EXP 	present_mat: text = '99 - 26 = 73'
+269.7120 	EXP 	present_mat: autoDraw = True
+269.7120 	EXP 	Timer_text: autoDraw = True
+271.9669 	DATA 	Keypress: right
+271.9957 	EXP 	Timer_text: autoDraw = False
+272.2119 	EXP 	present_mat: autoDraw = False
+272.2119 	EXP 	present_mat: autoDraw = False
+272.2119 	EXP 	Timer_text: autoDraw = False
+272.2119 	EXP 	blankwindows: text = '+'
+272.2119 	EXP 	blankwindows: autoDraw = True
+272.6454 	EXP 	New trial (rep=9, index=0): None
+272.6454 	EXP 	window1: mouseVisible = False
+272.6618 	EXP 	blankwindows: autoDraw = False
+272.6618 	EXP 	blankwindows: autoDraw = False
+272.6618 	EXP 	present_mat: text = '12 + 74 = 96'
+272.6618 	EXP 	present_mat: autoDraw = True
+272.6618 	EXP 	Timer_text: autoDraw = True
+274.6018 	DATA 	Keypress: right
+274.6282 	EXP 	Timer_text: autoDraw = False
+275.1629 	EXP 	present_mat: autoDraw = False
+275.1629 	EXP 	present_mat: autoDraw = False
+275.1629 	EXP 	Timer_text: autoDraw = False
+275.1629 	EXP 	blankwindows: text = '+'
+275.1629 	EXP 	blankwindows: autoDraw = True
+275.6289 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+275.6291 	EXP 	New trial (rep=0, index=0): None
+275.6292 	EXP 	window1: mouseVisible = True
+275.6452 	EXP 	blankwindows: autoDraw = False
+275.6452 	EXP 	blankwindows: autoDraw = False
+275.6452 	EXP 	rating_effort: markerPos = None
+275.6452 	EXP 	rating_effort: markerPos = None
+275.6452 	EXP 	rating_effort: rating = None
+275.6452 	EXP 	text_2: autoDraw = True
+276.1438 	EXP 	rating_effort: autoDraw = True
+277.4489 	DATA 	Mouse: Left button down, pos=(999,479)
+277.4783 	EXP 	rating_effort: markerPos = 3.8844444444444446
+277.4957 	EXP 	rating_effort: markerPos = 3.8844444444444446
+277.5120 	EXP 	rating_effort: markerPos = 3.8844444444444446
+277.5176 	DATA 	Mouse:  Left button up, pos=(999,479)
+277.5281 	EXP 	rating_effort: markerPos = 3.8844444444444446
+277.5448 	EXP 	rating_effort: markerPos = 4.0
+277.5448 	EXP 	rating_effort: rating = 4.0
+277.5546 	EXP 	New trial (rep=1, index=0): None
+277.5625 	EXP 	window1: mouseVisible = True
+277.5676 	EXP 	rating_effort: autoDraw = False
+277.5676 	EXP 	text_2: autoDraw = False
+277.5676 	EXP 	rating_difficulty: markerPos = None
+277.5676 	EXP 	rating_difficulty: markerPos = None
+277.5676 	EXP 	rating_difficulty: rating = None
+277.5676 	EXP 	rating_difficulty: autoDraw = False
+277.5676 	EXP 	text_6: autoDraw = False
+277.5676 	EXP 	rating_attention: markerPos = None
+277.5676 	EXP 	rating_attention: markerPos = None
+277.5676 	EXP 	rating_attention: rating = None
+277.5676 	EXP 	rating_attention: autoDraw = False
+277.5676 	EXP 	text_7: autoDraw = False
+277.5676 	EXP 	rating_effort: markerPos = None
+277.5676 	EXP 	rating_effort: markerPos = None
+277.5676 	EXP 	rating_effort: rating = None
+277.5676 	EXP 	rating_effort: autoDraw = False
+277.5676 	EXP 	text_2: autoDraw = False
+277.5676 	EXP 	rating_difficulty: markerPos = None
+277.5676 	EXP 	rating_difficulty: markerPos = None
+277.5676 	EXP 	rating_difficulty: rating = None
+277.5676 	EXP 	rating_difficulty: autoDraw = False
+277.5676 	EXP 	text_6: autoDraw = False
+277.5676 	EXP 	rating_attention: markerPos = None
+277.5676 	EXP 	rating_attention: markerPos = None
+277.5676 	EXP 	rating_attention: rating = None
+277.5676 	EXP 	text_7: autoDraw = True
+278.0621 	EXP 	rating_attention: autoDraw = True
+280.2663 	DATA 	Mouse: Left button down, pos=(1041,466)
+280.2963 	EXP 	rating_attention: markerPos = 4.071111111111112
+280.3113 	EXP 	rating_attention: markerPos = 4.071111111111112
+280.3280 	EXP 	rating_attention: markerPos = 4.071111111111112
+280.3449 	EXP 	rating_attention: markerPos = 4.071111111111112
+280.3618 	EXP 	rating_attention: markerPos = 4.071111111111112
+280.3678 	DATA 	Mouse:  Left button up, pos=(1041,466)
+280.3790 	EXP 	rating_attention: markerPos = 4.071111111111112
+280.3984 	EXP 	rating_attention: markerPos = 4.0
+280.3984 	EXP 	rating_attention: rating = 4.0
+280.4002 	EXP 	New trial (rep=2, index=0): None
+280.4044 	EXP 	window1: mouseVisible = True
+280.4115 	EXP 	rating_attention: autoDraw = False
+280.4115 	EXP 	text_7: autoDraw = False
+280.4115 	EXP 	rating_effort: markerPos = None
+280.4115 	EXP 	rating_effort: markerPos = None
+280.4115 	EXP 	rating_effort: rating = None
+280.4115 	EXP 	rating_effort: autoDraw = False
+280.4115 	EXP 	text_2: autoDraw = False
+280.4115 	EXP 	rating_difficulty: markerPos = None
+280.4115 	EXP 	rating_difficulty: markerPos = None
+280.4115 	EXP 	rating_difficulty: rating = None
+280.4115 	EXP 	text_6: autoDraw = True
+280.9118 	EXP 	rating_difficulty: autoDraw = True
+282.7162 	DATA 	Mouse: Left button down, pos=(593,490)
+282.7448 	EXP 	rating_difficulty: markerPos = 2.08
+282.7616 	EXP 	rating_difficulty: markerPos = 2.08
+282.7791 	EXP 	rating_difficulty: markerPos = 2.08
+282.7851 	DATA 	Mouse:  Left button up, pos=(593,490)
+282.7954 	EXP 	rating_difficulty: markerPos = 2.08
+282.8113 	EXP 	rating_difficulty: markerPos = 2.0
+282.8113 	EXP 	rating_difficulty: rating = 2.0
+282.8169 	EXP 	New trial (rep=0, index=7): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+282.8288 	EXP 	rating_difficulty: autoDraw = False
+282.8288 	EXP 	text_6: autoDraw = False
+282.8288 	EXP 	rating_attention: markerPos = None
+282.8288 	EXP 	rating_attention: markerPos = None
+282.8288 	EXP 	rating_attention: rating = None
+282.8288 	EXP 	rating_attention: autoDraw = False
+282.8288 	EXP 	text_7: autoDraw = False
+282.8288 	EXP 	text_4: autoDraw = True
+283.8971 	EXP 	window1: mouseVisible = False
+283.8991 	DATA 	Keypress: space
+283.9115 	EXP 	text_4: autoDraw = False
+283.9115 	EXP 	ready_txt: autoDraw = True
+285.8954 	EXP 	Go_text: autoDraw = True
+285.9117 	EXP 	ready_txt: autoDraw = False
+286.8789 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+286.8791 	EXP 	New trial (rep=0, index=0): None
+286.8792 	EXP 	window1: mouseVisible = False
+286.8952 	EXP 	Go_text: autoDraw = False
+286.8952 	EXP 	ready_txt: autoDraw = False
+286.8952 	EXP 	Go_text: autoDraw = False
+286.8952 	EXP 	present_mat: text = '12 + 43 = 55'
+286.8952 	EXP 	present_mat: autoDraw = True
+286.8952 	EXP 	Timer_text: autoDraw = True
+288.2002 	DATA 	Keypress: num_0
+289.3152 	DATA 	Keypress: num_0
+289.3952 	EXP 	present_mat: autoDraw = False
+289.3952 	EXP 	Timer_text: autoDraw = False
+289.3952 	EXP 	blankwindows: text = '+'
+289.3952 	EXP 	blankwindows: autoDraw = True
+289.7806 	DATA 	Keypress: right
+289.8787 	EXP 	New trial (rep=1, index=0): None
+289.8788 	EXP 	window1: mouseVisible = False
+289.8957 	EXP 	blankwindows: autoDraw = False
+289.8957 	EXP 	blankwindows: autoDraw = False
+289.8957 	EXP 	present_mat: text = '65 - 31 = 24'
+289.8957 	EXP 	present_mat: autoDraw = True
+289.8957 	EXP 	Timer_text: autoDraw = True
+292.2988 	DATA 	Keypress: right
+292.3282 	EXP 	Timer_text: autoDraw = False
+292.4114 	EXP 	present_mat: autoDraw = False
+292.4114 	EXP 	Timer_text: autoDraw = False
+292.4114 	EXP 	blankwindows: text = '+'
+292.4114 	EXP 	blankwindows: autoDraw = True
+292.8788 	EXP 	New trial (rep=2, index=0): None
+292.8788 	EXP 	window1: mouseVisible = False
+292.8955 	EXP 	blankwindows: autoDraw = False
+292.8955 	EXP 	blankwindows: autoDraw = False
+292.8955 	EXP 	present_mat: text = '93 - 48 = 35'
+292.8955 	EXP 	present_mat: autoDraw = True
+292.8955 	EXP 	Timer_text: autoDraw = True
+295.0488 	DATA 	Keypress: left
+295.0783 	EXP 	Timer_text: autoDraw = False
+295.3951 	EXP 	present_mat: autoDraw = False
+295.3951 	EXP 	present_mat: autoDraw = False
+295.3951 	EXP 	Timer_text: autoDraw = False
+295.3951 	EXP 	blankwindows: text = '+'
+295.3951 	EXP 	blankwindows: autoDraw = True
+295.8121 	EXP 	New trial (rep=3, index=0): None
+295.8122 	EXP 	window1: mouseVisible = False
+295.8283 	EXP 	blankwindows: autoDraw = False
+295.8283 	EXP 	blankwindows: autoDraw = False
+295.8283 	EXP 	present_mat: text = '25 + 63 = 78'
+295.8283 	EXP 	present_mat: autoDraw = True
+295.8283 	EXP 	Timer_text: autoDraw = True
+297.9999 	DATA 	Keypress: left
+298.0284 	EXP 	Timer_text: autoDraw = False
+298.3282 	EXP 	present_mat: autoDraw = False
+298.3282 	EXP 	present_mat: autoDraw = False
+298.3282 	EXP 	Timer_text: autoDraw = False
+298.3282 	EXP 	blankwindows: text = '+'
+298.3282 	EXP 	blankwindows: autoDraw = True
+298.7623 	EXP 	New trial (rep=4, index=0): None
+298.7624 	EXP 	window1: mouseVisible = False
+298.7795 	EXP 	blankwindows: autoDraw = False
+298.7795 	EXP 	blankwindows: autoDraw = False
+298.7795 	EXP 	present_mat: text = '39 + 22 = 61'
+298.7795 	EXP 	present_mat: autoDraw = True
+298.7795 	EXP 	Timer_text: autoDraw = True
+300.3992 	DATA 	Keypress: left
+300.4282 	EXP 	Timer_text: autoDraw = False
+301.2956 	EXP 	present_mat: autoDraw = False
+301.2956 	EXP 	Timer_text: autoDraw = False
+301.2956 	EXP 	blankwindows: text = '+'
+301.2956 	EXP 	blankwindows: autoDraw = True
+301.7126 	EXP 	New trial (rep=5, index=0): None
+301.7127 	EXP 	window1: mouseVisible = False
+301.7281 	EXP 	blankwindows: autoDraw = False
+301.7281 	EXP 	blankwindows: autoDraw = False
+301.7281 	EXP 	present_mat: text = '84 - 12 = 72'
+301.7281 	EXP 	present_mat: autoDraw = True
+301.7281 	EXP 	Timer_text: autoDraw = True
+303.3810 	DATA 	Keypress: left
+303.3953 	EXP 	Timer_text: autoDraw = False
+304.2284 	EXP 	present_mat: autoDraw = False
+304.2284 	EXP 	present_mat: autoDraw = False
+304.2284 	EXP 	Timer_text: autoDraw = False
+304.2284 	EXP 	blankwindows: text = '+'
+304.2284 	EXP 	blankwindows: autoDraw = True
+304.6792 	EXP 	New trial (rep=6, index=0): None
+304.6793 	EXP 	window1: mouseVisible = False
+304.6987 	EXP 	blankwindows: autoDraw = False
+304.6987 	EXP 	blankwindows: autoDraw = False
+304.6987 	EXP 	present_mat: text = '76 - 66 = 10'
+304.6987 	EXP 	present_mat: autoDraw = True
+304.6987 	EXP 	Timer_text: autoDraw = True
+305.7166 	DATA 	Keypress: left
+305.7449 	EXP 	Timer_text: autoDraw = False
+307.2122 	EXP 	present_mat: autoDraw = False
+307.2122 	EXP 	Timer_text: autoDraw = False
+307.2122 	EXP 	blankwindows: text = '+'
+307.2122 	EXP 	blankwindows: autoDraw = True
+307.6453 	EXP 	New trial (rep=7, index=0): None
+307.6454 	EXP 	window1: mouseVisible = False
+307.6615 	EXP 	blankwindows: autoDraw = False
+307.6615 	EXP 	blankwindows: autoDraw = False
+307.6615 	EXP 	present_mat: text = '50 + 14 = 64'
+307.6615 	EXP 	present_mat: autoDraw = True
+307.6615 	EXP 	Timer_text: autoDraw = True
+308.3994 	DATA 	Keypress: left
+308.4280 	EXP 	Timer_text: autoDraw = False
+310.1624 	EXP 	present_mat: autoDraw = False
+310.1624 	EXP 	present_mat: autoDraw = False
+310.1624 	EXP 	Timer_text: autoDraw = False
+310.1624 	EXP 	blankwindows: text = '+'
+310.1624 	EXP 	blankwindows: autoDraw = True
+310.6454 	EXP 	New trial (rep=8, index=0): None
+310.6454 	EXP 	window1: mouseVisible = False
+310.6614 	EXP 	blankwindows: autoDraw = False
+310.6614 	EXP 	blankwindows: autoDraw = False
+310.6614 	EXP 	present_mat: text = '12 + 74 = 96'
+310.6614 	EXP 	present_mat: autoDraw = True
+310.6614 	EXP 	Timer_text: autoDraw = True
+311.9655 	DATA 	Keypress: right
+311.9949 	EXP 	Timer_text: autoDraw = False
+313.1625 	EXP 	present_mat: autoDraw = False
+313.1625 	EXP 	present_mat: autoDraw = False
+313.1625 	EXP 	Timer_text: autoDraw = False
+313.1625 	EXP 	blankwindows: text = '+'
+313.1625 	EXP 	blankwindows: autoDraw = True
+313.5619 	EXP 	New trial (rep=9, index=0): None
+313.5620 	EXP 	window1: mouseVisible = False
+313.5790 	EXP 	blankwindows: autoDraw = False
+313.5790 	EXP 	blankwindows: autoDraw = False
+313.5790 	EXP 	present_mat: text = '53 - 16 = 47'
+313.5790 	EXP 	present_mat: autoDraw = True
+313.5790 	EXP 	Timer_text: autoDraw = True
+315.5994 	DATA 	Keypress: right
+315.6282 	EXP 	Timer_text: autoDraw = False
+316.0785 	EXP 	present_mat: autoDraw = False
+316.0785 	EXP 	present_mat: autoDraw = False
+316.0785 	EXP 	Timer_text: autoDraw = False
+316.0785 	EXP 	blankwindows: text = '+'
+316.0785 	EXP 	blankwindows: autoDraw = True
+316.5458 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+316.5460 	EXP 	New trial (rep=0, index=0): None
+316.5507 	EXP 	window1: mouseVisible = True
+316.5617 	EXP 	blankwindows: autoDraw = False
+316.5617 	EXP 	blankwindows: autoDraw = False
+316.5617 	EXP 	rating_effort: markerPos = None
+316.5617 	EXP 	rating_effort: markerPos = None
+316.5617 	EXP 	rating_effort: rating = None
+316.5617 	EXP 	rating_effort: autoDraw = False
+316.5617 	EXP 	text_2: autoDraw = False
+316.5617 	EXP 	rating_difficulty: markerPos = None
+316.5617 	EXP 	rating_difficulty: markerPos = None
+316.5617 	EXP 	rating_difficulty: rating = None
+316.5617 	EXP 	text_6: autoDraw = True
+317.0694 	EXP 	rating_difficulty: autoDraw = True
+319.3841 	DATA 	Mouse: Left button down, pos=(561,483)
+319.4113 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.4286 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.4448 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.4621 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.4783 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.4959 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.5017 	DATA 	Mouse:  Left button up, pos=(561,483)
+319.5115 	EXP 	rating_difficulty: markerPos = 1.9377777777777778
+319.5288 	EXP 	rating_difficulty: markerPos = 2.0
+319.5288 	EXP 	rating_difficulty: rating = 2.0
+319.5344 	EXP 	New trial (rep=1, index=0): None
+319.5423 	EXP 	window1: mouseVisible = True
+319.5474 	EXP 	rating_difficulty: autoDraw = False
+319.5474 	EXP 	text_6: autoDraw = False
+319.5474 	EXP 	rating_attention: markerPos = None
+319.5474 	EXP 	rating_attention: markerPos = None
+319.5474 	EXP 	rating_attention: rating = None
+319.5474 	EXP 	rating_attention: autoDraw = False
+319.5474 	EXP 	text_7: autoDraw = False
+319.5474 	EXP 	rating_effort: markerPos = None
+319.5474 	EXP 	rating_effort: markerPos = None
+319.5474 	EXP 	rating_effort: rating = None
+319.5474 	EXP 	rating_effort: autoDraw = False
+319.5474 	EXP 	text_2: autoDraw = False
+319.5474 	EXP 	rating_difficulty: markerPos = None
+319.5474 	EXP 	rating_difficulty: markerPos = None
+319.5474 	EXP 	rating_difficulty: rating = None
+319.5474 	EXP 	rating_difficulty: autoDraw = False
+319.5474 	EXP 	text_6: autoDraw = False
+319.5474 	EXP 	rating_attention: markerPos = None
+319.5474 	EXP 	rating_attention: markerPos = None
+319.5474 	EXP 	rating_attention: rating = None
+319.5474 	EXP 	text_7: autoDraw = True
+320.0279 	EXP 	rating_attention: autoDraw = True
+321.2829 	DATA 	Mouse: Left button down, pos=(1060,458)
+321.3113 	EXP 	rating_attention: markerPos = 4.155555555555555
+321.3291 	EXP 	rating_attention: markerPos = 4.155555555555555
+321.3449 	EXP 	rating_attention: markerPos = 4.155555555555555
+321.3627 	EXP 	rating_attention: markerPos = 4.155555555555555
+321.3786 	EXP 	rating_attention: markerPos = 4.155555555555555
+321.3846 	DATA 	Mouse:  Left button up, pos=(1060,460)
+321.3954 	EXP 	rating_attention: markerPos = 4.155555555555555
+321.4119 	EXP 	rating_attention: markerPos = 4.0
+321.4119 	EXP 	rating_attention: rating = 4.0
+321.4135 	EXP 	New trial (rep=2, index=0): None
+321.4137 	EXP 	window1: mouseVisible = True
+321.4281 	EXP 	rating_attention: autoDraw = False
+321.4281 	EXP 	text_7: autoDraw = False
+321.4281 	EXP 	rating_effort: markerPos = None
+321.4281 	EXP 	rating_effort: markerPos = None
+321.4281 	EXP 	rating_effort: rating = None
+321.4281 	EXP 	text_2: autoDraw = True
+321.9113 	EXP 	rating_effort: autoDraw = True
+322.2667 	DATA 	Mouse: Left button down, pos=(1052,453)
+322.2964 	EXP 	rating_effort: markerPos = 4.12
+322.3116 	EXP 	rating_effort: markerPos = 4.12
+322.3281 	EXP 	rating_effort: markerPos = 4.12
+322.3445 	EXP 	rating_effort: markerPos = 4.115555555555556
+322.3499 	DATA 	Mouse:  Left button up, pos=(1051,454)
+322.3615 	EXP 	rating_effort: markerPos = 4.115555555555556
+322.3792 	EXP 	rating_effort: markerPos = 4.0
+322.3792 	EXP 	rating_effort: rating = 4.0
+322.3891 	EXP 	New trial (rep=0, index=8): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+322.3965 	EXP 	rating_effort: autoDraw = False
+322.3965 	EXP 	text_2: autoDraw = False
+322.3965 	EXP 	rating_difficulty: markerPos = None
+322.3965 	EXP 	rating_difficulty: markerPos = None
+322.3965 	EXP 	rating_difficulty: rating = None
+322.3965 	EXP 	rating_difficulty: autoDraw = False
+322.3965 	EXP 	text_6: autoDraw = False
+322.3965 	EXP 	rating_attention: markerPos = None
+322.3965 	EXP 	rating_attention: markerPos = None
+322.3965 	EXP 	rating_attention: rating = None
+322.3965 	EXP 	rating_attention: autoDraw = False
+322.3965 	EXP 	text_7: autoDraw = False
+322.3965 	EXP 	text_4: autoDraw = True
+323.2129 	EXP 	window1: mouseVisible = False
+323.2150 	DATA 	Keypress: space
+323.2284 	EXP 	text_4: autoDraw = False
+323.2284 	EXP 	ready_txt: autoDraw = True
+325.2119 	EXP 	Go_text: autoDraw = True
+325.2280 	EXP 	ready_txt: autoDraw = False
+326.1962 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+326.1965 	EXP 	New trial (rep=0, index=0): None
+326.1965 	EXP 	window1: mouseVisible = False
+326.2118 	EXP 	Go_text: autoDraw = False
+326.2118 	EXP 	ready_txt: autoDraw = False
+326.2118 	EXP 	Go_text: autoDraw = False
+326.2118 	EXP 	present_mat: text = '50 + 14 = 64'
+326.2118 	EXP 	present_mat: autoDraw = True
+326.2118 	EXP 	Timer_text: autoDraw = True
+327.9665 	DATA 	Keypress: left
+327.9957 	EXP 	Timer_text: autoDraw = False
+328.7111 	EXP 	present_mat: autoDraw = False
+328.7111 	EXP 	present_mat: autoDraw = False
+328.7111 	EXP 	Timer_text: autoDraw = False
+328.7111 	EXP 	blankwindows: text = '+'
+328.7111 	EXP 	blankwindows: autoDraw = True
+329.1454 	EXP 	New trial (rep=1, index=0): None
+329.1455 	EXP 	window1: mouseVisible = False
+329.1618 	EXP 	blankwindows: autoDraw = False
+329.1618 	EXP 	blankwindows: autoDraw = False
+329.1618 	EXP 	present_mat: text = '64 + 61 = 127'
+329.1618 	EXP 	present_mat: autoDraw = True
+329.1618 	EXP 	Timer_text: autoDraw = True
+330.5830 	DATA 	Keypress: right
+330.6120 	EXP 	Timer_text: autoDraw = False
+331.6620 	EXP 	present_mat: autoDraw = False
+331.6620 	EXP 	present_mat: autoDraw = False
+331.6620 	EXP 	Timer_text: autoDraw = False
+331.6620 	EXP 	blankwindows: text = '+'
+331.6620 	EXP 	blankwindows: autoDraw = True
+332.1287 	EXP 	New trial (rep=2, index=0): None
+332.1288 	EXP 	window1: mouseVisible = False
+332.1451 	EXP 	blankwindows: autoDraw = False
+332.1451 	EXP 	blankwindows: autoDraw = False
+332.1451 	EXP 	present_mat: text = '82 - 15 = 57'
+332.1451 	EXP 	present_mat: autoDraw = True
+332.1451 	EXP 	Timer_text: autoDraw = True
+333.8151 	DATA 	Keypress: right
+333.8450 	EXP 	Timer_text: autoDraw = False
+334.6462 	EXP 	present_mat: autoDraw = False
+334.6462 	EXP 	present_mat: autoDraw = False
+334.6462 	EXP 	Timer_text: autoDraw = False
+334.6462 	EXP 	blankwindows: text = '+'
+334.6462 	EXP 	blankwindows: autoDraw = True
+335.0788 	EXP 	New trial (rep=3, index=0): None
+335.0789 	EXP 	window1: mouseVisible = False
+335.0952 	EXP 	blankwindows: autoDraw = False
+335.0952 	EXP 	blankwindows: autoDraw = False
+335.0952 	EXP 	present_mat: text = '32 + 59 = 91'
+335.0952 	EXP 	present_mat: autoDraw = True
+335.0952 	EXP 	Timer_text: autoDraw = True
+336.9305 	DATA 	Keypress: left
+336.9452 	EXP 	Timer_text: autoDraw = False
+337.5950 	EXP 	present_mat: autoDraw = False
+337.5950 	EXP 	present_mat: autoDraw = False
+337.5950 	EXP 	Timer_text: autoDraw = False
+337.5950 	EXP 	blankwindows: text = '+'
+337.5950 	EXP 	blankwindows: autoDraw = True
+338.0121 	EXP 	New trial (rep=4, index=0): None
+338.0122 	EXP 	window1: mouseVisible = False
+338.0282 	EXP 	blankwindows: autoDraw = False
+338.0282 	EXP 	blankwindows: autoDraw = False
+338.0282 	EXP 	present_mat: text = '25 + 85 = 87'
+338.0282 	EXP 	present_mat: autoDraw = True
+338.0282 	EXP 	Timer_text: autoDraw = True
+339.9152 	DATA 	Keypress: right
+339.9448 	EXP 	Timer_text: autoDraw = False
+340.5281 	EXP 	present_mat: autoDraw = False
+340.5281 	EXP 	present_mat: autoDraw = False
+340.5281 	EXP 	Timer_text: autoDraw = False
+340.5281 	EXP 	blankwindows: text = '+'
+340.5281 	EXP 	blankwindows: autoDraw = True
+340.9788 	EXP 	New trial (rep=5, index=0): None
+340.9789 	EXP 	window1: mouseVisible = False
+340.9987 	EXP 	blankwindows: autoDraw = False
+340.9987 	EXP 	blankwindows: autoDraw = False
+340.9987 	EXP 	present_mat: text = '50 - 46 = 4'
+340.9987 	EXP 	present_mat: autoDraw = True
+340.9987 	EXP 	Timer_text: autoDraw = True
+342.6149 	DATA 	Keypress: left
+342.6448 	EXP 	Timer_text: autoDraw = False
+343.5114 	EXP 	present_mat: autoDraw = False
+343.5114 	EXP 	Timer_text: autoDraw = False
+343.5114 	EXP 	blankwindows: text = '+'
+343.5114 	EXP 	blankwindows: autoDraw = True
+343.9455 	EXP 	New trial (rep=6, index=0): None
+343.9456 	EXP 	window1: mouseVisible = False
+343.9618 	EXP 	blankwindows: autoDraw = False
+343.9618 	EXP 	blankwindows: autoDraw = False
+343.9618 	EXP 	present_mat: text = '65 - 31 = 24'
+343.9618 	EXP 	present_mat: autoDraw = True
+343.9618 	EXP 	Timer_text: autoDraw = True
+346.2990 	DATA 	Keypress: right
+346.3282 	EXP 	Timer_text: autoDraw = False
+346.4618 	EXP 	present_mat: autoDraw = False
+346.4618 	EXP 	present_mat: autoDraw = False
+346.4618 	EXP 	Timer_text: autoDraw = False
+346.4618 	EXP 	blankwindows: text = '+'
+346.4618 	EXP 	blankwindows: autoDraw = True
+346.8961 	EXP 	New trial (rep=7, index=0): None
+346.8962 	EXP 	window1: mouseVisible = False
+346.9113 	EXP 	blankwindows: autoDraw = False
+346.9113 	EXP 	blankwindows: autoDraw = False
+346.9113 	EXP 	present_mat: text = '38 + 27 = 75'
+346.9113 	EXP 	present_mat: autoDraw = True
+346.9113 	EXP 	Timer_text: autoDraw = True
+349.2657 	DATA 	Keypress: left
+349.2953 	EXP 	Timer_text: autoDraw = False
+349.4119 	EXP 	present_mat: autoDraw = False
+349.4119 	EXP 	present_mat: autoDraw = False
+349.4119 	EXP 	Timer_text: autoDraw = False
+349.4119 	EXP 	blankwindows: text = '+'
+349.4119 	EXP 	blankwindows: autoDraw = True
+349.9121 	EXP 	New trial (rep=8, index=0): None
+349.9122 	EXP 	window1: mouseVisible = False
+349.9281 	EXP 	blankwindows: autoDraw = False
+349.9281 	EXP 	blankwindows: autoDraw = False
+349.9281 	EXP 	present_mat: text = '94 - 53 = 41'
+349.9281 	EXP 	present_mat: autoDraw = True
+349.9281 	EXP 	Timer_text: autoDraw = True
+352.0815 	DATA 	Keypress: right
+352.1117 	EXP 	Timer_text: autoDraw = False
+352.4282 	EXP 	present_mat: autoDraw = False
+352.4282 	EXP 	present_mat: autoDraw = False
+352.4282 	EXP 	Timer_text: autoDraw = False
+352.4282 	EXP 	blankwindows: text = '+'
+352.4282 	EXP 	blankwindows: autoDraw = True
+352.8787 	EXP 	New trial (rep=9, index=0): None
+352.8788 	EXP 	window1: mouseVisible = False
+352.8956 	EXP 	blankwindows: autoDraw = False
+352.8956 	EXP 	blankwindows: autoDraw = False
+352.8956 	EXP 	present_mat: text = '28 + 69 = 97'
+352.8956 	EXP 	present_mat: autoDraw = True
+352.8956 	EXP 	Timer_text: autoDraw = True
+354.4654 	DATA 	Keypress: left
+354.4956 	EXP 	Timer_text: autoDraw = False
+355.3950 	EXP 	present_mat: autoDraw = False
+355.3950 	EXP 	present_mat: autoDraw = False
+355.3950 	EXP 	Timer_text: autoDraw = False
+355.3950 	EXP 	blankwindows: text = '+'
+355.3950 	EXP 	blankwindows: autoDraw = True
+355.9125 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+355.9126 	EXP 	New trial (rep=0, index=0): None
+355.9128 	EXP 	window1: mouseVisible = True
+355.9282 	EXP 	blankwindows: autoDraw = False
+355.9282 	EXP 	blankwindows: autoDraw = False
+355.9282 	EXP 	rating_effort: markerPos = None
+355.9282 	EXP 	rating_effort: markerPos = None
+355.9282 	EXP 	rating_effort: rating = None
+355.9282 	EXP 	text_2: autoDraw = True
+356.4255 	EXP 	rating_effort: autoDraw = True
+357.2838 	DATA 	Mouse: Left button down, pos=(1051,454)
+357.3118 	EXP 	rating_effort: markerPos = 4.115555555555556
+357.3283 	EXP 	rating_effort: markerPos = 4.111111111111111
+357.3340 	DATA 	Mouse:  Left button up, pos=(1049,455)
+357.3488 	EXP 	rating_effort: markerPos = 4.1066666666666665
+357.3616 	EXP 	rating_effort: markerPos = 4.0
+357.3616 	EXP 	rating_effort: rating = 4.0
+357.3714 	EXP 	New trial (rep=1, index=0): None
+357.3754 	EXP 	window1: mouseVisible = True
+357.3798 	DATA 	Mouse: Left button down, pos=(1048,457)
+357.3826 	EXP 	rating_effort: autoDraw = False
+357.3826 	EXP 	text_2: autoDraw = False
+357.3826 	EXP 	rating_difficulty: markerPos = None
+357.3826 	EXP 	rating_difficulty: markerPos = None
+357.3826 	EXP 	rating_difficulty: rating = None
+357.3826 	EXP 	rating_difficulty: autoDraw = False
+357.3826 	EXP 	text_6: autoDraw = False
+357.3826 	EXP 	rating_attention: markerPos = None
+357.3826 	EXP 	rating_attention: markerPos = None
+357.3826 	EXP 	rating_attention: rating = None
+357.3826 	EXP 	rating_attention: autoDraw = False
+357.3826 	EXP 	text_7: autoDraw = False
+357.3826 	EXP 	rating_effort: markerPos = None
+357.3826 	EXP 	rating_effort: markerPos = None
+357.3826 	EXP 	rating_effort: rating = None
+357.3826 	EXP 	rating_effort: autoDraw = False
+357.3826 	EXP 	text_2: autoDraw = False
+357.3826 	EXP 	rating_difficulty: markerPos = None
+357.3826 	EXP 	rating_difficulty: markerPos = None
+357.3826 	EXP 	rating_difficulty: rating = None
+357.3826 	EXP 	text_6: autoDraw = True
+357.4633 	DATA 	Mouse:  Left button up, pos=(1048,457)
+357.8782 	EXP 	rating_difficulty: autoDraw = True
+359.1494 	DATA 	Mouse: Left button down, pos=(573,463)
+359.1813 	EXP 	rating_difficulty: markerPos = 1.991111111111111
+359.1952 	EXP 	rating_difficulty: markerPos = 1.991111111111111
+359.2113 	EXP 	rating_difficulty: markerPos = 1.991111111111111
+359.2281 	EXP 	rating_difficulty: markerPos = 1.991111111111111
+359.2339 	DATA 	Mouse:  Left button up, pos=(573,463)
+359.2450 	EXP 	rating_difficulty: markerPos = 1.991111111111111
+359.2617 	EXP 	rating_difficulty: markerPos = 2.0
+359.2617 	EXP 	rating_difficulty: rating = 2.0
+359.2675 	EXP 	New trial (rep=2, index=0): None
+359.2755 	EXP 	window1: mouseVisible = True
+359.2833 	EXP 	rating_difficulty: autoDraw = False
+359.2833 	EXP 	text_6: autoDraw = False
+359.2833 	EXP 	rating_attention: markerPos = None
+359.2833 	EXP 	rating_attention: markerPos = None
+359.2833 	EXP 	rating_attention: rating = None
+359.2833 	EXP 	rating_attention: autoDraw = False
+359.2833 	EXP 	text_7: autoDraw = False
+359.2833 	EXP 	rating_effort: markerPos = None
+359.2833 	EXP 	rating_effort: markerPos = None
+359.2833 	EXP 	rating_effort: rating = None
+359.2833 	EXP 	rating_effort: autoDraw = False
+359.2833 	EXP 	text_2: autoDraw = False
+359.2833 	EXP 	rating_difficulty: markerPos = None
+359.2833 	EXP 	rating_difficulty: markerPos = None
+359.2833 	EXP 	rating_difficulty: rating = None
+359.2833 	EXP 	rating_difficulty: autoDraw = False
+359.2833 	EXP 	text_6: autoDraw = False
+359.2833 	EXP 	rating_attention: markerPos = None
+359.2833 	EXP 	rating_attention: markerPos = None
+359.2833 	EXP 	rating_attention: rating = None
+359.2833 	EXP 	text_7: autoDraw = True
+359.7615 	EXP 	rating_attention: autoDraw = True
+360.1832 	DATA 	Mouse: Left button down, pos=(1029,455)
+360.2121 	EXP 	rating_attention: markerPos = 4.017777777777778
+360.2281 	EXP 	rating_attention: markerPos = 4.017777777777778
+360.2449 	EXP 	rating_attention: markerPos = 4.017777777777778
+360.2618 	EXP 	rating_attention: markerPos = 4.017777777777778
+360.2793 	EXP 	rating_attention: markerPos = 4.017777777777778
+360.2982 	EXP 	rating_attention: markerPos = 4.017777777777778
+360.2989 	DATA 	Mouse:  Left button up, pos=(1029,455)
+360.3117 	EXP 	rating_attention: markerPos = 4.0
+360.3117 	EXP 	rating_attention: rating = 4.0
+360.3133 	EXP 	New trial (rep=0, index=9): {'difficulty_level': 'medium', 'num_session': 1, 'num_rand': 10}
+360.3279 	EXP 	rating_attention: autoDraw = False
+360.3279 	EXP 	text_7: autoDraw = False
+360.3279 	EXP 	text_4: autoDraw = True
+361.1627 	EXP 	window1: mouseVisible = False
+361.1651 	DATA 	Keypress: space
+361.1787 	EXP 	text_4: autoDraw = False
+361.1787 	EXP 	ready_txt: autoDraw = True
+363.1618 	EXP 	Go_text: autoDraw = True
+363.1783 	EXP 	ready_txt: autoDraw = False
+364.1453 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+364.1456 	EXP 	New trial (rep=0, index=0): None
+364.1457 	EXP 	window1: mouseVisible = False
+364.1629 	EXP 	Go_text: autoDraw = False
+364.1629 	EXP 	ready_txt: autoDraw = False
+364.1629 	EXP 	Go_text: autoDraw = False
+364.1629 	EXP 	present_mat: text = '93 - 48 = 35'
+364.1629 	EXP 	present_mat: autoDraw = True
+364.1629 	EXP 	Timer_text: autoDraw = True
+365.6972 	DATA 	Keypress: left
+365.7116 	EXP 	Timer_text: autoDraw = False
+366.6784 	EXP 	present_mat: autoDraw = False
+366.6784 	EXP 	Timer_text: autoDraw = False
+366.6784 	EXP 	blankwindows: text = '+'
+366.6784 	EXP 	blankwindows: autoDraw = True
+367.1119 	EXP 	New trial (rep=1, index=0): None
+367.1120 	EXP 	window1: mouseVisible = False
+367.1286 	EXP 	blankwindows: autoDraw = False
+367.1286 	EXP 	blankwindows: autoDraw = False
+367.1286 	EXP 	present_mat: text = '32 + 54 = 96'
+367.1286 	EXP 	present_mat: autoDraw = True
+367.1286 	EXP 	Timer_text: autoDraw = True
+368.9470 	DATA 	Keypress: right
+368.9622 	EXP 	Timer_text: autoDraw = False
+369.6281 	EXP 	present_mat: autoDraw = False
+369.6281 	EXP 	Timer_text: autoDraw = False
+369.6281 	EXP 	blankwindows: text = '+'
+369.6281 	EXP 	blankwindows: autoDraw = True
+370.0789 	EXP 	New trial (rep=2, index=0): None
+370.0790 	EXP 	window1: mouseVisible = False
+370.0953 	EXP 	blankwindows: autoDraw = False
+370.0953 	EXP 	blankwindows: autoDraw = False
+370.0953 	EXP 	present_mat: text = '53 - 16 = 47'
+370.0953 	EXP 	present_mat: autoDraw = True
+370.0953 	EXP 	Timer_text: autoDraw = True
+371.9662 	DATA 	Keypress: right
+371.9951 	EXP 	Timer_text: autoDraw = False
+372.5957 	EXP 	present_mat: autoDraw = False
+372.5957 	EXP 	present_mat: autoDraw = False
+372.5957 	EXP 	Timer_text: autoDraw = False
+372.5957 	EXP 	blankwindows: text = '+'
+372.5957 	EXP 	blankwindows: autoDraw = True
+373.0624 	EXP 	New trial (rep=3, index=0): None
+373.0625 	EXP 	window1: mouseVisible = False
+373.0784 	EXP 	blankwindows: autoDraw = False
+373.0784 	EXP 	blankwindows: autoDraw = False
+373.0784 	EXP 	present_mat: text = '47 - 32 = 5'
+373.0784 	EXP 	present_mat: autoDraw = True
+373.0784 	EXP 	Timer_text: autoDraw = True
+374.2814 	DATA 	Keypress: right
+374.3114 	EXP 	Timer_text: autoDraw = False
+375.5786 	EXP 	present_mat: autoDraw = False
+375.5786 	EXP 	present_mat: autoDraw = False
+375.5786 	EXP 	Timer_text: autoDraw = False
+375.5786 	EXP 	blankwindows: text = '+'
+375.5786 	EXP 	blankwindows: autoDraw = True
+376.0123 	EXP 	New trial (rep=4, index=0): None
+376.0124 	EXP 	window1: mouseVisible = False
+376.0282 	EXP 	blankwindows: autoDraw = False
+376.0282 	EXP 	blankwindows: autoDraw = False
+376.0282 	EXP 	present_mat: text = '66 - 25 = 41'
+376.0282 	EXP 	present_mat: autoDraw = True
+376.0282 	EXP 	Timer_text: autoDraw = True
+377.3811 	DATA 	Keypress: right
+377.3955 	EXP 	Timer_text: autoDraw = False
+378.5284 	EXP 	present_mat: autoDraw = False
+378.5284 	EXP 	present_mat: autoDraw = False
+378.5284 	EXP 	Timer_text: autoDraw = False
+378.5284 	EXP 	blankwindows: text = '+'
+378.5284 	EXP 	blankwindows: autoDraw = True
+378.9452 	EXP 	New trial (rep=5, index=0): None
+378.9453 	EXP 	window1: mouseVisible = False
+378.9624 	EXP 	blankwindows: autoDraw = False
+378.9624 	EXP 	blankwindows: autoDraw = False
+378.9624 	EXP 	present_mat: text = '25 + 63 = 78'
+378.9624 	EXP 	present_mat: autoDraw = True
+378.9624 	EXP 	Timer_text: autoDraw = True
+381.1489 	DATA 	Keypress: left
+381.1785 	EXP 	Timer_text: autoDraw = False
+381.4784 	EXP 	present_mat: autoDraw = False
+381.4784 	EXP 	Timer_text: autoDraw = False
+381.4784 	EXP 	blankwindows: text = '+'
+381.4784 	EXP 	blankwindows: autoDraw = True
+381.9457 	EXP 	New trial (rep=6, index=0): None
+381.9458 	EXP 	window1: mouseVisible = False
+381.9620 	EXP 	blankwindows: autoDraw = False
+381.9620 	EXP 	blankwindows: autoDraw = False
+381.9620 	EXP 	present_mat: text = '50 - 46 = 4'
+381.9620 	EXP 	present_mat: autoDraw = True
+381.9620 	EXP 	Timer_text: autoDraw = True
+383.7465 	DATA 	Keypress: left
+383.7613 	EXP 	Timer_text: autoDraw = False
+384.4618 	EXP 	present_mat: autoDraw = False
+384.4618 	EXP 	present_mat: autoDraw = False
+384.4618 	EXP 	Timer_text: autoDraw = False
+384.4618 	EXP 	blankwindows: text = '+'
+384.4618 	EXP 	blankwindows: autoDraw = True
+384.9455 	EXP 	New trial (rep=7, index=0): None
+384.9456 	EXP 	window1: mouseVisible = False
+384.9617 	EXP 	blankwindows: autoDraw = False
+384.9617 	EXP 	blankwindows: autoDraw = False
+384.9617 	EXP 	present_mat: text = '56 - 22 = 24'
+384.9617 	EXP 	present_mat: autoDraw = True
+384.9617 	EXP 	Timer_text: autoDraw = True
+386.5490 	DATA 	Keypress: right
+386.5816 	EXP 	Timer_text: autoDraw = False
+387.4615 	EXP 	present_mat: autoDraw = False
+387.4615 	EXP 	present_mat: autoDraw = False
+387.4615 	EXP 	Timer_text: autoDraw = False
+387.4615 	EXP 	blankwindows: text = '+'
+387.4615 	EXP 	blankwindows: autoDraw = True
+387.8624 	EXP 	New trial (rep=8, index=0): None
+387.8625 	EXP 	window1: mouseVisible = False
+387.8791 	EXP 	blankwindows: autoDraw = False
+387.8791 	EXP 	blankwindows: autoDraw = False
+387.8791 	EXP 	present_mat: text = '70 + 27 = 97'
+387.8791 	EXP 	present_mat: autoDraw = True
+387.8791 	EXP 	Timer_text: autoDraw = True
+388.9321 	DATA 	Keypress: left
+388.9615 	EXP 	Timer_text: autoDraw = False
+390.3955 	EXP 	present_mat: autoDraw = False
+390.3955 	EXP 	Timer_text: autoDraw = False
+390.3955 	EXP 	blankwindows: text = '+'
+390.3955 	EXP 	blankwindows: autoDraw = True
+390.8622 	EXP 	New trial (rep=9, index=0): None
+390.8623 	EXP 	window1: mouseVisible = False
+390.8786 	EXP 	blankwindows: autoDraw = False
+390.8786 	EXP 	blankwindows: autoDraw = False
+390.8786 	EXP 	present_mat: text = '42 + 44 = 96'
+390.8786 	EXP 	present_mat: autoDraw = True
+390.8786 	EXP 	Timer_text: autoDraw = True
+392.4319 	DATA 	Keypress: right
+392.4614 	EXP 	Timer_text: autoDraw = False
+393.3812 	EXP 	present_mat: autoDraw = False
+393.3812 	EXP 	present_mat: autoDraw = False
+393.3812 	EXP 	Timer_text: autoDraw = False
+393.3812 	EXP 	blankwindows: text = '+'
+393.3812 	EXP 	blankwindows: autoDraw = True
+393.8622 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+393.8624 	EXP 	New trial (rep=0, index=0): None
+393.8626 	EXP 	window1: mouseVisible = True
+393.8784 	EXP 	blankwindows: autoDraw = False
+393.8784 	EXP 	blankwindows: autoDraw = False
+393.8784 	EXP 	rating_effort: markerPos = None
+393.8784 	EXP 	rating_effort: markerPos = None
+393.8784 	EXP 	rating_effort: rating = None
+393.8784 	EXP 	text_2: autoDraw = True
+394.3664 	EXP 	rating_effort: autoDraw = True
+395.2328 	DATA 	Mouse: Left button down, pos=(1029,455)
+395.2617 	EXP 	rating_effort: markerPos = 4.017777777777778
+395.2787 	EXP 	rating_effort: markerPos = 4.017777777777778
+395.2846 	DATA 	Mouse: wheel shift=(0,0), pos=(1029,455)
+395.2984 	EXP 	rating_effort: markerPos = 4.017777777777778
+395.3124 	EXP 	rating_effort: markerPos = 4.017777777777778
+395.3282 	EXP 	rating_effort: markerPos = 4.017777777777778
+395.3341 	DATA 	Mouse:  Left button up, pos=(1029,455)
+395.3343 	DATA 	Mouse: wheel shift=(0,0), pos=(1029,455)
+395.3448 	EXP 	rating_effort: markerPos = 4.017777777777778
+395.3618 	EXP 	rating_effort: markerPos = 4.0
+395.3618 	EXP 	rating_effort: rating = 4.0
+395.3716 	EXP 	New trial (rep=1, index=0): None
+395.3794 	EXP 	window1: mouseVisible = True
+395.3844 	EXP 	rating_effort: autoDraw = False
+395.3844 	EXP 	text_2: autoDraw = False
+395.3844 	EXP 	rating_difficulty: markerPos = None
+395.3844 	EXP 	rating_difficulty: markerPos = None
+395.3844 	EXP 	rating_difficulty: rating = None
+395.3844 	EXP 	rating_difficulty: autoDraw = False
+395.3844 	EXP 	text_6: autoDraw = False
+395.3844 	EXP 	rating_attention: markerPos = None
+395.3844 	EXP 	rating_attention: markerPos = None
+395.3844 	EXP 	rating_attention: rating = None
+395.3844 	EXP 	rating_attention: autoDraw = False
+395.3844 	EXP 	text_7: autoDraw = False
+395.3844 	EXP 	rating_effort: markerPos = None
+395.3844 	EXP 	rating_effort: markerPos = None
+395.3844 	EXP 	rating_effort: rating = None
+395.3844 	EXP 	rating_effort: autoDraw = False
+395.3844 	EXP 	text_2: autoDraw = False
+395.3844 	EXP 	rating_difficulty: markerPos = None
+395.3844 	EXP 	rating_difficulty: markerPos = None
+395.3844 	EXP 	rating_difficulty: rating = None
+395.3844 	EXP 	rating_difficulty: autoDraw = False
+395.3844 	EXP 	text_6: autoDraw = False
+395.3844 	EXP 	rating_attention: markerPos = None
+395.3844 	EXP 	rating_attention: markerPos = None
+395.3844 	EXP 	rating_attention: rating = None
+395.3844 	EXP 	text_7: autoDraw = True
+395.8786 	EXP 	rating_attention: autoDraw = True
+396.7839 	DATA 	Mouse: Left button down, pos=(985,449)
+396.8118 	EXP 	rating_attention: markerPos = 3.822222222222222
+396.8287 	EXP 	rating_attention: markerPos = 3.822222222222222
+396.8450 	EXP 	rating_attention: markerPos = 3.822222222222222
+396.8624 	EXP 	rating_attention: markerPos = 3.822222222222222
+396.8681 	DATA 	Mouse:  Left button up, pos=(985,449)
+396.8790 	EXP 	rating_attention: markerPos = 3.822222222222222
+396.8953 	EXP 	rating_attention: markerPos = 4.0
+396.8953 	EXP 	rating_attention: rating = 4.0
+396.8969 	EXP 	New trial (rep=2, index=0): None
+396.9011 	EXP 	window1: mouseVisible = True
+396.9125 	EXP 	rating_attention: autoDraw = False
+396.9125 	EXP 	text_7: autoDraw = False
+396.9125 	EXP 	rating_effort: markerPos = None
+396.9125 	EXP 	rating_effort: markerPos = None
+396.9125 	EXP 	rating_effort: rating = None
+396.9125 	EXP 	rating_effort: autoDraw = False
+396.9125 	EXP 	text_2: autoDraw = False
+396.9125 	EXP 	rating_difficulty: markerPos = None
+396.9125 	EXP 	rating_difficulty: markerPos = None
+396.9125 	EXP 	rating_difficulty: rating = None
+396.9125 	EXP 	text_6: autoDraw = True
+397.3953 	EXP 	rating_difficulty: autoDraw = True
+398.0159 	DATA 	Mouse: Left button down, pos=(776,462)
+398.0448 	EXP 	rating_difficulty: markerPos = 2.8933333333333335
+398.0625 	EXP 	rating_difficulty: markerPos = 2.8933333333333335
+398.0791 	EXP 	rating_difficulty: markerPos = 2.8933333333333335
+398.0957 	EXP 	rating_difficulty: markerPos = 2.8933333333333335
+398.1015 	DATA 	Mouse:  Left button up, pos=(776,462)
+398.1113 	EXP 	rating_difficulty: markerPos = 2.8933333333333335
+398.1285 	EXP 	rating_difficulty: markerPos = 3.0
+398.1285 	EXP 	rating_difficulty: rating = 3.0
+398.1340 	EXP 	New trial (rep=0, index=10): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+398.1447 	EXP 	rating_difficulty: autoDraw = False
+398.1447 	EXP 	text_6: autoDraw = False
+398.1447 	EXP 	rating_attention: markerPos = None
+398.1447 	EXP 	rating_attention: markerPos = None
+398.1447 	EXP 	rating_attention: rating = None
+398.1447 	EXP 	rating_attention: autoDraw = False
+398.1447 	EXP 	text_7: autoDraw = False
+398.1447 	EXP 	text_4: autoDraw = True
+399.3625 	EXP 	window1: mouseVisible = False
+399.3788 	EXP 	text_4: autoDraw = False
+399.3788 	EXP 	ready_txt: autoDraw = True
+399.3808 	DATA 	Keypress: space
+401.3622 	EXP 	Go_text: autoDraw = True
+401.3784 	EXP 	ready_txt: autoDraw = False
+402.3459 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+402.3462 	EXP 	New trial (rep=0, index=0): None
+402.3463 	EXP 	window1: mouseVisible = False
+402.3618 	EXP 	Go_text: autoDraw = False
+402.3618 	EXP 	ready_txt: autoDraw = False
+402.3618 	EXP 	Go_text: autoDraw = False
+402.3618 	EXP 	present_mat: text = '(65 - 15) / 5 = 20'
+402.3618 	EXP 	present_mat: autoDraw = True
+402.3618 	EXP 	Timer_text: autoDraw = True
+404.3829 	DATA 	Keypress: right
+404.4118 	EXP 	Timer_text: autoDraw = False
+404.8615 	EXP 	present_mat: autoDraw = False
+404.8615 	EXP 	present_mat: autoDraw = False
+404.8615 	EXP 	Timer_text: autoDraw = False
+404.8615 	EXP 	blankwindows: text = '+'
+404.8615 	EXP 	blankwindows: autoDraw = True
+405.2792 	EXP 	New trial (rep=1, index=0): None
+405.2793 	EXP 	window1: mouseVisible = False
+405.2989 	EXP 	blankwindows: autoDraw = False
+405.2989 	EXP 	blankwindows: autoDraw = False
+405.2989 	EXP 	present_mat: text = '(19 + 6) X 5 = 75'
+405.2989 	EXP 	present_mat: autoDraw = True
+405.2989 	EXP 	Timer_text: autoDraw = True
+407.7953 	EXP 	present_mat: autoDraw = False
+407.7953 	EXP 	Timer_text: autoDraw = False
+407.7953 	EXP 	blankwindows: text = '+'
+407.7953 	EXP 	blankwindows: autoDraw = True
+408.2628 	EXP 	New trial (rep=2, index=0): None
+408.2629 	EXP 	window1: mouseVisible = False
+408.2794 	EXP 	blankwindows: autoDraw = False
+408.2794 	EXP 	blankwindows: autoDraw = False
+408.2794 	EXP 	present_mat: text = '(59 + 40) / 11 = 9'
+408.2794 	EXP 	present_mat: autoDraw = True
+408.2794 	EXP 	Timer_text: autoDraw = True
+409.9319 	DATA 	Keypress: left
+409.9617 	EXP 	Timer_text: autoDraw = False
+410.7785 	EXP 	present_mat: autoDraw = False
+410.7785 	EXP 	present_mat: autoDraw = False
+410.7785 	EXP 	Timer_text: autoDraw = False
+410.7785 	EXP 	blankwindows: text = '+'
+410.7785 	EXP 	blankwindows: autoDraw = True
+411.2121 	EXP 	New trial (rep=3, index=0): None
+411.2122 	EXP 	window1: mouseVisible = False
+411.2281 	EXP 	blankwindows: autoDraw = False
+411.2281 	EXP 	blankwindows: autoDraw = False
+411.2281 	EXP 	present_mat: text = '(33 - 14) / 3 = 8'
+411.2281 	EXP 	present_mat: autoDraw = True
+411.2281 	EXP 	Timer_text: autoDraw = True
+413.4318 	DATA 	Keypress: right
+413.4617 	EXP 	Timer_text: autoDraw = False
+413.7282 	EXP 	present_mat: autoDraw = False
+413.7282 	EXP 	present_mat: autoDraw = False
+413.7282 	EXP 	Timer_text: autoDraw = False
+413.7282 	EXP 	blankwindows: text = '+'
+413.7282 	EXP 	blankwindows: autoDraw = True
+414.1454 	EXP 	New trial (rep=4, index=0): None
+414.1455 	EXP 	window1: mouseVisible = False
+414.1618 	EXP 	blankwindows: autoDraw = False
+414.1618 	EXP 	blankwindows: autoDraw = False
+414.1618 	EXP 	present_mat: text = '(94 - 54) / 2 = 20'
+414.1618 	EXP 	present_mat: autoDraw = True
+414.1618 	EXP 	Timer_text: autoDraw = True
+416.5155 	DATA 	Keypress: left
+416.5449 	EXP 	Timer_text: autoDraw = False
+416.6619 	EXP 	present_mat: autoDraw = False
+416.6619 	EXP 	present_mat: autoDraw = False
+416.6619 	EXP 	Timer_text: autoDraw = False
+416.6619 	EXP 	blankwindows: text = '+'
+416.6619 	EXP 	blankwindows: autoDraw = True
+417.0789 	EXP 	New trial (rep=5, index=0): None
+417.0789 	EXP 	window1: mouseVisible = False
+417.0956 	EXP 	blankwindows: autoDraw = False
+417.0956 	EXP 	blankwindows: autoDraw = False
+417.0956 	EXP 	present_mat: text = '(96 - 56) / 5 = 8'
+417.0956 	EXP 	present_mat: autoDraw = True
+417.0956 	EXP 	Timer_text: autoDraw = True
+419.0662 	DATA 	Keypress: right
+419.0954 	EXP 	Timer_text: autoDraw = False
+419.6122 	EXP 	present_mat: autoDraw = False
+419.6122 	EXP 	Timer_text: autoDraw = False
+419.6122 	EXP 	blankwindows: text = '+'
+419.6122 	EXP 	blankwindows: autoDraw = True
+420.0626 	EXP 	New trial (rep=6, index=0): None
+420.0627 	EXP 	window1: mouseVisible = False
+420.0792 	EXP 	blankwindows: autoDraw = False
+420.0792 	EXP 	blankwindows: autoDraw = False
+420.0792 	EXP 	present_mat: text = '(30 - 10) X 6 = 80'
+420.0792 	EXP 	present_mat: autoDraw = True
+420.0792 	EXP 	Timer_text: autoDraw = True
+421.8996 	DATA 	Keypress: right
+421.9283 	EXP 	Timer_text: autoDraw = False
+422.5955 	EXP 	present_mat: autoDraw = False
+422.5955 	EXP 	Timer_text: autoDraw = False
+422.5955 	EXP 	blankwindows: text = '+'
+422.5955 	EXP 	blankwindows: autoDraw = True
+423.0288 	EXP 	New trial (rep=7, index=0): None
+423.0289 	EXP 	window1: mouseVisible = False
+423.0448 	EXP 	blankwindows: autoDraw = False
+423.0448 	EXP 	blankwindows: autoDraw = False
+423.0448 	EXP 	present_mat: text = '(30 - 10) X 6 = 120'
+423.0448 	EXP 	present_mat: autoDraw = True
+423.0448 	EXP 	Timer_text: autoDraw = True
+424.3488 	DATA 	Keypress: left
+424.3782 	EXP 	Timer_text: autoDraw = False
+425.5449 	EXP 	present_mat: autoDraw = False
+425.5449 	EXP 	present_mat: autoDraw = False
+425.5449 	EXP 	Timer_text: autoDraw = False
+425.5449 	EXP 	blankwindows: text = '+'
+425.5449 	EXP 	blankwindows: autoDraw = True
+426.0134 	EXP 	New trial (rep=8, index=0): None
+426.0135 	EXP 	window1: mouseVisible = False
+426.0281 	EXP 	blankwindows: autoDraw = False
+426.0281 	EXP 	blankwindows: autoDraw = False
+426.0281 	EXP 	present_mat: text = '(85 - 67) / 2 = 19'
+426.0281 	EXP 	present_mat: autoDraw = True
+426.0281 	EXP 	Timer_text: autoDraw = True
+427.8830 	DATA 	Keypress: left
+427.9120 	EXP 	Timer_text: autoDraw = False
+428.5283 	EXP 	present_mat: autoDraw = False
+428.5283 	EXP 	present_mat: autoDraw = False
+428.5283 	EXP 	Timer_text: autoDraw = False
+428.5283 	EXP 	blankwindows: text = '+'
+428.5283 	EXP 	blankwindows: autoDraw = True
+428.9788 	EXP 	New trial (rep=9, index=0): None
+428.9789 	EXP 	window1: mouseVisible = False
+428.9953 	EXP 	blankwindows: autoDraw = False
+428.9953 	EXP 	blankwindows: autoDraw = False
+428.9953 	EXP 	present_mat: text = '(79 - 63) / 4 = 4'
+428.9953 	EXP 	present_mat: autoDraw = True
+428.9953 	EXP 	Timer_text: autoDraw = True
+431.0486 	DATA 	Keypress: left
+431.0783 	EXP 	Timer_text: autoDraw = False
+431.4956 	EXP 	present_mat: autoDraw = False
+431.4956 	EXP 	present_mat: autoDraw = False
+431.4956 	EXP 	Timer_text: autoDraw = False
+431.4956 	EXP 	blankwindows: text = '+'
+431.4956 	EXP 	blankwindows: autoDraw = True
+432.0123 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+432.0125 	EXP 	New trial (rep=0, index=0): None
+432.0126 	EXP 	window1: mouseVisible = True
+432.0282 	EXP 	blankwindows: autoDraw = False
+432.0282 	EXP 	blankwindows: autoDraw = False
+432.0282 	EXP 	rating_effort: markerPos = None
+432.0282 	EXP 	rating_effort: markerPos = None
+432.0282 	EXP 	rating_effort: rating = None
+432.0282 	EXP 	text_2: autoDraw = True
+432.5269 	EXP 	rating_effort: autoDraw = True
+433.6499 	DATA 	Mouse: Left button down, pos=(1007,472)
+433.6793 	EXP 	rating_effort: markerPos = 3.92
+433.6956 	EXP 	rating_effort: markerPos = 3.92
+433.7117 	EXP 	rating_effort: markerPos = 3.92
+433.7284 	EXP 	rating_effort: markerPos = 3.92
+433.7341 	DATA 	Mouse:  Left button up, pos=(1007,472)
+433.7449 	EXP 	rating_effort: markerPos = 3.92
+433.7618 	EXP 	rating_effort: markerPos = 4.0
+433.7618 	EXP 	rating_effort: rating = 4.0
+433.7717 	EXP 	New trial (rep=1, index=0): None
+433.7794 	EXP 	window1: mouseVisible = True
+433.7844 	EXP 	rating_effort: autoDraw = False
+433.7844 	EXP 	text_2: autoDraw = False
+433.7844 	EXP 	rating_difficulty: markerPos = None
+433.7844 	EXP 	rating_difficulty: markerPos = None
+433.7844 	EXP 	rating_difficulty: rating = None
+433.7844 	EXP 	rating_difficulty: autoDraw = False
+433.7844 	EXP 	text_6: autoDraw = False
+433.7844 	EXP 	rating_attention: markerPos = None
+433.7844 	EXP 	rating_attention: markerPos = None
+433.7844 	EXP 	rating_attention: rating = None
+433.7844 	EXP 	rating_attention: autoDraw = False
+433.7844 	EXP 	text_7: autoDraw = False
+433.7844 	EXP 	rating_effort: markerPos = None
+433.7844 	EXP 	rating_effort: markerPos = None
+433.7844 	EXP 	rating_effort: rating = None
+433.7844 	EXP 	rating_effort: autoDraw = False
+433.7844 	EXP 	text_2: autoDraw = False
+433.7844 	EXP 	rating_difficulty: markerPos = None
+433.7844 	EXP 	rating_difficulty: markerPos = None
+433.7844 	EXP 	rating_difficulty: rating = None
+433.7844 	EXP 	rating_difficulty: autoDraw = False
+433.7844 	EXP 	text_6: autoDraw = False
+433.7844 	EXP 	rating_attention: markerPos = None
+433.7844 	EXP 	rating_attention: markerPos = None
+433.7844 	EXP 	rating_attention: rating = None
+433.7844 	EXP 	text_7: autoDraw = True
+434.2783 	EXP 	rating_attention: autoDraw = True
+434.9663 	DATA 	Mouse: Left button down, pos=(975,469)
+434.9947 	EXP 	rating_attention: markerPos = 3.7777777777777777
+435.0116 	EXP 	rating_attention: markerPos = 3.7777777777777777
+435.0281 	EXP 	rating_attention: markerPos = 3.7777777777777777
+435.0449 	EXP 	rating_attention: markerPos = 3.7777777777777777
+435.0614 	EXP 	rating_attention: markerPos = 3.7777777777777777
+435.0672 	DATA 	Mouse:  Left button up, pos=(975,469)
+435.0795 	EXP 	rating_attention: markerPos = 3.7777777777777777
+435.0947 	EXP 	rating_attention: markerPos = 4.0
+435.0947 	EXP 	rating_attention: rating = 4.0
+435.0963 	EXP 	New trial (rep=2, index=0): None
+435.1002 	EXP 	window1: mouseVisible = True
+435.1113 	EXP 	rating_attention: autoDraw = False
+435.1113 	EXP 	text_7: autoDraw = False
+435.1113 	EXP 	rating_effort: markerPos = None
+435.1113 	EXP 	rating_effort: markerPos = None
+435.1113 	EXP 	rating_effort: rating = None
+435.1113 	EXP 	rating_effort: autoDraw = False
+435.1113 	EXP 	text_2: autoDraw = False
+435.1113 	EXP 	rating_difficulty: markerPos = None
+435.1113 	EXP 	rating_difficulty: markerPos = None
+435.1113 	EXP 	rating_difficulty: rating = None
+435.1113 	EXP 	text_6: autoDraw = True
+435.5953 	EXP 	rating_difficulty: autoDraw = True
+436.1165 	DATA 	Mouse: Left button down, pos=(801,456)
+436.1450 	EXP 	rating_difficulty: markerPos = 3.0044444444444443
+436.1623 	EXP 	rating_difficulty: markerPos = 3.0044444444444443
+436.1785 	EXP 	rating_difficulty: markerPos = 3.0044444444444443
+436.1965 	EXP 	rating_difficulty: markerPos = 3.0044444444444443
+436.2116 	EXP 	rating_difficulty: markerPos = 3.0044444444444443
+436.2177 	DATA 	Mouse:  Left button up, pos=(801,456)
+436.2280 	EXP 	rating_difficulty: markerPos = 3.0044444444444443
+436.2451 	EXP 	rating_difficulty: markerPos = 3.0
+436.2451 	EXP 	rating_difficulty: rating = 3.0
+436.2507 	EXP 	New trial (rep=0, index=11): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+436.2612 	EXP 	rating_difficulty: autoDraw = False
+436.2612 	EXP 	text_6: autoDraw = False
+436.2612 	EXP 	rating_attention: markerPos = None
+436.2612 	EXP 	rating_attention: markerPos = None
+436.2612 	EXP 	rating_attention: rating = None
+436.2612 	EXP 	rating_attention: autoDraw = False
+436.2612 	EXP 	text_7: autoDraw = False
+436.2612 	EXP 	text_4: autoDraw = True
+437.3135 	EXP 	window1: mouseVisible = False
+437.3157 	DATA 	Keypress: space
+437.3282 	EXP 	text_4: autoDraw = False
+437.3282 	EXP 	ready_txt: autoDraw = True
+439.3113 	EXP 	Go_text: autoDraw = True
+439.3283 	EXP 	ready_txt: autoDraw = False
+440.2957 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+440.2959 	EXP 	New trial (rep=0, index=0): None
+440.2959 	EXP 	window1: mouseVisible = False
+440.3112 	EXP 	Go_text: autoDraw = False
+440.3112 	EXP 	ready_txt: autoDraw = False
+440.3112 	EXP 	Go_text: autoDraw = False
+440.3112 	EXP 	present_mat: text = '45 X 2 + 23 = 131'
+440.3112 	EXP 	present_mat: autoDraw = True
+440.3112 	EXP 	Timer_text: autoDraw = True
+442.0985 	DATA 	Keypress: left
+442.1282 	EXP 	Timer_text: autoDraw = False
+442.8122 	EXP 	present_mat: autoDraw = False
+442.8122 	EXP 	present_mat: autoDraw = False
+442.8122 	EXP 	Timer_text: autoDraw = False
+442.8122 	EXP 	blankwindows: text = '+'
+442.8122 	EXP 	blankwindows: autoDraw = True
+443.2793 	EXP 	New trial (rep=1, index=0): None
+443.2794 	EXP 	window1: mouseVisible = False
+443.2966 	EXP 	blankwindows: autoDraw = False
+443.2966 	EXP 	blankwindows: autoDraw = False
+443.2966 	EXP 	present_mat: text = '(65 X 3) - 9 = 126'
+443.2966 	EXP 	present_mat: autoDraw = True
+443.2966 	EXP 	Timer_text: autoDraw = True
+445.3475 	DATA 	Keypress: right
+445.3622 	EXP 	Timer_text: autoDraw = False
+445.8118 	EXP 	present_mat: autoDraw = False
+445.8118 	EXP 	Timer_text: autoDraw = False
+445.8118 	EXP 	blankwindows: text = '+'
+445.8118 	EXP 	blankwindows: autoDraw = True
+446.2453 	EXP 	New trial (rep=2, index=0): None
+446.2454 	EXP 	window1: mouseVisible = False
+446.2623 	EXP 	blankwindows: autoDraw = False
+446.2623 	EXP 	blankwindows: autoDraw = False
+446.2623 	EXP 	present_mat: text = '25 X 2 + 23 = 73'
+446.2623 	EXP 	present_mat: autoDraw = True
+446.2623 	EXP 	Timer_text: autoDraw = True
+447.5826 	DATA 	Keypress: left
+447.6117 	EXP 	Timer_text: autoDraw = False
+448.7783 	EXP 	present_mat: autoDraw = False
+448.7783 	EXP 	Timer_text: autoDraw = False
+448.7783 	EXP 	blankwindows: text = '+'
+448.7783 	EXP 	blankwindows: autoDraw = True
+449.2286 	EXP 	New trial (rep=3, index=0): None
+449.2287 	EXP 	window1: mouseVisible = False
+449.2449 	EXP 	blankwindows: autoDraw = False
+449.2449 	EXP 	blankwindows: autoDraw = False
+449.2449 	EXP 	present_mat: text = '(94 - 36) / 2 = 29'
+449.2449 	EXP 	present_mat: autoDraw = True
+449.2449 	EXP 	Timer_text: autoDraw = True
+451.2317 	DATA 	Keypress: right
+451.2618 	EXP 	Timer_text: autoDraw = False
+451.7448 	EXP 	present_mat: autoDraw = False
+451.7448 	EXP 	present_mat: autoDraw = False
+451.7448 	EXP 	Timer_text: autoDraw = False
+451.7448 	EXP 	blankwindows: text = '+'
+451.7448 	EXP 	blankwindows: autoDraw = True
+452.2119 	EXP 	New trial (rep=4, index=0): None
+452.2120 	EXP 	window1: mouseVisible = False
+452.2281 	EXP 	blankwindows: autoDraw = False
+452.2281 	EXP 	blankwindows: autoDraw = False
+452.2281 	EXP 	present_mat: text = '(63 - 51) / 6 = 2'
+452.2281 	EXP 	present_mat: autoDraw = True
+452.2281 	EXP 	Timer_text: autoDraw = True
+454.2667 	DATA 	Keypress: left
+454.2957 	EXP 	Timer_text: autoDraw = False
+454.7281 	EXP 	present_mat: autoDraw = False
+454.7281 	EXP 	present_mat: autoDraw = False
+454.7281 	EXP 	Timer_text: autoDraw = False
+454.7281 	EXP 	blankwindows: text = '+'
+454.7281 	EXP 	blankwindows: autoDraw = True
+455.1788 	EXP 	New trial (rep=5, index=0): None
+455.1789 	EXP 	window1: mouseVisible = False
+455.1960 	EXP 	blankwindows: autoDraw = False
+455.1960 	EXP 	blankwindows: autoDraw = False
+455.1960 	EXP 	present_mat: text = '(32 - 15) X 3 = 81'
+455.1960 	EXP 	present_mat: autoDraw = True
+455.1960 	EXP 	Timer_text: autoDraw = True
+457.7121 	EXP 	present_mat: autoDraw = False
+457.7121 	EXP 	Timer_text: autoDraw = False
+457.7121 	EXP 	blankwindows: text = '+'
+457.7121 	EXP 	blankwindows: autoDraw = True
+458.1619 	EXP 	New trial (rep=6, index=0): None
+458.1620 	EXP 	window1: mouseVisible = False
+458.1788 	EXP 	blankwindows: autoDraw = False
+458.1788 	EXP 	blankwindows: autoDraw = False
+458.1788 	EXP 	present_mat: text = '(90 + 20) / 5 = 22'
+458.1788 	EXP 	present_mat: autoDraw = True
+458.1788 	EXP 	Timer_text: autoDraw = True
+460.0859 	DATA 	Keypress: right
+460.1114 	EXP 	Timer_text: autoDraw = False
+460.6784 	EXP 	present_mat: autoDraw = False
+460.6784 	EXP 	present_mat: autoDraw = False
+460.6784 	EXP 	Timer_text: autoDraw = False
+460.6784 	EXP 	blankwindows: text = '+'
+460.6784 	EXP 	blankwindows: autoDraw = True
+461.0797 	EXP 	New trial (rep=7, index=0): None
+461.0798 	EXP 	window1: mouseVisible = False
+461.0956 	EXP 	blankwindows: autoDraw = False
+461.0956 	EXP 	blankwindows: autoDraw = False
+461.0956 	EXP 	present_mat: text = '(19 + 56) / 5 = 15'
+461.0956 	EXP 	present_mat: autoDraw = True
+461.0956 	EXP 	Timer_text: autoDraw = True
+463.2486 	DATA 	Keypress: left
+463.2791 	EXP 	Timer_text: autoDraw = False
+463.6119 	EXP 	present_mat: autoDraw = False
+463.6119 	EXP 	Timer_text: autoDraw = False
+463.6119 	EXP 	blankwindows: text = '+'
+463.6119 	EXP 	blankwindows: autoDraw = True
+464.0622 	EXP 	New trial (rep=8, index=0): None
+464.0623 	EXP 	window1: mouseVisible = False
+464.0817 	EXP 	blankwindows: autoDraw = False
+464.0817 	EXP 	blankwindows: autoDraw = False
+464.0817 	EXP 	present_mat: text = '(88 - 59) X 2 = 68'
+464.0817 	EXP 	present_mat: autoDraw = True
+464.0817 	EXP 	Timer_text: autoDraw = True
+466.1472 	DATA 	Keypress: left
+466.1628 	EXP 	Timer_text: autoDraw = False
+466.5784 	EXP 	present_mat: autoDraw = False
+466.5784 	EXP 	Timer_text: autoDraw = False
+466.5784 	EXP 	blankwindows: text = '+'
+466.5784 	EXP 	blankwindows: autoDraw = True
+466.9789 	EXP 	New trial (rep=9, index=0): None
+466.9790 	EXP 	window1: mouseVisible = False
+466.9963 	EXP 	blankwindows: autoDraw = False
+466.9963 	EXP 	blankwindows: autoDraw = False
+466.9963 	EXP 	present_mat: text = '16 X 2 - 20 = 22'
+466.9963 	EXP 	present_mat: autoDraw = True
+466.9963 	EXP 	Timer_text: autoDraw = True
+469.1854 	DATA 	Keypress: right
+469.2120 	EXP 	Timer_text: autoDraw = False
+469.5117 	EXP 	present_mat: autoDraw = False
+469.5117 	EXP 	Timer_text: autoDraw = False
+469.5117 	EXP 	blankwindows: text = '+'
+469.5117 	EXP 	blankwindows: autoDraw = True
+469.9291 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+469.9293 	EXP 	New trial (rep=0, index=0): None
+469.9402 	EXP 	window1: mouseVisible = True
+469.9460 	EXP 	blankwindows: autoDraw = False
+469.9460 	EXP 	blankwindows: autoDraw = False
+469.9460 	EXP 	rating_effort: markerPos = None
+469.9460 	EXP 	rating_effort: markerPos = None
+469.9460 	EXP 	rating_effort: rating = None
+469.9460 	EXP 	rating_effort: autoDraw = False
+469.9460 	EXP 	text_2: autoDraw = False
+469.9460 	EXP 	rating_difficulty: markerPos = None
+469.9460 	EXP 	rating_difficulty: markerPos = None
+469.9460 	EXP 	rating_difficulty: rating = None
+469.9460 	EXP 	rating_difficulty: autoDraw = False
+469.9460 	EXP 	text_6: autoDraw = False
+469.9460 	EXP 	rating_attention: markerPos = None
+469.9460 	EXP 	rating_attention: markerPos = None
+469.9460 	EXP 	rating_attention: rating = None
+469.9460 	EXP 	text_7: autoDraw = True
+470.4602 	EXP 	rating_attention: autoDraw = True
+471.5331 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.5493 	DATA 	Mouse: wheel shift=(0,-1), pos=(1013,445)
+471.5666 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.5835 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.6009 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.6013 	DATA 	Mouse: Left button down, pos=(1013,445)
+471.6175 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.6286 	EXP 	rating_attention: markerPos = 3.9466666666666668
+471.6347 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.6450 	EXP 	rating_attention: markerPos = 3.9466666666666668
+471.6505 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.6612 	EXP 	rating_attention: markerPos = 3.9466666666666668
+471.6792 	EXP 	rating_attention: markerPos = 3.9466666666666668
+471.6854 	DATA 	Mouse: wheel shift=(0,0), pos=(1013,445)
+471.6858 	DATA 	Mouse:  Left button up, pos=(1013,445)
+471.6955 	EXP 	rating_attention: markerPos = 3.9466666666666668
+471.7127 	EXP 	rating_attention: markerPos = 4.0
+471.7127 	EXP 	rating_attention: rating = 4.0
+471.7144 	EXP 	New trial (rep=1, index=0): None
+471.7145 	EXP 	window1: mouseVisible = True
+471.7280 	EXP 	rating_attention: autoDraw = False
+471.7280 	EXP 	text_7: autoDraw = False
+471.7280 	EXP 	rating_effort: markerPos = None
+471.7280 	EXP 	rating_effort: markerPos = None
+471.7280 	EXP 	rating_effort: rating = None
+471.7280 	EXP 	text_2: autoDraw = True
+472.2122 	EXP 	rating_effort: autoDraw = True
+473.8326 	DATA 	Mouse: Left button down, pos=(828,439)
+473.8612 	EXP 	rating_effort: markerPos = 3.1244444444444444
+473.8782 	EXP 	rating_effort: markerPos = 3.1244444444444444
+473.8960 	EXP 	rating_effort: markerPos = 3.1244444444444444
+473.9113 	EXP 	rating_effort: markerPos = 3.1244444444444444
+473.9174 	DATA 	Mouse:  Left button up, pos=(828,439)
+473.9278 	EXP 	rating_effort: markerPos = 3.1244444444444444
+473.9454 	EXP 	rating_effort: markerPos = 3.0
+473.9454 	EXP 	rating_effort: rating = 3.0
+473.9550 	EXP 	New trial (rep=2, index=0): None
+473.9589 	EXP 	window1: mouseVisible = True
+473.9656 	EXP 	rating_effort: autoDraw = False
+473.9656 	EXP 	text_2: autoDraw = False
+473.9656 	EXP 	rating_difficulty: markerPos = None
+473.9656 	EXP 	rating_difficulty: markerPos = None
+473.9656 	EXP 	rating_difficulty: rating = None
+473.9656 	EXP 	rating_difficulty: autoDraw = False
+473.9656 	EXP 	text_6: autoDraw = False
+473.9656 	EXP 	rating_attention: markerPos = None
+473.9656 	EXP 	rating_attention: markerPos = None
+473.9656 	EXP 	rating_attention: rating = None
+473.9656 	EXP 	rating_attention: autoDraw = False
+473.9656 	EXP 	text_7: autoDraw = False
+473.9656 	EXP 	rating_effort: markerPos = None
+473.9656 	EXP 	rating_effort: markerPos = None
+473.9656 	EXP 	rating_effort: rating = None
+473.9656 	EXP 	rating_effort: autoDraw = False
+473.9656 	EXP 	text_2: autoDraw = False
+473.9656 	EXP 	rating_difficulty: markerPos = None
+473.9656 	EXP 	rating_difficulty: markerPos = None
+473.9656 	EXP 	rating_difficulty: rating = None
+473.9656 	EXP 	text_6: autoDraw = True
+474.4612 	EXP 	rating_difficulty: autoDraw = True
+475.6490 	DATA 	Mouse: Left button down, pos=(774,444)
+475.6784 	EXP 	rating_difficulty: markerPos = 2.884444444444444
+475.6981 	EXP 	rating_difficulty: markerPos = 2.884444444444444
+475.7121 	EXP 	rating_difficulty: markerPos = 2.884444444444444
+475.7279 	EXP 	rating_difficulty: markerPos = 2.884444444444444
+475.7335 	DATA 	Mouse:  Left button up, pos=(774,444)
+475.7446 	EXP 	rating_difficulty: markerPos = 2.884444444444444
+475.7622 	EXP 	rating_difficulty: markerPos = 3.0
+475.7622 	EXP 	rating_difficulty: rating = 3.0
+475.7679 	EXP 	New trial (rep=0, index=12): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+475.7784 	EXP 	rating_difficulty: autoDraw = False
+475.7784 	EXP 	text_6: autoDraw = False
+475.7784 	EXP 	rating_attention: markerPos = None
+475.7784 	EXP 	rating_attention: markerPos = None
+475.7784 	EXP 	rating_attention: rating = None
+475.7784 	EXP 	rating_attention: autoDraw = False
+475.7784 	EXP 	text_7: autoDraw = False
+475.7784 	EXP 	text_4: autoDraw = True
+476.9795 	EXP 	window1: mouseVisible = False
+476.9954 	EXP 	text_4: autoDraw = False
+476.9954 	EXP 	ready_txt: autoDraw = True
+476.9974 	DATA 	Keypress: space
+478.9784 	EXP 	Go_text: autoDraw = True
+478.9956 	EXP 	ready_txt: autoDraw = False
+479.9620 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+479.9623 	EXP 	New trial (rep=0, index=0): None
+479.9624 	EXP 	window1: mouseVisible = False
+479.9785 	EXP 	Go_text: autoDraw = False
+479.9785 	EXP 	ready_txt: autoDraw = False
+479.9785 	EXP 	Go_text: autoDraw = False
+479.9785 	EXP 	present_mat: text = '25 X 2 + 23 = 73'
+479.9785 	EXP 	present_mat: autoDraw = True
+479.9785 	EXP 	Timer_text: autoDraw = True
+481.4318 	DATA 	Keypress: left
+481.4625 	EXP 	Timer_text: autoDraw = False
+482.4783 	EXP 	present_mat: autoDraw = False
+482.4783 	EXP 	present_mat: autoDraw = False
+482.4783 	EXP 	Timer_text: autoDraw = False
+482.4783 	EXP 	blankwindows: text = '+'
+482.4783 	EXP 	blankwindows: autoDraw = True
+482.8960 	EXP 	New trial (rep=1, index=0): None
+482.8961 	EXP 	window1: mouseVisible = False
+482.9118 	EXP 	blankwindows: autoDraw = False
+482.9118 	EXP 	blankwindows: autoDraw = False
+482.9118 	EXP 	present_mat: text = '(63 - 51) / 6 = 2'
+482.9118 	EXP 	present_mat: autoDraw = True
+482.9118 	EXP 	Timer_text: autoDraw = True
+484.5489 	DATA 	Keypress: left
+484.5793 	EXP 	Timer_text: autoDraw = False
+485.4121 	EXP 	present_mat: autoDraw = False
+485.4121 	EXP 	present_mat: autoDraw = False
+485.4121 	EXP 	Timer_text: autoDraw = False
+485.4121 	EXP 	blankwindows: text = '+'
+485.4121 	EXP 	blankwindows: autoDraw = True
+485.8957 	EXP 	New trial (rep=2, index=0): None
+485.8958 	EXP 	window1: mouseVisible = False
+485.9120 	EXP 	blankwindows: autoDraw = False
+485.9120 	EXP 	blankwindows: autoDraw = False
+485.9120 	EXP 	present_mat: text = '(71 - 21) / 5 = 10'
+485.9120 	EXP 	present_mat: autoDraw = True
+485.9120 	EXP 	Timer_text: autoDraw = True
+488.1984 	DATA 	Keypress: left
+488.2117 	EXP 	Timer_text: autoDraw = False
+488.4114 	EXP 	present_mat: autoDraw = False
+488.4114 	EXP 	present_mat: autoDraw = False
+488.4114 	EXP 	Timer_text: autoDraw = False
+488.4114 	EXP 	blankwindows: text = '+'
+488.4114 	EXP 	blankwindows: autoDraw = True
+488.8455 	EXP 	New trial (rep=3, index=0): None
+488.8456 	EXP 	window1: mouseVisible = False
+488.8616 	EXP 	blankwindows: autoDraw = False
+488.8616 	EXP 	blankwindows: autoDraw = False
+488.8616 	EXP 	present_mat: text = '(65 X 3) - 9 = 126'
+488.8616 	EXP 	present_mat: autoDraw = True
+488.8616 	EXP 	Timer_text: autoDraw = True
+490.6485 	DATA 	Keypress: right
+490.6782 	EXP 	Timer_text: autoDraw = False
+491.3624 	EXP 	present_mat: autoDraw = False
+491.3624 	EXP 	present_mat: autoDraw = False
+491.3624 	EXP 	Timer_text: autoDraw = False
+491.3624 	EXP 	blankwindows: text = '+'
+491.3624 	EXP 	blankwindows: autoDraw = True
+491.7823 	EXP 	New trial (rep=4, index=0): None
+491.7824 	EXP 	window1: mouseVisible = False
+491.7952 	EXP 	blankwindows: autoDraw = False
+491.7952 	EXP 	blankwindows: autoDraw = False
+491.7952 	EXP 	present_mat: text = '(59 + 40) / 11 = 9'
+491.7952 	EXP 	present_mat: autoDraw = True
+491.7952 	EXP 	Timer_text: autoDraw = True
+494.2962 	EXP 	present_mat: autoDraw = False
+494.3114 	EXP 	present_mat: autoDraw = False
+494.3114 	EXP 	Timer_text: autoDraw = False
+494.3114 	EXP 	blankwindows: text = '+'
+494.3114 	EXP 	blankwindows: autoDraw = True
+494.3134 	DATA 	Keypress: right
+494.7286 	EXP 	New trial (rep=5, index=0): None
+494.7287 	EXP 	window1: mouseVisible = False
+494.7448 	EXP 	blankwindows: autoDraw = False
+494.7448 	EXP 	blankwindows: autoDraw = False
+494.7448 	EXP 	present_mat: text = '(10 + 21) X 5 = 95'
+494.7448 	EXP 	present_mat: autoDraw = True
+494.7448 	EXP 	Timer_text: autoDraw = True
+496.8497 	DATA 	Keypress: left
+496.8784 	EXP 	Timer_text: autoDraw = False
+497.2447 	EXP 	present_mat: autoDraw = False
+497.2447 	EXP 	present_mat: autoDraw = False
+497.2447 	EXP 	Timer_text: autoDraw = False
+497.2447 	EXP 	blankwindows: text = '+'
+497.2447 	EXP 	blankwindows: autoDraw = True
+497.7120 	EXP 	New trial (rep=6, index=0): None
+497.7121 	EXP 	window1: mouseVisible = False
+497.7281 	EXP 	blankwindows: autoDraw = False
+497.7281 	EXP 	blankwindows: autoDraw = False
+497.7281 	EXP 	present_mat: text = '(89 - 61) / 4 = 6'
+497.7281 	EXP 	present_mat: autoDraw = True
+497.7281 	EXP 	Timer_text: autoDraw = True
+499.9854 	DATA 	Keypress: left
+500.0121 	EXP 	Timer_text: autoDraw = False
+500.2281 	EXP 	present_mat: autoDraw = False
+500.2281 	EXP 	present_mat: autoDraw = False
+500.2281 	EXP 	Timer_text: autoDraw = False
+500.2281 	EXP 	blankwindows: text = '+'
+500.2281 	EXP 	blankwindows: autoDraw = True
+500.6961 	EXP 	New trial (rep=7, index=0): None
+500.6962 	EXP 	window1: mouseVisible = False
+500.7115 	EXP 	blankwindows: autoDraw = False
+500.7115 	EXP 	blankwindows: autoDraw = False
+500.7115 	EXP 	present_mat: text = '(58 - 50) X 8 = 64'
+500.7115 	EXP 	present_mat: autoDraw = True
+500.7115 	EXP 	Timer_text: autoDraw = True
+502.1320 	DATA 	Keypress: left
+502.1619 	EXP 	Timer_text: autoDraw = False
+503.2122 	EXP 	present_mat: autoDraw = False
+503.2122 	EXP 	present_mat: autoDraw = False
+503.2122 	EXP 	Timer_text: autoDraw = False
+503.2122 	EXP 	blankwindows: text = '+'
+503.2122 	EXP 	blankwindows: autoDraw = True
+503.6791 	EXP 	New trial (rep=8, index=0): None
+503.6792 	EXP 	window1: mouseVisible = False
+503.6962 	EXP 	blankwindows: autoDraw = False
+503.6962 	EXP 	blankwindows: autoDraw = False
+503.6962 	EXP 	present_mat: text = '(89 - 61) / 4 = 7'
+503.6962 	EXP 	present_mat: autoDraw = True
+503.6962 	EXP 	Timer_text: autoDraw = True
+506.2121 	EXP 	present_mat: autoDraw = False
+506.2121 	EXP 	Timer_text: autoDraw = False
+506.2121 	EXP 	blankwindows: text = '+'
+506.2121 	EXP 	blankwindows: autoDraw = True
+506.5136 	DATA 	Keypress: left
+506.6287 	EXP 	New trial (rep=9, index=0): None
+506.6288 	EXP 	window1: mouseVisible = False
+506.6449 	EXP 	blankwindows: autoDraw = False
+506.6449 	EXP 	blankwindows: autoDraw = False
+506.6449 	EXP 	present_mat: text = '16 X 2 - 20 = 22'
+506.6449 	EXP 	present_mat: autoDraw = True
+506.6449 	EXP 	Timer_text: autoDraw = True
+509.0826 	DATA 	Keypress: right
+509.1113 	EXP 	Timer_text: autoDraw = False
+509.1452 	EXP 	present_mat: autoDraw = False
+509.1452 	EXP 	present_mat: autoDraw = False
+509.1452 	EXP 	Timer_text: autoDraw = False
+509.1452 	EXP 	blankwindows: text = '+'
+509.1452 	EXP 	blankwindows: autoDraw = True
+509.6789 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+509.6790 	EXP 	New trial (rep=0, index=0): None
+509.6878 	EXP 	window1: mouseVisible = True
+509.6958 	EXP 	blankwindows: autoDraw = False
+509.6958 	EXP 	blankwindows: autoDraw = False
+509.6958 	EXP 	rating_effort: markerPos = None
+509.6958 	EXP 	rating_effort: markerPos = None
+509.6958 	EXP 	rating_effort: rating = None
+509.6958 	EXP 	rating_effort: autoDraw = False
+509.6958 	EXP 	text_2: autoDraw = False
+509.6958 	EXP 	rating_difficulty: markerPos = None
+509.6958 	EXP 	rating_difficulty: markerPos = None
+509.6958 	EXP 	rating_difficulty: rating = None
+509.6958 	EXP 	rating_difficulty: autoDraw = False
+509.6958 	EXP 	text_6: autoDraw = False
+509.6958 	EXP 	rating_attention: markerPos = None
+509.6958 	EXP 	rating_attention: markerPos = None
+509.6958 	EXP 	rating_attention: rating = None
+509.6958 	EXP 	text_7: autoDraw = True
+510.2079 	EXP 	rating_attention: autoDraw = True
+511.4006 	DATA 	Mouse: Left button down, pos=(998,436)
+511.4286 	EXP 	rating_attention: markerPos = 3.88
+511.4449 	EXP 	rating_attention: markerPos = 3.88
+511.4616 	EXP 	rating_attention: markerPos = 3.88
+511.4787 	EXP 	rating_attention: markerPos = 3.88
+511.4849 	DATA 	Mouse:  Left button up, pos=(998,436)
+511.4988 	EXP 	rating_attention: markerPos = 3.88
+511.5115 	EXP 	rating_attention: markerPos = 4.0
+511.5115 	EXP 	rating_attention: rating = 4.0
+511.5132 	EXP 	New trial (rep=1, index=0): None
+511.5174 	EXP 	window1: mouseVisible = True
+511.5282 	EXP 	rating_attention: autoDraw = False
+511.5282 	EXP 	text_7: autoDraw = False
+511.5282 	EXP 	rating_effort: markerPos = None
+511.5282 	EXP 	rating_effort: markerPos = None
+511.5282 	EXP 	rating_effort: rating = None
+511.5282 	EXP 	rating_effort: autoDraw = False
+511.5282 	EXP 	text_2: autoDraw = False
+511.5282 	EXP 	rating_difficulty: markerPos = None
+511.5282 	EXP 	rating_difficulty: markerPos = None
+511.5282 	EXP 	rating_difficulty: rating = None
+511.5282 	EXP 	text_6: autoDraw = True
+512.0278 	EXP 	rating_difficulty: autoDraw = True
+514.0666 	DATA 	Mouse: Left button down, pos=(816,444)
+514.0960 	EXP 	rating_difficulty: markerPos = 3.071111111111111
+514.1113 	EXP 	rating_difficulty: markerPos = 3.071111111111111
+514.1279 	EXP 	rating_difficulty: markerPos = 3.071111111111111
+514.1335 	DATA 	Mouse:  Left button up, pos=(816,444)
+514.1444 	EXP 	rating_difficulty: markerPos = 3.071111111111111
+514.1628 	EXP 	rating_difficulty: markerPos = 3.0
+514.1628 	EXP 	rating_difficulty: rating = 3.0
+514.1687 	EXP 	New trial (rep=2, index=0): None
+514.1688 	EXP 	window1: mouseVisible = True
+514.1785 	EXP 	rating_difficulty: autoDraw = False
+514.1785 	EXP 	text_6: autoDraw = False
+514.1785 	EXP 	rating_attention: markerPos = None
+514.1785 	EXP 	rating_attention: markerPos = None
+514.1785 	EXP 	rating_attention: rating = None
+514.1785 	EXP 	rating_attention: autoDraw = False
+514.1785 	EXP 	text_7: autoDraw = False
+514.1785 	EXP 	rating_effort: markerPos = None
+514.1785 	EXP 	rating_effort: markerPos = None
+514.1785 	EXP 	rating_effort: rating = None
+514.1785 	EXP 	text_2: autoDraw = True
+514.6783 	EXP 	rating_effort: autoDraw = True
+515.7158 	DATA 	Mouse: Left button down, pos=(770,455)
+515.7449 	EXP 	rating_effort: markerPos = 2.8666666666666667
+515.7616 	EXP 	rating_effort: markerPos = 2.8666666666666667
+515.7781 	EXP 	rating_effort: markerPos = 2.8666666666666667
+515.7964 	EXP 	rating_effort: markerPos = 2.8666666666666667
+515.8111 	EXP 	rating_effort: markerPos = 2.8666666666666667
+515.8168 	DATA 	Mouse:  Left button up, pos=(770,455)
+515.8284 	EXP 	rating_effort: markerPos = 2.8666666666666667
+515.8448 	EXP 	rating_effort: markerPos = 3.0
+515.8448 	EXP 	rating_effort: rating = 3.0
+515.8544 	EXP 	New trial (rep=0, index=13): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+515.8615 	EXP 	rating_effort: autoDraw = False
+515.8615 	EXP 	text_2: autoDraw = False
+515.8615 	EXP 	rating_difficulty: markerPos = None
+515.8615 	EXP 	rating_difficulty: markerPos = None
+515.8615 	EXP 	rating_difficulty: rating = None
+515.8615 	EXP 	rating_difficulty: autoDraw = False
+515.8615 	EXP 	text_6: autoDraw = False
+515.8615 	EXP 	rating_attention: markerPos = None
+515.8615 	EXP 	rating_attention: markerPos = None
+515.8615 	EXP 	rating_attention: rating = None
+515.8615 	EXP 	rating_attention: autoDraw = False
+515.8615 	EXP 	text_7: autoDraw = False
+515.8615 	EXP 	text_4: autoDraw = True
+516.7135 	EXP 	window1: mouseVisible = False
+516.7157 	DATA 	Keypress: space
+516.7281 	EXP 	text_4: autoDraw = False
+516.7281 	EXP 	ready_txt: autoDraw = True
+518.7123 	EXP 	Go_text: autoDraw = True
+518.7281 	EXP 	ready_txt: autoDraw = False
+519.6960 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+519.6962 	EXP 	New trial (rep=0, index=0): None
+519.6963 	EXP 	window1: mouseVisible = False
+519.7121 	EXP 	Go_text: autoDraw = False
+519.7121 	EXP 	ready_txt: autoDraw = False
+519.7121 	EXP 	Go_text: autoDraw = False
+519.7121 	EXP 	present_mat: text = '(83 - 43) /  20 = 2'
+519.7121 	EXP 	present_mat: autoDraw = True
+519.7121 	EXP 	Timer_text: autoDraw = True
+521.3320 	DATA 	Keypress: left
+521.3614 	EXP 	Timer_text: autoDraw = False
+522.2119 	EXP 	present_mat: autoDraw = False
+522.2119 	EXP 	present_mat: autoDraw = False
+522.2119 	EXP 	Timer_text: autoDraw = False
+522.2119 	EXP 	blankwindows: text = '+'
+522.2119 	EXP 	blankwindows: autoDraw = True
+522.6455 	EXP 	New trial (rep=1, index=0): None
+522.6456 	EXP 	window1: mouseVisible = False
+522.6621 	EXP 	blankwindows: autoDraw = False
+522.6621 	EXP 	blankwindows: autoDraw = False
+522.6621 	EXP 	present_mat: text = '7 X (50 - 21) = 201'
+522.6621 	EXP 	present_mat: autoDraw = True
+522.6621 	EXP 	Timer_text: autoDraw = True
+524.6824 	DATA 	Keypress: left
+524.7117 	EXP 	Timer_text: autoDraw = False
+525.1790 	EXP 	present_mat: autoDraw = False
+525.1790 	EXP 	Timer_text: autoDraw = False
+525.1790 	EXP 	blankwindows: text = '+'
+525.1790 	EXP 	blankwindows: autoDraw = True
+525.6962 	EXP 	New trial (rep=2, index=0): None
+525.6963 	EXP 	window1: mouseVisible = False
+525.7115 	EXP 	blankwindows: autoDraw = False
+525.7115 	EXP 	blankwindows: autoDraw = False
+525.7115 	EXP 	present_mat: text = '(94 - 54) / 2 = 10'
+525.7115 	EXP 	present_mat: autoDraw = True
+525.7115 	EXP 	Timer_text: autoDraw = True
+527.8983 	DATA 	Keypress: right
+527.9281 	EXP 	Timer_text: autoDraw = False
+528.2119 	EXP 	present_mat: autoDraw = False
+528.2119 	EXP 	present_mat: autoDraw = False
+528.2119 	EXP 	Timer_text: autoDraw = False
+528.2119 	EXP 	blankwindows: text = '+'
+528.2119 	EXP 	blankwindows: autoDraw = True
+528.6286 	EXP 	New trial (rep=3, index=0): None
+528.6287 	EXP 	window1: mouseVisible = False
+528.6450 	EXP 	blankwindows: autoDraw = False
+528.6450 	EXP 	blankwindows: autoDraw = False
+528.6450 	EXP 	present_mat: text = '(89 - 61) / 4 = 6'
+528.6450 	EXP 	present_mat: autoDraw = True
+528.6450 	EXP 	Timer_text: autoDraw = True
+530.6323 	DATA 	Keypress: left
+530.6621 	EXP 	Timer_text: autoDraw = False
+531.1450 	EXP 	present_mat: autoDraw = False
+531.1450 	EXP 	present_mat: autoDraw = False
+531.1450 	EXP 	Timer_text: autoDraw = False
+531.1450 	EXP 	blankwindows: text = '+'
+531.1450 	EXP 	blankwindows: autoDraw = True
+531.5789 	EXP 	New trial (rep=4, index=0): None
+531.5790 	EXP 	window1: mouseVisible = False
+531.5955 	EXP 	blankwindows: autoDraw = False
+531.5955 	EXP 	blankwindows: autoDraw = False
+531.5955 	EXP 	present_mat: text = '(30 - 10) X 6 = 80'
+531.5955 	EXP 	present_mat: autoDraw = True
+531.5955 	EXP 	Timer_text: autoDraw = True
+533.1150 	DATA 	Keypress: right
+533.1444 	EXP 	Timer_text: autoDraw = False
+534.1119 	EXP 	present_mat: autoDraw = False
+534.1119 	EXP 	Timer_text: autoDraw = False
+534.1119 	EXP 	blankwindows: text = '+'
+534.1119 	EXP 	blankwindows: autoDraw = True
+534.5961 	EXP 	New trial (rep=5, index=0): None
+534.5962 	EXP 	window1: mouseVisible = False
+534.6113 	EXP 	blankwindows: autoDraw = False
+534.6113 	EXP 	blankwindows: autoDraw = False
+534.6113 	EXP 	present_mat: text = '(32 - 15) X 3 = 51'
+534.6113 	EXP 	present_mat: autoDraw = True
+534.6113 	EXP 	Timer_text: autoDraw = True
+536.3658 	DATA 	Keypress: left
+536.3949 	EXP 	Timer_text: autoDraw = False
+537.1120 	EXP 	present_mat: autoDraw = False
+537.1120 	EXP 	present_mat: autoDraw = False
+537.1120 	EXP 	Timer_text: autoDraw = False
+537.1120 	EXP 	blankwindows: text = '+'
+537.1120 	EXP 	blankwindows: autoDraw = True
+537.5797 	EXP 	New trial (rep=6, index=0): None
+537.5798 	EXP 	window1: mouseVisible = False
+537.5961 	EXP 	blankwindows: autoDraw = False
+537.5961 	EXP 	blankwindows: autoDraw = False
+537.5961 	EXP 	present_mat: text = '(96 - 56) / 5 = 8'
+537.5961 	EXP 	present_mat: autoDraw = True
+537.5961 	EXP 	Timer_text: autoDraw = True
+539.8483 	DATA 	Keypress: right
+539.8822 	EXP 	Timer_text: autoDraw = False
+540.1118 	EXP 	present_mat: autoDraw = False
+540.1118 	EXP 	Timer_text: autoDraw = False
+540.1118 	EXP 	blankwindows: text = '+'
+540.1118 	EXP 	blankwindows: autoDraw = True
+540.5962 	EXP 	New trial (rep=7, index=0): None
+540.5963 	EXP 	window1: mouseVisible = False
+540.6112 	EXP 	blankwindows: autoDraw = False
+540.6112 	EXP 	blankwindows: autoDraw = False
+540.6112 	EXP 	present_mat: text = '(71 - 33) X 2 = 74'
+540.6112 	EXP 	present_mat: autoDraw = True
+540.6112 	EXP 	Timer_text: autoDraw = True
+542.7495 	DATA 	Keypress: left
+542.7781 	EXP 	Timer_text: autoDraw = False
+543.1121 	EXP 	present_mat: autoDraw = False
+543.1121 	EXP 	present_mat: autoDraw = False
+543.1121 	EXP 	Timer_text: autoDraw = False
+543.1121 	EXP 	blankwindows: text = '+'
+543.1121 	EXP 	blankwindows: autoDraw = True
+543.6121 	EXP 	New trial (rep=8, index=0): None
+543.6122 	EXP 	window1: mouseVisible = False
+543.6283 	EXP 	blankwindows: autoDraw = False
+543.6283 	EXP 	blankwindows: autoDraw = False
+543.6283 	EXP 	present_mat: text = '(24 X 3) - 20 = 52'
+543.6283 	EXP 	present_mat: autoDraw = True
+543.6283 	EXP 	Timer_text: autoDraw = True
+546.1286 	EXP 	present_mat: autoDraw = False
+546.1452 	EXP 	present_mat: autoDraw = False
+546.1452 	EXP 	Timer_text: autoDraw = False
+546.1452 	EXP 	blankwindows: text = '+'
+546.1452 	EXP 	blankwindows: autoDraw = True
+546.2136 	DATA 	Keypress: left
+546.5957 	EXP 	New trial (rep=9, index=0): None
+546.5958 	EXP 	window1: mouseVisible = False
+546.6117 	EXP 	blankwindows: autoDraw = False
+546.6117 	EXP 	blankwindows: autoDraw = False
+546.6117 	EXP 	present_mat: text = '(93 - 81) / 4 = 3'
+546.6117 	EXP 	present_mat: autoDraw = True
+546.6117 	EXP 	Timer_text: autoDraw = True
+548.5152 	DATA 	Keypress: left
+548.5449 	EXP 	Timer_text: autoDraw = False
+549.1121 	EXP 	present_mat: autoDraw = False
+549.1121 	EXP 	present_mat: autoDraw = False
+549.1121 	EXP 	Timer_text: autoDraw = False
+549.1121 	EXP 	blankwindows: text = '+'
+549.1121 	EXP 	blankwindows: autoDraw = True
+549.5788 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+549.5790 	EXP 	New trial (rep=0, index=0): None
+549.5891 	EXP 	window1: mouseVisible = True
+549.5960 	EXP 	blankwindows: autoDraw = False
+549.5960 	EXP 	blankwindows: autoDraw = False
+549.5960 	EXP 	rating_effort: markerPos = None
+549.5960 	EXP 	rating_effort: markerPos = None
+549.5960 	EXP 	rating_effort: rating = None
+549.5960 	EXP 	rating_effort: autoDraw = False
+549.5960 	EXP 	text_2: autoDraw = False
+549.5960 	EXP 	rating_difficulty: markerPos = None
+549.5960 	EXP 	rating_difficulty: markerPos = None
+549.5960 	EXP 	rating_difficulty: rating = None
+549.5960 	EXP 	rating_difficulty: autoDraw = False
+549.5960 	EXP 	text_6: autoDraw = False
+549.5960 	EXP 	rating_attention: markerPos = None
+549.5960 	EXP 	rating_attention: markerPos = None
+549.5960 	EXP 	rating_attention: rating = None
+549.5960 	EXP 	text_7: autoDraw = True
+550.1085 	EXP 	rating_attention: autoDraw = True
+551.2832 	DATA 	Mouse: Left button down, pos=(1056,476)
+551.3116 	EXP 	rating_attention: markerPos = 4.137777777777778
+551.3282 	EXP 	rating_attention: markerPos = 4.137777777777778
+551.3453 	EXP 	rating_attention: markerPos = 4.137777777777778
+551.3616 	EXP 	rating_attention: markerPos = 4.137777777777778
+551.3791 	EXP 	rating_attention: markerPos = 4.142222222222222
+551.3852 	DATA 	Mouse:  Left button up, pos=(1057,476)
+551.3984 	EXP 	rating_attention: markerPos = 4.142222222222222
+551.4118 	EXP 	rating_attention: markerPos = 4.0
+551.4118 	EXP 	rating_attention: rating = 4.0
+551.4134 	EXP 	New trial (rep=1, index=0): None
+551.4135 	EXP 	window1: mouseVisible = True
+551.4284 	EXP 	rating_attention: autoDraw = False
+551.4284 	EXP 	text_7: autoDraw = False
+551.4284 	EXP 	rating_effort: markerPos = None
+551.4284 	EXP 	rating_effort: markerPos = None
+551.4284 	EXP 	rating_effort: rating = None
+551.4284 	EXP 	text_2: autoDraw = True
+551.9116 	EXP 	rating_effort: autoDraw = True
+552.4000 	DATA 	Mouse: Left button down, pos=(1024,459)
+552.4282 	EXP 	rating_effort: markerPos = 3.9955555555555557
+552.4453 	EXP 	rating_effort: markerPos = 3.9955555555555557
+552.4617 	EXP 	rating_effort: markerPos = 3.9955555555555557
+552.4785 	EXP 	rating_effort: markerPos = 3.9955555555555557
+552.4959 	EXP 	rating_effort: markerPos = 3.9955555555555557
+552.5018 	DATA 	Mouse:  Left button up, pos=(1024,459)
+552.5124 	EXP 	rating_effort: markerPos = 3.9955555555555557
+552.5285 	EXP 	rating_effort: markerPos = 4.0
+552.5285 	EXP 	rating_effort: rating = 4.0
+552.5380 	EXP 	New trial (rep=2, index=0): None
+552.5419 	EXP 	window1: mouseVisible = True
+552.5468 	EXP 	rating_effort: autoDraw = False
+552.5468 	EXP 	text_2: autoDraw = False
+552.5468 	EXP 	rating_difficulty: markerPos = None
+552.5468 	EXP 	rating_difficulty: markerPos = None
+552.5468 	EXP 	rating_difficulty: rating = None
+552.5468 	EXP 	rating_difficulty: autoDraw = False
+552.5468 	EXP 	text_6: autoDraw = False
+552.5468 	EXP 	rating_attention: markerPos = None
+552.5468 	EXP 	rating_attention: markerPos = None
+552.5468 	EXP 	rating_attention: rating = None
+552.5468 	EXP 	rating_attention: autoDraw = False
+552.5468 	EXP 	text_7: autoDraw = False
+552.5468 	EXP 	rating_effort: markerPos = None
+552.5468 	EXP 	rating_effort: markerPos = None
+552.5468 	EXP 	rating_effort: rating = None
+552.5468 	EXP 	rating_effort: autoDraw = False
+552.5468 	EXP 	text_2: autoDraw = False
+552.5468 	EXP 	rating_difficulty: markerPos = None
+552.5468 	EXP 	rating_difficulty: markerPos = None
+552.5468 	EXP 	rating_difficulty: rating = None
+552.5468 	EXP 	text_6: autoDraw = True
+553.0453 	EXP 	rating_difficulty: autoDraw = True
+553.7829 	DATA 	Mouse: Left button down, pos=(812,463)
+553.8114 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.8282 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.8458 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.8620 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.8783 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.8958 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.9017 	DATA 	Mouse:  Left button up, pos=(812,463)
+553.9128 	EXP 	rating_difficulty: markerPos = 3.0533333333333332
+553.9283 	EXP 	rating_difficulty: markerPos = 3.0
+553.9283 	EXP 	rating_difficulty: rating = 3.0
+553.9337 	EXP 	New trial (rep=0, index=14): {'difficulty_level': 'high', 'num_session': 1, 'num_rand': 10}
+553.9448 	EXP 	rating_difficulty: autoDraw = False
+553.9448 	EXP 	text_6: autoDraw = False
+553.9448 	EXP 	rating_attention: markerPos = None
+553.9448 	EXP 	rating_attention: markerPos = None
+553.9448 	EXP 	rating_attention: rating = None
+553.9448 	EXP 	rating_attention: autoDraw = False
+553.9448 	EXP 	text_7: autoDraw = False
+553.9448 	EXP 	text_4: autoDraw = True
+554.7626 	EXP 	window1: mouseVisible = False
+554.7649 	DATA 	Keypress: space
+554.7790 	EXP 	text_4: autoDraw = False
+554.7790 	EXP 	ready_txt: autoDraw = True
+556.7625 	EXP 	Go_text: autoDraw = True
+556.7784 	EXP 	ready_txt: autoDraw = False
+557.7458 	EXP 	Created sequence: sequential, trialTypes=1, nReps=10, seed=None
+557.7460 	EXP 	New trial (rep=0, index=0): None
+557.7461 	EXP 	window1: mouseVisible = False
+557.7622 	EXP 	Go_text: autoDraw = False
+557.7622 	EXP 	ready_txt: autoDraw = False
+557.7622 	EXP 	Go_text: autoDraw = False
+557.7622 	EXP 	present_mat: text = '(59 + 40) / 11 = 19'
+557.7622 	EXP 	present_mat: autoDraw = True
+557.7622 	EXP 	Timer_text: autoDraw = True
+559.6817 	DATA 	Keypress: right
+559.7121 	EXP 	Timer_text: autoDraw = False
+560.2791 	EXP 	present_mat: autoDraw = False
+560.2791 	EXP 	Timer_text: autoDraw = False
+560.2791 	EXP 	blankwindows: text = '+'
+560.2791 	EXP 	blankwindows: autoDraw = True
+560.7119 	EXP 	New trial (rep=1, index=0): None
+560.7120 	EXP 	window1: mouseVisible = False
+560.7285 	EXP 	blankwindows: autoDraw = False
+560.7285 	EXP 	blankwindows: autoDraw = False
+560.7285 	EXP 	present_mat: text = '21 - 19 X 3 = 6'
+560.7285 	EXP 	present_mat: autoDraw = True
+560.7285 	EXP 	Timer_text: autoDraw = True
+562.9153 	DATA 	Keypress: left
+562.9454 	EXP 	Timer_text: autoDraw = False
+563.2283 	EXP 	present_mat: autoDraw = False
+563.2283 	EXP 	present_mat: autoDraw = False
+563.2283 	EXP 	Timer_text: autoDraw = False
+563.2283 	EXP 	blankwindows: text = '+'
+563.2283 	EXP 	blankwindows: autoDraw = True
+563.7286 	EXP 	New trial (rep=2, index=0): None
+563.7287 	EXP 	window1: mouseVisible = False
+563.7452 	EXP 	blankwindows: autoDraw = False
+563.7452 	EXP 	blankwindows: autoDraw = False
+563.7452 	EXP 	present_mat: text = '(96 - 26) / 7 = 20'
+563.7452 	EXP 	present_mat: autoDraw = True
+563.7452 	EXP 	Timer_text: autoDraw = True
+565.8985 	DATA 	Keypress: right
+565.9282 	EXP 	Timer_text: autoDraw = False
+566.2450 	EXP 	present_mat: autoDraw = False
+566.2450 	EXP 	present_mat: autoDraw = False
+566.2450 	EXP 	Timer_text: autoDraw = False
+566.2450 	EXP 	blankwindows: text = '+'
+566.2450 	EXP 	blankwindows: autoDraw = True
+566.6789 	EXP 	New trial (rep=3, index=0): None
+566.6790 	EXP 	window1: mouseVisible = False
+566.6959 	EXP 	blankwindows: autoDraw = False
+566.6959 	EXP 	blankwindows: autoDraw = False
+566.6959 	EXP 	present_mat: text = '(71 - 21) X 5 = 50'
+566.6959 	EXP 	present_mat: autoDraw = True
+566.6959 	EXP 	Timer_text: autoDraw = True
+569.1952 	EXP 	present_mat: autoDraw = False
+569.1952 	EXP 	Timer_text: autoDraw = False
+569.1952 	EXP 	blankwindows: text = '+'
+569.1952 	EXP 	blankwindows: autoDraw = True
+569.3470 	DATA 	Keypress: right
+569.7125 	EXP 	New trial (rep=4, index=0): None
+569.7125 	EXP 	window1: mouseVisible = False
+569.7285 	EXP 	blankwindows: autoDraw = False
+569.7285 	EXP 	blankwindows: autoDraw = False
+569.7285 	EXP 	present_mat: text = '(19 + 6) X 5 = 75'
+569.7285 	EXP 	present_mat: autoDraw = True
+569.7285 	EXP 	Timer_text: autoDraw = True
+572.2282 	EXP 	present_mat: autoDraw = False
+572.2446 	EXP 	present_mat: autoDraw = False
+572.2446 	EXP 	Timer_text: autoDraw = False
+572.2446 	EXP 	blankwindows: text = '+'
+572.2446 	EXP 	blankwindows: autoDraw = True
+572.3801 	DATA 	Keypress: right
+572.6956 	EXP 	New trial (rep=5, index=0): None
+572.6957 	EXP 	window1: mouseVisible = False
+572.7119 	EXP 	blankwindows: autoDraw = False
+572.7119 	EXP 	blankwindows: autoDraw = False
+572.7119 	EXP 	present_mat: text = '(30 - 10) X 6 = 80'
+572.7119 	EXP 	present_mat: autoDraw = True
+572.7119 	EXP 	Timer_text: autoDraw = True
+574.0662 	DATA 	Keypress: right
+574.0956 	EXP 	Timer_text: autoDraw = False
+575.2116 	EXP 	present_mat: autoDraw = False
+575.2116 	EXP 	present_mat: autoDraw = False
+575.2116 	EXP 	Timer_text: autoDraw = False
+575.2116 	EXP 	blankwindows: text = '+'
+575.2116 	EXP 	blankwindows: autoDraw = True
+575.6119 	EXP 	New trial (rep=6, index=0): None
+575.6119 	EXP 	window1: mouseVisible = False
+575.6285 	EXP 	blankwindows: autoDraw = False
+575.6285 	EXP 	blankwindows: autoDraw = False
+575.6285 	EXP 	present_mat: text = '(29 + 15) X 2 = 98'
+575.6285 	EXP 	present_mat: autoDraw = True
+575.6285 	EXP 	Timer_text: autoDraw = True
+577.5822 	DATA 	Keypress: left
+577.6115 	EXP 	Timer_text: autoDraw = False
+578.1285 	EXP 	present_mat: autoDraw = False
+578.1285 	EXP 	Timer_text: autoDraw = False
+578.1285 	EXP 	blankwindows: text = '+'
+578.1285 	EXP 	blankwindows: autoDraw = True
+578.6459 	EXP 	New trial (rep=7, index=0): None
+578.6460 	EXP 	window1: mouseVisible = False
+578.6627 	EXP 	blankwindows: autoDraw = False
+578.6627 	EXP 	blankwindows: autoDraw = False
+578.6627 	EXP 	present_mat: text = '(19 + 56) / 5 = 15'
+578.6627 	EXP 	present_mat: autoDraw = True
+578.6627 	EXP 	Timer_text: autoDraw = True
+581.1640 	DATA 	Keypress: right
+581.1784 	EXP 	present_mat: autoDraw = False
+581.1784 	EXP 	Timer_text: autoDraw = False
+581.1784 	EXP 	blankwindows: text = '+'
+581.1784 	EXP 	blankwindows: autoDraw = True
+581.6123 	EXP 	New trial (rep=8, index=0): None
+581.6123 	EXP 	window1: mouseVisible = False
+581.6285 	EXP 	blankwindows: autoDraw = False
+581.6285 	EXP 	blankwindows: autoDraw = False
+581.6285 	EXP 	present_mat: text = '(99 - 78) / 7 = 15'
+581.6285 	EXP 	present_mat: autoDraw = True
+581.6285 	EXP 	Timer_text: autoDraw = True
+583.5988 	DATA 	Keypress: left
+583.6286 	EXP 	Timer_text: autoDraw = False
+584.1283 	EXP 	present_mat: autoDraw = False
+584.1283 	EXP 	present_mat: autoDraw = False
+584.1283 	EXP 	Timer_text: autoDraw = False
+584.1283 	EXP 	blankwindows: text = '+'
+584.1283 	EXP 	blankwindows: autoDraw = True
+584.5456 	EXP 	New trial (rep=9, index=0): None
+584.5457 	EXP 	window1: mouseVisible = False
+584.5620 	EXP 	blankwindows: autoDraw = False
+584.5620 	EXP 	blankwindows: autoDraw = False
+584.5620 	EXP 	present_mat: text = '(96 - 56) X 5 = 20'
+584.5620 	EXP 	present_mat: autoDraw = True
+584.5620 	EXP 	Timer_text: autoDraw = True
+586.6148 	DATA 	Keypress: right
+586.6284 	EXP 	Timer_text: autoDraw = False
+587.0620 	EXP 	present_mat: autoDraw = False
+587.0620 	EXP 	present_mat: autoDraw = False
+587.0620 	EXP 	Timer_text: autoDraw = False
+587.0620 	EXP 	blankwindows: text = '+'
+587.0620 	EXP 	blankwindows: autoDraw = True
+587.4793 	EXP 	Created sequence: sequential, trialTypes=1, nReps=3, seed=None
+587.4795 	EXP 	New trial (rep=0, index=0): None
+587.4908 	EXP 	window1: mouseVisible = True
+587.5002 	EXP 	blankwindows: autoDraw = False
+587.5002 	EXP 	blankwindows: autoDraw = False
+587.5002 	EXP 	rating_effort: markerPos = None
+587.5002 	EXP 	rating_effort: markerPos = None
+587.5002 	EXP 	rating_effort: rating = None
+587.5002 	EXP 	rating_effort: autoDraw = False
+587.5002 	EXP 	text_2: autoDraw = False
+587.5002 	EXP 	rating_difficulty: markerPos = None
+587.5002 	EXP 	rating_difficulty: markerPos = None
+587.5002 	EXP 	rating_difficulty: rating = None
+587.5002 	EXP 	rating_difficulty: autoDraw = False
+587.5002 	EXP 	text_6: autoDraw = False
+587.5002 	EXP 	rating_attention: markerPos = None
+587.5002 	EXP 	rating_attention: markerPos = None
+587.5002 	EXP 	rating_attention: rating = None
+587.5002 	EXP 	text_7: autoDraw = True
+588.0124 	EXP 	rating_attention: autoDraw = True
+589.3326 	DATA 	Mouse: Left button down, pos=(1013,469)
+589.3619 	EXP 	rating_attention: markerPos = 3.9466666666666668
+589.3790 	EXP 	rating_attention: markerPos = 3.9466666666666668
+589.3953 	EXP 	rating_attention: markerPos = 3.951111111111111
+589.4120 	EXP 	rating_attention: markerPos = 3.951111111111111
+589.4177 	DATA 	Mouse:  Left button up, pos=(1014,470)
+589.4278 	EXP 	rating_attention: markerPos = 3.951111111111111
+589.4447 	EXP 	rating_attention: markerPos = 4.0
+589.4447 	EXP 	rating_attention: rating = 4.0
+589.4465 	EXP 	New trial (rep=1, index=0): None
+589.4507 	EXP 	window1: mouseVisible = True
+589.4615 	EXP 	rating_attention: autoDraw = False
+589.4615 	EXP 	text_7: autoDraw = False
+589.4615 	EXP 	rating_effort: markerPos = None
+589.4615 	EXP 	rating_effort: markerPos = None
+589.4615 	EXP 	rating_effort: rating = None
+589.4615 	EXP 	rating_effort: autoDraw = False
+589.4615 	EXP 	text_2: autoDraw = False
+589.4615 	EXP 	rating_difficulty: markerPos = None
+589.4615 	EXP 	rating_difficulty: markerPos = None
+589.4615 	EXP 	rating_difficulty: rating = None
+589.4615 	EXP 	text_6: autoDraw = True
+589.9619 	EXP 	rating_difficulty: autoDraw = True
+590.3335 	DATA 	Mouse: Left button down, pos=(1014,471)
+590.3618 	EXP 	rating_difficulty: markerPos = 3.951111111111111
+590.3818 	EXP 	rating_difficulty: markerPos = 3.951111111111111
+590.3951 	EXP 	rating_difficulty: markerPos = 3.951111111111111
+590.4118 	EXP 	rating_difficulty: markerPos = 3.951111111111111
+590.4178 	DATA 	Mouse:  Left button up, pos=(1014,471)
+590.4280 	EXP 	rating_difficulty: markerPos = 3.951111111111111
+590.4447 	EXP 	rating_difficulty: markerPos = 4.0
+590.4447 	EXP 	rating_difficulty: rating = 4.0
+590.4504 	EXP 	New trial (rep=2, index=0): None
+590.4505 	EXP 	window1: mouseVisible = True
+590.4621 	EXP 	rating_difficulty: autoDraw = False
+590.4621 	EXP 	text_6: autoDraw = False
+590.4621 	EXP 	rating_attention: markerPos = None
+590.4621 	EXP 	rating_attention: markerPos = None
+590.4621 	EXP 	rating_attention: rating = None
+590.4621 	EXP 	rating_attention: autoDraw = False
+590.4621 	EXP 	text_7: autoDraw = False
+590.4621 	EXP 	rating_effort: markerPos = None
+590.4621 	EXP 	rating_effort: markerPos = None
+590.4621 	EXP 	rating_effort: rating = None
+590.4621 	EXP 	text_2: autoDraw = True
+590.9623 	EXP 	rating_effort: autoDraw = True
+591.5126 	DATA 	Mouse: Left button down, pos=(1014,471)
+591.5283 	EXP 	rating_effort: markerPos = 3.951111111111111
+591.5446 	EXP 	rating_effort: markerPos = 3.951111111111111
+591.5617 	EXP 	rating_effort: markerPos = 3.951111111111111
+591.5784 	EXP 	rating_effort: markerPos = 3.951111111111111
+591.5843 	DATA 	Mouse:  Left button up, pos=(1014,471)
+591.5984 	EXP 	rating_effort: markerPos = 3.951111111111111
+591.6121 	EXP 	rating_effort: markerPos = 4.0
+591.6121 	EXP 	rating_effort: rating = 4.0
+591.6311 	EXP 	rating_effort: autoDraw = False
+591.6311 	EXP 	text_2: autoDraw = False
+591.6311 	EXP 	rating_difficulty: markerPos = None
+591.6311 	EXP 	rating_difficulty: markerPos = None
+591.6311 	EXP 	rating_difficulty: rating = None
+591.6311 	EXP 	rating_difficulty: autoDraw = False
+591.6311 	EXP 	text_6: autoDraw = False
+591.6311 	EXP 	rating_attention: markerPos = None
+591.6311 	EXP 	rating_attention: markerPos = None
+591.6311 	EXP 	rating_attention: rating = None
+591.6311 	EXP 	rating_attention: autoDraw = False
+591.6311 	EXP 	text_7: autoDraw = False
+591.6311 	EXP 	acc_text: text = 'Low tasks accuracy: 98\nmedium tasks accuracy: 82\nHigh tasks accuracy: 54\nPress Any Key to exit.'
+591.6311 	EXP 	goodbyetext: autoDraw = True
+591.6311 	EXP 	acc_text: autoDraw = True
+594.1799 	DATA 	Keypress: space
+594.1953 	EXP 	goodbyetext: autoDraw = False
+594.1953 	EXP 	acc_text: autoDraw = False
+594.2632 	EXP 	window1: mouseVisible = True
